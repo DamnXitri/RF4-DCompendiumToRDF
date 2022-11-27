@@ -2,24 +2,24 @@
 
 ## Ejecucion de tarql
 
-En el caso de querer generar nuevamente los archivos de output, 
+En el caso de querer generar nuevamente los archivos de output, deben utilizar los mapppings creados en la carpeta mappings y los archivos de input en la carpeta input. Para esto, con una terminal posicionada en la carpeta mappings, deben tener en cuenta lo siguiente:
 
 Para utilizar tarql con los csv, utilizar el siguiente comando \
 ```<tarql.bat Route> <mapping>.sparql <source>.csv > <output>.ttl```
 
-Por ejemplo, para ejecutar el mapping de itemCategories \
+Por ejemplo, con nuestra disposicion de carpetas, para ejecutar el mapping de itemCategories utilizamos:\
 ```..\tarql-1.2\bin\tarql.bat itemCategories.sparql itemCategories.csv > itemCategories.ttl```
 
-Tambien se puede usar: \
+Tambien podiamos utilizar: \
 ```..\tarql-1.2\bin\tarql.bat <mapping>.sparql > <output>.ttl``` \
-Si en el mapping esta definido FROM (en todos c : )
+Si en el mapping esta definido FROM, lo cual ocurre en todos los mappings :)
 
 ## Evitar tripletas duplicadas
 
 En algunos casos, queremos evitar tripletas duplicadas, esto se evita con la flag `--dedup <size>`, por ejemplo: \
 ```..\tarql-1.2\bin\tarql.bat --dedup 100000 worldMap.sparql > worldMap.ttl``` \
 El valor de `size` es el numero de lineas que se van a guardar en memoria antes de hacer el dedup. En general nuestros archivos no tienen
-mas de 20k lineas y 100k no son problema para las memorias actuales :3 \
+mas de 20k lineas y 100k no son problema para las memorias actuales :3
 
 ## Ejecucion de Sparql Endpoint
 
