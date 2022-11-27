@@ -1,6 +1,6 @@
 # RF4-DCompendiumToRDF
 
-This repository contains the code to convert the modified Rune Factory 4 - DataminingCompendium to RDF, using a modified version of the [Rune Factory 4 - Datamining Compendium](https://www.reddit.com/r/runefactory/comments/he3uu4/rf4_datamining_compendium_values_for_everything/) by u/OmnigamerSDA on Reddit.
+This repository contains the code to convert the [Rune Factory 4 - Datamining Compendium](https://www.reddit.com/r/runefactory/comments/he3uu4/rf4_datamining_compendium_values_for_everything/) posted by u/OmnigamerSDA on Reddit to RDF, using a modified version made by us.
 
 ## Used Software
 - Tarql (https://github.com/tarql/tarql/releases)
