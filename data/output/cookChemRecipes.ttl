@@ -1,0 +1,2186 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/recipes/onigiri>
+        rdf:type      ex:Recipe ;
+        ex:name       "Onigiri" ;
+        ex:itemURI    <http://ex.org/items/onigiri> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:level      2 ;
+        ex:priority   252 .
+
+<http://ex.org/recipes/salmon_onigiri>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salmon Onigiri" ;
+        ex:itemURI    <http://ex.org/items/salmon_onigiri> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/salted_salmon> ;
+        ex:material2  <http://ex.org/items/rice> ;
+        ex:level      20 ;
+        ex:priority   254 .
+
+<http://ex.org/recipes/bamboo_rice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bamboo Rice" ;
+        ex:itemURI    <http://ex.org/items/bamboo_rice> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/bamboo_sprout> ;
+        ex:level      7 ;
+        ex:priority   248 .
+
+<http://ex.org/recipes/sandwich>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sandwich" ;
+        ex:itemURI    <http://ex.org/items/sandwich> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/bread> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:material3  <http://ex.org/items/cucumber> ;
+        ex:level      34 ;
+        ex:priority   244 .
+
+<http://ex.org/recipes/fruit_sandwich>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fruit Sandwich" ;
+        ex:itemURI    <http://ex.org/items/fruit_sandwich> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/bread> ;
+        ex:material2  <http://ex.org/items/strawberry> ;
+        ex:level      35 ;
+        ex:priority   245 .
+
+<http://ex.org/recipes/pickled_turnip>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pickled Turnip" ;
+        ex:itemURI    <http://ex.org/items/pickled_turnip> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/turnip> ;
+        ex:level      4 ;
+        ex:priority   246 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Pickled Turnip" ;
+        ex:itemURI    <http://ex.org/items/pickled_turnip> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/pink_turnip> ;
+        ex:level      12 ;
+        ex:priority   246 .
+
+<http://ex.org/recipes/pickles>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pickles" ;
+        ex:itemURI    <http://ex.org/items/pickles> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/cucumber> ;
+        ex:level      10 ;
+        ex:priority   247 .
+
+<http://ex.org/recipes/pickle_mix>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pickle Mix" ;
+        ex:itemURI    <http://ex.org/items/pickle_mix> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/turnip> ;
+        ex:material2  <http://ex.org/items/pink_turnip> ;
+        ex:level      48 ;
+        ex:priority   255 .
+
+<http://ex.org/recipes/turnip_heaven>
+        rdf:type      ex:Recipe ;
+        ex:name       "Turnip Heaven" ;
+        ex:itemURI    <http://ex.org/items/turnip_heaven> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/turnip> ;
+        ex:material2  <http://ex.org/items/pink_turnip> ;
+        ex:material3  <http://ex.org/items/golden_turnip> ;
+        ex:level      96 ;
+        ex:priority   256 .
+
+<http://ex.org/recipes/salad>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salad" ;
+        ex:itemURI    <http://ex.org/items/salad> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/mayonnaise> ;
+        ex:material2  <http://ex.org/items/cucumber> ;
+        ex:material3  <http://ex.org/items/tomato> ;
+        ex:material4  <http://ex.org/items/cabbage> ;
+        ex:level      67 ;
+        ex:priority   243 .
+
+<http://ex.org/recipes/cheese>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheese" ;
+        ex:itemURI    <http://ex.org/items/cheese> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/sour_drop> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      22 ;
+        ex:priority   257 .
+
+<http://ex.org/recipes/relax_tea_leaves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Relax Tea Leaves" ;
+        ex:itemURI    <http://ex.org/items/relax_tea_leaves> ;
+        ex:type       <http://ex.org/itemCategories/no_tool> ;
+        ex:material1  <http://ex.org/items/white_grass> ;
+        ex:material2  <http://ex.org/items/orange_grass> ;
+        ex:material3  <http://ex.org/items/green_grass> ;
+        ex:material4  <http://ex.org/items/yellow_grass> ;
+        ex:material5  <http://ex.org/items/blue_grass> ;
+        ex:material6  <http://ex.org/items/purple_grass> ;
+        ex:level      50 ;
+        ex:priority   251 .
+
+<http://ex.org/recipes/pike_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pike Sashimi" ;
+        ex:itemURI    <http://ex.org/items/pike_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/pike> ;
+        ex:level      1 ;
+        ex:priority   105 .
+
+<http://ex.org/recipes/trout_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Trout Sashimi" ;
+        ex:itemURI    <http://ex.org/items/trout_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/masu_trout> ;
+        ex:level      2 ;
+        ex:priority   90 .
+
+<http://ex.org/recipes/cherry_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cherry Sashimi" ;
+        ex:itemURI    <http://ex.org/items/cherry_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/cherry_salmon> ;
+        ex:level      3 ;
+        ex:priority   94 .
+
+<http://ex.org/recipes/needlefish_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Needlefish Sashimi" ;
+        ex:itemURI    <http://ex.org/items/needlefish_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/needlefish> ;
+        ex:level      4 ;
+        ex:priority   104 .
+
+<http://ex.org/recipes/girella_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Girella Sashimi" ;
+        ex:itemURI    <http://ex.org/items/girella_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/girella> ;
+        ex:level      6 ;
+        ex:priority   99 .
+
+<http://ex.org/recipes/sardine_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sardine Sashimi" ;
+        ex:itemURI    <http://ex.org/items/sardine_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/sardine> ;
+        ex:level      8 ;
+        ex:priority   103 .
+
+<http://ex.org/recipes/salmon_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salmon Sashimi" ;
+        ex:itemURI    <http://ex.org/items/salmon_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/salmon> ;
+        ex:level      12 ;
+        ex:priority   93 .
+
+<http://ex.org/recipes/char_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Char Sashimi" ;
+        ex:itemURI    <http://ex.org/items/char_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/char> ;
+        ex:level      15 ;
+        ex:priority   91 .
+
+<http://ex.org/recipes/rainbow_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rainbow Sashimi" ;
+        ex:itemURI    <http://ex.org/items/rainbow_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/rainbow_trout> ;
+        ex:level      26 ;
+        ex:priority   92 .
+
+<http://ex.org/recipes/skipjack_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Skipjack Sashimi" ;
+        ex:itemURI    <http://ex.org/items/skipjack_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/skipjack> ;
+        ex:level      37 ;
+        ex:priority   100 .
+
+<http://ex.org/recipes/yellowtail_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Yellowtail Sashimi" ;
+        ex:itemURI    <http://ex.org/items/yellowtail_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/yellowtail> ;
+        ex:level      68 ;
+        ex:priority   101 .
+
+<http://ex.org/recipes/blowfish_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Blowfish Sashimi" ;
+        ex:itemURI    <http://ex.org/items/blowfish_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/blowfish> ;
+        ex:level      71 ;
+        ex:priority   112 .
+
+<http://ex.org/recipes/tuna_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tuna Sashimi" ;
+        ex:itemURI    <http://ex.org/items/tuna_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/tuna> ;
+        ex:level      74 ;
+        ex:priority   102 .
+
+<http://ex.org/recipes/taimen_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Taimen Sashimi" ;
+        ex:itemURI    <http://ex.org/items/taimen_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/taimen> ;
+        ex:level      79 ;
+        ex:priority   95 .
+
+<http://ex.org/recipes/flounder_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flounder Sashimi" ;
+        ex:itemURI    <http://ex.org/items/flounder_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/flounder> ;
+        ex:level      30 ;
+        ex:priority   106 .
+
+<http://ex.org/recipes/turbot_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Turbot Sashimi" ;
+        ex:itemURI    <http://ex.org/items/turbot_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/turbot> ;
+        ex:level      21 ;
+        ex:priority   107 .
+
+<http://ex.org/recipes/fall_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fall Sashimi" ;
+        ex:itemURI    <http://ex.org/items/fall_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/fall_flounder> ;
+        ex:level      58 ;
+        ex:priority   108 .
+
+<http://ex.org/recipes/squid_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Squid Sashimi" ;
+        ex:itemURI    <http://ex.org/items/squid_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/squid> ;
+        ex:level      4 ;
+        ex:priority   109 .
+
+<http://ex.org/recipes/sunsquid_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sunsquid Sashimi" ;
+        ex:itemURI    <http://ex.org/items/sunsquid_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/sunsquid> ;
+        ex:level      77 ;
+        ex:priority   110 .
+
+<http://ex.org/recipes/lamp_squid_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lamp Squid Sashimi" ;
+        ex:itemURI    <http://ex.org/items/lamp_squid_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/lamp_squid> ;
+        ex:level      53 ;
+        ex:priority   111 .
+
+<http://ex.org/recipes/shrimp_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shrimp Sashimi" ;
+        ex:itemURI    <http://ex.org/items/shrimp_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/shrimp> ;
+        ex:level      14 ;
+        ex:priority   114 .
+
+<http://ex.org/recipes/lobster_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lobster Sashimi" ;
+        ex:itemURI    <http://ex.org/items/lobster_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/lobster> ;
+        ex:level      40 ;
+        ex:priority   113 .
+
+<http://ex.org/recipes/snapper_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Snapper Sashimi" ;
+        ex:itemURI    <http://ex.org/items/snapper_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/snapper> ;
+        ex:level      50 ;
+        ex:priority   96 .
+
+<http://ex.org/recipes/lover_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lover Sashimi" ;
+        ex:itemURI    <http://ex.org/items/lover_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/throbby_snapper> ;
+        ex:level      63 ;
+        ex:priority   98 .
+
+<http://ex.org/recipes/glitter_sashimi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Glitter Sashimi" ;
+        ex:itemURI    <http://ex.org/items/glitter_sashimi> ;
+        ex:type       <http://ex.org/itemCategories/knife> ;
+        ex:material1  <http://ex.org/items/glitter_snapper> ;
+        ex:level      92 ;
+        ex:priority   97 .
+
+<http://ex.org/recipes/baked_apple>
+        rdf:type      ex:Recipe ;
+        ex:name       "Baked Apple" ;
+        ex:itemURI    <http://ex.org/items/baked_apple> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:level      9 ;
+        ex:priority   126 .
+
+<http://ex.org/recipes/fried_eggs>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fried Eggs" ;
+        ex:itemURI    <http://ex.org/items/fried_eggs> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/egg_(s)> ;
+        ex:level      20 ;
+        ex:priority   123 .
+
+<http://ex.org/recipes/french_fries>
+        rdf:type      ex:Recipe ;
+        ex:name       "French Fries" ;
+        ex:itemURI    <http://ex.org/items/french_fries> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/potato> ;
+        ex:level      24 ;
+        ex:priority   118 .
+
+<http://ex.org/recipes/omelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Omelet" ;
+        ex:itemURI    <http://ex.org/items/omelet> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/milk_(s)> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:level      28 ;
+        ex:priority   124 .
+
+<http://ex.org/recipes/fried_rice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fried Rice" ;
+        ex:itemURI    <http://ex.org/items/fried_rice> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/oil> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:level      30 ;
+        ex:priority   116 .
+
+<http://ex.org/recipes/miso_eggplant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Miso Eggplant" ;
+        ex:itemURI    <http://ex.org/items/miso_eggplant> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/eggplant> ;
+        ex:level      31 ;
+        ex:priority   122 .
+
+<http://ex.org/recipes/french_toast>
+        rdf:type      ex:Recipe ;
+        ex:name       "French Toast" ;
+        ex:itemURI    <http://ex.org/items/french_toast> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/bread> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:level      31 ;
+        ex:priority   128 .
+
+<http://ex.org/recipes/croquettes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Croquettes" ;
+        ex:itemURI    <http://ex.org/items/croquettes> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/potato> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:level      33 ;
+        ex:priority   119 .
+
+<http://ex.org/recipes/tempura>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tempura" ;
+        ex:itemURI    <http://ex.org/items/tempura> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/flour> ;
+        ex:material3  <http://ex.org/items/shrimp> ;
+        ex:material4  <http://ex.org/items/egg_(s)> ;
+        ex:level      36 ;
+        ex:priority   131 .
+
+<http://ex.org/recipes/donut>
+        rdf:type      ex:Recipe ;
+        ex:name       "Donut" ;
+        ex:itemURI    <http://ex.org/items/donut> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/flour> ;
+        ex:material3  <http://ex.org/items/butter> ;
+        ex:material4  <http://ex.org/items/egg_(m)> ;
+        ex:level      46 ;
+        ex:priority   129 .
+
+<http://ex.org/recipes/risotto>
+        rdf:type      ex:Recipe ;
+        ex:name       "Risotto" ;
+        ex:itemURI    <http://ex.org/items/risotto> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/wine> ;
+        ex:material3  <http://ex.org/items/butter> ;
+        ex:level      48 ;
+        ex:priority   134 .
+
+<http://ex.org/recipes/pancakes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pancakes" ;
+        ex:itemURI    <http://ex.org/items/pancakes> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/honey> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:material4  <http://ex.org/items/egg_(s)> ;
+        ex:level      49 ;
+        ex:priority   132 .
+
+<http://ex.org/recipes/popcorn>
+        rdf:type      ex:Recipe ;
+        ex:name       "Popcorn" ;
+        ex:itemURI    <http://ex.org/items/popcorn> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/corn> ;
+        ex:level      51 ;
+        ex:priority   120 .
+
+<http://ex.org/recipes/corn_cereal>
+        rdf:type      ex:Recipe ;
+        ex:name       "Corn Cereal" ;
+        ex:itemURI    <http://ex.org/items/corn_cereal> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/corn> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      53 ;
+        ex:priority   121 .
+
+<http://ex.org/recipes/curry_bread>
+        rdf:type      ex:Recipe ;
+        ex:name       "Curry Bread" ;
+        ex:itemURI    <http://ex.org/items/curry_bread> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/flour> ;
+        ex:material3  <http://ex.org/items/curry> ;
+        ex:level      59 ;
+        ex:priority   127 .
+
+<http://ex.org/recipes/omelet_rice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Omelet Rice" ;
+        ex:itemURI    <http://ex.org/items/omelet_rice> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/omelet> ;
+        ex:material2  <http://ex.org/items/rice> ;
+        ex:material3  <http://ex.org/items/ketchup> ;
+        ex:level      60 ;
+        ex:priority   125 .
+
+<http://ex.org/recipes/fried_veggies>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fried Veggies" ;
+        ex:itemURI    <http://ex.org/items/fried_veggies> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/cabbage> ;
+        ex:level      62 ;
+        ex:priority   115 .
+
+<http://ex.org/recipes/cabbage_cakes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cabbage Cakes" ;
+        ex:itemURI    <http://ex.org/items/cabbage_cakes> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/cabbage> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/leek> ;
+        ex:level      64 ;
+        ex:priority   117 .
+
+<http://ex.org/recipes/dry_curry>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dry Curry" ;
+        ex:itemURI    <http://ex.org/items/dry_curry> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/curry_powder> ;
+        ex:material3  <http://ex.org/items/carrot> ;
+        ex:material4  <http://ex.org/items/onion> ;
+        ex:level      86 ;
+        ex:priority   135 .
+
+<http://ex.org/recipes/gyoza>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gyoza" ;
+        ex:itemURI    <http://ex.org/items/gyoza> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/onion> ;
+        ex:material3  <http://ex.org/items/cabbage> ;
+        ex:level      88 ;
+        ex:priority   133 .
+
+<http://ex.org/recipes/fried_udon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fried Udon" ;
+        ex:itemURI    <http://ex.org/items/fried_udon> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/onion> ;
+        ex:material3  <http://ex.org/items/carrot> ;
+        ex:material4  <http://ex.org/items/cabbage> ;
+        ex:level      95 ;
+        ex:priority   130 .
+
+<http://ex.org/recipes/salted_pond_smelt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Pond Smelt" ;
+        ex:itemURI    <http://ex.org/items/salted_pond_smelt> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/pond_smelt> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      6 ;
+        ex:priority   152 .
+
+<http://ex.org/recipes/salted_pike>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Pike" ;
+        ex:itemURI    <http://ex.org/items/salted_pike> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/pike> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      8 ;
+        ex:priority   156 .
+
+<http://ex.org/recipes/salted_masu_trout>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Masu Trout" ;
+        ex:itemURI    <http://ex.org/items/salted_masu_trout> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/masu_trout> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      9 ;
+        ex:priority   136 .
+
+<http://ex.org/recipes/salted_c._salmon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted C. Salmon" ;
+        ex:itemURI    <http://ex.org/items/salted_c._salmon> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/cherry_salmon> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      12 ;
+        ex:priority   139 .
+
+<http://ex.org/recipes/grilled_needlefish>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Needlefish" ;
+        ex:itemURI    <http://ex.org/items/grilled_needlefish> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/needlefish> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      12 ;
+        ex:priority   155 .
+
+<http://ex.org/recipes/grilled_squid>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Squid" ;
+        ex:itemURI    <http://ex.org/items/grilled_squid> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/squid> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      13 ;
+        ex:priority   160 .
+
+<http://ex.org/recipes/grilled_c._carp>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled C. Carp" ;
+        ex:itemURI    <http://ex.org/items/grilled_c._carp> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/crucian_carp> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      14 ;
+        ex:priority   143 .
+
+<http://ex.org/recipes/grilled_s.flounder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled S.Flounder" ;
+        ex:itemURI    <http://ex.org/items/grilled_s.flounder> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/sand_flounder> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      15 ;
+        ex:priority   166 .
+
+<http://ex.org/recipes/grilled_girella>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Girella" ;
+        ex:itemURI    <http://ex.org/items/grilled_girella> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/girella> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      16 ;
+        ex:priority   146 .
+
+<http://ex.org/recipes/grilled_mackerel>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Mackerel" ;
+        ex:itemURI    <http://ex.org/items/grilled_mackerel> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/mackerel> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      16 ;
+        ex:priority   150 .
+
+<http://ex.org/recipes/salted_salmon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Salmon" ;
+        ex:itemURI    <http://ex.org/items/salted_salmon> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/salmon> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      17 ;
+        ex:priority   141 .
+
+<http://ex.org/recipes/grilled_shrimp>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Shrimp" ;
+        ex:itemURI    <http://ex.org/items/grilled_shrimp> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/shrimp> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      18 ;
+        ex:priority   165 .
+
+<http://ex.org/recipes/salted_char>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Char" ;
+        ex:itemURI    <http://ex.org/items/salted_char> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/char> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      19 ;
+        ex:priority   137 .
+
+<http://ex.org/recipes/grilled_gibelio>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Gibelio" ;
+        ex:itemURI    <http://ex.org/items/grilled_gibelio> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/gibelio> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      19 ;
+        ex:priority   144 .
+
+<http://ex.org/recipes/grilled_turbot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Turbot" ;
+        ex:itemURI    <http://ex.org/items/grilled_turbot> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/turbot> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      21 ;
+        ex:priority   158 .
+
+<http://ex.org/recipes/salted_chub>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Chub" ;
+        ex:itemURI    <http://ex.org/items/salted_chub> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/chub> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      23 ;
+        ex:priority   140 .
+
+<http://ex.org/recipes/dried_sardines>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dried Sardines" ;
+        ex:itemURI    <http://ex.org/items/dried_sardines> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/sardine> ;
+        ex:material2  <http://ex.org/items/sardine> ;
+        ex:material3  <http://ex.org/items/sardine> ;
+        ex:level      24 ;
+        ex:priority   154 .
+
+<http://ex.org/recipes/salted_r._trout>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted R. Trout" ;
+        ex:itemURI    <http://ex.org/items/salted_r._trout> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/rainbow_trout> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      27 ;
+        ex:priority   138 .
+
+<http://ex.org/recipes/grilled_flounder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Flounder" ;
+        ex:itemURI    <http://ex.org/items/grilled_flounder> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/flounder> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      31 ;
+        ex:priority   157 .
+
+<http://ex.org/recipes/grilled_skipjack>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Skipjack" ;
+        ex:itemURI    <http://ex.org/items/grilled_skipjack> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/skipjack> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      37 ;
+        ex:priority   149 .
+
+<http://ex.org/recipes/grilled_lobster>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Lobster" ;
+        ex:itemURI    <http://ex.org/items/grilled_lobster> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/lobster> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      41 ;
+        ex:priority   164 .
+
+<http://ex.org/recipes/grilled_snapper>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Snapper" ;
+        ex:itemURI    <http://ex.org/items/grilled_snapper> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/snapper> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      51 ;
+        ex:priority   145 .
+
+<http://ex.org/recipes/grilled_lamp_squid>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Lamp Squid" ;
+        ex:itemURI    <http://ex.org/items/grilled_lamp_squid> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/lamp_squid> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      54 ;
+        ex:priority   162 .
+
+<http://ex.org/recipes/grilled_f.flounder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled F.Flounder" ;
+        ex:itemURI    <http://ex.org/items/grilled_f.flounder> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/fall_flounder> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      58 ;
+        ex:priority   159 .
+
+<http://ex.org/recipes/grilled_l._snapper>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled L. Snapper" ;
+        ex:itemURI    <http://ex.org/items/grilled_l._snapper> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/throbby_snapper> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      66 ;
+        ex:priority   148 .
+
+<http://ex.org/recipes/grilled_yellowtail>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Yellowtail" ;
+        ex:itemURI    <http://ex.org/items/grilled_yellowtail> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/yellowtail> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      69 ;
+        ex:priority   151 .
+
+<http://ex.org/recipes/grilled_blowfish>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Blowfish" ;
+        ex:itemURI    <http://ex.org/items/grilled_blowfish> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/blowfish> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      72 ;
+        ex:priority   163 .
+
+<http://ex.org/recipes/tuna_teriyaki>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tuna Teriyaki" ;
+        ex:itemURI    <http://ex.org/items/tuna_teriyaki> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/tuna> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      75 ;
+        ex:priority   153 .
+
+<http://ex.org/recipes/grilled_sunsquid>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Sunsquid" ;
+        ex:itemURI    <http://ex.org/items/grilled_sunsquid> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/sunsquid> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      78 ;
+        ex:priority   161 .
+
+<http://ex.org/recipes/salted_taimen>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salted Taimen" ;
+        ex:itemURI    <http://ex.org/items/salted_taimen> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/taimen> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      80 ;
+        ex:priority   142 .
+
+<http://ex.org/recipes/grilled_g._snapper>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled G. Snapper" ;
+        ex:itemURI    <http://ex.org/items/grilled_g._snapper> ;
+        ex:type       <http://ex.org/itemCategories/frying_pan> ;
+        ex:material1  <http://ex.org/items/glitter_snapper> ;
+        ex:material2  <http://ex.org/items/sour_drop> ;
+        ex:level      93 ;
+        ex:priority   147 .
+
+<http://ex.org/recipes/boiled_spinach>
+        rdf:type      ex:Recipe ;
+        ex:name       "Boiled Spinach" ;
+        ex:itemURI    <http://ex.org/items/boiled_spinach> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/spinach> ;
+        ex:level      13 ;
+        ex:priority   171 .
+
+<http://ex.org/recipes/boiled_egg>
+        rdf:type      ex:Recipe ;
+        ex:name       "Boiled Egg" ;
+        ex:itemURI    <http://ex.org/items/boiled_egg> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/egg_(s)> ;
+        ex:level      18 ;
+        ex:priority   172 .
+
+<http://ex.org/recipes/yogurt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Yogurt" ;
+        ex:itemURI    <http://ex.org/items/yogurt> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/sweet_powder> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      19 ;
+        ex:priority   195 .
+
+<http://ex.org/recipes/glazed_yam>
+        rdf:type      ex:Recipe ;
+        ex:name       "Glazed Yam" ;
+        ex:itemURI    <http://ex.org/items/glazed_yam> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/sweet_powder> ;
+        ex:material2  <http://ex.org/items/yam> ;
+        ex:level      28 ;
+        ex:priority   173 .
+
+<http://ex.org/recipes/grilled_miso>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grilled Miso" ;
+        ex:itemURI    <http://ex.org/items/grilled_miso> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/radish> ;
+        ex:level      29 ;
+        ex:priority   192 .
+
+<http://ex.org/recipes/marmalade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Marmalade" ;
+        ex:itemURI    <http://ex.org/items/marmalade> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/orange> ;
+        ex:level      5 ;
+        ex:priority   178 .
+
+<http://ex.org/recipes/grape_jam>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grape Jam" ;
+        ex:itemURI    <http://ex.org/items/grape_jam> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/grapes> ;
+        ex:level      9 ;
+        ex:priority   177 .
+
+<http://ex.org/recipes/apple_jam>
+        rdf:type      ex:Recipe ;
+        ex:name       "Apple Jam" ;
+        ex:itemURI    <http://ex.org/items/apple_jam> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:level      10 ;
+        ex:priority   176 .
+
+<http://ex.org/recipes/strawberry_jam>
+        rdf:type      ex:Recipe ;
+        ex:name       "Strawberry Jam" ;
+        ex:itemURI    <http://ex.org/items/strawberry_jam> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/strawberry> ;
+        ex:level      27 ;
+        ex:priority   175 .
+
+<http://ex.org/recipes/hot_chocolate>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hot Chocolate" ;
+        ex:itemURI    <http://ex.org/items/hot_chocolate> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/chocolate> ;
+        ex:level      11 ;
+        ex:priority   168 .
+
+<http://ex.org/recipes/hot_milk>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hot Milk" ;
+        ex:itemURI    <http://ex.org/items/hot_milk> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/milk_(s)> ;
+        ex:level      17 ;
+        ex:priority   167 .
+
+<http://ex.org/recipes/grape_liqueur>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grape Liqueur" ;
+        ex:itemURI    <http://ex.org/items/grape_liqueur> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/grapes> ;
+        ex:material2  <http://ex.org/items/wine> ;
+        ex:level      39 ;
+        ex:priority   169 .
+
+<http://ex.org/recipes/relax_tea>
+        rdf:type      ex:Recipe ;
+        ex:name       "Relax Tea" ;
+        ex:itemURI    <http://ex.org/items/relax_tea> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/relax_tea_leaves> ;
+        ex:material2  <http://ex.org/items/honey> ;
+        ex:material3  <http://ex.org/items/pink_melon> ;
+        ex:material4  <http://ex.org/items/leek> ;
+        ex:level      73 ;
+        ex:priority   191 .
+
+<http://ex.org/recipes/boiled_pumpkin>
+        rdf:type      ex:Recipe ;
+        ex:name       "Boiled Pumpkin" ;
+        ex:itemURI    <http://ex.org/items/boiled_pumpkin> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/pumpkin> ;
+        ex:level      25 ;
+        ex:priority   170 .
+
+<http://ex.org/recipes/rockfish_stew>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rockfish Stew" ;
+        ex:itemURI    <http://ex.org/items/rockfish_stew> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rockfish> ;
+        ex:level      45 ;
+        ex:priority   194 .
+
+<http://ex.org/recipes/udon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Udon" ;
+        ex:itemURI    <http://ex.org/items/udon> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:level      7 ;
+        ex:priority   180 .
+
+<http://ex.org/recipes/curry_udon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Curry Udon" ;
+        ex:itemURI    <http://ex.org/items/curry_udon> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/curry> ;
+        ex:level      56 ;
+        ex:priority   181 .
+
+<http://ex.org/recipes/tempura_udon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tempura Udon" ;
+        ex:itemURI    <http://ex.org/items/tempura_udon> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/tempura> ;
+        ex:material2  <http://ex.org/items/udon> ;
+        ex:level      54 ;
+        ex:priority   182 .
+
+<http://ex.org/recipes/rice_porridge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rice Porridge" ;
+        ex:itemURI    <http://ex.org/items/rice_porridge> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:level      2 ;
+        ex:priority   183 .
+
+<http://ex.org/recipes/milk_porridge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Milk Porridge" ;
+        ex:itemURI    <http://ex.org/items/milk_porridge> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      20 ;
+        ex:priority   184 .
+
+<http://ex.org/recipes/tempura_bowl>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tempura Bowl" ;
+        ex:itemURI    <http://ex.org/items/tempura_bowl> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/tempura> ;
+        ex:level      70 ;
+        ex:priority   185 .
+
+<http://ex.org/recipes/egg_bowl>
+        rdf:type      ex:Recipe ;
+        ex:name       "Egg Bowl" ;
+        ex:itemURI    <http://ex.org/items/egg_bowl> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:level      21 ;
+        ex:priority   186 .
+
+<http://ex.org/recipes/cheese_fondue>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheese Fondue" ;
+        ex:itemURI    <http://ex.org/items/cheese_fondue> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/bread> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:level      32 ;
+        ex:priority   179 .
+
+<http://ex.org/recipes/stew>
+        rdf:type      ex:Recipe ;
+        ex:name       "Stew" ;
+        ex:itemURI    <http://ex.org/items/stew> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/milk_(m)> ;
+        ex:material3  <http://ex.org/items/potato> ;
+        ex:material4  <http://ex.org/items/carrot> ;
+        ex:material5  <http://ex.org/items/onion> ;
+        ex:level      87 ;
+        ex:priority   187 .
+
+<http://ex.org/recipes/curry_rice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Curry Rice" ;
+        ex:itemURI    <http://ex.org/items/curry_rice> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/curry_powder> ;
+        ex:material3  <http://ex.org/items/carrot> ;
+        ex:material4  <http://ex.org/items/potato> ;
+        ex:level      55 ;
+        ex:priority   188 .
+
+<http://ex.org/recipes/ultimate_curry>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ultimate Curry" ;
+        ex:itemURI    <http://ex.org/items/ultimate_curry> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/curry_powder> ;
+        ex:material2  <http://ex.org/items/wine> ;
+        ex:material3  <http://ex.org/items/devil_blood> ;
+        ex:material4  <http://ex.org/items/heavy_spice> ;
+        ex:material5  <http://ex.org/items/onion> ;
+        ex:material6  <http://ex.org/items/golden_turnip> ;
+        ex:level      97 ;
+        ex:priority   189 .
+
+<http://ex.org/recipes/royal_curry>
+        rdf:type      ex:Recipe ;
+        ex:name       "Royal Curry" ;
+        ex:itemURI    <http://ex.org/items/royal_curry> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/curry_powder> ;
+        ex:material2  <http://ex.org/items/apple> ;
+        ex:material3  <http://ex.org/items/honey> ;
+        ex:material4  <http://ex.org/items/mixed_herbs> ;
+        ex:material5  <http://ex.org/items/onion> ;
+        ex:material6  <http://ex.org/items/emery_flower> ;
+        ex:level      98 ;
+        ex:priority   190 .
+
+<http://ex.org/recipes/boiled_gyoza>
+        rdf:type      ex:Recipe ;
+        ex:name       "Boiled Gyoza" ;
+        ex:itemURI    <http://ex.org/items/boiled_gyoza> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/onion> ;
+        ex:material3  <http://ex.org/items/cabbage> ;
+        ex:level      89 ;
+        ex:priority   174 .
+
+<http://ex.org/recipes/union_stew>
+        rdf:type      ex:Recipe ;
+        ex:name       "Union Stew" ;
+        ex:itemURI    <http://ex.org/items/union_stew> ;
+        ex:type       <http://ex.org/itemCategories/pot> ;
+        ex:material1  <http://ex.org/items/radish> ;
+        ex:material2  <http://ex.org/items/leek> ;
+        ex:material3  <http://ex.org/items/bok_choy> ;
+        ex:material4  <http://ex.org/items/mushroom_(1)> ;
+        ex:material5  <http://ex.org/items/hot-hot_fruit> ;
+        ex:level      94 ;
+        ex:priority   193 .
+
+<http://ex.org/recipes/dumplings>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dumplings" ;
+        ex:itemURI    <http://ex.org/items/dumplings> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/rice_flour> ;
+        ex:level      2 ;
+        ex:priority   242 .
+
+<http://ex.org/recipes/flan>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flan" ;
+        ex:itemURI    <http://ex.org/items/flan> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/egg_(s)> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      29 ;
+        ex:priority   240 .
+
+<http://ex.org/recipes/pumpkin_flan>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pumpkin Flan" ;
+        ex:itemURI    <http://ex.org/items/pumpkin_flan> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/egg_(s)> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:material3  <http://ex.org/items/pumpkin> ;
+        ex:level      48 ;
+        ex:priority   241 .
+
+<http://ex.org/recipes/steamed_bread>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steamed Bread" ;
+        ex:itemURI    <http://ex.org/items/steamed_bread> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:level      32 ;
+        ex:priority   232 .
+
+<http://ex.org/recipes/cheese_bread>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheese Bread" ;
+        ex:itemURI    <http://ex.org/items/cheese_bread> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/milk_(s)> ;
+        ex:level      44 ;
+        ex:priority   233 .
+
+<http://ex.org/recipes/chinese_manju>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chinese Manju" ;
+        ex:itemURI    <http://ex.org/items/chinese_manju> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/bamboo_sprout> ;
+        ex:level      15 ;
+        ex:priority   235 .
+
+<http://ex.org/recipes/curry_manju>
+        rdf:type      ex:Recipe ;
+        ex:name       "Curry Manju" ;
+        ex:itemURI    <http://ex.org/items/curry_manju> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/curry> ;
+        ex:level      57 ;
+        ex:priority   236 .
+
+<http://ex.org/recipes/pound_cake>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pound Cake" ;
+        ex:itemURI    <http://ex.org/items/pound_cake> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:level      23 ;
+        ex:priority   238 .
+
+<http://ex.org/recipes/chocolate_sponge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chocolate Sponge" ;
+        ex:itemURI    <http://ex.org/items/chocolate_sponge> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/chocolate> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/milk_(s)> ;
+        ex:level      35 ;
+        ex:priority   239 .
+
+<http://ex.org/recipes/meat_dumpling>
+        rdf:type      ex:Recipe ;
+        ex:name       "Meat Dumpling" ;
+        ex:itemURI    <http://ex.org/items/meat_dumpling> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/shrimp> ;
+        ex:material3  <http://ex.org/items/onion> ;
+        ex:level      82 ;
+        ex:priority   234 .
+
+<http://ex.org/recipes/steamed_gyoza>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steamed Gyoza" ;
+        ex:itemURI    <http://ex.org/items/steamed_gyoza> ;
+        ex:type       <http://ex.org/itemCategories/steamer> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/onion> ;
+        ex:material3  <http://ex.org/items/cabbage> ;
+        ex:level      90 ;
+        ex:priority   237 .
+
+<http://ex.org/recipes/baked_onigiri>
+        rdf:type      ex:Recipe ;
+        ex:name       "Baked Onigiri" ;
+        ex:itemURI    <http://ex.org/items/baked_onigiri> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/onigiri> ;
+        ex:level      10 ;
+        ex:priority   197 .
+
+<http://ex.org/recipes/sweet_potato>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sweet Potato" ;
+        ex:itemURI    <http://ex.org/items/sweet_potato> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/yam> ;
+        ex:level      20 ;
+        ex:priority   198 .
+
+<http://ex.org/recipes/corn_on_the_cob>
+        rdf:type      ex:Recipe ;
+        ex:name       "Corn on the Cob" ;
+        ex:itemURI    <http://ex.org/items/corn_on_the_cob> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/corn> ;
+        ex:level      52 ;
+        ex:priority   196 .
+
+<http://ex.org/recipes/bread>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bread" ;
+        ex:itemURI    <http://ex.org/items/bread> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:level      8 ;
+        ex:priority   253 .
+
+<http://ex.org/recipes/raisin_bread>
+        rdf:type      ex:Recipe ;
+        ex:name       "Raisin Bread" ;
+        ex:itemURI    <http://ex.org/items/raisin_bread> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/grapes> ;
+        ex:level      27 ;
+        ex:priority   249 .
+
+<http://ex.org/recipes/toast>
+        rdf:type      ex:Recipe ;
+        ex:name       "Toast" ;
+        ex:itemURI    <http://ex.org/items/toast> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/bread> ;
+        ex:level      21 ;
+        ex:priority   199 .
+
+<http://ex.org/recipes/jam_roll>
+        rdf:type      ex:Recipe ;
+        ex:name       "Jam Roll" ;
+        ex:itemURI    <http://ex.org/items/jam_roll> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/jam> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/milk_(s)> ;
+        ex:level      34 ;
+        ex:priority   200 .
+
+<http://ex.org/recipes/butter_roll>
+        rdf:type      ex:Recipe ;
+        ex:name       "Butter Roll" ;
+        ex:itemURI    <http://ex.org/items/butter_roll> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/butter> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/milk_(s)> ;
+        ex:level      43 ;
+        ex:priority   201 .
+
+<http://ex.org/recipes/apple_pie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Apple Pie" ;
+        ex:itemURI    <http://ex.org/items/apple_pie> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/apple> ;
+        ex:material3  <http://ex.org/items/butter> ;
+        ex:material4  <http://ex.org/items/egg_(s)> ;
+        ex:level      36 ;
+        ex:priority   214 .
+
+<http://ex.org/recipes/yam_of_the_ages>
+        rdf:type      ex:Recipe ;
+        ex:name       "Yam of the Ages" ;
+        ex:itemURI    <http://ex.org/items/yam_of_the_ages> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/sweet_powder> ;
+        ex:material2  <http://ex.org/items/butter> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:material4  <http://ex.org/items/yam> ;
+        ex:level      47 ;
+        ex:priority   208 .
+
+<http://ex.org/recipes/pizza>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pizza" ;
+        ex:itemURI    <http://ex.org/items/pizza> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:material3  <http://ex.org/items/ketchup> ;
+        ex:material4  <http://ex.org/items/green_pepper> ;
+        ex:material5  <http://ex.org/items/eggplant> ;
+        ex:level      60 ;
+        ex:priority   202 .
+
+<http://ex.org/recipes/seafood_pizza>
+        rdf:type      ex:Recipe ;
+        ex:name       "Seafood Pizza" ;
+        ex:itemURI    <http://ex.org/items/seafood_pizza> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:material3  <http://ex.org/items/ketchup> ;
+        ex:material4  <http://ex.org/items/shrimp> ;
+        ex:material5  <http://ex.org/items/squid> ;
+        ex:level      56 ;
+        ex:priority   203 .
+
+<http://ex.org/recipes/doria>
+        rdf:type      ex:Recipe ;
+        ex:name       "Doria" ;
+        ex:itemURI    <http://ex.org/items/doria> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:material4  <http://ex.org/items/onion> ;
+        ex:level      84 ;
+        ex:priority   204 .
+
+<http://ex.org/recipes/seafood_doria>
+        rdf:type      ex:Recipe ;
+        ex:name       "Seafood Doria" ;
+        ex:itemURI    <http://ex.org/items/seafood_doria> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/rice> ;
+        ex:material2  <http://ex.org/items/shrimp> ;
+        ex:material3  <http://ex.org/items/cheese> ;
+        ex:material4  <http://ex.org/items/squid> ;
+        ex:material5  <http://ex.org/items/milk_(s)> ;
+        ex:level      39 ;
+        ex:priority   205 .
+
+<http://ex.org/recipes/gratin>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gratin" ;
+        ex:itemURI    <http://ex.org/items/gratin> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/cheese> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:material4  <http://ex.org/items/onion> ;
+        ex:level      85 ;
+        ex:priority   206 .
+
+<http://ex.org/recipes/seafood_gratin>
+        rdf:type      ex:Recipe ;
+        ex:name       "Seafood Gratin" ;
+        ex:itemURI    <http://ex.org/items/seafood_gratin> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/shrimp> ;
+        ex:material3  <http://ex.org/items/cheese> ;
+        ex:material4  <http://ex.org/items/squid> ;
+        ex:material5  <http://ex.org/items/milk_(s)> ;
+        ex:level      42 ;
+        ex:priority   207 .
+
+<http://ex.org/recipes/cookie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cookie" ;
+        ex:itemURI    <http://ex.org/items/cookie> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/sweet_powder> ;
+        ex:material3  <http://ex.org/items/egg_(s)> ;
+        ex:material4  <http://ex.org/items/butter> ;
+        ex:level      38 ;
+        ex:priority   209 .
+
+<http://ex.org/recipes/choco_cookie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Choco Cookie" ;
+        ex:itemURI    <http://ex.org/items/choco_cookie> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/butter> ;
+        ex:material3  <http://ex.org/items/sweet_powder> ;
+        ex:material4  <http://ex.org/items/chocolate> ;
+        ex:material5  <http://ex.org/items/egg_(s)> ;
+        ex:level      45 ;
+        ex:priority   210 .
+
+<http://ex.org/recipes/cake>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cake" ;
+        ex:itemURI    <http://ex.org/items/cake> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/butter> ;
+        ex:material3  <http://ex.org/items/sweet_powder> ;
+        ex:material4  <http://ex.org/items/strawberry> ;
+        ex:material5  <http://ex.org/items/milk_(s)> ;
+        ex:material6  <http://ex.org/items/egg_(s)> ;
+        ex:level      54 ;
+        ex:priority   211 .
+
+<http://ex.org/recipes/chocolate_cake>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chocolate Cake" ;
+        ex:itemURI    <http://ex.org/items/chocolate_cake> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/flour> ;
+        ex:material2  <http://ex.org/items/chocolate> ;
+        ex:material3  <http://ex.org/items/butter> ;
+        ex:material4  <http://ex.org/items/sweet_powder> ;
+        ex:material5  <http://ex.org/items/milk_(s)> ;
+        ex:material6  <http://ex.org/items/egg_(s)> ;
+        ex:level      48 ;
+        ex:priority   212 .
+
+<http://ex.org/recipes/cheesecake>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheesecake" ;
+        ex:itemURI    <http://ex.org/items/cheesecake> ;
+        ex:type       <http://ex.org/itemCategories/oven> ;
+        ex:material1  <http://ex.org/items/cheese> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:material3  <http://ex.org/items/milk_(s)> ;
+        ex:material4  <http://ex.org/items/sweet_powder> ;
+        ex:level      46 ;
+        ex:priority   213 .
+
+<http://ex.org/recipes/butter>
+        rdf:type      ex:Recipe ;
+        ex:name       "Butter" ;
+        ex:itemURI    <http://ex.org/items/butter> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/milk_(s)> ;
+        ex:level      15 ;
+        ex:priority   228 .
+
+<http://ex.org/recipes/mayonnaise>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mayonnaise" ;
+        ex:itemURI    <http://ex.org/items/mayonnaise> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/oil> ;
+        ex:material2  <http://ex.org/items/egg_(s)> ;
+        ex:level      28 ;
+        ex:priority   258 .
+
+<http://ex.org/recipes/ketchup>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ketchup" ;
+        ex:itemURI    <http://ex.org/items/ketchup> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/sour_drop> ;
+        ex:material2  <http://ex.org/items/tomato> ;
+        ex:level      38 ;
+        ex:priority   227 .
+
+<http://ex.org/recipes/ice_cream>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ice Cream" ;
+        ex:itemURI    <http://ex.org/items/ice_cream> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/sweet_powder> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      25 ;
+        ex:priority   250 .
+
+<http://ex.org/recipes/orange_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Orange Juice" ;
+        ex:itemURI    <http://ex.org/items/orange_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/orange> ;
+        ex:level      5 ;
+        ex:priority   218 .
+
+<http://ex.org/recipes/grape_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grape Juice" ;
+        ex:itemURI    <http://ex.org/items/grape_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/grapes> ;
+        ex:level      7 ;
+        ex:priority   217 .
+
+<http://ex.org/recipes/apple_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Apple Juice" ;
+        ex:itemURI    <http://ex.org/items/apple_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:level      11 ;
+        ex:priority   219 .
+
+<http://ex.org/recipes/fruit_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fruit Juice" ;
+        ex:itemURI    <http://ex.org/items/fruit_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:material2  <http://ex.org/items/grapes> ;
+        ex:material3  <http://ex.org/items/orange> ;
+        ex:level      18 ;
+        ex:priority   221 .
+
+<http://ex.org/recipes/strawberry_milk>
+        rdf:type      ex:Recipe ;
+        ex:name       "Strawberry Milk" ;
+        ex:itemURI    <http://ex.org/items/strawberry_milk> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/strawberry> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      33 ;
+        ex:priority   220 .
+
+<http://ex.org/recipes/tomato_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tomato Juice" ;
+        ex:itemURI    <http://ex.org/items/tomato_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/tomato> ;
+        ex:level      35 ;
+        ex:priority   216 .
+
+<http://ex.org/recipes/fruit_smoothie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fruit Smoothie" ;
+        ex:itemURI    <http://ex.org/items/fruit_smoothie> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/fruit_juice> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      37 ;
+        ex:priority   222 .
+
+<http://ex.org/recipes/vegetable_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Vegetable Juice" ;
+        ex:itemURI    <http://ex.org/items/vegetable_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/pumpkin> ;
+        ex:material2  <http://ex.org/items/turnip> ;
+        ex:material3  <http://ex.org/items/carrot> ;
+        ex:material4  <http://ex.org/items/spinach> ;
+        ex:level      59 ;
+        ex:priority   223 .
+
+<http://ex.org/recipes/prelude_to_love>
+        rdf:type      ex:Recipe ;
+        ex:name       "Prelude to Love" ;
+        ex:itemURI    <http://ex.org/items/prelude_to_love> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/pink_melon> ;
+        ex:material2  <http://ex.org/items/strawberry> ;
+        ex:level      61 ;
+        ex:priority   230 .
+
+<http://ex.org/recipes/veggie_smoothie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Veggie Smoothie" ;
+        ex:itemURI    <http://ex.org/items/veggie_smoothie> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/vegetable_juice> ;
+        ex:material2  <http://ex.org/items/milk_(s)> ;
+        ex:level      65 ;
+        ex:priority   224 .
+
+<http://ex.org/recipes/hot_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hot Juice" ;
+        ex:itemURI    <http://ex.org/items/hot_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/heavy_spice> ;
+        ex:material2  <http://ex.org/items/hot-hot_fruit> ;
+        ex:level      76 ;
+        ex:priority   231 .
+
+<http://ex.org/recipes/pineapple_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pineapple Juice" ;
+        ex:itemURI    <http://ex.org/items/pineapple_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/pineapple> ;
+        ex:level      81 ;
+        ex:priority   215 .
+
+<http://ex.org/recipes/mixed_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mixed Juice" ;
+        ex:itemURI    <http://ex.org/items/mixed_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:material2  <http://ex.org/items/grapes> ;
+        ex:material3  <http://ex.org/items/orange> ;
+        ex:material4  <http://ex.org/items/pineapple> ;
+        ex:material5  <http://ex.org/items/strawberry> ;
+        ex:material6  <http://ex.org/items/milk_(s)> ;
+        ex:level      83 ;
+        ex:priority   225 .
+
+<http://ex.org/recipes/mixed_smoothie>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mixed Smoothie" ;
+        ex:itemURI    <http://ex.org/items/mixed_smoothie> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/mixed_juice> ;
+        ex:material2  <http://ex.org/items/honey> ;
+        ex:level      91 ;
+        ex:priority   226 .
+
+<http://ex.org/recipes/gold_juice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gold Juice" ;
+        ex:itemURI    <http://ex.org/items/gold_juice> ;
+        ex:type       <http://ex.org/itemCategories/mixer> ;
+        ex:material1  <http://ex.org/items/golden_pumpkin> ;
+        ex:material2  <http://ex.org/items/emery_flower> ;
+        ex:material3  <http://ex.org/items/golden_potato> ;
+        ex:material4  <http://ex.org/items/golden_turnip> ;
+        ex:material5  <http://ex.org/items/golden_cabbage> ;
+        ex:level      99 ;
+        ex:priority   229 .
+
+<http://ex.org/recipes/recovery_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Recovery Potion" ;
+        ex:itemURI    <http://ex.org/items/recovery_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/medicinal_herb> ;
+        ex:material2  <http://ex.org/items/green_grass> ;
+        ex:level      3 ;
+        ex:priority   275 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Recovery Potion" ;
+        ex:itemURI    <http://ex.org/items/recovery_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/blue_grass> ;
+        ex:level      15 ;
+        ex:priority   275 .
+
+<http://ex.org/recipes/healing_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Healing Potion" ;
+        ex:itemURI    <http://ex.org/items/healing_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/medicinal_herb> ;
+        ex:material2  <http://ex.org/items/red_grass> ;
+        ex:level      20 ;
+        ex:priority   276 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Healing Potion" ;
+        ex:itemURI    <http://ex.org/items/healing_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/pom-pom_grass> ;
+        ex:level      40 ;
+        ex:priority   276 .
+
+<http://ex.org/recipes/mystery_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mystery Potion" ;
+        ex:itemURI    <http://ex.org/items/mystery_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/medicinal_herb> ;
+        ex:material2  <http://ex.org/items/white_grass> ;
+        ex:level      33 ;
+        ex:priority   277 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Mystery Potion" ;
+        ex:itemURI    <http://ex.org/items/mystery_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/autumn_grass> ;
+        ex:level      60 ;
+        ex:priority   277 .
+
+<http://ex.org/recipes/magical_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magical Potion" ;
+        ex:itemURI    <http://ex.org/items/magical_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/medicinal_herb> ;
+        ex:material2  <http://ex.org/items/elli_leaves> ;
+        ex:level      45 ;
+        ex:priority   278 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Magical Potion" ;
+        ex:itemURI    <http://ex.org/items/magical_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/fireflower> ;
+        ex:level      70 ;
+        ex:priority   278 .
+
+<http://ex.org/recipes/antidote_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Antidote Potion" ;
+        ex:itemURI    <http://ex.org/items/antidote_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/antidote_grass> ;
+        ex:material2  <http://ex.org/items/yellow_grass> ;
+        ex:level      25 ;
+        ex:priority   263 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Antidote Potion" ;
+        ex:itemURI    <http://ex.org/items/antidote_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/cherry_grass> ;
+        ex:level      38 ;
+        ex:priority   263 .
+
+<http://ex.org/recipes/para-gone>
+        rdf:type      ex:Recipe ;
+        ex:name       "Para-Gone" ;
+        ex:itemURI    <http://ex.org/items/para-gone> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/indigo_grass> ;
+        ex:material2  <http://ex.org/items/indigo_grass> ;
+        ex:level      18 ;
+        ex:priority   264 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Para-Gone" ;
+        ex:itemURI    <http://ex.org/items/para-gone> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/pink_cat> ;
+        ex:level      31 ;
+        ex:priority   264 .
+
+<http://ex.org/recipes/roundoff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Roundoff" ;
+        ex:itemURI    <http://ex.org/items/roundoff> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/black_grass> ;
+        ex:material2  <http://ex.org/items/black_grass> ;
+        ex:level      13 ;
+        ex:priority   265 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Roundoff" ;
+        ex:itemURI    <http://ex.org/items/roundoff> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/moondrop_flower> ;
+        ex:level      28 ;
+        ex:priority   265 .
+
+<http://ex.org/recipes/cold_medicine>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cold Medicine" ;
+        ex:itemURI    <http://ex.org/items/cold_medicine> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/orange_grass> ;
+        ex:material2  <http://ex.org/items/toyherb> ;
+        ex:level      22 ;
+        ex:priority   266 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Cold Medicine" ;
+        ex:itemURI    <http://ex.org/items/cold_medicine> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/charm_blue> ;
+        ex:level      32 ;
+        ex:priority   266 .
+
+<http://ex.org/recipes/heavy_spice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heavy Spice" ;
+        ex:itemURI    <http://ex.org/items/heavy_spice> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/purple_grass> ;
+        ex:level      10 ;
+        ex:priority   271 .
+
+<http://ex.org/recipes/sweet_powder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sweet Powder" ;
+        ex:itemURI    <http://ex.org/items/sweet_powder> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/apple> ;
+        ex:level      5 ;
+        ex:priority   272 .
+
+<http://ex.org/recipes/sour_drop>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sour Drop" ;
+        ex:itemURI    <http://ex.org/items/sour_drop> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/orange> ;
+        ex:level      7 ;
+        ex:priority   273 .
+
+<http://ex.org/recipes/mixed_herbs>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mixed Herbs" ;
+        ex:itemURI    <http://ex.org/items/mixed_herbs> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/green_grass> ;
+        ex:material2  <http://ex.org/items/toyherb> ;
+        ex:level      8 ;
+        ex:priority   274 .
+
+<http://ex.org/recipes/wettable_powder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wettable Powder" ;
+        ex:itemURI    <http://ex.org/items/wettable_powder> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/charm_blue> ;
+        ex:material2  <http://ex.org/items/cherry_grass> ;
+        ex:level      30 ;
+        ex:priority   343 .
+
+<http://ex.org/recipes/greenifier>
+        rdf:type      ex:Recipe ;
+        ex:name       "Greenifier" ;
+        ex:itemURI    <http://ex.org/items/greenifier> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/withered_grass> ;
+        ex:material2  <http://ex.org/items/indigo_grass> ;
+        ex:material3  <http://ex.org/items/moondrop_flower> ;
+        ex:level      34 ;
+        ex:priority   344 .
+
+<http://ex.org/recipes/greenifier+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Greenifier+" ;
+        ex:itemURI    <http://ex.org/items/greenifier+> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/withered_grass> ;
+        ex:material2  <http://ex.org/items/orange_grass> ;
+        ex:material3  <http://ex.org/items/corn> ;
+        ex:level      64 ;
+        ex:priority   345 .
+
+<http://ex.org/recipes/formula_a>
+        rdf:type      ex:Recipe ;
+        ex:name       "Formula A" ;
+        ex:itemURI    <http://ex.org/items/formula_a> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/withered_grass> ;
+        ex:material2  <http://ex.org/items/blue_grass> ;
+        ex:material3  <http://ex.org/items/black_grass> ;
+        ex:level      29 ;
+        ex:priority   346 .
+
+<http://ex.org/recipes/formula_b>
+        rdf:type      ex:Recipe ;
+        ex:name       "Formula B" ;
+        ex:itemURI    <http://ex.org/items/formula_b> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/yellow_grass> ;
+        ex:material2  <http://ex.org/items/pink_cat> ;
+        ex:material3  <http://ex.org/items/4-leaf_clover> ;
+        ex:level      41 ;
+        ex:priority   347 .
+
+<http://ex.org/recipes/formula_c>
+        rdf:type      ex:Recipe ;
+        ex:name       "Formula C" ;
+        ex:itemURI    <http://ex.org/items/formula_c> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/white_grass> ;
+        ex:material2  <http://ex.org/items/fireflower> ;
+        ex:material3  <http://ex.org/items/corn> ;
+        ex:level      72 ;
+        ex:priority   348 .
+
+<http://ex.org/recipes/no_rot_alpha>
+        rdf:type      ex:Recipe ;
+        ex:name       "No Rot Alpha" ;
+        ex:itemURI    <http://ex.org/items/no_rot_alpha> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/withered_grass> ;
+        ex:material2  <http://ex.org/items/toyherb> ;
+        ex:level      26 ;
+        ex:priority   349 .
+
+<http://ex.org/recipes/no_rot_beta>
+        rdf:type      ex:Recipe ;
+        ex:name       "No Rot Beta" ;
+        ex:itemURI    <http://ex.org/items/no_rot_beta> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/withered_grass> ;
+        ex:material2  <http://ex.org/items/red_grass> ;
+        ex:material3  <http://ex.org/items/4-leaf_clover> ;
+        ex:level      50 ;
+        ex:priority   350 .
+
+<http://ex.org/recipes/giantizer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Giantizer" ;
+        ex:itemURI    <http://ex.org/items/giantizer> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/lamp_grass> ;
+        ex:level      57 ;
+        ex:priority   351 .
+
+<http://ex.org/recipes/minimizer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Minimizer" ;
+        ex:itemURI    <http://ex.org/items/minimizer> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/ironleaf> ;
+        ex:level      53 ;
+        ex:priority   352 .
+
+<http://ex.org/recipes/formuade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Formuade" ;
+        ex:itemURI    <http://ex.org/items/formuade> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/heavy_spice> ;
+        ex:material2  <http://ex.org/items/lamp_grass> ;
+        ex:material3  <http://ex.org/items/ironleaf> ;
+        ex:material4  <http://ex.org/items/liquids> ;
+        ex:material5  <http://ex.org/items/powders_and_spores> ;
+        ex:level      46 ;
+        ex:priority   267 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Formuade" ;
+        ex:itemURI    <http://ex.org/items/formuade> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/hot-hot_fruit> ;
+        ex:level      65 ;
+        ex:priority   267 .
+
+<http://ex.org/recipes/invinciroid>
+        rdf:type      ex:Recipe ;
+        ex:name       "Invinciroid" ;
+        ex:itemURI    <http://ex.org/items/invinciroid> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/formuade> ;
+        ex:material2  <http://ex.org/items/autumn_grass> ;
+        ex:material3  <http://ex.org/items/hot-hot_fruit> ;
+        ex:material4  <http://ex.org/items/noel_grass> ;
+        ex:material5  <http://ex.org/items/emery_flower> ;
+        ex:level      76 ;
+        ex:priority   269 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Invinciroid" ;
+        ex:itemURI    <http://ex.org/items/invinciroid> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/formuade> ;
+        ex:material2  <http://ex.org/items/giant_hot-hot_fruit> ;
+        ex:level      86 ;
+        ex:priority   269 .
+
+<http://ex.org/recipes/the_protein>
+        rdf:type      ex:Recipe ;
+        ex:name       "The Protein" ;
+        ex:itemURI    <http://ex.org/items/the_protein> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/red_crystal> ;
+        ex:material2  <http://ex.org/items/red_crystal> ;
+        ex:material3  <http://ex.org/items/spinach> ;
+        ex:material4  <http://ex.org/items/powders_and_spores> ;
+        ex:material5  <http://ex.org/items/liquids> ;
+        ex:level      80 ;
+        ex:priority   259 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "The Protein" ;
+        ex:itemURI    <http://ex.org/items/the_protein> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/big_red_crystal> ;
+        ex:level      90 ;
+        ex:priority   259 .
+
+<http://ex.org/recipes/intelligencer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Intelligencer" ;
+        ex:itemURI    <http://ex.org/items/intelligencer> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/white_crystal> ;
+        ex:material2  <http://ex.org/items/white_crystal> ;
+        ex:material3  <http://ex.org/items/eggplant> ;
+        ex:material4  <http://ex.org/items/powders_and_spores> ;
+        ex:material5  <http://ex.org/items/liquids> ;
+        ex:level      82 ;
+        ex:priority   260 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Intelligencer" ;
+        ex:itemURI    <http://ex.org/items/intelligencer> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/big_white_crystal> ;
+        ex:level      92 ;
+        ex:priority   260 .
+
+<http://ex.org/recipes/vital_gummi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Vital Gummi" ;
+        ex:itemURI    <http://ex.org/items/vital_gummi> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/blue_crystal> ;
+        ex:material2  <http://ex.org/items/blue_crystal> ;
+        ex:material3  <http://ex.org/items/bok_choy> ;
+        ex:material4  <http://ex.org/items/powders_and_spores> ;
+        ex:material5  <http://ex.org/items/liquids> ;
+        ex:level      83 ;
+        ex:priority   261 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Vital Gummi" ;
+        ex:itemURI    <http://ex.org/items/vital_gummi> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/big_blue_crystal> ;
+        ex:level      93 ;
+        ex:priority   261 .
+
+<http://ex.org/recipes/heart_drink>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heart Drink" ;
+        ex:itemURI    <http://ex.org/items/heart_drink> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/green_crystal> ;
+        ex:material2  <http://ex.org/items/green_crystal> ;
+        ex:material3  <http://ex.org/items/ironleaf> ;
+        ex:material4  <http://ex.org/items/powders_and_spores> ;
+        ex:material5  <http://ex.org/items/liquids> ;
+        ex:level      85 ;
+        ex:priority   262 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Heart Drink" ;
+        ex:itemURI    <http://ex.org/items/heart_drink> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/big_green_crystal> ;
+        ex:level      95 ;
+        ex:priority   262 .
+
+<http://ex.org/recipes/love_potion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Love Potion" ;
+        ex:itemURI    <http://ex.org/items/love_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/grape_liqueur> ;
+        ex:material2  <http://ex.org/items/pink_melon> ;
+        ex:material3  <http://ex.org/items/strawberry> ;
+        ex:material4  <http://ex.org/items/honey> ;
+        ex:material5  <http://ex.org/items/hot-hot_fruit> ;
+        ex:material6  <http://ex.org/items/emery_flower> ;
+        ex:level      87 ;
+        ex:priority   268 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Love Potion" ;
+        ex:itemURI    <http://ex.org/items/love_potion> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/great_emery_flower> ;
+        ex:level      97 ;
+        ex:priority   268 .
+
+<http://ex.org/recipes/leveliser>
+        rdf:type      ex:Recipe ;
+        ex:name       "Leveliser" ;
+        ex:itemURI    <http://ex.org/items/leveliser> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/emery_flower> ;
+        ex:material2  <http://ex.org/items/4-leaf_clover> ;
+        ex:material3  <http://ex.org/items/noel_grass> ;
+        ex:material4  <http://ex.org/items/autumn_grass> ;
+        ex:material5  <http://ex.org/items/fireflower> ;
+        ex:material6  <http://ex.org/items/hot-hot_fruit> ;
+        ex:level      96 ;
+        ex:priority   270 ;
+        rdf:type      ex:Recipe ;
+        ex:name       "Leveliser" ;
+        ex:itemURI    <http://ex.org/items/leveliser> ;
+        ex:type       <http://ex.org/itemCategories/chemistry> ;
+        ex:material1  <http://ex.org/items/great_emery_flower> ;
+        ex:material2  <http://ex.org/items/great_4-leaf_clover> ;
+        ex:level      99 ;
+        ex:priority   270 .

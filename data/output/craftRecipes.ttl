@@ -1,0 +1,1722 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/recipes/yarn>
+        rdf:type      ex:Recipe ;
+        ex:name       "Yarn" ;
+        ex:itemURI    <http://ex.org/items/yarn> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/furs> ;
+        ex:level      6 ;
+        ex:priority   1 .
+
+<http://ex.org/recipes/engagement_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Engagement Ring" ;
+        ex:itemURI    <http://ex.org/items/engagement_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/jewels> ;
+        ex:level      20 ;
+        ex:priority   342 .
+
+<http://ex.org/recipes/cheap_bracelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Bracelet" ;
+        ex:itemURI    <http://ex.org/items/cheap_bracelet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      5 ;
+        ex:priority   2 .
+
+<http://ex.org/recipes/bronze_bracelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bronze Bracelet" ;
+        ex:itemURI    <http://ex.org/items/bronze_bracelet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      10 ;
+        ex:priority   3 .
+
+<http://ex.org/recipes/silver_bracelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Bracelet" ;
+        ex:itemURI    <http://ex.org/items/silver_bracelet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      25 ;
+        ex:priority   4 .
+
+<http://ex.org/recipes/gold_bracelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gold Bracelet" ;
+        ex:itemURI    <http://ex.org/items/gold_bracelet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      39 ;
+        ex:priority   5 .
+
+<http://ex.org/recipes/platinum_bracelet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Bracelet" ;
+        ex:itemURI    <http://ex.org/items/platinum_bracelet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      50 ;
+        ex:priority   6 .
+
+<http://ex.org/recipes/silver_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Ring" ;
+        ex:itemURI    <http://ex.org/items/silver_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/crystals> ;
+        ex:level      24 ;
+        ex:priority   7 .
+
+<http://ex.org/recipes/gold_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gold Ring" ;
+        ex:itemURI    <http://ex.org/items/gold_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/turnip's_miracle> ;
+        ex:level      63 ;
+        ex:priority   8 .
+
+<http://ex.org/recipes/platinum_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Ring" ;
+        ex:itemURI    <http://ex.org/items/platinum_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:level      75 ;
+        ex:priority   9 .
+
+<http://ex.org/recipes/shield_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shield Ring" ;
+        ex:itemURI    <http://ex.org/items/shield_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/blk._tortoise_shell> ;
+        ex:material2  <http://ex.org/items/turtle_shell> ;
+        ex:material3  <http://ex.org/items/minerals> ;
+        ex:level      44 ;
+        ex:priority   10 .
+
+<http://ex.org/recipes/critical_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Critical Ring" ;
+        ex:itemURI    <http://ex.org/items/critical_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/rigid_horn> ;
+        ex:level      30 ;
+        ex:priority   11 .
+
+<http://ex.org/recipes/silent_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silent Ring" ;
+        ex:itemURI    <http://ex.org/items/silent_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/lamp_squid> ;
+        ex:level      29 ;
+        ex:priority   12 .
+
+<http://ex.org/recipes/paralysis_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Paralysis Ring" ;
+        ex:itemURI    <http://ex.org/items/paralysis_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/scorpion_tail> ;
+        ex:level      28 ;
+        ex:priority   13 .
+
+<http://ex.org/recipes/poison_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Poison Ring" ;
+        ex:itemURI    <http://ex.org/items/poison_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/poison_powder> ;
+        ex:level      27 ;
+        ex:priority   14 .
+
+<http://ex.org/recipes/magic_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Ring" ;
+        ex:itemURI    <http://ex.org/items/magic_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/crystals> ;
+        ex:level      51 ;
+        ex:priority   15 .
+
+<http://ex.org/recipes/throwing_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Throwing Ring" ;
+        ex:itemURI    <http://ex.org/items/throwing_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/puppetry_strings> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      33 ;
+        ex:priority   16 .
+
+<http://ex.org/recipes/stay-up_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Stay-up Ring" ;
+        ex:itemURI    <http://ex.org/items/stay-up_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/holy_spore> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      46 ;
+        ex:priority   17 .
+
+<http://ex.org/recipes/aquamarine_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Aquamarine Ring" ;
+        ex:itemURI    <http://ex.org/items/aquamarine_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:level      15 ;
+        ex:priority   18 .
+
+<http://ex.org/recipes/amethyst_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Amethyst Ring" ;
+        ex:itemURI    <http://ex.org/items/amethyst_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/amethyst> ;
+        ex:level      15 ;
+        ex:priority   19 .
+
+<http://ex.org/recipes/emerald_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Emerald Ring" ;
+        ex:itemURI    <http://ex.org/items/emerald_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:level      15 ;
+        ex:priority   20 .
+
+<http://ex.org/recipes/sapphire_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sapphire Ring" ;
+        ex:itemURI    <http://ex.org/items/sapphire_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/sapphire> ;
+        ex:level      15 ;
+        ex:priority   21 .
+
+<http://ex.org/recipes/ruby_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ruby Ring" ;
+        ex:itemURI    <http://ex.org/items/ruby_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/ruby> ;
+        ex:level      15 ;
+        ex:priority   22 .
+
+<http://ex.org/recipes/cursed_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cursed Ring" ;
+        ex:itemURI    <http://ex.org/items/cursed_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/shells_and_bones> ;
+        ex:level      15 ;
+        ex:priority   23 .
+
+<http://ex.org/recipes/diamond_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Diamond Ring" ;
+        ex:itemURI    <http://ex.org/items/diamond_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/diamond> ;
+        ex:level      60 ;
+        ex:priority   24 .
+
+<http://ex.org/recipes/aquamarine_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Aquamarine Brooch" ;
+        ex:itemURI    <http://ex.org/items/aquamarine_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:level      55 ;
+        ex:priority   25 .
+
+<http://ex.org/recipes/amethyst_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Amethyst Brooch" ;
+        ex:itemURI    <http://ex.org/items/amethyst_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/amethyst> ;
+        ex:level      55 ;
+        ex:priority   26 .
+
+<http://ex.org/recipes/emerald_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Emerald Brooch" ;
+        ex:itemURI    <http://ex.org/items/emerald_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:level      55 ;
+        ex:priority   27 .
+
+<http://ex.org/recipes/sapphire_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sapphire Brooch" ;
+        ex:itemURI    <http://ex.org/items/sapphire_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/sapphire> ;
+        ex:level      55 ;
+        ex:priority   28 .
+
+<http://ex.org/recipes/ruby_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ruby Brooch" ;
+        ex:itemURI    <http://ex.org/items/ruby_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/ruby> ;
+        ex:level      55 ;
+        ex:priority   29 .
+
+<http://ex.org/recipes/diamond_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Diamond Brooch" ;
+        ex:itemURI    <http://ex.org/items/diamond_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/light_ore> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/diamond> ;
+        ex:level      77 ;
+        ex:priority   30 .
+
+<http://ex.org/recipes/dolphin_brooch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dolphin Brooch" ;
+        ex:itemURI    <http://ex.org/items/dolphin_brooch> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/white_stone> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:level      88 ;
+        ex:priority   31 .
+
+<http://ex.org/recipes/fire_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fire Ring" ;
+        ex:itemURI    <http://ex.org/items/fire_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:level      95 ;
+        ex:priority   32 .
+
+<http://ex.org/recipes/wind_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wind Ring" ;
+        ex:itemURI    <http://ex.org/items/wind_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/wind_crystal> ;
+        ex:level      93 ;
+        ex:priority   33 .
+
+<http://ex.org/recipes/water_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Water Ring" ;
+        ex:itemURI    <http://ex.org/items/water_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/water_crystal> ;
+        ex:level      96 ;
+        ex:priority   34 .
+
+<http://ex.org/recipes/earth_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earth Ring" ;
+        ex:itemURI    <http://ex.org/items/earth_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/earth_crystal> ;
+        ex:level      94 ;
+        ex:priority   35 .
+
+<http://ex.org/recipes/happy_ring>
+        rdf:type      ex:Recipe ;
+        ex:name       "Happy Ring" ;
+        ex:itemURI    <http://ex.org/items/happy_ring> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/4-leaf_clover> ;
+        ex:level      30 ;
+        ex:priority   36 .
+
+<http://ex.org/recipes/silver_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Pendant" ;
+        ex:itemURI    <http://ex.org/items/silver_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:level      20 ;
+        ex:priority   37 .
+
+<http://ex.org/recipes/star_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Star Pendant" ;
+        ex:itemURI    <http://ex.org/items/star_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/love_crystal> ;
+        ex:level      40 ;
+        ex:priority   38 .
+
+<http://ex.org/recipes/sun_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sun Pendant" ;
+        ex:itemURI    <http://ex.org/items/sun_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/fire_crystal> ;
+        ex:level      45 ;
+        ex:priority   39 .
+
+<http://ex.org/recipes/field_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Field Pendant" ;
+        ex:itemURI    <http://ex.org/items/field_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/wind_crystal> ;
+        ex:level      35 ;
+        ex:priority   40 .
+
+<http://ex.org/recipes/dew_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dew Pendant" ;
+        ex:itemURI    <http://ex.org/items/dew_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/water_crystal> ;
+        ex:level      28 ;
+        ex:priority   41 .
+
+<http://ex.org/recipes/earth_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earth Pendant" ;
+        ex:itemURI    <http://ex.org/items/earth_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:level      19 ;
+        ex:priority   42 .
+
+<http://ex.org/recipes/heart_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heart Pendant" ;
+        ex:itemURI    <http://ex.org/items/heart_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver_pendant> ;
+        ex:material2  <http://ex.org/items/love_crystal> ;
+        ex:level      40 ;
+        ex:priority   43 .
+
+<http://ex.org/recipes/strange_pendant>
+        rdf:type      ex:Recipe ;
+        ex:name       "Strange Pendant" ;
+        ex:itemURI    <http://ex.org/items/strange_pendant> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/amethyst> ;
+        ex:material2  <http://ex.org/items/ruby> ;
+        ex:material3  <http://ex.org/items/minerals> ;
+        ex:level      85 ;
+        ex:priority   44 .
+
+<http://ex.org/recipes/anette's_necklace>
+        rdf:type      ex:Recipe ;
+        ex:name       "Anette's Necklace" ;
+        ex:itemURI    <http://ex.org/items/anette's_necklace> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/ancient_orc_cloth> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      80 ;
+        ex:priority   45 .
+
+<http://ex.org/recipes/work_gloves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Work Gloves" ;
+        ex:itemURI    <http://ex.org/items/work_gloves> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      4 ;
+        ex:priority   46 .
+
+<http://ex.org/recipes/gloves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gloves" ;
+        ex:itemURI    <http://ex.org/items/gloves> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/giant's_gloves> ;
+        ex:level      18 ;
+        ex:priority   47 .
+
+<http://ex.org/recipes/power_gloves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Power Gloves" ;
+        ex:itemURI    <http://ex.org/items/power_gloves> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/giant's_gloves> ;
+        ex:material2  <http://ex.org/items/blue_giant's_glove> ;
+        ex:level      42 ;
+        ex:priority   48 .
+
+<http://ex.org/recipes/earrings>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earrings" ;
+        ex:itemURI    <http://ex.org/items/earrings> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/iron> ;
+        ex:material2  <http://ex.org/items/powders_and_spores> ;
+        ex:level      8 ;
+        ex:priority   49 .
+
+<http://ex.org/recipes/witch_earrings>
+        rdf:type      ex:Recipe ;
+        ex:name       "Witch Earrings" ;
+        ex:itemURI    <http://ex.org/items/witch_earrings> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:material3  <http://ex.org/items/mysterious_powder> ;
+        ex:level      30 ;
+        ex:priority   50 .
+
+<http://ex.org/recipes/magic_earrings>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Earrings" ;
+        ex:itemURI    <http://ex.org/items/magic_earrings> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/ruby> ;
+        ex:material3  <http://ex.org/items/minerals> ;
+        ex:level      45 ;
+        ex:priority   51 .
+
+<http://ex.org/recipes/charm>
+        rdf:type      ex:Recipe ;
+        ex:name       "Charm" ;
+        ex:itemURI    <http://ex.org/items/charm> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:level      3 ;
+        ex:priority   52 .
+
+<http://ex.org/recipes/holy_amulet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Holy Amulet" ;
+        ex:itemURI    <http://ex.org/items/holy_amulet> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/diamond> ;
+        ex:level      55 ;
+        ex:priority   53 .
+
+<http://ex.org/recipes/rosary>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rosary" ;
+        ex:itemURI    <http://ex.org/items/rosary> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/puppetry_strings> ;
+        ex:level      68 ;
+        ex:priority   54 .
+
+<http://ex.org/recipes/talisman>
+        rdf:type      ex:Recipe ;
+        ex:name       "Talisman" ;
+        ex:itemURI    <http://ex.org/items/talisman> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/rafflesia_petal> ;
+        ex:material2  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      71 ;
+        ex:priority   55 .
+
+<http://ex.org/recipes/magic_charm>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Charm" ;
+        ex:itemURI    <http://ex.org/items/magic_charm> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/round_stone> ;
+        ex:material2  <http://ex.org/items/turnip's_miracle> ;
+        ex:material3  <http://ex.org/items/powders_and_spores> ;
+        ex:material4  <http://ex.org/items/crystals> ;
+        ex:level      66 ;
+        ex:priority   56 .
+
+<http://ex.org/recipes/leather_belt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Leather Belt" ;
+        ex:itemURI    <http://ex.org/items/leather_belt> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      13 ;
+        ex:priority   57 .
+
+<http://ex.org/recipes/lucky_strike>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lucky Strike" ;
+        ex:itemURI    <http://ex.org/items/lucky_strike> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/critical_ring> ;
+        ex:material2  <http://ex.org/items/tablet_of_truth> ;
+        ex:material3  <http://ex.org/items/dangerous_scissors> ;
+        ex:material4  <http://ex.org/items/minerals> ;
+        ex:level      78 ;
+        ex:priority   58 .
+
+<http://ex.org/recipes/champ_belt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Champ Belt" ;
+        ex:itemURI    <http://ex.org/items/champ_belt> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/warrior's_proof> ;
+        ex:material2  <http://ex.org/items/proof_of_rank> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      58 ;
+        ex:priority   59 .
+
+<http://ex.org/recipes/hand-knit_scarf>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hand-Knit Scarf" ;
+        ex:itemURI    <http://ex.org/items/hand-knit_scarf> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/yarn> ;
+        ex:material2  <http://ex.org/items/yarn> ;
+        ex:material3  <http://ex.org/items/yarn> ;
+        ex:material4  <http://ex.org/items/yarn> ;
+        ex:level      43 ;
+        ex:priority   60 .
+
+<http://ex.org/recipes/fluffy_scarf>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fluffy Scarf" ;
+        ex:itemURI    <http://ex.org/items/fluffy_scarf> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/wooly_furball> ;
+        ex:material2  <http://ex.org/items/fur_(s)> ;
+        ex:material3  <http://ex.org/items/fur_(m)> ;
+        ex:material4  <http://ex.org/items/fur_(l)> ;
+        ex:material5  <http://ex.org/items/yarn> ;
+        ex:level      96 ;
+        ex:priority   61 .
+
+<http://ex.org/recipes/hero's_proof>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hero's Proof" ;
+        ex:itemURI    <http://ex.org/items/hero's_proof> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/chest_hair> ;
+        ex:material2  <http://ex.org/items/small_crystal> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:level      73 ;
+        ex:priority   62 .
+
+<http://ex.org/recipes/proof_of_wisdom>
+        rdf:type      ex:Recipe ;
+        ex:name       "Proof of Wisdom" ;
+        ex:itemURI    <http://ex.org/items/proof_of_wisdom> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/moving_branch> ;
+        ex:material2  <http://ex.org/items/small_crystal> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:level      74 ;
+        ex:priority   63 .
+
+<http://ex.org/recipes/art_of_attack>
+        rdf:type      ex:Recipe ;
+        ex:name       "Art of Attack" ;
+        ex:itemURI    <http://ex.org/items/art_of_attack> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/throne_of_the_empire> ;
+        ex:material3  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:level      91 ;
+        ex:priority   64 .
+
+<http://ex.org/recipes/art_of_defense>
+        rdf:type      ex:Recipe ;
+        ex:name       "Art of Defense" ;
+        ex:itemURI    <http://ex.org/items/art_of_defense> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/grimoire_scale> ;
+        ex:material3  <http://ex.org/items/broken_ice_wall> ;
+        ex:level      90 ;
+        ex:priority   65 .
+
+<http://ex.org/recipes/art_of_magic>
+        rdf:type      ex:Recipe ;
+        ex:name       "Art of Magic" ;
+        ex:itemURI    <http://ex.org/items/art_of_magic> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/chimera_tail> ;
+        ex:material3  <http://ex.org/items/melody_bottle> ;
+        ex:level      92 ;
+        ex:priority   66 .
+
+<http://ex.org/recipes/badge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Badge" ;
+        ex:itemURI    <http://ex.org/items/badge> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/shards> ;
+        ex:level      6 ;
+        ex:priority   67 .
+
+<http://ex.org/recipes/courage_badge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Courage Badge" ;
+        ex:itemURI    <http://ex.org/items/courage_badge> ;
+        ex:type       <http://ex.org/itemCategories/accessory> ;
+        ex:material1  <http://ex.org/items/badge> ;
+        ex:material2  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:level      99 ;
+        ex:priority   68 .
+
+<http://ex.org/recipes/venti's_charm>
+        rdf:type     ex:Recipe ;
+        ex:name      "Venti's Charm" ;
+        ex:itemURI   <http://ex.org/items/venti's_charm> ;
+        ex:type      <http://ex.org/itemCategories/accessory> ;
+        ex:level     999 ;
+        ex:priority  69 ;
+        rdf:type     ex:Recipe ;
+        ex:name      "Venti's Charm" ;
+        ex:itemURI   <http://ex.org/items/venti's_charm> ;
+        ex:type      <http://ex.org/itemCategories/accessory> ;
+        ex:level     999 ;
+        ex:priority  70 .
+
+<http://ex.org/recipes/shirt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shirt" ;
+        ex:itemURI    <http://ex.org/items/shirt> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      2 ;
+        ex:priority   71 .
+
+<http://ex.org/recipes/vest>
+        rdf:type      ex:Recipe ;
+        ex:name       "Vest" ;
+        ex:itemURI    <http://ex.org/items/vest> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/furs> ;
+        ex:level      8 ;
+        ex:priority   72 .
+
+<http://ex.org/recipes/cotton_cloth>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cotton Cloth" ;
+        ex:itemURI    <http://ex.org/items/cotton_cloth> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/old_bandage> ;
+        ex:material2  <http://ex.org/items/old_bandage> ;
+        ex:material3  <http://ex.org/items/spider's_thread> ;
+        ex:level      12 ;
+        ex:priority   73 .
+
+<http://ex.org/recipes/mail>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mail" ;
+        ex:itemURI    <http://ex.org/items/mail> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/liquids> ;
+        ex:level      16 ;
+        ex:priority   74 .
+
+<http://ex.org/recipes/chain_mail>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chain Mail" ;
+        ex:itemURI    <http://ex.org/items/chain_mail> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:level      20 ;
+        ex:priority   75 .
+
+<http://ex.org/recipes/scale_vest>
+        rdf:type      ex:Recipe ;
+        ex:name       "Scale Vest" ;
+        ex:itemURI    <http://ex.org/items/scale_vest> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/pretty_carapace> ;
+        ex:material3  <http://ex.org/items/root> ;
+        ex:level      25 ;
+        ex:priority   76 .
+
+<http://ex.org/recipes/sparkling_shirt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sparkling Shirt" ;
+        ex:itemURI    <http://ex.org/items/sparkling_shirt> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/furs> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      28 ;
+        ex:priority   77 .
+
+<http://ex.org/recipes/wind_cloak>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wind Cloak" ;
+        ex:itemURI    <http://ex.org/items/wind_cloak> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/black_bird_feather> ;
+        ex:material2  <http://ex.org/items/wind_crystal> ;
+        ex:material3  <http://ex.org/items/emerald> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      32 ;
+        ex:priority   78 .
+
+<http://ex.org/recipes/protector>
+        rdf:type      ex:Recipe ;
+        ex:name       "Protector" ;
+        ex:itemURI    <http://ex.org/items/protector> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/shoulder_piece> ;
+        ex:material2  <http://ex.org/items/diamond> ;
+        ex:level      38 ;
+        ex:priority   79 .
+
+<http://ex.org/recipes/platinum_mail>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Mail" ;
+        ex:itemURI    <http://ex.org/items/platinum_mail> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/blk._tortoise_shell> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      44 ;
+        ex:priority   80 .
+
+<http://ex.org/recipes/lamellar_vest>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lamellar Vest" ;
+        ex:itemURI    <http://ex.org/items/lamellar_vest> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/scales> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      50 ;
+        ex:priority   81 .
+
+<http://ex.org/recipes/mercenary's_cloak>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mercenary's Cloak" ;
+        ex:itemURI    <http://ex.org/items/mercenary's_cloak> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/quality_worn_cloth> ;
+        ex:material2  <http://ex.org/items/big_bird's_comb> ;
+        ex:material3  <http://ex.org/items/puppetry_strings> ;
+        ex:level      53 ;
+        ex:priority   82 .
+
+<http://ex.org/recipes/wooly_shirt>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wooly Shirt" ;
+        ex:itemURI    <http://ex.org/items/wooly_shirt> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/electro_crystal> ;
+        ex:material2  <http://ex.org/items/wooly_furball> ;
+        ex:material3  <http://ex.org/items/wooly_furball> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      56 ;
+        ex:priority   83 .
+
+<http://ex.org/recipes/elvish_cloak>
+        rdf:type      ex:Recipe ;
+        ex:name       "Elvish Cloak" ;
+        ex:itemURI    <http://ex.org/items/elvish_cloak> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/turnip's_miracle> ;
+        ex:material2  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material3  <http://ex.org/items/crystal_skull> ;
+        ex:material4  <http://ex.org/items/powders_and_spores> ;
+        ex:level      59 ;
+        ex:priority   84 .
+
+<http://ex.org/recipes/dragon_cloak>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dragon Cloak" ;
+        ex:itemURI    <http://ex.org/items/dragon_cloak> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/dragon_scale> ;
+        ex:material2  <http://ex.org/items/crimson_scale> ;
+        ex:material3  <http://ex.org/items/grimoire_scale> ;
+        ex:material4  <http://ex.org/items/earth_dragon_ash> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      64 ;
+        ex:priority   85 .
+
+<http://ex.org/recipes/power_protector>
+        rdf:type      ex:Recipe ;
+        ex:name       "Power Protector" ;
+        ex:itemURI    <http://ex.org/items/power_protector> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/orichalcum> ;
+        ex:material4  <http://ex.org/items/mtgu_plate> ;
+        ex:material5  <http://ex.org/items/dangerous_scissors> ;
+        ex:level      69 ;
+        ex:priority   86 .
+
+<http://ex.org/recipes/rune_vest>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Vest" ;
+        ex:itemURI    <http://ex.org/items/rune_vest> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material2  <http://ex.org/items/rune_crystal> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      76 ;
+        ex:priority   87 .
+
+<http://ex.org/recipes/royal_garter>
+        rdf:type      ex:Recipe ;
+        ex:name       "Royal Garter" ;
+        ex:itemURI    <http://ex.org/items/royal_garter> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/ancient_orc_cloth> ;
+        ex:material3  <http://ex.org/items/love_scale> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/white_stone> ;
+        ex:level      90 ;
+        ex:priority   88 .
+
+<http://ex.org/recipes/four_dragons'_vest>
+        rdf:type      ex:Recipe ;
+        ex:name       "Four Dragons' Vest" ;
+        ex:itemURI    <http://ex.org/items/four_dragons'_vest> ;
+        ex:type       <http://ex.org/itemCategories/armor> ;
+        ex:material1  <http://ex.org/items/dragon_fin> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/firewyrm_scale> ;
+        ex:material4  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material5  <http://ex.org/items/rune_crystal> ;
+        ex:level      99 ;
+        ex:priority   89 .
+
+<http://ex.org/recipes/headband>
+        rdf:type      ex:Recipe ;
+        ex:name       "Headband" ;
+        ex:itemURI    <http://ex.org/items/headband> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      2 ;
+        ex:priority   309 .
+
+<http://ex.org/recipes/blue_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Blue Ribbon" ;
+        ex:itemURI    <http://ex.org/items/blue_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/blue_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      4 ;
+        ex:priority   310 .
+
+<http://ex.org/recipes/green_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Green Ribbon" ;
+        ex:itemURI    <http://ex.org/items/green_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/green_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      5 ;
+        ex:priority   311 .
+
+<http://ex.org/recipes/purple_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Purple Ribbon" ;
+        ex:itemURI    <http://ex.org/items/purple_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/purple_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      6 ;
+        ex:priority   312 .
+
+<http://ex.org/recipes/summer_headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Summer Headdress" ;
+        ex:itemURI    <http://ex.org/items/summer_headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/headdress> ;
+        ex:material2  <http://ex.org/items/pink_cat> ;
+        ex:level      999 ;
+        ex:priority   313 .
+
+<http://ex.org/recipes/spectacles>
+        rdf:type      ex:Recipe ;
+        ex:name       "Spectacles" ;
+        ex:itemURI    <http://ex.org/items/spectacles> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/aquamarine> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:level      7 ;
+        ex:priority   314 .
+
+<http://ex.org/recipes/straw_hat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Straw Hat" ;
+        ex:itemURI    <http://ex.org/items/straw_hat> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/strings> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:level      8 ;
+        ex:priority   315 .
+
+<http://ex.org/recipes/fancy_hat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fancy Hat" ;
+        ex:itemURI    <http://ex.org/items/fancy_hat> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:level      9 ;
+        ex:priority   316 .
+
+<http://ex.org/recipes/brand_glasses>
+        rdf:type      ex:Recipe ;
+        ex:name       "Brand Glasses" ;
+        ex:itemURI    <http://ex.org/items/brand_glasses> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/dark_crystal> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:material3  <http://ex.org/items/aquamarine> ;
+        ex:level      11 ;
+        ex:priority   317 .
+
+<http://ex.org/recipes/cute_knitting>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cute Knitting" ;
+        ex:itemURI    <http://ex.org/items/cute_knitting> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      13 ;
+        ex:priority   318 .
+
+<http://ex.org/recipes/intelligent_glasses>
+        rdf:type      ex:Recipe ;
+        ex:name       "Intelligent Glasses" ;
+        ex:itemURI    <http://ex.org/items/intelligent_glasses> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/magic_crystal> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:material3  <http://ex.org/items/aquamarine> ;
+        ex:level      15 ;
+        ex:priority   319 .
+
+<http://ex.org/recipes/fireproof_hood>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fireproof Hood" ;
+        ex:itemURI    <http://ex.org/items/fireproof_hood> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/ghost_hood> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      16 ;
+        ex:priority   320 .
+
+<http://ex.org/recipes/silk_hat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silk Hat" ;
+        ex:itemURI    <http://ex.org/items/silk_hat> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/black_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      17 ;
+        ex:priority   340 .
+
+<http://ex.org/recipes/black_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Black Ribbon" ;
+        ex:itemURI    <http://ex.org/items/black_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/black_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      18 ;
+        ex:priority   321 .
+
+<http://ex.org/recipes/lolita_headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lolita Headdress" ;
+        ex:itemURI    <http://ex.org/items/lolita_headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/black_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      19 ;
+        ex:priority   322 .
+
+<http://ex.org/recipes/headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Headdress" ;
+        ex:itemURI    <http://ex.org/items/headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      20 ;
+        ex:priority   323 .
+
+<http://ex.org/recipes/yellow_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Yellow Ribbon" ;
+        ex:itemURI    <http://ex.org/items/yellow_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/yellow_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      22 ;
+        ex:priority   324 .
+
+<http://ex.org/recipes/autumn_headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Autumn Headdress" ;
+        ex:itemURI    <http://ex.org/items/autumn_headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/headdress> ;
+        ex:material2  <http://ex.org/items/red_crystal> ;
+        ex:level      999 ;
+        ex:priority   325 .
+
+<http://ex.org/recipes/cat_ears>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cat Ears" ;
+        ex:itemURI    <http://ex.org/items/cat_ears> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/furs> ;
+        ex:level      24 ;
+        ex:priority   326 .
+
+<http://ex.org/recipes/silver_hairpin>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Hairpin" ;
+        ex:itemURI    <http://ex.org/items/silver_hairpin> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:level      26 ;
+        ex:priority   327 .
+
+<http://ex.org/recipes/red_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Red Ribbon" ;
+        ex:itemURI    <http://ex.org/items/red_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/red_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      30 ;
+        ex:priority   328 .
+
+<http://ex.org/recipes/spring_headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Spring Headdress" ;
+        ex:itemURI    <http://ex.org/items/spring_headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/headdress> ;
+        ex:material2  <http://ex.org/items/moondrop_flower> ;
+        ex:level      999 ;
+        ex:priority   329 .
+
+<http://ex.org/recipes/orange_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Orange Ribbon" ;
+        ex:itemURI    <http://ex.org/items/orange_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/orange_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      35 ;
+        ex:priority   330 .
+
+<http://ex.org/recipes/winter_headdress>
+        rdf:type      ex:Recipe ;
+        ex:name       "Winter Headdress" ;
+        ex:itemURI    <http://ex.org/items/winter_headdress> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/headdress> ;
+        ex:material2  <http://ex.org/items/white_crystal> ;
+        ex:level      999 ;
+        ex:priority   331 .
+
+<http://ex.org/recipes/white_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "White Ribbon" ;
+        ex:itemURI    <http://ex.org/items/white_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/white_grass> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      38 ;
+        ex:priority   332 .
+
+<http://ex.org/recipes/four_seasons>
+        rdf:type      ex:Recipe ;
+        ex:name       "Four Seasons" ;
+        ex:itemURI    <http://ex.org/items/four_seasons> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/spring_headdress> ;
+        ex:material2  <http://ex.org/items/summer_headdress> ;
+        ex:material3  <http://ex.org/items/autumn_headdress> ;
+        ex:material4  <http://ex.org/items/winter_headdress> ;
+        ex:level      44 ;
+        ex:priority   333 .
+
+<http://ex.org/recipes/feathered_hat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Feathered Hat" ;
+        ex:itemURI    <http://ex.org/items/feathered_hat> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/quality_worn_cloth> ;
+        ex:material2  <http://ex.org/items/feathers> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      51 ;
+        ex:priority   334 .
+
+<http://ex.org/recipes/gold_hairpin>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gold Hairpin" ;
+        ex:itemURI    <http://ex.org/items/gold_hairpin> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/turnip's_miracle> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:level      60 ;
+        ex:priority   335 .
+
+<http://ex.org/recipes/indigo_ribbon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Indigo Ribbon" ;
+        ex:itemURI    <http://ex.org/items/indigo_ribbon> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/blue_scale> ;
+        ex:material2  <http://ex.org/items/indigo_grass> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      77 ;
+        ex:priority   336 .
+
+<http://ex.org/recipes/crown>
+        rdf:type      ex:Recipe ;
+        ex:name       "Crown" ;
+        ex:itemURI    <http://ex.org/items/crown> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/small_crystal> ;
+        ex:material3  <http://ex.org/items/black_scale> ;
+        ex:material4  <http://ex.org/items/white_stone> ;
+        ex:material5  <http://ex.org/items/rune_crystal> ;
+        ex:level      95 ;
+        ex:priority   337 .
+
+<http://ex.org/recipes/turnip_headgear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Turnip Headgear" ;
+        ex:itemURI    <http://ex.org/items/turnip_headgear> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/turnip> ;
+        ex:level      30 ;
+        ex:priority   338 .
+
+<http://ex.org/recipes/pumpkin_headgear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pumpkin Headgear" ;
+        ex:itemURI    <http://ex.org/items/pumpkin_headgear> ;
+        ex:type       <http://ex.org/itemCategories/headgear> ;
+        ex:material1  <http://ex.org/items/pumpkin> ;
+        ex:level      20 ;
+        ex:priority   339 .
+
+<http://ex.org/recipes/small_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Small Shield" ;
+        ex:itemURI    <http://ex.org/items/small_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      2 ;
+        ex:priority   353 .
+
+<http://ex.org/recipes/umbrella>
+        rdf:type      ex:Recipe ;
+        ex:name       "Umbrella" ;
+        ex:itemURI    <http://ex.org/items/umbrella> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      6 ;
+        ex:priority   354 .
+
+<http://ex.org/recipes/iron_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Shield" ;
+        ex:itemURI    <http://ex.org/items/iron_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/iron> ;
+        ex:material2  <http://ex.org/items/iron> ;
+        ex:level      8 ;
+        ex:priority   355 .
+
+<http://ex.org/recipes/monkey_plush>
+        rdf:type      ex:Recipe ;
+        ex:name       "Monkey Plush" ;
+        ex:itemURI    <http://ex.org/items/monkey_plush> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/yellow_down> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      12 ;
+        ex:priority   356 .
+
+<http://ex.org/recipes/round_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Round Shield" ;
+        ex:itemURI    <http://ex.org/items/round_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:level      15 ;
+        ex:priority   357 .
+
+<http://ex.org/recipes/turtle_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Turtle Shield" ;
+        ex:itemURI    <http://ex.org/items/turtle_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/turtle_shell> ;
+        ex:material2  <http://ex.org/items/bronze> ;
+        ex:material3  <http://ex.org/items/liquids> ;
+        ex:level      20 ;
+        ex:priority   358 .
+
+<http://ex.org/recipes/chaos_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chaos Shield" ;
+        ex:itemURI    <http://ex.org/items/chaos_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/pretty_carapace> ;
+        ex:level      25 ;
+        ex:priority   359 .
+
+<http://ex.org/recipes/bone_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bone Shield" ;
+        ex:itemURI    <http://ex.org/items/bone_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/shells_and_bones> ;
+        ex:level      32 ;
+        ex:priority   360 .
+
+<http://ex.org/recipes/magic_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Shield" ;
+        ex:itemURI    <http://ex.org/items/magic_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/mysterious_powder> ;
+        ex:material4  <http://ex.org/items/crystals> ;
+        ex:level      37 ;
+        ex:priority   361 .
+
+<http://ex.org/recipes/heavy_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heavy Shield" ;
+        ex:itemURI    <http://ex.org/items/heavy_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/shoulder_piece> ;
+        ex:level      41 ;
+        ex:priority   362 .
+
+<http://ex.org/recipes/platinum_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Shield" ;
+        ex:itemURI    <http://ex.org/items/platinum_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/blk._tortoise_shell> ;
+        ex:level      43 ;
+        ex:priority   363 .
+
+<http://ex.org/recipes/kite_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Kite Shield" ;
+        ex:itemURI    <http://ex.org/items/kite_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/proof_of_rank> ;
+        ex:material2  <http://ex.org/items/warrior's_proof> ;
+        ex:material3  <http://ex.org/items/platinum> ;
+        ex:material4  <http://ex.org/items/dragon_bones> ;
+        ex:level      50 ;
+        ex:priority   364 .
+
+<http://ex.org/recipes/knight_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Knight Shield" ;
+        ex:itemURI    <http://ex.org/items/knight_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/grimoire_scale> ;
+        ex:level      54 ;
+        ex:priority   365 .
+
+<http://ex.org/recipes/element_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Element Shield" ;
+        ex:itemURI    <http://ex.org/items/element_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/yellow_feather> ;
+        ex:material2  <http://ex.org/items/green_core> ;
+        ex:material3  <http://ex.org/items/red_core> ;
+        ex:material4  <http://ex.org/items/yellow_core> ;
+        ex:material5  <http://ex.org/items/blue_core> ;
+        ex:level      58 ;
+        ex:priority   366 .
+
+<http://ex.org/recipes/magical_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magical Shield" ;
+        ex:itemURI    <http://ex.org/items/magical_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/crimson_scale> ;
+        ex:material2  <http://ex.org/items/left_rock_shard> ;
+        ex:material3  <http://ex.org/items/right_rock_shard> ;
+        ex:material4  <http://ex.org/items/rune_crystal> ;
+        ex:level      65 ;
+        ex:priority   367 .
+
+<http://ex.org/recipes/prism_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Prism Shield" ;
+        ex:itemURI    <http://ex.org/items/prism_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/blue_scale> ;
+        ex:material2  <http://ex.org/items/glitter_scale> ;
+        ex:material3  <http://ex.org/items/crimson_scale> ;
+        ex:material4  <http://ex.org/items/light_ore> ;
+        ex:material5  <http://ex.org/items/small_crystal> ;
+        ex:level      78 ;
+        ex:priority   368 .
+
+<http://ex.org/recipes/rune_shield>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Shield" ;
+        ex:itemURI    <http://ex.org/items/rune_shield> ;
+        ex:type       <http://ex.org/itemCategories/shield> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/dragon_fin> ;
+        ex:material3  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material4  <http://ex.org/items/rune_crystal> ;
+        ex:material5  <http://ex.org/items/small_crystal> ;
+        ex:level      94 ;
+        ex:priority   369 .
+
+<http://ex.org/recipes/leather_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Leather Boots" ;
+        ex:itemURI    <http://ex.org/items/leather_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/furs> ;
+        ex:level      6 ;
+        ex:priority   372 .
+
+<http://ex.org/recipes/free_farming_shoes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Free Farming Shoes" ;
+        ex:itemURI    <http://ex.org/items/free_farming_shoes> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/strings> ;
+        ex:material2  <http://ex.org/items/furs> ;
+        ex:level      8 ;
+        ex:priority   391 .
+
+<http://ex.org/recipes/piyo_sandals>
+        rdf:type      ex:Recipe ;
+        ex:name       "Piyo Sandals" ;
+        ex:itemURI    <http://ex.org/items/piyo_sandals> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/insect_carapace> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      11 ;
+        ex:priority   376 .
+
+<http://ex.org/recipes/secret_shoes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Secret Shoes" ;
+        ex:itemURI    <http://ex.org/items/secret_shoes> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/glue> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      14 ;
+        ex:priority   381 .
+
+<http://ex.org/recipes/silver_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Boots" ;
+        ex:itemURI    <http://ex.org/items/silver_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      18 ;
+        ex:priority   387 .
+
+<http://ex.org/recipes/heavy_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heavy Boots" ;
+        ex:itemURI    <http://ex.org/items/heavy_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/iron> ;
+        ex:material3  <http://ex.org/items/pretty_carapace> ;
+        ex:level      20 ;
+        ex:priority   371 .
+
+<http://ex.org/recipes/sneaking_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sneaking Boots" ;
+        ex:itemURI    <http://ex.org/items/sneaking_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/invisible_stone> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      23 ;
+        ex:priority   383 .
+
+<http://ex.org/recipes/fast_step_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fast Step Boots" ;
+        ex:itemURI    <http://ex.org/items/fast_step_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/root> ;
+        ex:material2  <http://ex.org/items/sapphire> ;
+        ex:material3  <http://ex.org/items/furs> ;
+        ex:level      26 ;
+        ex:priority   384 .
+
+<http://ex.org/recipes/gold_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gold Boots" ;
+        ex:itemURI    <http://ex.org/items/gold_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/shards> ;
+        ex:level      28 ;
+        ex:priority   388 .
+
+<http://ex.org/recipes/bone_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bone Boots" ;
+        ex:itemURI    <http://ex.org/items/bone_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/strong_vine> ;
+        ex:material2  <http://ex.org/items/big_crystal> ;
+        ex:material3  <http://ex.org/items/shells_and_bones> ;
+        ex:level      33 ;
+        ex:priority   389 .
+
+<http://ex.org/recipes/snow_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Snow Boots" ;
+        ex:itemURI    <http://ex.org/items/snow_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/shoulder_piece> ;
+        ex:material2  <http://ex.org/items/lightning_mane> ;
+        ex:material3  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:level      37 ;
+        ex:priority   374 .
+
+<http://ex.org/recipes/strider_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Strider Boots" ;
+        ex:itemURI    <http://ex.org/items/strider_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/pretty_thread> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/gold> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      40 ;
+        ex:priority   380 .
+
+<http://ex.org/recipes/step-in_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Step-In Boots" ;
+        ex:itemURI    <http://ex.org/items/step-in_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/warrior's_proof> ;
+        ex:material2  <http://ex.org/items/shiny_screw> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      48 ;
+        ex:priority   377 .
+
+<http://ex.org/recipes/feather_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Feather Boots" ;
+        ex:itemURI    <http://ex.org/items/feather_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/big_bird's_comb> ;
+        ex:material3  <http://ex.org/items/big_crystal> ;
+        ex:material4  <http://ex.org/items/feathers> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      54 ;
+        ex:priority   370 .
+
+<http://ex.org/recipes/ghost_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ghost Boots" ;
+        ex:itemURI    <http://ex.org/items/ghost_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/quality_worn_cloth> ;
+        ex:material2  <http://ex.org/items/dragon_scale> ;
+        ex:material3  <http://ex.org/items/crimson_scale> ;
+        ex:material4  <http://ex.org/items/crystal_skull> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      65 ;
+        ex:priority   378 .
+
+<http://ex.org/recipes/iron_geta>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Geta" ;
+        ex:itemURI    <http://ex.org/items/iron_geta> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/dangerous_scissors> ;
+        ex:material2  <http://ex.org/items/mtgu_plate> ;
+        ex:material3  <http://ex.org/items/mtgu_plate> ;
+        ex:material4  <http://ex.org/items/iron> ;
+        ex:material5  <http://ex.org/items/iron> ;
+        ex:level      70 ;
+        ex:priority   373 .
+
+<http://ex.org/recipes/knight_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Knight Boots" ;
+        ex:itemURI    <http://ex.org/items/knight_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/black_scale> ;
+        ex:material3  <http://ex.org/items/ammonite> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      86 ;
+        ex:priority   379 .
+
+<http://ex.org/recipes/fairy_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fairy Boots" ;
+        ex:itemURI    <http://ex.org/items/fairy_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material2  <http://ex.org/items/small_crystal> ;
+        ex:material3  <http://ex.org/items/melody_bottle> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:material5  <http://ex.org/items/feathers> ;
+        ex:level      95 ;
+        ex:priority   390 .
+
+<http://ex.org/recipes/wet_boots>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wet Boots" ;
+        ex:itemURI    <http://ex.org/items/wet_boots> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/scales> ;
+        ex:material2  <http://ex.org/items/scales> ;
+        ex:level      20 ;
+        ex:priority   382 .
+
+<http://ex.org/recipes/water_shoes>
+        rdf:type      ex:Recipe ;
+        ex:name       "Water Shoes" ;
+        ex:itemURI    <http://ex.org/items/water_shoes> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/pretty_thread> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:material4  <http://ex.org/items/furs> ;
+        ex:level      75 ;
+        ex:priority   385 .
+
+<http://ex.org/recipes/ice_skates>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ice Skates" ;
+        ex:itemURI    <http://ex.org/items/ice_skates> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/broken_ice_wall> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      79 ;
+        ex:priority   375 .
+
+<http://ex.org/recipes/rocket_wing>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rocket Wing" ;
+        ex:itemURI    <http://ex.org/items/rocket_wing> ;
+        ex:type       <http://ex.org/itemCategories/shoes> ;
+        ex:material1  <http://ex.org/items/dragon_fin> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/firewyrm_scale> ;
+        ex:material4  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material5  <http://ex.org/items/feathers> ;
+        ex:level      99 ;
+        ex:priority   386 .

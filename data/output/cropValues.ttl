@@ -1,0 +1,1208 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/crop/rock>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Rock" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Rock" .
+
+<http://ex.org/crop/branch>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Branch" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Branch" .
+
+<http://ex.org/crop/elli_leaves>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Elli Leaves" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Elli Leaves" .
+
+<http://ex.org/crop/medicinal_herb>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Medicinal Herb" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Medicinal Herb" .
+
+<http://ex.org/crop/antidote_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Antidote Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Antidote Grass" .
+
+<http://ex.org/crop/black_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Black Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Black Grass" .
+
+<http://ex.org/crop/orange_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Orange Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Orange Grass" .
+
+<http://ex.org/crop/red_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Red Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Red Grass" .
+
+<http://ex.org/crop/yellow_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Yellow Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Yellow Grass" .
+
+<http://ex.org/crop/blue_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Blue Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Blue Grass" .
+
+<http://ex.org/crop/green_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Green Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Green Grass" .
+
+<http://ex.org/crop/purple_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Purple Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Purple Grass" .
+
+<http://ex.org/crop/indigo_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Indigo Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Indigo Grass" .
+
+<http://ex.org/crop/white_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "White Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "White Grass" .
+
+<http://ex.org/crop/weeds>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Weeds" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Weeds" .
+
+<http://ex.org/crop/withered_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Withered Grass" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Withered Grass" .
+
+<http://ex.org/crop/bamboo_sprout>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Bamboo Sprout" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Bamboo Sprout" .
+
+<http://ex.org/crop/ayngondaia_lawn>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Ayngondaia Lawn" ;
+        ex:stage1Days    0 ;
+        ex:stage2Days    0 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     1 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Ayngondaia Lawn" .
+
+<http://ex.org/crop/strawberry>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Strawberry" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    5 ;
+        ex:stage3Days    5 ;
+        ex:stage4Days    4 ;
+        ex:initialHP     100 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      6 ;
+        ex:soilOverall   "0.5"^^xsd:float ;
+        ex:soilSpeed     "0.25"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0.25"^^xsd:float ;
+        ex:soilNumber    "0.25"^^xsd:float ;
+        ex:pickupItem    "Strawberry" ;
+        ex:pickupSeed    "Strawberry Seeds" .
+
+<http://ex.org/crop/cabbage>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Cabbage" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     110 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "0.75"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.75"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Cabbage" ;
+        ex:pickupSeed    "Cabbage Seeds" .
+
+<http://ex.org/crop/pink_turnip>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pink Turnip" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    5 ;
+        ex:stage3Days    5 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     160 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "2"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.0625"^^xsd:float ;
+        ex:soilSize      "0.25"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Pink Turnip" ;
+        ex:pickupSeed    "Pink Turnip Seeds" .
+
+<http://ex.org/crop/onion>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Onion" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    5 ;
+        ex:stage3Days    6 ;
+        ex:stage4Days    2 ;
+        ex:initialHP     160 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      5 ;
+        ex:soilOverall   "2.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.5"^^xsd:float ;
+        ex:soilSize      "0.5"^^xsd:float ;
+        ex:soilNumber    "0.25"^^xsd:float ;
+        ex:pickupItem    "Onion" ;
+        ex:pickupSeed    "Onion Seeds" .
+
+<http://ex.org/crop/toyherb>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Toyherb" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    1 ;
+        ex:initialHP     150 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Toyherb" ;
+        ex:pickupSeed    "Toyherb Seeds" .
+
+<http://ex.org/crop/moondrop_flower>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Moondrop Flower" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    1 ;
+        ex:initialHP     100 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "0.75"^^xsd:float ;
+        ex:soilSpeed     "0.25"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Moondrop Flower" ;
+        ex:pickupSeed    "Moondrop Seeds" .
+
+<http://ex.org/crop/cherry_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Cherry Grass" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    4 ;
+        ex:initialHP     160 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "0.75"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "1"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Cherry Grass" ;
+        ex:pickupSeed    "Cherry Grass Seeds" .
+
+<http://ex.org/crop/lamp_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Lamp Grass" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    5 ;
+        ex:stage3Days    5 ;
+        ex:stage4Days    4 ;
+        ex:initialHP     170 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "1.5"^^xsd:float ;
+        ex:soilSpeed     "0.75"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0.75"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Lamp Grass" ;
+        ex:pickupSeed    "Lamp Grass Seeds" .
+
+<http://ex.org/crop/emery_flower>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Emery Flower" ;
+        ex:stage1Days    30 ;
+        ex:stage2Days    30 ;
+        ex:stage3Days    30 ;
+        ex:stage4Days    30 ;
+        ex:initialHP     240 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "6.25"^^xsd:float ;
+        ex:soilSpeed     "3.75"^^xsd:float ;
+        ex:soilQuality   "3.75"^^xsd:float ;
+        ex:soilSize      "3.75"^^xsd:float ;
+        ex:soilNumber    "3.75"^^xsd:float ;
+        ex:pickupItem    "Emery Flower" ;
+        ex:pickupSeed    "Emery Flower Seeds" .
+
+<http://ex.org/crop/blue_crystal>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Blue Crystal" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    15 ;
+        ex:stage3Days    15 ;
+        ex:stage4Days    20 ;
+        ex:initialHP     220 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3"^^xsd:float ;
+        ex:soilSpeed     "0.5"^^xsd:float ;
+        ex:soilQuality   "0.5"^^xsd:float ;
+        ex:soilSize      "3.75"^^xsd:float ;
+        ex:soilNumber    "0.5"^^xsd:float ;
+        ex:pickupItem    "Blue Crystal" ;
+        ex:pickupSeed    "Blue Crystal Seeds" .
+
+<http://ex.org/crop/golden_cabbage>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Golden Cabbage" ;
+        ex:stage1Days    10 ;
+        ex:stage2Days    20 ;
+        ex:stage3Days    30 ;
+        ex:stage4Days    30 ;
+        ex:initialHP     220 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.125"^^xsd:float ;
+        ex:soilSpeed     "1.5625"^^xsd:float ;
+        ex:soilQuality   "3.125"^^xsd:float ;
+        ex:soilSize      "1.5625"^^xsd:float ;
+        ex:soilNumber    "1.5625"^^xsd:float ;
+        ex:pickupItem    "Golden Cabbage" ;
+        ex:pickupSeed    "Gold Cabbage Seeds" .
+
+<http://ex.org/crop/pink_melon>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pink Melon" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     155 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "0.75"^^xsd:float ;
+        ex:soilSpeed     "0.25"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0.75"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Pink Melon" ;
+        ex:pickupSeed    "Gold Melon Seeds" .
+
+<http://ex.org/crop/pumpkin>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pumpkin" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     160 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "1"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0.25"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Pumpkin" ;
+        ex:pickupSeed    "Pumpkin Seeds" .
+
+<http://ex.org/crop/cucumber>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Cucumber" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     95 ;
+        ex:regrowthDays  2 ;
+        ex:quantity      5 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.25"^^xsd:float ;
+        ex:pickupItem    "Cucumber" ;
+        ex:pickupSeed    "Cucumber Seeds" .
+
+<http://ex.org/crop/corn>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Corn" ;
+        ex:stage1Days    4 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    1 ;
+        ex:initialHP     110 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      1 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.25"^^xsd:float ;
+        ex:pickupItem    "Corn" ;
+        ex:pickupSeed    "Corn Seeds" .
+
+<http://ex.org/crop/tomato>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Tomato" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     120 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "0.125"^^xsd:float ;
+        ex:soilSpeed     "0.5"^^xsd:float ;
+        ex:soilQuality   "0.125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.5"^^xsd:float ;
+        ex:pickupItem    "Tomato" ;
+        ex:pickupSeed    "Tomato Seeds" .
+
+<http://ex.org/crop/eggplant>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Eggplant" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     90 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "0.0625"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.75"^^xsd:float ;
+        ex:pickupItem    "Eggplant" ;
+        ex:pickupSeed    "Eggplant Seeds" .
+
+<http://ex.org/crop/pineapple>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pineapple" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    8 ;
+        ex:stage3Days    8 ;
+        ex:stage4Days    9 ;
+        ex:initialHP     220 ;
+        ex:regrowthDays  5 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "4"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0.75"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Pineapple" ;
+        ex:pickupSeed    "Pineapple Seeds" .
+
+<http://ex.org/crop/pink_cat>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pink Cat" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    2 ;
+        ex:initialHP     60 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "0.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0.25"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Pink Cat" ;
+        ex:pickupSeed    "Pink Cat Seeds" .
+
+<http://ex.org/crop/ironleaf>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Ironleaf" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    6 ;
+        ex:stage3Days    6 ;
+        ex:stage4Days    4 ;
+        ex:initialHP     180 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "1.75"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "1"^^xsd:float ;
+        ex:soilNumber    "1"^^xsd:float ;
+        ex:pickupItem    "Ironleaf" ;
+        ex:pickupSeed    "Ironleaf Seeds" .
+
+<http://ex.org/crop/4-leaf_clover>
+        rdf:type         ex:Crop ;
+        rdfs:label       "4-Leaf Clover" ;
+        ex:stage1Days    7 ;
+        ex:stage2Days    7 ;
+        ex:stage3Days    7 ;
+        ex:stage4Days    7 ;
+        ex:initialHP     200 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "0.3125"^^xsd:float ;
+        ex:soilSpeed     "1"^^xsd:float ;
+        ex:soilQuality   "1"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "4-Leaf Clover" ;
+        ex:pickupSeed    "Clover Seeds" .
+
+<http://ex.org/crop/fireflower>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Fireflower" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    12 ;
+        ex:stage3Days    12 ;
+        ex:stage4Days    15 ;
+        ex:initialHP     180 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "2.25"^^xsd:float ;
+        ex:soilSpeed     "2.5"^^xsd:float ;
+        ex:soilQuality   "1"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Fireflower" ;
+        ex:pickupSeed    "Fireflower Seeds" .
+
+<http://ex.org/crop/green_crystal>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Green Crystal" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    20 ;
+        ex:stage3Days    20 ;
+        ex:stage4Days    25 ;
+        ex:initialHP     220 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.125"^^xsd:float ;
+        ex:soilSpeed     "0.5"^^xsd:float ;
+        ex:soilQuality   "0.5"^^xsd:float ;
+        ex:soilSize      "0.5"^^xsd:float ;
+        ex:soilNumber    "5.625"^^xsd:float ;
+        ex:pickupItem    "Green Crystal" ;
+        ex:pickupSeed    "Green Crystal Seeds" .
+
+<http://ex.org/crop/golden_pumpkin>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Golden Pumpkin" ;
+        ex:stage1Days    10 ;
+        ex:stage2Days    15 ;
+        ex:stage3Days    15 ;
+        ex:stage4Days    30 ;
+        ex:initialHP     230 ;
+        ex:regrowthDays  30 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.4375"^^xsd:float ;
+        ex:soilSpeed     "1.75"^^xsd:float ;
+        ex:soilQuality   "1.75"^^xsd:float ;
+        ex:soilSize      "3.125"^^xsd:float ;
+        ex:soilNumber    "2"^^xsd:float ;
+        ex:pickupItem    "Golden Pumpkin" ;
+        ex:pickupSeed    "Gold Pumpkin Seeds" .
+
+<http://ex.org/crop/yam>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Yam" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    4 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     140 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      5 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.5"^^xsd:float ;
+        ex:pickupItem    "Yam" ;
+        ex:pickupSeed    "Yam Seeds" .
+
+<http://ex.org/crop/potato>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Potato" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     220 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "1"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.25"^^xsd:float ;
+        ex:pickupItem    "Potato" ;
+        ex:pickupSeed    "Potato Seeds" .
+
+<http://ex.org/crop/carrot>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Carrot" ;
+        ex:stage1Days    6 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     96 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "1.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0.25"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Carrot" ;
+        ex:pickupSeed    "Carrot Seeds" .
+
+<http://ex.org/crop/green_pepper>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Green Pepper" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     98 ;
+        ex:regrowthDays  3 ;
+        ex:quantity      5 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.5"^^xsd:float ;
+        ex:pickupItem    "Green Pepper" ;
+        ex:pickupSeed    "Green Pepper Seeds" .
+
+<http://ex.org/crop/spinach>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Spinach" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    0 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     50 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "0.03125"^^xsd:float ;
+        ex:soilSpeed     "0.25"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Spinach" ;
+        ex:pickupSeed    "Spinach Seeds" .
+
+<http://ex.org/crop/charm_blue>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Charm Blue" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     100 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "0.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0.75"^^xsd:float ;
+        ex:pickupItem    "Charm Blue" ;
+        ex:pickupSeed    "Charm Blue Seeds" .
+
+<http://ex.org/crop/autumn_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Autumn Grass" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    7 ;
+        ex:stage3Days    8 ;
+        ex:stage4Days    13 ;
+        ex:initialHP     190 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "2.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "3"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Autumn Grass" ;
+        ex:pickupSeed    "Autumn Grass Seeds" .
+
+<http://ex.org/crop/pom-pom_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Pom-Pom Grass" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    7 ;
+        ex:stage3Days    5 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     152 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "1.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "1.25"^^xsd:float ;
+        ex:pickupItem    "Pom-Pom Grass" ;
+        ex:pickupSeed    "Pom-Pom Grass Sds." .
+
+<http://ex.org/crop/red_crystal>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Red Crystal" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    25 ;
+        ex:stage3Days    25 ;
+        ex:stage4Days    25 ;
+        ex:initialHP     230 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.125"^^xsd:float ;
+        ex:soilSpeed     "0.75"^^xsd:float ;
+        ex:soilQuality   "5.625"^^xsd:float ;
+        ex:soilSize      "0.75"^^xsd:float ;
+        ex:soilNumber    "0.75"^^xsd:float ;
+        ex:pickupItem    "Red Crystal" ;
+        ex:pickupSeed    "Red Crystal Seeds" .
+
+<http://ex.org/crop/golden_potato>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Golden Potato" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    15 ;
+        ex:stage3Days    15 ;
+        ex:stage4Days    15 ;
+        ex:initialHP     200 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.59375"^^xsd:float ;
+        ex:soilSpeed     "0.75"^^xsd:float ;
+        ex:soilQuality   "1"^^xsd:float ;
+        ex:soilSize      "1.25"^^xsd:float ;
+        ex:soilNumber    "3.125"^^xsd:float ;
+        ex:pickupItem    "Golden Potato" ;
+        ex:pickupSeed    "Gold Potato Seeds" .
+
+<http://ex.org/crop/turnip>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Turnip" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     150 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      2 ;
+        ex:soilOverall   "0.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Turnip" ;
+        ex:pickupSeed    "Turnip Seeds" .
+
+<http://ex.org/crop/radish>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Radish" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    2 ;
+        ex:stage3Days    2 ;
+        ex:stage4Days    0 ;
+        ex:initialHP     120 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      1 ;
+        ex:soilOverall   "0.75"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Radish" ;
+        ex:pickupSeed    "Radish Seeds" .
+
+<http://ex.org/crop/leek>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Leek" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    2 ;
+        ex:initialHP     130 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      1 ;
+        ex:soilOverall   "1.5"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.25"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Leek" ;
+        ex:pickupSeed    "Leek Seeds" .
+
+<http://ex.org/crop/bok_choy>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Bok Choy" ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    2 ;
+        ex:initialHP     110 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "0.5"^^xsd:float ;
+        ex:soilSpeed     "0.75"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Bok Choy" ;
+        ex:pickupSeed    "Bok Choy Seeds" .
+
+<http://ex.org/crop/noel_grass>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Noel Grass" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    10 ;
+        ex:stage3Days    10 ;
+        ex:stage4Days    10 ;
+        ex:initialHP     230 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      4 ;
+        ex:soilOverall   "2.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "3"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Noel Grass" ;
+        ex:pickupSeed    "Noel Grass Seeds" .
+
+<http://ex.org/crop/white_crystal>
+        rdf:type         ex:Crop ;
+        rdfs:label       "White Crystal" ;
+        ex:stage1Days    5 ;
+        ex:stage2Days    25 ;
+        ex:stage3Days    30 ;
+        ex:stage4Days    30 ;
+        ex:initialHP     200 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.125"^^xsd:float ;
+        ex:soilSpeed     "5.625"^^xsd:float ;
+        ex:soilQuality   "1.25"^^xsd:float ;
+        ex:soilSize      "1.25"^^xsd:float ;
+        ex:soilNumber    "1.25"^^xsd:float ;
+        ex:pickupItem    "White Crystal" ;
+        ex:pickupSeed    "White Crystal Seeds" .
+
+<http://ex.org/crop/golden_turnip>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Golden Turnip" ;
+        ex:stage1Days    30 ;
+        ex:stage2Days    30 ;
+        ex:stage3Days    30 ;
+        ex:stage4Days    30 ;
+        ex:initialHP     210 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      3 ;
+        ex:soilOverall   "3.75"^^xsd:float ;
+        ex:soilSpeed     "2.5"^^xsd:float ;
+        ex:soilQuality   "2.5"^^xsd:float ;
+        ex:soilSize      "2.5"^^xsd:float ;
+        ex:soilNumber    "2.5"^^xsd:float ;
+        ex:pickupItem    "Golden Turnip" ;
+        ex:pickupSeed    "Gold Turnip Seeds" .
+
+<http://ex.org/crop/hot-hot_fruit>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Hot-Hot Fruit" ;
+        ex:stage1Days    4 ;
+        ex:stage2Days    10 ;
+        ex:stage3Days    9 ;
+        ex:stage4Days    8 ;
+        ex:initialHP     170 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      5 ;
+        ex:soilOverall   "2.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0.03125"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "3"^^xsd:float ;
+        ex:pickupItem    "Hot-Hot Fruit" ;
+        ex:pickupSeed    "Hot-Hot Seeds" .
+
+<http://ex.org/crop/fodder_>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Fodder " ;
+        ex:stage1Days    1 ;
+        ex:stage2Days    1 ;
+        ex:stage3Days    1 ;
+        ex:stage4Days    1 ;
+        ex:initialHP     240 ;
+        ex:regrowthDays  1 ;
+        ex:quantity      1 ;
+        ex:soilOverall   "0"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Fodder " ;
+        ex:pickupSeed    "Fodder Seeds" .
+
+<http://ex.org/crop/apple>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Apple" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    19 ;
+        ex:stage3Days    20 ;
+        ex:stage4Days    20 ;
+        ex:initialHP     140 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "3.125"^^xsd:float ;
+        ex:soilSpeed     "0.5"^^xsd:float ;
+        ex:soilQuality   "0.5"^^xsd:float ;
+        ex:soilSize      "0.5"^^xsd:float ;
+        ex:soilNumber    "0.5"^^xsd:float ;
+        ex:pickupItem    "Apple" ;
+        ex:pickupSeed    "Apple Tree Seeds" .
+
+<http://ex.org/crop/orange>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Orange" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    6 ;
+        ex:stage3Days    6 ;
+        ex:stage4Days    7 ;
+        ex:initialHP     120 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "2.5"^^xsd:float ;
+        ex:soilSpeed     "0.3125"^^xsd:float ;
+        ex:soilQuality   "0.3125"^^xsd:float ;
+        ex:soilSize      "0.3125"^^xsd:float ;
+        ex:soilNumber    "0.3125"^^xsd:float ;
+        ex:pickupItem    "Orange" ;
+        ex:pickupSeed    "Orange Tree Seed" .
+
+<http://ex.org/crop/grapes>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Grapes" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    15 ;
+        ex:stage3Days    17 ;
+        ex:stage4Days    15 ;
+        ex:initialHP     130 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "2.8125"^^xsd:float ;
+        ex:soilSpeed     "0.4375"^^xsd:float ;
+        ex:soilQuality   "0.4375"^^xsd:float ;
+        ex:soilSize      "0.4375"^^xsd:float ;
+        ex:soilNumber    "0.4375"^^xsd:float ;
+        ex:pickupItem    "Grapes" ;
+        ex:pickupSeed    "Grape Tree Seed" .
+
+<http://ex.org/crop/shining_tree>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Shining Tree" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    10 ;
+        ex:stage3Days    10 ;
+        ex:stage4Days    15 ;
+        ex:initialHP     160 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "0.25"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupSeed    "Shining Seed" .
+
+<http://ex.org/crop/field_dungeon>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Field Dungeon" ;
+        ex:stage1Days    2 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    5 ;
+        ex:stage4Days    8 ;
+        ex:initialHP     150 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "1"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupSeed    "Dungeon Seed" .
+
+<http://ex.org/crop/plant_sword>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Plant Sword" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     170 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "1"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Plant Sword" ;
+        ex:pickupSeed    "Sword Seed" .
+
+<http://ex.org/crop/magic_plant_shield>
+        rdf:type         ex:Crop ;
+        rdfs:label       "Magic Plant Shield" ;
+        ex:stage1Days    3 ;
+        ex:stage2Days    3 ;
+        ex:stage3Days    3 ;
+        ex:stage4Days    3 ;
+        ex:initialHP     170 ;
+        ex:regrowthDays  0 ;
+        ex:quantity      0 ;
+        ex:soilOverall   "1"^^xsd:float ;
+        ex:soilSpeed     "0"^^xsd:float ;
+        ex:soilQuality   "0"^^xsd:float ;
+        ex:soilSize      "0"^^xsd:float ;
+        ex:soilNumber    "0"^^xsd:float ;
+        ex:pickupItem    "Magic Plant Shield" ;
+        ex:pickupSeed    "Shield Seed" .

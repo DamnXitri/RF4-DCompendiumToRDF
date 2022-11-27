@@ -1,0 +1,1381 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://ex.org/monster/orc>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Orc" ;
+        owl:sameAs  <http://ex.org/npc/orc> ;
+        ex:like1    "Cheap Cloth" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Cheap Bracelet" .
+
+<http://ex.org/monster/high_orc>
+        rdf:type    ex:Monster ;
+        rdfs:label  "High Orc" ;
+        owl:sameAs  <http://ex.org/npc/high_orc> ;
+        ex:like1    "Cheap Cloth" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Cheap Bracelet" .
+
+<http://ex.org/monster/orc_archer>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Orc Archer" ;
+        owl:sameAs  <http://ex.org/npc/orc_archer> ;
+        ex:like1    "Arrowhead" ;
+        ex:like2    "Gunpowder" ;
+        ex:like3    "Recovery Potion" .
+
+<http://ex.org/monster/orc_hunter>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Orc Hunter" ;
+        owl:sameAs  <http://ex.org/npc/orc_hunter> ;
+        ex:like1    "Arrowhead" ;
+        ex:like2    "Gunpowder" ;
+        ex:like3    "Recovery Potion" .
+
+<http://ex.org/monster/goblin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Goblin" ;
+        owl:sameAs  <http://ex.org/npc/goblin> ;
+        ex:like1    "Warrior's Proof" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Old Bandage" ;
+        ex:like4    "Onigiri" .
+
+<http://ex.org/monster/hobgoblin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hobgoblin" ;
+        owl:sameAs  <http://ex.org/npc/hobgoblin> ;
+        ex:like1    "Warrior's Proof" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Old Bandage" ;
+        ex:like4    "Onigiri" .
+
+<http://ex.org/monster/goblin_archer>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Goblin Archer" ;
+        owl:sameAs  <http://ex.org/npc/goblin_archer> ;
+        ex:like1    "Arrowhead" ;
+        ex:like2    "Gunpowder" ;
+        ex:like3    "Old Bandage" ;
+        ex:like4    "Recovery Potion" .
+
+<http://ex.org/monster/goblin_sniper>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Goblin Sniper" ;
+        owl:sameAs  <http://ex.org/npc/goblin_sniper> ;
+        ex:like1    "Arrowhead" ;
+        ex:like2    "Gunpowder" ;
+        ex:like3    "Old Bandage" ;
+        ex:like4    "Recovery Potion" .
+
+<http://ex.org/monster/minotaur>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Minotaur" ;
+        owl:sameAs  <http://ex.org/npc/minotaur> ;
+        ex:like1    "Devil Horn" ;
+        ex:like2    "Devil Blood" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/minotaur_king>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Minotaur King" ;
+        owl:sameAs  <http://ex.org/npc/minotaur_king> ;
+        ex:like1    "Devil Horn" ;
+        ex:like2    "Devil Blood" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/daemon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Daemon" ;
+        owl:sameAs  <http://ex.org/npc/daemon> ;
+        ex:like1    "Devil Horn" ;
+        ex:like2    "Devil Blood" .
+
+<http://ex.org/monster/arch-daemon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Arch-Daemon" ;
+        owl:sameAs  <http://ex.org/npc/arch-daemon> ;
+        ex:like1    "Devil Horn" ;
+        ex:like2    "Devil Blood" .
+
+<http://ex.org/monster/little_mage>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Mage" ;
+        owl:sameAs  <http://ex.org/npc/little_mage> ;
+        ex:like1    "Magic Powder" ;
+        ex:like2    "Magic Crystal" ;
+        ex:like3    "Small Crystal" ;
+        ex:like4    "Medicine Bread+" .
+
+<http://ex.org/monster/little_wizard>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Wizard" ;
+        owl:sameAs  <http://ex.org/npc/little_wizard> ;
+        ex:like1    "Magic Powder" ;
+        ex:like2    "Magic Crystal" ;
+        ex:like3    "Small Crystal" ;
+        ex:like4    "Medicine Bread+" .
+
+<http://ex.org/monster/little_emperor>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Emperor" ;
+        owl:sameAs  <http://ex.org/npc/little_emperor> ;
+        ex:like1    "Magic Powder" ;
+        ex:like2    "Magic Crystal" ;
+        ex:like3    "Small Crystal" ;
+        ex:like4    "Medicine Bread+" .
+
+<http://ex.org/monster/troll>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Troll" ;
+        owl:sameAs  <http://ex.org/npc/troll> ;
+        ex:like1    "Giant's Nail" ;
+        ex:like2    "Giant's Gloves" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/titan>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Titan" ;
+        owl:sameAs  <http://ex.org/npc/titan> ;
+        ex:like1    "Giant's Nail" ;
+        ex:like2    "Giant's Gloves" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/hammer_troll>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hammer Troll" ;
+        owl:sameAs  <http://ex.org/npc/hammer_troll> ;
+        ex:like1    "Giant's Nail" ;
+        ex:like2    "Giant's Gloves" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/gigantes>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gigantes" ;
+        owl:sameAs  <http://ex.org/npc/gigantes> ;
+        ex:like1    "Giant's Nail" ;
+        ex:like2    "Giant's Gloves" ;
+        ex:like3    "Hammer Piece" .
+
+<http://ex.org/monster/ant>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ant" ;
+        owl:sameAs  <http://ex.org/npc/ant> ;
+        ex:like1    "Insect Carapace" ;
+        ex:like2    "Pretty Carapace" ;
+        ex:like3    "Insect Jaw" ;
+        ex:like4    "Lumber" .
+
+<http://ex.org/monster/killer_ant>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Killer Ant" ;
+        owl:sameAs  <http://ex.org/npc/killer_ant> ;
+        ex:like1    "Insect Carapace" ;
+        ex:like2    "Pretty Carapace" ;
+        ex:like3    "Insect Jaw" ;
+        ex:like4    "Lumber" .
+
+<http://ex.org/monster/hornet>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hornet" ;
+        owl:sameAs  <http://ex.org/npc/hornet> ;
+        ex:like1    "Insect Carapace" ;
+        ex:like2    "Pretty Carapace" ;
+        ex:like3    "Insect Jaw" ;
+        ex:like4    "Honey" .
+
+<http://ex.org/monster/hornet_queen>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hornet Queen" ;
+        owl:sameAs  <http://ex.org/npc/hornet_queen> ;
+        ex:like1    "Insect Carapace" ;
+        ex:like2    "Pretty Carapace" ;
+        ex:like3    "Insect Jaw" ;
+        ex:like4    "Honey" .
+
+<http://ex.org/monster/spider>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Spider" ;
+        owl:sameAs  <http://ex.org/npc/spider> ;
+        ex:like1    "Spider's Thread" ;
+        ex:like2    "Pretty Thread" ;
+        ex:like3    "Insect Jaw" .
+
+<http://ex.org/monster/hell_spider>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hell Spider" ;
+        owl:sameAs  <http://ex.org/npc/hell_spider> ;
+        ex:like1    "Spider's Thread" ;
+        ex:like2    "Pretty Thread" ;
+        ex:like3    "Insect Jaw" .
+
+<http://ex.org/monster/beetle>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Beetle" ;
+        owl:sameAs  <http://ex.org/npc/beetle> ;
+        ex:like1    "Rigid Horn" ;
+        ex:like2    "Insect Carapace" ;
+        ex:like3    "Pretty Carapace" .
+
+<http://ex.org/monster/heracles>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Heracles" ;
+        owl:sameAs  <http://ex.org/npc/heracles> ;
+        ex:like1    "Rigid Horn" ;
+        ex:like2    "Insect Carapace" ;
+        ex:like3    "Pretty Carapace" .
+
+<http://ex.org/monster/scorpion>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Scorpion" ;
+        owl:sameAs  <http://ex.org/npc/scorpion> ;
+        ex:like1    "Scorpion Tail" ;
+        ex:like2    "Scorpion Pincer" ;
+        ex:like3    "Insect Carapace" ;
+        ex:like4    "Pretty Carapace" .
+
+<http://ex.org/monster/death_stalker>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Death Stalker" ;
+        owl:sameAs  <http://ex.org/npc/death_stalker> ;
+        ex:like1    "Scorpion Tail" ;
+        ex:like2    "Scorpion Pincer" ;
+        ex:like3    "Insect Carapace" ;
+        ex:like4    "Pretty Carapace" .
+
+<http://ex.org/monster/shadow_panther>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Shadow Panther" ;
+        owl:sameAs  <http://ex.org/npc/shadow_panther> ;
+        ex:like1    "Panther Claw" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Quality Fur" .
+
+<http://ex.org/monster/blood_panther>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Blood Panther" ;
+        owl:sameAs  <http://ex.org/npc/blood_panther> ;
+        ex:like1    "Panther Claw" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Quality Fur" ;
+        ex:like4    "Devil Blood" .
+
+<http://ex.org/monster/silver_wolf>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Silver Wolf" ;
+        owl:sameAs  <http://ex.org/npc/silver_wolf> ;
+        ex:like1    "Wolf Fang" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Quality Fur" .
+
+<http://ex.org/monster/hunter_wolf>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hunter Wolf" ;
+        owl:sameAs  <http://ex.org/npc/hunter_wolf> ;
+        ex:like1    "Wolf Fang" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Quality Fur" .
+
+<http://ex.org/monster/buffaloo>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Buffaloo" ;
+        owl:sameAs  <http://ex.org/npc/buffaloo> ;
+        ex:like1    "Bull's Horn" .
+
+<http://ex.org/monster/buffamoo>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Buffamoo" ;
+        owl:sameAs  <http://ex.org/npc/buffamoo> ;
+        ex:like1    "Milk (S)" ;
+        ex:like2    "Milk (M)" ;
+        ex:like3    "Milk (L)" .
+
+<http://ex.org/monster/weagle>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Weagle" ;
+        owl:sameAs  <http://ex.org/npc/weagle> ;
+        ex:like1    "Bird's Feather" ;
+        ex:like2    "Branch" .
+
+<http://ex.org/monster/blackbird>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Blackbird" ;
+        owl:sameAs  <http://ex.org/npc/blackbird> ;
+        ex:like1    "Bird's Feather" ;
+        ex:like2    "Branch" .
+
+<http://ex.org/monster/chipsqueek>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Chipsqueek" ;
+        owl:sameAs  <http://ex.org/npc/chipsqueek> ;
+        ex:like1    "Quality Fur" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Branch" .
+
+<http://ex.org/monster/furpy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Furpy" ;
+        owl:sameAs  <http://ex.org/npc/furpy> ;
+        ex:like1    "Quality Fur" ;
+        ex:like2    "Fur" ;
+        ex:like3    "Branch" .
+
+<http://ex.org/monster/flower_blossom>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Flower Blossom" ;
+        owl:sameAs  <http://ex.org/npc/flower_blossom> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/flower_lion>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Flower Lion" ;
+        owl:sameAs  <http://ex.org/npc/flower_lion> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/flower_lily>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Flower Lily" ;
+        owl:sameAs  <http://ex.org/npc/flower_lily> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/flower_crystal>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Flower Crystal" ;
+        owl:sameAs  <http://ex.org/npc/flower_crystal> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/big_muck>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Big Muck" ;
+        owl:sameAs  <http://ex.org/npc/big_muck> ;
+        ex:like1    "Spore" ;
+        ex:like2    "Poison Powder" ;
+        ex:like3    "Plant Stem" .
+
+<http://ex.org/monster/tricky_muck>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Tricky Muck" ;
+        owl:sameAs  <http://ex.org/npc/tricky_muck> ;
+        ex:like1    "Spore" ;
+        ex:like2    "Poison Powder" ;
+        ex:like3    "Plant Stem" .
+
+<http://ex.org/monster/leaf_ball>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Leaf Ball" ;
+        owl:sameAs  <http://ex.org/npc/leaf_ball> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/planchoa>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Planchoa" ;
+        owl:sameAs  <http://ex.org/npc/planchoa> ;
+        ex:like1    "Root" ;
+        ex:like2    "Plant Stem" ;
+        ex:like3    "Strong Vine" .
+
+<http://ex.org/monster/sky_fish>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sky Fish" ;
+        owl:sameAs  <http://ex.org/npc/sky_fish> ;
+        ex:like1    "Fish Fossil" ;
+        ex:like2    "Can" ;
+        ex:like3    "Rare Can" .
+
+<http://ex.org/monster/sealy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sealy" ;
+        owl:sameAs  <http://ex.org/npc/sealy> ;
+        ex:like1    "Fish Fossil" ;
+        ex:like2    "Can" ;
+        ex:like3    "Rare Can" .
+
+<http://ex.org/monster/tortas>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Tortas" ;
+        owl:sameAs  <http://ex.org/npc/tortas> ;
+        ex:like1    "Turtle Shell" ;
+        ex:like2    "Egg (S)" .
+
+<http://ex.org/monster/ignis>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ignis" ;
+        owl:sameAs  <http://ex.org/npc/ignis> ;
+        ex:like1    "Magic Crystal" ;
+        ex:like2    "Fire Crystal" .
+
+<http://ex.org/monster/tundra>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Tundra" ;
+        owl:sameAs  <http://ex.org/npc/tundra> ;
+        ex:like1    "Magic Crystal" ;
+        ex:like2    "Water Crystal" .
+
+<http://ex.org/monster/airror>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Airror" ;
+        owl:sameAs  <http://ex.org/npc/airror> ;
+        ex:like1    "Magic Crystal" ;
+        ex:like2    "Wind Crystal" .
+
+<http://ex.org/monster/ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ghost" ;
+        owl:sameAs  <http://ex.org/npc/ghost> ;
+        ex:like1    "Ghost Hood" ;
+        ex:like2    "Skull" .
+
+<http://ex.org/monster/necro>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Necro" ;
+        owl:sameAs  <http://ex.org/npc/necro> ;
+        ex:like1    "Ghost Hood" ;
+        ex:like2    "Skull" .
+
+<http://ex.org/monster/faust>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Faust" ;
+        owl:sameAs  <http://ex.org/npc/faust> ;
+        ex:like1    "Ghost Hood" ;
+        ex:like2    "Skull" .
+
+<http://ex.org/monster/monster_box>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Monster Box" ;
+        owl:sameAs  <http://ex.org/npc/monster_box> ;
+        ex:like1    "Broken Hilt" ;
+        ex:like2    "Broken Box" ;
+        ex:like3    "Failed Dish" ;
+        ex:like4    "Disastrous Dish" .
+
+<http://ex.org/monster/gobble_box>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gobble Box" ;
+        owl:sameAs  <http://ex.org/npc/gobble_box> ;
+        ex:like1    "Broken Hilt" ;
+        ex:like2    "Broken Box" ;
+        ex:like3    "Failed Dish" ;
+        ex:like4    "Disastrous Dish" .
+
+<http://ex.org/monster/fairy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Fairy" ;
+        owl:sameAs  <http://ex.org/npc/fairy> ;
+        ex:like1    "Fairy Dust" ;
+        ex:like2    "Love Potion" ;
+        ex:like3    "Prelude to Love" .
+
+<http://ex.org/monster/dark_fairy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Dark Fairy" ;
+        owl:sameAs  <http://ex.org/npc/dark_fairy> ;
+        ex:like1    "Fairy Dust" ;
+        ex:like2    "Love Potion" ;
+        ex:like3    "Prelude to Love" .
+
+<http://ex.org/monster/slime>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Slime" ;
+        owl:sameAs  <http://ex.org/npc/slime> ;
+        ex:like1    "Ruby" ;
+        ex:like2    "Emerald" ;
+        ex:like3    "Small Crystal" .
+
+<http://ex.org/monster/dark_slime>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Dark Slime" ;
+        owl:sameAs  <http://ex.org/npc/dark_slime> ;
+        ex:like1    "Aquamarine" ;
+        ex:like2    "Sapphire" ;
+        ex:like3    "Small Crystal" ;
+        ex:like4    "Wine" .
+
+<http://ex.org/monster/wooly>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Wooly" ;
+        owl:sameAs  <http://ex.org/npc/wooly> ;
+        ex:like1    "Wooly Furball" ;
+        ex:like2    "Clippers" ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Wooly" ;
+        owl:sameAs  <http://ex.org/npc/wooly> ;
+        ex:like1    "Wooly Furball" ;
+        ex:like2    "Clippers" .
+
+<http://ex.org/monster/little_golem>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Golem" ;
+        owl:sameAs  <http://ex.org/npc/little_golem> ;
+        ex:like1    "Silver" ;
+        ex:like2    "Gold" ;
+        ex:like3    "Platinum" ;
+        ex:like4    "Diamond" .
+
+<http://ex.org/monster/cluckadoodle>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Cluckadoodle" ;
+        owl:sameAs  <http://ex.org/npc/cluckadoodle> ;
+        ex:like1    "Egg (S)" ;
+        ex:like2    "Egg (M)" ;
+        ex:like3    "Egg (L)" ;
+        ex:like4    "Bird's Feather" .
+
+<http://ex.org/monster/little_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Dragon" ;
+        owl:sameAs  <http://ex.org/npc/little_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/pomme_pomme>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Pomme Pomme" ;
+        owl:sameAs  <http://ex.org/npc/pomme_pomme> ;
+        ex:like1    "Apple" ;
+        ex:like2    "Baked Apple" .
+
+<http://ex.org/monster/orc_viking>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Orc Viking" ;
+        owl:sameAs  <http://ex.org/npc/orc_viking> ;
+        ex:like1    "Shoulder Piece" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Wine" .
+
+<http://ex.org/monster/high_orc_viking>
+        rdf:type    ex:Monster ;
+        rdfs:label  "High Orc Viking" ;
+        owl:sameAs  <http://ex.org/npc/high_orc_viking> ;
+        ex:like1    "Shoulder Piece" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Wine" .
+
+<http://ex.org/monster/ogre_viking>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ogre Viking" ;
+        owl:sameAs  <http://ex.org/npc/ogre_viking> ;
+        ex:like1    "Shoulder Piece" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Wine" .
+
+<http://ex.org/monster/high_ogre_viking>
+        rdf:type    ex:Monster ;
+        rdfs:label  "High Ogre Viking" ;
+        owl:sameAs  <http://ex.org/npc/high_ogre_viking> ;
+        ex:like1    "Shoulder Piece" ;
+        ex:like2    "Glue" ;
+        ex:like3    "Wine" .
+
+<http://ex.org/monster/goblin_pirate>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Goblin Pirate" ;
+        owl:sameAs  <http://ex.org/npc/goblin_pirate> ;
+        ex:like1    "Quality Cloth" ;
+        ex:like2    "Silk Cloth" ;
+        ex:like3    "Skull" ;
+        ex:like4    "Oil" .
+
+<http://ex.org/monster/captain_goblin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Captain Goblin" ;
+        owl:sameAs  <http://ex.org/npc/captain_goblin> ;
+        ex:like1    "Quality Cloth" ;
+        ex:like2    "Silk Cloth" ;
+        ex:like3    "Skull" ;
+        ex:like4    "Oil" .
+
+<http://ex.org/monster/gangster_goblin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gangster Goblin" ;
+        owl:sameAs  <http://ex.org/npc/gangster_goblin> ;
+        ex:like1    "Quality Cloth" ;
+        ex:like2    "Old Bandage" ;
+        ex:like3    "Skull" ;
+        ex:like4    "Oil" .
+
+<http://ex.org/monster/goblin_don>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Goblin Don" ;
+        owl:sameAs  <http://ex.org/npc/goblin_don> ;
+        ex:like1    "Quality Cloth" ;
+        ex:like2    "Old Bandage" ;
+        ex:like3    "Skull" ;
+        ex:like4    "Oil" .
+
+<http://ex.org/monster/duck>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Duck" ;
+        owl:sameAs  <http://ex.org/npc/duck> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Quality Fur" ;
+        ex:like3    "Bird's Feather" .
+
+<http://ex.org/monster/emperor_penguin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Emperor Penguin" ;
+        owl:sameAs  <http://ex.org/npc/emperor_penguin> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Quality Fur" ;
+        ex:like3    "Bird's Feather" .
+
+<http://ex.org/monster/elefun>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Elefun" ;
+        owl:sameAs  <http://ex.org/npc/elefun> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Quality Fur" ;
+        ex:like3    "Cheap Waterpot" .
+
+<http://ex.org/monster/mammoo>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Mammoo" ;
+        owl:sameAs  <http://ex.org/npc/mammoo> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Quality Fur" ;
+        ex:like3    "Cheap Waterpot" .
+
+<http://ex.org/monster/onion_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Onion Ghost" ;
+        owl:sameAs  <http://ex.org/npc/onion_ghost> ;
+        ex:like1    "Onion Seeds" ;
+        ex:like2    "Onion" ;
+        ex:like3    "Ghost Hood" .
+
+<http://ex.org/monster/tomato_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Tomato Ghost" ;
+        owl:sameAs  <http://ex.org/npc/tomato_ghost> ;
+        ex:like1    "Tomato Seeds" ;
+        ex:like2    "Tomato" ;
+        ex:like3    "Ghost Hood" .
+
+<http://ex.org/monster/pepper_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Pepper Ghost" ;
+        owl:sameAs  <http://ex.org/npc/pepper_ghost> ;
+        ex:like1    "Green Pepper Seeds" ;
+        ex:like2    "Green Pepper" ;
+        ex:like3    "Ghost Hood" .
+
+<http://ex.org/monster/turnip_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Turnip Ghost" ;
+        owl:sameAs  <http://ex.org/npc/turnip_ghost> ;
+        ex:like1    "Turnip Seeds" ;
+        ex:like2    "Turnip" ;
+        ex:like3    "Ghost Hood" .
+
+<http://ex.org/monster/rider_orc>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Rider Orc" ;
+        owl:sameAs  <http://ex.org/npc/rider_orc> ;
+        ex:like1    "Cheap Cloth" ;
+        ex:like2    "Warrior's Proof" ;
+        ex:like3    "Glue" ;
+        ex:like4    "Old Bandage" .
+
+<http://ex.org/monster/cloudy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Cloudy" ;
+        owl:sameAs  <http://ex.org/npc/cloudy> .
+
+<http://ex.org/monster/nappie>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Nappie" ;
+        owl:sameAs  <http://ex.org/npc/nappie> ;
+        ex:like1    "Pineapple" ;
+        ex:like2    "Pineapple Juice" .
+
+<http://ex.org/monster/mino>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Mino" ;
+        owl:sameAs  <http://ex.org/npc/mino> ;
+        ex:like1    "Grapes" ;
+        ex:like2    "Grape Juice" .
+
+<http://ex.org/monster/snowy>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Snowy" ;
+        owl:sameAs  <http://ex.org/npc/snowy> ;
+        ex:like1    "Orange" ;
+        ex:like2    "Orange Juice" .
+
+<http://ex.org/monster/master_troll>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Master Troll" ;
+        owl:sameAs  <http://ex.org/npc/master_troll> ;
+        ex:like1    "Giant's Nail" .
+
+<http://ex.org/monster/big_duck>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Big Duck" ;
+        owl:sameAs  <http://ex.org/npc/big_duck> ;
+        ex:like1    "Orange" .
+
+<http://ex.org/monster/king_wooly>
+        rdf:type    ex:Monster ;
+        rdfs:label  "King Wooly" ;
+        owl:sameAs  <http://ex.org/npc/king_wooly> ;
+        ex:like1    "Wooly Furball" .
+
+<http://ex.org/monster/death_fungus>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Death Fungus" ;
+        owl:sameAs  <http://ex.org/npc/death_fungus> ;
+        ex:like1    "Spore" .
+
+<http://ex.org/monster/treasure_chest>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Treasure Chest" ;
+        owl:sameAs  <http://ex.org/npc/treasure_chest> .
+
+<http://ex.org/monster/pretty_chest>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Pretty Chest" ;
+        owl:sameAs  <http://ex.org/npc/pretty_chest> .
+
+<http://ex.org/monster/treasure>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Treasure" ;
+        owl:sameAs  <http://ex.org/npc/treasure> .
+
+<http://ex.org/monster/little_wooly>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Little Wooly" ;
+        owl:sameAs  <http://ex.org/npc/little_wooly> .
+
+<http://ex.org/monster/baal>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Baal" ;
+        owl:sameAs  <http://ex.org/npc/baal> ;
+        ex:like1    "Devil Blood" .
+
+<http://ex.org/monster/black_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Black Dragon" ;
+        owl:sameAs  <http://ex.org/npc/black_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/guardian>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Guardian" ;
+        owl:sameAs  <http://ex.org/npc/guardian> ;
+        ex:like1    "Golem Spirit Stone" .
+
+<http://ex.org/monster/death_orc>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Death Orc" ;
+        owl:sameAs  <http://ex.org/npc/death_orc> ;
+        ex:like1    "Ancient Orc Cloth" .
+
+<http://ex.org/monster/soldier>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Soldier" ;
+        owl:sameAs  <http://ex.org/npc/soldier> .
+
+<http://ex.org/monster/onionger>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Onionger" ;
+        owl:sameAs  <http://ex.org/npc/onionger> ;
+        ex:like1    "Onion Seeds" ;
+        ex:like2    "Onion" .
+
+<http://ex.org/monster/ghost_ray>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ghost Ray" ;
+        owl:sameAs  <http://ex.org/npc/ghost_ray> ;
+        ex:like1    "Ghost Hood" ;
+        ex:like2    "Skull" .
+
+<http://ex.org/monster/spirit>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Spirit" ;
+        owl:sameAs  <http://ex.org/npc/spirit> ;
+        ex:like1    "Magic Crystal" ;
+        ex:like2    "Dark Crystal" .
+
+<http://ex.org/monster/ant_queen>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ant Queen" ;
+        owl:sameAs  <http://ex.org/npc/ant_queen> ;
+        ex:like1    "Honey" .
+
+<http://ex.org/monster/king_bee>
+        rdf:type    ex:Monster ;
+        rdfs:label  "King Bee" ;
+        owl:sameAs  <http://ex.org/npc/king_bee> ;
+        ex:like1    "Honey" .
+
+<http://ex.org/monster/heaven's_scissors>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Heaven's Scissors" ;
+        owl:sameAs  <http://ex.org/npc/heaven's_scissors> ;
+        ex:like1    "Honey" .
+
+<http://ex.org/monster/gaias>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gaias" ;
+        owl:sameAs  <http://ex.org/npc/gaias> ;
+        ex:like1    "Magic Crystal" ;
+        ex:like2    "Earth Crystal" .
+
+<http://ex.org/monster/master_giant>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Master Giant" ;
+        owl:sameAs  <http://ex.org/npc/master_giant> ;
+        ex:like1    "Giant's Gloves" .
+
+<http://ex.org/monster/sechs_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sechs Dragon" ;
+        owl:sameAs  <http://ex.org/npc/sechs_dragon> .
+
+<http://ex.org/monster/palm_cat>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Palm Cat" ;
+        owl:sameAs  <http://ex.org/npc/palm_cat> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Cake" .
+
+<http://ex.org/monster/malm_tiger>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Malm Tiger" ;
+        owl:sameAs  <http://ex.org/npc/malm_tiger> ;
+        ex:like1    "Fur" ;
+        ex:like2    "Cake" .
+
+<http://ex.org/monster/hover_soldier>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hover Soldier" ;
+        owl:sameAs  <http://ex.org/npc/hover_soldier> .
+
+<http://ex.org/monster/hover_warrior>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hover Warrior" ;
+        owl:sameAs  <http://ex.org/npc/hover_warrior> .
+
+<http://ex.org/monster/gasham>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gasham" ;
+        owl:sameAs  <http://ex.org/npc/gasham> ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Gasham" ;
+        owl:sameAs  <http://ex.org/npc/gasham> .
+
+<http://ex.org/monster/ruffled_vine>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ruffled Vine" ;
+        owl:sameAs  <http://ex.org/npc/ruffled_vine> .
+
+<http://ex.org/monster/ruffled_horsetail>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ruffled Horsetail" ;
+        owl:sameAs  <http://ex.org/npc/ruffled_horsetail> .
+
+<http://ex.org/monster/ruffled_flower>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ruffled Flower" ;
+        owl:sameAs  <http://ex.org/npc/ruffled_flower> .
+
+<http://ex.org/monster/red>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Red" ;
+        owl:sameAs  <http://ex.org/npc/red> ;
+        ex:like1    "Cake" ;
+        ex:like2    "Chocolate Cake" .
+
+<http://ex.org/monster/green>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Green" ;
+        owl:sameAs  <http://ex.org/npc/green> ;
+        ex:like1    "Cake" ;
+        ex:like2    "Chocolate Cake" .
+
+<http://ex.org/monster/blue>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Blue" ;
+        owl:sameAs  <http://ex.org/npc/blue> ;
+        ex:like1    "Cake" ;
+        ex:like2    "Chocolate Cake" .
+
+<http://ex.org/monster/yellow>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Yellow" ;
+        owl:sameAs  <http://ex.org/npc/yellow> ;
+        ex:like1    "Cake" ;
+        ex:like2    "Chocolate Cake" .
+
+<http://ex.org/monster/minotaur>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Minotaur" ;
+        owl:sameAs  <http://ex.org/npc/minotaur> .
+
+<http://ex.org/monster/onion_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Onion Ghost" ;
+        owl:sameAs  <http://ex.org/npc/onion_ghost> .
+
+<http://ex.org/monster/shmooly>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Shmooly" ;
+        owl:sameAs  <http://ex.org/npc/shmooly> ;
+        ex:like1    "Clippers" ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Shmooly" ;
+        owl:sameAs  <http://ex.org/npc/shmooly> ;
+        ex:like1    "Clippers" .
+
+<http://ex.org/monster/golem>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Golem" ;
+        owl:sameAs  <http://ex.org/npc/golem> ;
+        ex:like1    "Silver" ;
+        ex:like2    "Gold" ;
+        ex:like3    "Diamond" .
+
+<http://ex.org/monster/???>
+        rdf:type    ex:Monster ;
+        rdfs:label  "???" ;
+        owl:sameAs  <http://ex.org/npc/???> .
+
+<http://ex.org/monster/sechs_sorcerer>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sechs Sorcerer" ;
+        owl:sameAs  <http://ex.org/npc/sechs_sorcerer> .
+
+<http://ex.org/monster/sechs_cat>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sechs Cat" ;
+        owl:sameAs  <http://ex.org/npc/sechs_cat> .
+
+<http://ex.org/monster/fortoise>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Fortoise" ;
+        owl:sameAs  <http://ex.org/npc/fortoise> ;
+        ex:like1    "Blk. Tortoise Shell" .
+
+<http://ex.org/monster/thunderbird>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Thunderbird" ;
+        owl:sameAs  <http://ex.org/npc/thunderbird> ;
+        ex:like1    "Thunderbird Feather" ;
+        ex:like2    "Branch" .
+
+<http://ex.org/monster/mamadoodle>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Mamadoodle" ;
+        owl:sameAs  <http://ex.org/npc/mamadoodle> ;
+        ex:like1    "Egg (S)" ;
+        ex:like2    "Egg (M)" ;
+        ex:like3    "Egg (L)" .
+
+<http://ex.org/monster/mineral_squeek>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Mineral Squeek" ;
+        owl:sameAs  <http://ex.org/npc/mineral_squeek> .
+
+<http://ex.org/monster/typhoon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Typhoon" ;
+        owl:sameAs  <http://ex.org/npc/typhoon> ;
+        ex:like1    "Mealy Apple" .
+
+<http://ex.org/monster/raccoon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Raccoon" ;
+        owl:sameAs  <http://ex.org/npc/raccoon> .
+
+<http://ex.org/monster/green_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Green Dragon" ;
+        owl:sameAs  <http://ex.org/npc/green_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/red_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Red Dragon" ;
+        owl:sameAs  <http://ex.org/npc/red_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/leoplicant>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Leoplicant" ;
+        owl:sameAs  <http://ex.org/npc/leoplicant> ;
+        ex:like1    "Cake" .
+
+<http://ex.org/monster/armed_ghost>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Armed Ghost" ;
+        owl:sameAs  <http://ex.org/npc/armed_ghost> .
+
+<http://ex.org/monster/flare_mage>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Flare Mage" ;
+        owl:sameAs  <http://ex.org/npc/flare_mage> ;
+        ex:like1    "Magic" .
+
+<http://ex.org/monster/ice_wizard>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ice Wizard" ;
+        owl:sameAs  <http://ex.org/npc/ice_wizard> ;
+        ex:like1    "Magic" .
+
+<http://ex.org/monster/elemental_emperor>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Elemental Emperor" ;
+        owl:sameAs  <http://ex.org/npc/elemental_emperor> ;
+        ex:like1    "Magic" .
+
+<http://ex.org/monster/blue_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Blue Dragon" ;
+        owl:sameAs  <http://ex.org/npc/blue_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/yellow_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Yellow Dragon" ;
+        owl:sameAs  <http://ex.org/npc/yellow_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/pink_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Pink Dragon" ;
+        owl:sameAs  <http://ex.org/npc/pink_dragon> ;
+        ex:like1    "Dragon Fang" .
+
+<http://ex.org/monster/dead_tree_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Dead Tree 2" ;
+        owl:sameAs  <http://ex.org/npc/dead_tree_2> ;
+        ex:like1    "Greenifier+" ;
+        ex:like2    "Formula C" .
+
+<http://ex.org/monster/dead_tree>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Dead Tree" ;
+        owl:sameAs  <http://ex.org/npc/dead_tree> ;
+        ex:like1    "Greenifier+" ;
+        ex:like2    "Formula C" .
+
+<http://ex.org/monster/octopirate_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Octopirate 2" ;
+        owl:sameAs  <http://ex.org/npc/octopirate_2> ;
+        ex:like1    "Grilled Snapper" ;
+        ex:like2    "Grilled G. Snapper" ;
+        ex:like3    "Grilled L. Snapper" .
+
+<http://ex.org/monster/octopirate>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Octopirate" ;
+        owl:sameAs  <http://ex.org/npc/octopirate> ;
+        ex:like1    "Grilled Snapper" ;
+        ex:like2    "Grilled G. Snapper" ;
+        ex:like3    "Grilled L. Snapper" .
+
+<http://ex.org/monster/bane_dragon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Bane Dragon" ;
+        owl:sameAs  <http://ex.org/npc/bane_dragon> ;
+        ex:like1    "Rockfish Stew" .
+
+<http://ex.org/monster/crystal_mammoth_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Crystal Mammoth 2" ;
+        owl:sameAs  <http://ex.org/npc/crystal_mammoth_2> ;
+        ex:like1    "King Pineapple" .
+
+<http://ex.org/monster/crystal_mammoth>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Crystal Mammoth" ;
+        owl:sameAs  <http://ex.org/npc/crystal_mammoth> ;
+        ex:like1    "King Pineapple" .
+
+<http://ex.org/monster/greater_demon_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Greater Demon 2" ;
+        owl:sameAs  <http://ex.org/npc/greater_demon_2> ;
+        ex:like1    "Big Fireflower" ;
+        ex:like2    "Big Autumn Grass" .
+
+<http://ex.org/monster/greater_demon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Greater Demon" ;
+        owl:sameAs  <http://ex.org/npc/greater_demon> ;
+        ex:like1    "Big Fireflower" ;
+        ex:like2    "Big Autumn Grass" .
+
+<http://ex.org/monster/chimera_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Chimera 2" ;
+        owl:sameAs  <http://ex.org/npc/chimera_2> ;
+        ex:like1    "Royal Curry" ;
+        ex:like2    "Ultimate Curry" .
+
+<http://ex.org/monster/chimera>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Chimera" ;
+        owl:sameAs  <http://ex.org/npc/chimera> ;
+        ex:like1    "Royal Curry" ;
+        ex:like2    "Ultimate Curry" .
+
+<http://ex.org/monster/g_golem>
+        rdf:type    ex:Monster ;
+        rdfs:label  "G Golem" ;
+        owl:sameAs  <http://ex.org/npc/g_golem> ;
+        ex:like1    "Orichalcum" .
+
+<http://ex.org/monster/sechs_golem>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sechs Golem" ;
+        owl:sameAs  <http://ex.org/npc/sechs_golem> .
+
+<http://ex.org/monster/grimoire_2>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Grimoire 2" ;
+        owl:sameAs  <http://ex.org/npc/grimoire_2> ;
+        ex:like1    "Golden Tyrant Turnip" ;
+        ex:like2    "Gold Prince Potato" ;
+        ex:like3    "Gldn. Doom Pumpkin" ;
+        ex:like4    "Golden King Cabbage" .
+
+<http://ex.org/monster/grimoire>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Grimoire" ;
+        owl:sameAs  <http://ex.org/npc/grimoire> ;
+        ex:like1    "Golden Tyrant Turnip" ;
+        ex:like2    "Gold Prince Potato" ;
+        ex:like3    "Gldn. Doom Pumpkin" ;
+        ex:like4    "Golden King Cabbage" .
+
+<http://ex.org/monster/siren>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Siren" ;
+        owl:sameAs  <http://ex.org/npc/siren> ;
+        ex:like1    "Great 4-Leaf Clover" .
+
+<http://ex.org/monster/terrable>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Terrable" ;
+        owl:sameAs  <http://ex.org/npc/terrable> ;
+        ex:like1    "Turnip Heaven" .
+
+<http://ex.org/monster/terraclone>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Terraclone" ;
+        owl:sameAs  <http://ex.org/npc/terraclone> ;
+        ex:like1    "Turnip Heaven" .
+
+<http://ex.org/monster/fiersome>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Fiersome" ;
+        owl:sameAs  <http://ex.org/npc/fiersome> ;
+        ex:like1    "Gold Juice" .
+
+<http://ex.org/monster/fiergaenger>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Fiergaenger" ;
+        owl:sameAs  <http://ex.org/npc/fiergaenger> ;
+        ex:like1    "Gold Juice" .
+
+<http://ex.org/monster/magnuto>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Magnuto" ;
+        owl:sameAs  <http://ex.org/npc/magnuto> ;
+        ex:like1    "Udon" ;
+        ex:like2    "Tempura Udon" ;
+        ex:like3    "Curry Udon" ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Magnuto" ;
+        owl:sameAs  <http://ex.org/npc/magnuto> ;
+        ex:like1    "Udon" ;
+        ex:like2    "Tempura Udon" ;
+        ex:like3    "Curry Udon" .
+
+<http://ex.org/monster/ancient_bone>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ancient Bone" ;
+        owl:sameAs  <http://ex.org/npc/ancient_bone> .
+
+<http://ex.org/monster/hinoe>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Hinoe" ;
+        owl:sameAs  <http://ex.org/npc/hinoe> ;
+        ex:like1    "Salted Char" ;
+        ex:like2    "Grilled G. Snapper" ;
+        ex:like3    "Grilled L. Snapper" .
+
+<http://ex.org/monster/kinoto>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Kinoto" ;
+        owl:sameAs  <http://ex.org/npc/kinoto> ;
+        ex:like1    "Salted Char" ;
+        ex:like2    "Grilled G. Snapper" ;
+        ex:like3    "Grilled L. Snapper" .
+
+<http://ex.org/monster/death_wall>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Death Wall" ;
+        owl:sameAs  <http://ex.org/npc/death_wall> ;
+        ex:like1    "Ice Cream" .
+
+<http://ex.org/monster/aquaticus>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Aquaticus" ;
+        owl:sameAs  <http://ex.org/npc/aquaticus> ;
+        ex:like1    "Union Stew" .
+
+<http://ex.org/monster/aquameleon>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Aquameleon" ;
+        owl:sameAs  <http://ex.org/npc/aquameleon> ;
+        ex:like1    "Union Stew" .
+
+<http://ex.org/monster/ambrosia>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ambrosia" ;
+        owl:sameAs  <http://ex.org/npc/ambrosia> ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ambrosia" ;
+        owl:sameAs  <http://ex.org/npc/ambrosia> ;
+        ex:like1    "Ultra Toyherb" ;
+        ex:like2    "Ultra Moondrop Flower" ;
+        ex:like3    "King Pink Cat" ;
+        ex:like4    "Great Charm Blue" .
+
+<http://ex.org/monster/thunderbolt>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Thunderbolt" ;
+        owl:sameAs  <http://ex.org/npc/thunderbolt> ;
+        ex:like1    "Royal Carrot" .
+
+<http://ex.org/monster/marionetta>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Marionetta" ;
+        owl:sameAs  <http://ex.org/npc/marionetta> ;
+        ex:like1    "Cake" ;
+        ex:like2    "Chocolate Cake" ;
+        ex:like3    "Cheesecake" ;
+        ex:like4    "Apple Pie" .
+
+<http://ex.org/monster/handonetta>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Handonetta" ;
+        owl:sameAs  <http://ex.org/npc/handonetta> ;
+        ex:like1    "Gold Juice" .
+
+<http://ex.org/monster/sarcophagus>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sarcophagus" ;
+        owl:sameAs  <http://ex.org/npc/sarcophagus> ;
+        ex:like1    "Gold Juice" ;
+        ex:like2    "Mixed Juice" ;
+        ex:like3    "Mixed Smoothie" .
+
+<http://ex.org/monster/ventuswill>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ventuswill" ;
+        owl:sameAs  <http://ex.org/npc/ventuswill> .
+
+<http://ex.org/monster/ethelwill>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ethelwill" ;
+        owl:sameAs  <http://ex.org/npc/ethelwill> ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ethelwill" ;
+        owl:sameAs  <http://ex.org/npc/ethelwill> .
+
+<http://ex.org/monster/ragnarok>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ragnarok" ;
+        owl:sameAs  <http://ex.org/npc/ragnarok> .
+
+<http://ex.org/monster/ethelberd>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Ethelberd" ;
+        owl:sameAs  <http://ex.org/npc/ethelberd> .
+
+<http://ex.org/monster/rafflesia>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Rafflesia" ;
+        owl:sameAs  <http://ex.org/npc/rafflesia> .
+
+<http://ex.org/monster/armored_tank_+>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Armored Tank +" ;
+        owl:sameAs  <http://ex.org/npc/armored_tank_+> .
+
+<http://ex.org/monster/sano>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sano" ;
+        owl:sameAs  <http://ex.org/npc/sano> .
+
+<http://ex.org/monster/uno>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Uno" ;
+        owl:sameAs  <http://ex.org/npc/uno> .
+
+<http://ex.org/monster/sano>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sano" ;
+        owl:sameAs  <http://ex.org/npc/sano> .
+
+<http://ex.org/monster/uno>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Uno" ;
+        owl:sameAs  <http://ex.org/npc/uno> .
+
+<http://ex.org/monster/heaven's_gate>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Heaven's Gate" ;
+        owl:sameAs  <http://ex.org/npc/heaven's_gate> ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Heaven's Gate" ;
+        owl:sameAs  <http://ex.org/npc/heaven's_gate> ;
+        rdf:type    ex:Monster ;
+        rdfs:label  "Heaven's Gate" ;
+        owl:sameAs  <http://ex.org/npc/heaven's_gate> .
+
+<http://ex.org/monster/sechs_tank>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Sechs Tank" ;
+        owl:sameAs  <http://ex.org/npc/sechs_tank> .
+
+<http://ex.org/monster/rouge>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Rouge" ;
+        owl:sameAs  <http://ex.org/npc/rouge> ;
+        ex:like1    "Big Red Crystal" .
+
+<http://ex.org/monster/emerald>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Emerald" ;
+        owl:sameAs  <http://ex.org/npc/emerald> ;
+        ex:like1    "Big Green Crystal" .
+
+<http://ex.org/monster/marin>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Marin" ;
+        owl:sameAs  <http://ex.org/npc/marin> ;
+        ex:like1    "Big Blue Crystal" .
+
+<http://ex.org/monster/olive>
+        rdf:type    ex:Monster ;
+        rdfs:label  "Olive" ;
+        owl:sameAs  <http://ex.org/npc/olive> ;
+        ex:like1    "Big White Crystal" .

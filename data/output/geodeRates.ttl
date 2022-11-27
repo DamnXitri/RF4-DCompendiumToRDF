@@ -1,0 +1,305 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://ex.org/geodes/scrap_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/1> ;
+        ex:sprite     26 ;
+        ex:hardness   128 ;
+        ex:drop1      <http://ex.org/items/iron> ;
+        ex:drop2      <http://ex.org/items/earth_crystal> ;
+        ex:drop3      <http://ex.org/items/invisible_stone> ;
+        ex:drop4      <http://ex.org/items/small_crystal> ;
+        ex:scarcity1  100 ;
+        ex:scarcity2  100 ;
+        ex:scarcity3  1 ;
+        ex:scarcity4  1 ;
+        ex:location   "SummerArea,YokmirForest" .
+
+<http://ex.org/geodes/iron_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/2> ;
+        ex:sprite     27 ;
+        ex:hardness   128 ;
+        ex:drop1      <http://ex.org/items/iron> ;
+        ex:drop2      <http://ex.org/items/earth_crystal> ;
+        ex:drop3      <http://ex.org/items/invisible_stone> ;
+        ex:drop4      <http://ex.org/items/big_crystal> ;
+        ex:scarcity1  30 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  4 ;
+        ex:scarcity4  1 ;
+        ex:location   "YokmirForest" .
+
+<http://ex.org/geodes/amethyst_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/3> ;
+        ex:sprite     36 ;
+        ex:hardness   128 ;
+        ex:drop1      <http://ex.org/items/amethyst> ;
+        ex:drop2      <http://ex.org/items/earth_crystal> ;
+        ex:drop3      <http://ex.org/items/iron> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  60 ;
+        ex:scarcity2  100 ;
+        ex:scarcity3  5 ;
+        ex:scarcity4  30 ;
+        ex:location   "YokmirForest,MayaRoad" .
+
+<http://ex.org/geodes/copper_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/4> ;
+        ex:sprite     28 ;
+        ex:hardness   160 ;
+        ex:drop1      <http://ex.org/items/bronze> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/big_crystal> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  120 ;
+        ex:scarcity2  150 ;
+        ex:scarcity3  50 ;
+        ex:scarcity4  1 ;
+        ex:location   "ObsidianMansion" .
+
+<http://ex.org/geodes/aquamarine_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/5> ;
+        ex:sprite     37 ;
+        ex:hardness   172 ;
+        ex:drop1      <http://ex.org/items/aquamarine> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/water_crystal> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  120 ;
+        ex:scarcity2  100 ;
+        ex:scarcity3  50 ;
+        ex:scarcity4  5 ;
+        ex:location   "WaterRuins,MayaRoad" .
+
+<http://ex.org/geodes/emerald_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/6> ;
+        ex:sprite     34 ;
+        ex:hardness   200 ;
+        ex:drop1      <http://ex.org/items/emerald> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/wind_crystal> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  180 ;
+        ex:scarcity2  90 ;
+        ex:scarcity3  60 ;
+        ex:scarcity4  5 ;
+        ex:location   "YokmirCave,MayaRoad" .
+
+<http://ex.org/geodes/ruby_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/7> ;
+        ex:sprite     33 ;
+        ex:hardness   208 ;
+        ex:drop1      <http://ex.org/items/ruby> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/fire_crystal> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  180 ;
+        ex:scarcity2  70 ;
+        ex:scarcity3  80 ;
+        ex:scarcity4  5 ;
+        ex:location   "DeliriumLavaRuins,MayaRoad" .
+
+<http://ex.org/geodes/sapphire_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/8> ;
+        ex:sprite     35 ;
+        ex:hardness   216 ;
+        ex:drop1      <http://ex.org/items/sapphire> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/invisible_stone> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  180 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  100 ;
+        ex:scarcity4  3 ;
+        ex:location   "IdraCave,MayaRoad" .
+
+<http://ex.org/geodes/diamond_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/9> ;
+        ex:sprite     32 ;
+        ex:hardness   216 ;
+        ex:drop1      <http://ex.org/items/diamond> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/invisible_stone> ;
+        ex:drop4      <http://ex.org/items/light_ore> ;
+        ex:scarcity1  196 ;
+        ex:scarcity2  40 ;
+        ex:scarcity3  110 ;
+        ex:scarcity4  3 ;
+        ex:location   "SechsTerritory" .
+
+<http://ex.org/geodes/silver_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/10> ;
+        ex:sprite     29 ;
+        ex:hardness   200 ;
+        ex:drop1      <http://ex.org/items/silver> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/big_crystal> ;
+        ex:drop4      <http://ex.org/items/small_crystal> ;
+        ex:scarcity1  196 ;
+        ex:scarcity2  80 ;
+        ex:scarcity3  70 ;
+        ex:scarcity4  2 ;
+        ex:location   "DeliriumLavaRuins,AutumnRoad,MayaRoad" .
+
+<http://ex.org/geodes/gold_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/11> ;
+        ex:sprite     30 ;
+        ex:hardness   200 ;
+        ex:drop1      <http://ex.org/items/gold> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/big_crystal> ;
+        ex:drop4      <http://ex.org/items/small_crystal> ;
+        ex:scarcity1  196 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  100 ;
+        ex:scarcity4  2 ;
+        ex:location   "IdraCave,MayaRoad" .
+
+<http://ex.org/geodes/platinum_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/12> ;
+        ex:sprite     31 ;
+        ex:hardness   216 ;
+        ex:drop1      <http://ex.org/items/platinum> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/big_crystal> ;
+        ex:drop4      <http://ex.org/items/small_crystal> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  20 ;
+        ex:scarcity3  130 ;
+        ex:scarcity4  5 ;
+        ex:location   "FloatingEmpire,RunePrana" .
+
+<http://ex.org/geodes/orichalcum_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/13> ;
+        ex:sprite     30 ;
+        ex:hardness   232 ;
+        ex:drop1      <http://ex.org/items/orichalcum> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/big_crystal> ;
+        ex:drop4      <http://ex.org/items/small_crystal> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  15 ;
+        ex:scarcity3  135 ;
+        ex:scarcity4  8 ;
+        ex:location   "LeonKarnak,RunePrana" .
+
+<http://ex.org/geodes/shade_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/14> ;
+        ex:sprite     26 ;
+        ex:hardness   200 ;
+        ex:drop1      <http://ex.org/items/shade_stone> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/scrap_metal> ;
+        ex:drop4      <http://ex.org/items/shade_stone> ;
+        ex:scarcity1  80 ;
+        ex:scarcity2  30 ;
+        ex:scarcity3  100 ;
+        ex:scarcity4  50 ;
+        ex:location   "ObsidianMansion" .
+
+<http://ex.org/geodes/dragon_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/15> ;
+        ex:sprite     26 ;
+        ex:hardness   248 ;
+        ex:drop1      <http://ex.org/items/dragonic_stone> ;
+        ex:drop2      <http://ex.org/items/iron> ;
+        ex:drop3      <http://ex.org/items/scrap_metal> ;
+        ex:drop4      <http://ex.org/items/dragonic_stone> ;
+        ex:scarcity1  220 ;
+        ex:scarcity2  5 ;
+        ex:scarcity3  100 ;
+        ex:scarcity4  40 ;
+        ex:location   "RunePrana" .
+
+<http://ex.org/geodes/amethyst_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/16> ;
+        ex:sprite     36 ;
+        ex:hardness   240 ;
+        ex:drop1      <http://ex.org/items/amethyst> ;
+        ex:drop2      <http://ex.org/items/earth_crystal> ;
+        ex:drop3      <http://ex.org/items/light_ore> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  15 ;
+        ex:scarcity4  1 ;
+        ex:location   "YokmirForest,MayaRoad" .
+
+<http://ex.org/geodes/aquamarine_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/17> ;
+        ex:sprite     37 ;
+        ex:hardness   240 ;
+        ex:drop1      <http://ex.org/items/aquamarine> ;
+        ex:drop2      <http://ex.org/items/water_crystal> ;
+        ex:drop3      <http://ex.org/items/light_ore> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  15 ;
+        ex:scarcity4  1 ;
+        ex:location   "WaterRuins,MayaRoad" .
+
+<http://ex.org/geodes/emerald_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/18> ;
+        ex:sprite     34 ;
+        ex:hardness   240 ;
+        ex:drop1      <http://ex.org/items/emerald> ;
+        ex:drop2      <http://ex.org/items/wind_crystal> ;
+        ex:drop3      <http://ex.org/items/light_ore> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  15 ;
+        ex:scarcity4  1 ;
+        ex:location   "YokmirCave,MayaRoad" .
+
+<http://ex.org/geodes/ruby_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/19> ;
+        ex:sprite     33 ;
+        ex:hardness   240 ;
+        ex:drop1      <http://ex.org/items/ruby> ;
+        ex:drop2      <http://ex.org/items/fire_crystal> ;
+        ex:drop3      <http://ex.org/items/light_ore> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  50 ;
+        ex:scarcity3  15 ;
+        ex:scarcity4  1 ;
+        ex:location   "DeliriumLavaRuins,MayaRoad" .
+
+<http://ex.org/geodes/sapphire_mineral>
+        rdf:type      ex:Geode ;
+        owl:sameAs    <http://ex.org/geodes/20> ;
+        ex:sprite     35 ;
+        ex:hardness   240 ;
+        ex:drop1      <http://ex.org/items/sapphire> ;
+        ex:drop2      <http://ex.org/items/light_ore> ;
+        ex:drop3      <http://ex.org/items/light_ore> ;
+        ex:drop4      <http://ex.org/items/invisible_stone> ;
+        ex:scarcity1  200 ;
+        ex:scarcity2  64 ;
+        ex:scarcity3  1 ;
+        ex:scarcity4  1 ;
+        ex:location   "IdraCave,MayaRoad" .

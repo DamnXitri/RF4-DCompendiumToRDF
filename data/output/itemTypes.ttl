@@ -1,0 +1,119 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://ex.org/itemTypes/minerals>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Minerals" ;
+        owl:sameAs       <http://ex.org/itemTypes/1083> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/liquids>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Liquids" ;
+        owl:sameAs       <http://ex.org/itemTypes/1084> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/claws_and_fangs>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Claws and Fangs" ;
+        owl:sameAs       <http://ex.org/itemTypes/1085> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/sticks_and_stems>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Sticks and Stems" ;
+        owl:sameAs       <http://ex.org/itemTypes/1086> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/cloths_and_skins>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Cloths and Skins" ;
+        owl:sameAs       <http://ex.org/itemTypes/1087> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/furs>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Furs" ;
+        owl:sameAs       <http://ex.org/itemTypes/1088> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/strings>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Strings" ;
+        owl:sameAs       <http://ex.org/itemTypes/1089> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/shards>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Shards" ;
+        owl:sameAs       <http://ex.org/itemTypes/1090> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/powders_and_spores>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Powders and Spores" ;
+        owl:sameAs       <http://ex.org/itemTypes/1091> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/scales>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Scales" ;
+        owl:sameAs       <http://ex.org/itemTypes/1092> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/shells_and_bones>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Shells and Bones" ;
+        owl:sameAs       <http://ex.org/itemTypes/1093> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/stones>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Stones" ;
+        owl:sameAs       <http://ex.org/itemTypes/1094> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/turnip>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Turnip" ;
+        owl:sameAs       <http://ex.org/itemTypes/1095> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/crystals>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Crystals" ;
+        owl:sameAs       <http://ex.org/itemTypes/1096> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/jewels>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Jewels" ;
+        owl:sameAs       <http://ex.org/itemTypes/1097> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/feathers>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Feathers" ;
+        owl:sameAs       <http://ex.org/itemTypes/1098> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/jam>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Jam" ;
+        owl:sameAs       <http://ex.org/itemTypes/1099> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/curry>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Curry" ;
+        owl:sameAs       <http://ex.org/itemTypes/1100> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .
+
+<http://ex.org/itemTypes/squid>
+        rdf:type         ex:ItemType ;
+        rdfs:label       "Squid" ;
+        owl:sameAs       <http://ex.org/itemTypes/1101> ;
+        rdfs:subClassOf  <http://ex.org/itemCategories/55> .

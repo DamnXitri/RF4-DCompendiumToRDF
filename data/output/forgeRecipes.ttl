@@ -1,0 +1,2936 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/recipes/broadsword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Broadsword" ;
+        ex:itemURI    <http://ex.org/items/broadsword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      1 ;
+        ex:priority   392 .
+
+<http://ex.org/recipes/steel_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steel Sword" ;
+        ex:itemURI    <http://ex.org/items/steel_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      3 ;
+        ex:priority   393 .
+
+<http://ex.org/recipes/steel_sword+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steel Sword+" ;
+        ex:itemURI    <http://ex.org/items/steel_sword+> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/steel_sword> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      4 ;
+        ex:priority   394 .
+
+<http://ex.org/recipes/cutlass>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cutlass" ;
+        ex:itemURI    <http://ex.org/items/cutlass> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      7 ;
+        ex:priority   395 .
+
+<http://ex.org/recipes/aqua_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Aqua Sword" ;
+        ex:itemURI    <http://ex.org/items/aqua_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:level      15 ;
+        ex:priority   396 .
+
+<http://ex.org/recipes/invisiblade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Invisiblade" ;
+        ex:itemURI    <http://ex.org/items/invisiblade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/invisible_stone> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:material3  <http://ex.org/items/crystals> ;
+        ex:level      16 ;
+        ex:priority   397 .
+
+<http://ex.org/recipes/defender>
+        rdf:type      ex:Recipe ;
+        ex:name       "Defender" ;
+        ex:itemURI    <http://ex.org/items/defender> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/sapphire> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      19 ;
+        ex:priority   398 .
+
+<http://ex.org/recipes/burning_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Burning Sword" ;
+        ex:itemURI    <http://ex.org/items/burning_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:level      20 ;
+        ex:priority   399 .
+
+<http://ex.org/recipes/gorgeous_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gorgeous Sword" ;
+        ex:itemURI    <http://ex.org/items/gorgeous_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/gold> ;
+        ex:material4  <http://ex.org/items/gold> ;
+        ex:level      23 ;
+        ex:priority   400 .
+
+<http://ex.org/recipes/gaia_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gaia Sword" ;
+        ex:itemURI    <http://ex.org/items/gaia_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/earth_crystal> ;
+        ex:material3  <http://ex.org/items/rigid_horn> ;
+        ex:level      27 ;
+        ex:priority   401 .
+
+<http://ex.org/recipes/snakesword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Snakesword" ;
+        ex:itemURI    <http://ex.org/items/snakesword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      30 ;
+        ex:priority   402 .
+
+<http://ex.org/recipes/luck_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Luck Blade" ;
+        ex:itemURI    <http://ex.org/items/luck_blade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/scorpion_pincer> ;
+        ex:material3  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      35 ;
+        ex:priority   403 .
+
+<http://ex.org/recipes/platinum_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Sword" ;
+        ex:itemURI    <http://ex.org/items/platinum_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/claws_and_fangs> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      38 ;
+        ex:priority   404 .
+
+<http://ex.org/recipes/wind_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wind Sword" ;
+        ex:itemURI    <http://ex.org/items/wind_sword> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/wind_crystal> ;
+        ex:level      40 ;
+        ex:priority   405 .
+
+<http://ex.org/recipes/chaos_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chaos Blade" ;
+        ex:itemURI    <http://ex.org/items/chaos_blade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/magic> ;
+        ex:material4  <http://ex.org/items/holy_spore> ;
+        ex:level      42 ;
+        ex:priority   406 .
+
+<http://ex.org/recipes/sakura>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sakura" ;
+        ex:itemURI    <http://ex.org/items/sakura> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/paralysis_poison> ;
+        ex:material3  <http://ex.org/items/poison_powder> ;
+        ex:material4  <http://ex.org/items/cherry_grass> ;
+        ex:level      44 ;
+        ex:priority   407 .
+
+<http://ex.org/recipes/sunspot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sunspot" ;
+        ex:itemURI    <http://ex.org/items/sunspot> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/warrior's_proof> ;
+        ex:material4  <http://ex.org/items/fire_crystal> ;
+        ex:material5  <http://ex.org/items/ruby> ;
+        ex:level      46 ;
+        ex:priority   408 .
+
+<http://ex.org/recipes/durendal>
+        rdf:type      ex:Recipe ;
+        ex:name       "Durendal" ;
+        ex:itemURI    <http://ex.org/items/durendal> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/malm_claw> ;
+        ex:material4  <http://ex.org/items/devil_horn> ;
+        ex:material5  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:level      50 ;
+        ex:priority   409 .
+
+<http://ex.org/recipes/aerial_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Aerial Blade" ;
+        ex:itemURI    <http://ex.org/items/aerial_blade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/lightning_mane> ;
+        ex:material3  <http://ex.org/items/wind_crystal> ;
+        ex:material4  <http://ex.org/items/emerald> ;
+        ex:material5  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      54 ;
+        ex:priority   410 .
+
+<http://ex.org/recipes/grantale>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grantale" ;
+        ex:itemURI    <http://ex.org/items/grantale> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/yellow_feather> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:material4  <http://ex.org/items/amethyst> ;
+        ex:material5  <http://ex.org/items/cursed_doll> ;
+        ex:level      59 ;
+        ex:priority   411 .
+
+<http://ex.org/recipes/smash_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Smash Blade" ;
+        ex:itemURI    <http://ex.org/items/smash_blade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/pirate's_armor> ;
+        ex:material3  <http://ex.org/items/4-leaf_clover> ;
+        ex:material4  <http://ex.org/items/chimera's_claw> ;
+        ex:material5  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      64 ;
+        ex:priority   412 .
+
+<http://ex.org/recipes/icifier>
+        rdf:type      ex:Recipe ;
+        ex:name       "Icifier" ;
+        ex:itemURI    <http://ex.org/items/icifier> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/icy_nose> ;
+        ex:material3  <http://ex.org/items/water_crystal> ;
+        ex:material4  <http://ex.org/items/aquamarine> ;
+        ex:material5  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      68 ;
+        ex:priority   413 .
+
+<http://ex.org/recipes/soul_eater>
+        rdf:type      ex:Recipe ;
+        ex:name       "Soul Eater" ;
+        ex:itemURI    <http://ex.org/items/soul_eater> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/dangerous_scissors> ;
+        ex:material3  <http://ex.org/items/love_crystal> ;
+        ex:material4  <http://ex.org/items/legendary_scale> ;
+        ex:material5  <http://ex.org/items/earth_dragon_ash> ;
+        ex:level      70 ;
+        ex:priority   414 .
+
+<http://ex.org/recipes/raventine>
+        rdf:type      ex:Recipe ;
+        ex:name       "Raventine" ;
+        ex:itemURI    <http://ex.org/items/raventine> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material4  <http://ex.org/items/fire_crystal> ;
+        ex:material5  <http://ex.org/items/fire_dragon_ash> ;
+        ex:level      74 ;
+        ex:priority   415 .
+
+<http://ex.org/recipes/star_saber>
+        rdf:type      ex:Recipe ;
+        ex:name       "Star Saber" ;
+        ex:itemURI    <http://ex.org/items/star_saber> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material3  <http://ex.org/items/wind_crystal> ;
+        ex:material4  <http://ex.org/items/emerald> ;
+        ex:material5  <http://ex.org/items/electro_crystal> ;
+        ex:level      77 ;
+        ex:priority   416 .
+
+<http://ex.org/recipes/platinum_sword+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Sword+" ;
+        ex:itemURI    <http://ex.org/items/platinum_sword+> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/platinum_sword> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:level      79 ;
+        ex:priority   417 .
+
+<http://ex.org/recipes/dragon_slayer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dragon Slayer" ;
+        ex:itemURI    <http://ex.org/items/dragon_slayer> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:material3  <http://ex.org/items/black_scale> ;
+        ex:material4  <http://ex.org/items/blue_scale> ;
+        ex:material5  <http://ex.org/items/glitter_scale> ;
+        ex:level      82 ;
+        ex:priority   418 .
+
+<http://ex.org/recipes/rune_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Blade" ;
+        ex:itemURI    <http://ex.org/items/rune_blade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/claws_and_fangs> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      85 ;
+        ex:priority   419 .
+
+<http://ex.org/recipes/gladius>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gladius" ;
+        ex:itemURI    <http://ex.org/items/gladius> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/firewyrm_scale> ;
+        ex:material3  <http://ex.org/items/throne_of_the_empire> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      90 ;
+        ex:priority   420 .
+
+<http://ex.org/recipes/rune_legend>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Legend" ;
+        ex:itemURI    <http://ex.org/items/rune_legend> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/green_core> ;
+        ex:material5  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:level      99 ;
+        ex:priority   421 .
+
+<http://ex.org/recipes/back_scratcher>
+        rdf:type      ex:Recipe ;
+        ex:name       "Back Scratcher" ;
+        ex:itemURI    <http://ex.org/items/back_scratcher> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/glue> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      20 ;
+        ex:priority   422 .
+
+<http://ex.org/recipes/spoon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Spoon" ;
+        ex:itemURI    <http://ex.org/items/spoon> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:level      25 ;
+        ex:priority   423 .
+
+<http://ex.org/recipes/veggieblade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Veggieblade" ;
+        ex:itemURI    <http://ex.org/items/veggieblade> ;
+        ex:type       <http://ex.org/itemCategories/short_sword> ;
+        ex:material1  <http://ex.org/items/carrot> ;
+        ex:level      32 ;
+        ex:priority   424 .
+
+<http://ex.org/recipes/claymore>
+        rdf:type      ex:Recipe ;
+        ex:name       "Claymore" ;
+        ex:itemURI    <http://ex.org/items/claymore> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      2 ;
+        ex:priority   425 .
+
+<http://ex.org/recipes/zweihaender>
+        rdf:type      ex:Recipe ;
+        ex:name       "Zweihaender" ;
+        ex:itemURI    <http://ex.org/items/zweihaender> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      6 ;
+        ex:priority   426 .
+
+<http://ex.org/recipes/zweihaender+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Zweihaender+" ;
+        ex:itemURI    <http://ex.org/items/zweihaender+> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/zweihaender> ;
+        ex:material2  <http://ex.org/items/bronze> ;
+        ex:level      11 ;
+        ex:priority   427 .
+
+<http://ex.org/recipes/great_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Great Sword" ;
+        ex:itemURI    <http://ex.org/items/great_sword> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/liquids> ;
+        ex:level      16 ;
+        ex:priority   428 .
+
+<http://ex.org/recipes/sea_cutter>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sea Cutter" ;
+        ex:itemURI    <http://ex.org/items/sea_cutter> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:level      21 ;
+        ex:priority   429 .
+
+<http://ex.org/recipes/cyclone_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cyclone Blade" ;
+        ex:itemURI    <http://ex.org/items/cyclone_blade> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:level      25 ;
+        ex:priority   430 .
+
+<http://ex.org/recipes/poison_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Poison Blade" ;
+        ex:itemURI    <http://ex.org/items/poison_blade> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/poison_powder> ;
+        ex:level      27 ;
+        ex:priority   431 .
+
+<http://ex.org/recipes/katzbalger>
+        rdf:type      ex:Recipe ;
+        ex:name       "Katzbalger" ;
+        ex:itemURI    <http://ex.org/items/katzbalger> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/rigid_horn> ;
+        ex:level      29 ;
+        ex:priority   432 .
+
+<http://ex.org/recipes/earth_shade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earth Shade" ;
+        ex:itemURI    <http://ex.org/items/earth_shade> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/black_bird_feather> ;
+        ex:material4  <http://ex.org/items/earth_crystal> ;
+        ex:level      30 ;
+        ex:priority   433 .
+
+<http://ex.org/recipes/big_knife>
+        rdf:type      ex:Recipe ;
+        ex:name       "Big Knife" ;
+        ex:itemURI    <http://ex.org/items/big_knife> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      32 ;
+        ex:priority   434 .
+
+<http://ex.org/recipes/katana>
+        rdf:type      ex:Recipe ;
+        ex:name       "Katana" ;
+        ex:itemURI    <http://ex.org/items/katana> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/magic> ;
+        ex:material3  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      35 ;
+        ex:priority   435 .
+
+<http://ex.org/recipes/flame_saber>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flame Saber" ;
+        ex:itemURI    <http://ex.org/items/flame_saber> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/gold_wolf_fang> ;
+        ex:material3  <http://ex.org/items/fire_crystal> ;
+        ex:level      39 ;
+        ex:priority   436 .
+
+<http://ex.org/recipes/bio_smasher>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bio Smasher" ;
+        ex:itemURI    <http://ex.org/items/bio_smasher> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/paralysis_poison> ;
+        ex:material3  <http://ex.org/items/poison_powder> ;
+        ex:material4  <http://ex.org/items/pom-pom_grass> ;
+        ex:level      40 ;
+        ex:priority   437 .
+
+<http://ex.org/recipes/snow_crown>
+        rdf:type      ex:Recipe ;
+        ex:name       "Snow Crown" ;
+        ex:itemURI    <http://ex.org/items/snow_crown> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/water_crystal> ;
+        ex:material4  <http://ex.org/items/aquamarine> ;
+        ex:level      42 ;
+        ex:priority   438 .
+
+<http://ex.org/recipes/dancing_dicer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dancing Dicer" ;
+        ex:itemURI    <http://ex.org/items/dancing_dicer> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/dragon_fang> ;
+        ex:material3  <http://ex.org/items/dragon_bones> ;
+        ex:level      43 ;
+        ex:priority   439 .
+
+<http://ex.org/recipes/flamberge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flamberge" ;
+        ex:itemURI    <http://ex.org/items/flamberge> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/magic_claw> ;
+        ex:material4  <http://ex.org/items/thunderbird_feather> ;
+        ex:material5  <http://ex.org/items/big_bird's_comb> ;
+        ex:level      45 ;
+        ex:priority   440 .
+
+<http://ex.org/recipes/flamberge+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flamberge+" ;
+        ex:itemURI    <http://ex.org/items/flamberge+> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/flamberge> ;
+        ex:material2  <http://ex.org/items/malm_claw> ;
+        ex:level      46 ;
+        ex:priority   441 .
+
+<http://ex.org/recipes/volcanon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Volcanon" ;
+        ex:itemURI    <http://ex.org/items/volcanon> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/devil_horn> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:material3  <http://ex.org/items/ruby> ;
+        ex:material4  <http://ex.org/items/chimera's_claw> ;
+        ex:level      48 ;
+        ex:priority   442 .
+
+<http://ex.org/recipes/psycho>
+        rdf:type      ex:Recipe ;
+        ex:name       "Psycho" ;
+        ex:itemURI    <http://ex.org/items/psycho> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/devil_horn> ;
+        ex:material2  <http://ex.org/items/malm_claw> ;
+        ex:material3  <http://ex.org/items/dark_crystal> ;
+        ex:material4  <http://ex.org/items/rafflesia_petal> ;
+        ex:level      50 ;
+        ex:priority   443 .
+
+<http://ex.org/recipes/shine_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shine Blade" ;
+        ex:itemURI    <http://ex.org/items/shine_blade> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/light_crystal> ;
+        ex:material4  <http://ex.org/items/sapphire> ;
+        ex:level      52 ;
+        ex:priority   444 .
+
+<http://ex.org/recipes/grand_smasher>
+        rdf:type      ex:Recipe ;
+        ex:name       "Grand Smasher" ;
+        ex:itemURI    <http://ex.org/items/grand_smasher> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/yellow_feather> ;
+        ex:material2  <http://ex.org/items/earth_crystal> ;
+        ex:material3  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material4  <http://ex.org/items/earth_dragon_ash> ;
+        ex:level      55 ;
+        ex:priority   445 .
+
+<http://ex.org/recipes/belzebuth>
+        rdf:type      ex:Recipe ;
+        ex:name       "Belzebuth" ;
+        ex:itemURI    <http://ex.org/items/belzebuth> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/ammonite> ;
+        ex:material2  <http://ex.org/items/devil_blood> ;
+        ex:material3  <http://ex.org/items/dark_crystal> ;
+        ex:level      58 ;
+        ex:priority   446 .
+
+<http://ex.org/recipes/orochi>
+        rdf:type      ex:Recipe ;
+        ex:name       "Orochi" ;
+        ex:itemURI    <http://ex.org/items/orochi> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/queen's_jaw> ;
+        ex:material2  <http://ex.org/items/grimoire_scale> ;
+        ex:material3  <http://ex.org/items/scales> ;
+        ex:material4  <http://ex.org/items/scales> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      63 ;
+        ex:priority   447 .
+
+<http://ex.org/recipes/punisher>
+        rdf:type      ex:Recipe ;
+        ex:name       "Punisher" ;
+        ex:itemURI    <http://ex.org/items/punisher> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/dangerous_scissors> ;
+        ex:material2  <http://ex.org/items/tablet_of_truth> ;
+        ex:material3  <http://ex.org/items/minerals> ;
+        ex:level      68 ;
+        ex:priority   448 .
+
+<http://ex.org/recipes/steel_slicer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steel Slicer" ;
+        ex:itemURI    <http://ex.org/items/steel_slicer> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material4  <http://ex.org/items/mtgu_plate> ;
+        ex:level      73 ;
+        ex:priority   449 .
+
+<http://ex.org/recipes/moon_shadow>
+        rdf:type      ex:Recipe ;
+        ex:name       "Moon Shadow" ;
+        ex:itemURI    <http://ex.org/items/moon_shadow> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/glitter_scale> ;
+        ex:material2  <http://ex.org/items/light_crystal> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:material4  <http://ex.org/items/red_lion_fur> ;
+        ex:material5  <http://ex.org/items/blue_lion_fur> ;
+        ex:level      76 ;
+        ex:priority   450 .
+
+<http://ex.org/recipes/blue-eyed_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Blue-Eyed Blade" ;
+        ex:itemURI    <http://ex.org/items/blue-eyed_blade> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/blue_core> ;
+        ex:material4  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      79 ;
+        ex:priority   451 .
+
+<http://ex.org/recipes/balmung>
+        rdf:type      ex:Recipe ;
+        ex:name       "Balmung" ;
+        ex:itemURI    <http://ex.org/items/balmung> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/tablet_of_truth> ;
+        ex:material3  <http://ex.org/items/golem_tablet> ;
+        ex:material4  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      84 ;
+        ex:priority   452 .
+
+<http://ex.org/recipes/braveheart>
+        rdf:type      ex:Recipe ;
+        ex:name       "Braveheart" ;
+        ex:itemURI    <http://ex.org/items/braveheart> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/love_crystal> ;
+        ex:material4  <http://ex.org/items/light_crystal> ;
+        ex:material5  <http://ex.org/items/sapphire> ;
+        ex:level      89 ;
+        ex:priority   453 .
+
+<http://ex.org/recipes/force_element>
+        rdf:type      ex:Recipe ;
+        ex:name       "Force Element" ;
+        ex:itemURI    <http://ex.org/items/force_element> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/firewyrm_scale> ;
+        ex:material2  <http://ex.org/items/green_core> ;
+        ex:material3  <http://ex.org/items/red_core> ;
+        ex:material4  <http://ex.org/items/yellow_core> ;
+        ex:material5  <http://ex.org/items/blue_core> ;
+        ex:level      91 ;
+        ex:priority   454 .
+
+<http://ex.org/recipes/heaven_asunder>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heaven Asunder" ;
+        ex:itemURI    <http://ex.org/items/heaven_asunder> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:material3  <http://ex.org/items/water_dragon_ash> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material5  <http://ex.org/items/earth_dragon_ash> ;
+        ex:level      92 ;
+        ex:priority   455 .
+
+<http://ex.org/recipes/caliburn>
+        rdf:type      ex:Recipe ;
+        ex:name       "Caliburn" ;
+        ex:itemURI    <http://ex.org/items/caliburn> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material3  <http://ex.org/items/dragon_fin> ;
+        ex:material4  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material5  <http://ex.org/items/firewyrm_scale> ;
+        ex:level      99 ;
+        ex:priority   456 .
+
+<http://ex.org/recipes/dekash>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dekash" ;
+        ex:itemURI    <http://ex.org/items/dekash> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/tuna> ;
+        ex:level      42 ;
+        ex:priority   457 .
+
+<http://ex.org/recipes/daicone>
+        rdf:type      ex:Recipe ;
+        ex:name       "Daicone" ;
+        ex:itemURI    <http://ex.org/items/daicone> ;
+        ex:type       <http://ex.org/itemCategories/long_sword> ;
+        ex:material1  <http://ex.org/items/radish> ;
+        ex:level      28 ;
+        ex:priority   458 .
+
+<http://ex.org/recipes/spear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Spear" ;
+        ex:itemURI    <http://ex.org/items/spear> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      3 ;
+        ex:priority   459 .
+
+<http://ex.org/recipes/wood_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wood Staff" ;
+        ex:itemURI    <http://ex.org/items/wood_staff> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      6 ;
+        ex:priority   460 .
+
+<http://ex.org/recipes/lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lance" ;
+        ex:itemURI    <http://ex.org/items/lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      9 ;
+        ex:priority   461 .
+
+<http://ex.org/recipes/lance+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lance+" ;
+        ex:itemURI    <http://ex.org/items/lance+> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/lance> ;
+        ex:material2  <http://ex.org/items/bronze> ;
+        ex:level      12 ;
+        ex:priority   462 .
+
+<http://ex.org/recipes/needle_spear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Needle Spear" ;
+        ex:itemURI    <http://ex.org/items/needle_spear> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/wolf_fang> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      15 ;
+        ex:priority   463 .
+
+<http://ex.org/recipes/trident>
+        rdf:type      ex:Recipe ;
+        ex:name       "Trident" ;
+        ex:itemURI    <http://ex.org/items/trident> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      18 ;
+        ex:priority   464 .
+
+<http://ex.org/recipes/water_spear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Water Spear" ;
+        ex:itemURI    <http://ex.org/items/water_spear> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      21 ;
+        ex:priority   465 .
+
+<http://ex.org/recipes/halberd>
+        rdf:type      ex:Recipe ;
+        ex:name       "Halberd" ;
+        ex:itemURI    <http://ex.org/items/halberd> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      25 ;
+        ex:priority   466 .
+
+<http://ex.org/recipes/corsesca>
+        rdf:type      ex:Recipe ;
+        ex:name       "Corsesca" ;
+        ex:itemURI    <http://ex.org/items/corsesca> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/rigid_horn> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      27 ;
+        ex:priority   467 .
+
+<http://ex.org/recipes/corsesca+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Corsesca+" ;
+        ex:itemURI    <http://ex.org/items/corsesca+> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/corsesca> ;
+        ex:material2  <http://ex.org/items/black_bird_feather> ;
+        ex:level      29 ;
+        ex:priority   468 .
+
+<http://ex.org/recipes/poison_spear>
+        rdf:type      ex:Recipe ;
+        ex:name       "Poison Spear" ;
+        ex:itemURI    <http://ex.org/items/poison_spear> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/poison_powder> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      30 ;
+        ex:priority   469 .
+
+<http://ex.org/recipes/fivestaff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fivestaff" ;
+        ex:itemURI    <http://ex.org/items/fivestaff> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/scales> ;
+        ex:material4  <http://ex.org/items/scales> ;
+        ex:level      34 ;
+        ex:priority   470 .
+
+<http://ex.org/recipes/heavy_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heavy Lance" ;
+        ex:itemURI    <http://ex.org/items/heavy_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      37 ;
+        ex:priority   471 .
+
+<http://ex.org/recipes/feather_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Feather Lance" ;
+        ex:itemURI    <http://ex.org/items/feather_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/thick_stick> ;
+        ex:material4  <http://ex.org/items/wind_crystal> ;
+        ex:material5  <http://ex.org/items/feathers> ;
+        ex:level      38 ;
+        ex:priority   472 .
+
+<http://ex.org/recipes/iceberg>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iceberg" ;
+        ex:itemURI    <http://ex.org/items/iceberg> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/thick_stick> ;
+        ex:material4  <http://ex.org/items/water_crystal> ;
+        ex:material5  <http://ex.org/items/aquamarine> ;
+        ex:level      41 ;
+        ex:priority   473 .
+
+<http://ex.org/recipes/blood_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Blood Lance" ;
+        ex:itemURI    <http://ex.org/items/blood_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/cursed_doll> ;
+        ex:material3  <http://ex.org/items/thick_stick> ;
+        ex:material4  <http://ex.org/items/magic_claw> ;
+        ex:material5  <http://ex.org/items/devil_blood> ;
+        ex:level      43 ;
+        ex:priority   474 .
+
+<http://ex.org/recipes/magical_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magical Lance" ;
+        ex:itemURI    <http://ex.org/items/magical_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/devil_horn> ;
+        ex:material2  <http://ex.org/items/cursed_doll> ;
+        ex:material3  <http://ex.org/items/puppetry_strings> ;
+        ex:material4  <http://ex.org/items/round_stone> ;
+        ex:material5  <http://ex.org/items/crystals> ;
+        ex:level      47 ;
+        ex:priority   475 .
+
+<http://ex.org/recipes/flare_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flare Lance" ;
+        ex:itemURI    <http://ex.org/items/flare_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/devil_horn> ;
+        ex:material3  <http://ex.org/items/proof_of_rank> ;
+        ex:material4  <http://ex.org/items/fire_crystal> ;
+        ex:material5  <http://ex.org/items/dragon_bones> ;
+        ex:level      49 ;
+        ex:priority   476 .
+
+<http://ex.org/recipes/brionac>
+        rdf:type      ex:Recipe ;
+        ex:name       "Brionac" ;
+        ex:itemURI    <http://ex.org/items/brionac> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/light_crystal> ;
+        ex:material3  <http://ex.org/items/sapphire> ;
+        ex:material4  <http://ex.org/items/lightning_mane> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      51 ;
+        ex:priority   477 .
+
+<http://ex.org/recipes/poison_queen>
+        rdf:type      ex:Recipe ;
+        ex:name       "Poison Queen" ;
+        ex:itemURI    <http://ex.org/items/poison_queen> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/poison_king> ;
+        ex:material4  <http://ex.org/items/holy_spore> ;
+        ex:material5  <http://ex.org/items/poison_powder> ;
+        ex:level      55 ;
+        ex:priority   478 .
+
+<http://ex.org/recipes/monk_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Monk Staff" ;
+        ex:itemURI    <http://ex.org/items/monk_staff> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/turnip's_miracle> ;
+        ex:material3  <http://ex.org/items/glitta_augite> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      57 ;
+        ex:priority   479 .
+
+<http://ex.org/recipes/metus>
+        rdf:type      ex:Recipe ;
+        ex:name       "Metus" ;
+        ex:itemURI    <http://ex.org/items/metus> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/queen's_jaw> ;
+        ex:material3  <http://ex.org/items/cursed_doll> ;
+        ex:material4  <http://ex.org/items/legendary_scale> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      60 ;
+        ex:priority   480 .
+
+<http://ex.org/recipes/silent_grave>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silent Grave" ;
+        ex:itemURI    <http://ex.org/items/silent_grave> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/dangerous_scissors> ;
+        ex:material3  <http://ex.org/items/crystal_skull> ;
+        ex:material4  <http://ex.org/items/shards> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      65 ;
+        ex:priority   481 .
+
+<http://ex.org/recipes/overbreak>
+        rdf:type      ex:Recipe ;
+        ex:name       "Overbreak" ;
+        ex:itemURI    <http://ex.org/items/overbreak> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/blue_scale> ;
+        ex:material2  <http://ex.org/items/left_rock_shard> ;
+        ex:material3  <http://ex.org/items/right_rock_shard> ;
+        ex:material4  <http://ex.org/items/grimoire_scale> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      69 ;
+        ex:priority   482 .
+
+<http://ex.org/recipes/bjor>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bjor" ;
+        ex:itemURI    <http://ex.org/items/bjor> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/melody_bottle> ;
+        ex:material2  <http://ex.org/items/holy_spore> ;
+        ex:material3  <http://ex.org/items/orichalcum> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      74 ;
+        ex:priority   483 .
+
+<http://ex.org/recipes/belvarose>
+        rdf:type      ex:Recipe ;
+        ex:name       "Belvarose" ;
+        ex:itemURI    <http://ex.org/items/belvarose> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material3  <http://ex.org/items/tablet_of_truth> ;
+        ex:material4  <http://ex.org/items/mtgu_plate> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      76 ;
+        ex:priority   484 .
+
+<http://ex.org/recipes/gae_bolg>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gae Bolg" ;
+        ex:itemURI    <http://ex.org/items/gae_bolg> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/grimoire_scale> ;
+        ex:material4  <http://ex.org/items/black_scale> ;
+        ex:material5  <http://ex.org/items/moving_branch> ;
+        ex:level      81 ;
+        ex:priority   485 .
+
+<http://ex.org/recipes/dragon's_fang>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dragon's Fang" ;
+        ex:itemURI    <http://ex.org/items/dragon's_fang> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material2  <http://ex.org/items/big_crystal> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      86 ;
+        ex:priority   487 .
+
+<http://ex.org/recipes/gungnir>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gungnir" ;
+        ex:itemURI    <http://ex.org/items/gungnir> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/dragon_fin> ;
+        ex:material2  <http://ex.org/items/green_core> ;
+        ex:material3  <http://ex.org/items/earth_dragon_ash> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      91 ;
+        ex:priority   486 .
+
+<http://ex.org/recipes/legion>
+        rdf:type      ex:Recipe ;
+        ex:name       "Legion" ;
+        ex:itemURI    <http://ex.org/items/legion> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/firewyrm_scale> ;
+        ex:material3  <http://ex.org/items/dragon_fin> ;
+        ex:material4  <http://ex.org/items/light_ore> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      99 ;
+        ex:priority   488 .
+
+<http://ex.org/recipes/pitchfork>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pitchfork" ;
+        ex:itemURI    <http://ex.org/items/pitchfork> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/wolf_fang> ;
+        ex:material2  <http://ex.org/items/fodder_> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      14 ;
+        ex:priority   489 .
+
+<http://ex.org/recipes/safety_lance>
+        rdf:type      ex:Recipe ;
+        ex:name       "Safety Lance" ;
+        ex:itemURI    <http://ex.org/items/safety_lance> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/ghost_hood> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      13 ;
+        ex:priority   490 .
+
+<http://ex.org/recipes/pine_club>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pine Club" ;
+        ex:itemURI    <http://ex.org/items/pine_club> ;
+        ex:type       <http://ex.org/itemCategories/spear> ;
+        ex:material1  <http://ex.org/items/pineapple> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      40 ;
+        ex:priority   491 .
+
+<http://ex.org/recipes/battle_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Battle Hammer" ;
+        ex:itemURI    <http://ex.org/items/battle_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      3 ;
+        ex:priority   497 .
+
+<http://ex.org/recipes/battle_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Battle Axe" ;
+        ex:itemURI    <http://ex.org/items/battle_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      6 ;
+        ex:priority   498 .
+
+<http://ex.org/recipes/bat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bat" ;
+        ex:itemURI    <http://ex.org/items/bat> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:level      9 ;
+        ex:priority   499 .
+
+<http://ex.org/recipes/war_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "War Hammer" ;
+        ex:itemURI    <http://ex.org/items/war_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      11 ;
+        ex:priority   500 .
+
+<http://ex.org/recipes/battle_scythe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Battle Scythe" ;
+        ex:itemURI    <http://ex.org/items/battle_scythe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      13 ;
+        ex:priority   501 .
+
+<http://ex.org/recipes/war_hammer+>
+        rdf:type      ex:Recipe ;
+        ex:name       "War Hammer+" ;
+        ex:itemURI    <http://ex.org/items/war_hammer+> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/war_hammer> ;
+        ex:material2  <http://ex.org/items/liquids> ;
+        ex:level      15 ;
+        ex:priority   502 .
+
+<http://ex.org/recipes/pole_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pole Axe" ;
+        ex:itemURI    <http://ex.org/items/pole_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/wolf_fang> ;
+        ex:material2  <http://ex.org/items/bronze> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      16 ;
+        ex:priority   503 .
+
+<http://ex.org/recipes/iron_bat>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Bat" ;
+        ex:itemURI    <http://ex.org/items/iron_bat> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/bat> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:level      18 ;
+        ex:priority   504 .
+
+<http://ex.org/recipes/pole_axe+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Pole Axe+" ;
+        ex:itemURI    <http://ex.org/items/pole_axe+> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/pole_axe> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:level      20 ;
+        ex:priority   505 .
+
+<http://ex.org/recipes/great_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Great Hammer" ;
+        ex:itemURI    <http://ex.org/items/great_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      22 ;
+        ex:priority   506 .
+
+<http://ex.org/recipes/great_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Great Axe" ;
+        ex:itemURI    <http://ex.org/items/great_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      23 ;
+        ex:priority   507 .
+
+<http://ex.org/recipes/ice_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ice Hammer" ;
+        ex:itemURI    <http://ex.org/items/ice_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:material3  <http://ex.org/items/shards> ;
+        ex:level      26 ;
+        ex:priority   508 .
+
+<http://ex.org/recipes/tomahawk>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tomahawk" ;
+        ex:itemURI    <http://ex.org/items/tomahawk> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:material3  <http://ex.org/items/silk_cloth> ;
+        ex:material4  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      28 ;
+        ex:priority   509 .
+
+<http://ex.org/recipes/basilisk_fang>
+        rdf:type      ex:Recipe ;
+        ex:name       "Basilisk Fang" ;
+        ex:itemURI    <http://ex.org/items/basilisk_fang> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/paralysis_poison> ;
+        ex:material3  <http://ex.org/items/claws_and_fangs> ;
+        ex:material4  <http://ex.org/items/claws_and_fangs> ;
+        ex:level      30 ;
+        ex:priority   510 .
+
+<http://ex.org/recipes/bone_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bone Hammer" ;
+        ex:itemURI    <http://ex.org/items/bone_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/giant's_gloves> ;
+        ex:material3  <http://ex.org/items/shells_and_bones> ;
+        ex:material4  <http://ex.org/items/shells_and_bones> ;
+        ex:level      31 ;
+        ex:priority   511 .
+
+<http://ex.org/recipes/rock_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rock Axe" ;
+        ex:itemURI    <http://ex.org/items/rock_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/giant's_gloves> ;
+        ex:material4  <http://ex.org/items/earth_crystal> ;
+        ex:level      32 ;
+        ex:priority   512 .
+
+<http://ex.org/recipes/strong_stone>
+        rdf:type      ex:Recipe ;
+        ex:name       "Strong Stone" ;
+        ex:itemURI    <http://ex.org/items/strong_stone> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/stones> ;
+        ex:material3  <http://ex.org/items/scales> ;
+        ex:material4  <http://ex.org/items/strings> ;
+        ex:level      33 ;
+        ex:priority   513 .
+
+<http://ex.org/recipes/demon_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Demon Axe" ;
+        ex:itemURI    <http://ex.org/items/demon_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/scorpion_pincer> ;
+        ex:material3  <http://ex.org/items/devil_blood> ;
+        ex:level      35 ;
+        ex:priority   514 .
+
+<http://ex.org/recipes/flame_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flame Hammer" ;
+        ex:itemURI    <http://ex.org/items/flame_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:material3  <http://ex.org/items/ruby> ;
+        ex:material4  <http://ex.org/items/shards> ;
+        ex:level      36 ;
+        ex:priority   515 .
+
+<http://ex.org/recipes/gigant_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gigant Hammer" ;
+        ex:itemURI    <http://ex.org/items/gigant_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/silver> ;
+        ex:material4  <http://ex.org/items/shards> ;
+        ex:level      38 ;
+        ex:priority   516 .
+
+<http://ex.org/recipes/sky_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sky Hammer" ;
+        ex:itemURI    <http://ex.org/items/sky_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/wind_crystal> ;
+        ex:material3  <http://ex.org/items/emerald> ;
+        ex:material4  <http://ex.org/items/thunderbird_feather> ;
+        ex:level      40 ;
+        ex:priority   517 .
+
+<http://ex.org/recipes/frost_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Frost Axe" ;
+        ex:itemURI    <http://ex.org/items/frost_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/dragon_fang> ;
+        ex:material3  <http://ex.org/items/big_crystal> ;
+        ex:material4  <http://ex.org/items/water_crystal> ;
+        ex:material5  <http://ex.org/items/aquamarine> ;
+        ex:level      42 ;
+        ex:priority   518 .
+
+<http://ex.org/recipes/crescent_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Crescent Axe" ;
+        ex:itemURI    <http://ex.org/items/crescent_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/chimera's_claw> ;
+        ex:material3  <http://ex.org/items/devil_horn> ;
+        ex:level      46 ;
+        ex:priority   519 .
+
+<http://ex.org/recipes/crescent_axe+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Crescent Axe+" ;
+        ex:itemURI    <http://ex.org/items/crescent_axe+> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/crescent_axe> ;
+        ex:material2  <http://ex.org/items/warrior's_proof> ;
+        ex:material3  <http://ex.org/items/proof_of_rank> ;
+        ex:level      47 ;
+        ex:priority   520 .
+
+<http://ex.org/recipes/graviton_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Graviton Hammer" ;
+        ex:itemURI    <http://ex.org/items/graviton_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/grimoire_scale> ;
+        ex:material2  <http://ex.org/items/earth_crystal> ;
+        ex:material3  <http://ex.org/items/minerals> ;
+        ex:level      49 ;
+        ex:priority   521 .
+
+<http://ex.org/recipes/spiked_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Spiked Hammer" ;
+        ex:itemURI    <http://ex.org/items/spiked_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/left_rock_shard> ;
+        ex:material2  <http://ex.org/items/right_rock_shard> ;
+        ex:material3  <http://ex.org/items/claws_and_fangs> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      50 ;
+        ex:priority   522 .
+
+<http://ex.org/recipes/heat_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heat Axe" ;
+        ex:itemURI    <http://ex.org/items/heat_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:material3  <http://ex.org/items/ruby> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:level      53 ;
+        ex:priority   523 .
+
+<http://ex.org/recipes/crystal_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Crystal Hammer" ;
+        ex:itemURI    <http://ex.org/items/crystal_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/crystal_skull> ;
+        ex:material3  <http://ex.org/items/big_crystal> ;
+        ex:material4  <http://ex.org/items/shards> ;
+        ex:level      57 ;
+        ex:priority   524 .
+
+<http://ex.org/recipes/schnabel>
+        rdf:type      ex:Recipe ;
+        ex:name       "Schnabel" ;
+        ex:itemURI    <http://ex.org/items/schnabel> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/ammonite> ;
+        ex:material3  <http://ex.org/items/blue_core> ;
+        ex:material4  <http://ex.org/items/shards> ;
+        ex:level      60 ;
+        ex:priority   525 .
+
+<http://ex.org/recipes/double_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Double Edge" ;
+        ex:itemURI    <http://ex.org/items/double_edge> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/big_giant's_nail> ;
+        ex:material2  <http://ex.org/items/queen's_jaw> ;
+        ex:material3  <http://ex.org/items/red_lion_fur> ;
+        ex:material4  <http://ex.org/items/blue_lion_fur> ;
+        ex:level      65 ;
+        ex:priority   526 .
+
+<http://ex.org/recipes/alldale>
+        rdf:type      ex:Recipe ;
+        ex:name       "Alldale" ;
+        ex:itemURI    <http://ex.org/items/alldale> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/dangerous_scissors> ;
+        ex:material4  <http://ex.org/items/white_stone> ;
+        ex:material5  <http://ex.org/items/yellow_core> ;
+        ex:level      69 ;
+        ex:priority   527 .
+
+<http://ex.org/recipes/gigant_hammer+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gigant Hammer+" ;
+        ex:itemURI    <http://ex.org/items/gigant_hammer+> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/gigant_hammer> ;
+        ex:material2  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material3  <http://ex.org/items/orichalcum> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:level      71 ;
+        ex:priority   528 .
+
+<http://ex.org/recipes/devil_finger>
+        rdf:type      ex:Recipe ;
+        ex:name       "Devil Finger" ;
+        ex:itemURI    <http://ex.org/items/devil_finger> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/love_scale> ;
+        ex:material2  <http://ex.org/items/legendary_scale> ;
+        ex:material3  <http://ex.org/items/water_dragon_ash> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material5  <http://ex.org/items/earth_dragon_ash> ;
+        ex:level      73 ;
+        ex:priority   529 .
+
+<http://ex.org/recipes/kongo>
+        rdf:type      ex:Recipe ;
+        ex:name       "Kongo" ;
+        ex:itemURI    <http://ex.org/items/kongo> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/strong_stone> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:material3  <http://ex.org/items/small_crystal> ;
+        ex:level      77 ;
+        ex:priority   530 .
+
+<http://ex.org/recipes/executioner>
+        rdf:type      ex:Recipe ;
+        ex:name       "Executioner" ;
+        ex:itemURI    <http://ex.org/items/executioner> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material3  <http://ex.org/items/light_ore> ;
+        ex:material4  <http://ex.org/items/chimera_tail> ;
+        ex:material5  <http://ex.org/items/dark_crystal> ;
+        ex:level      81 ;
+        ex:priority   531 .
+
+<http://ex.org/recipes/mjolnir>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mjolnir" ;
+        ex:itemURI    <http://ex.org/items/mjolnir> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material2  <http://ex.org/items/dragonic_stone> ;
+        ex:material3  <http://ex.org/items/small_crystal> ;
+        ex:material4  <http://ex.org/items/rune_crystal> ;
+        ex:level      86 ;
+        ex:priority   532 .
+
+<http://ex.org/recipes/fatal_crush>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fatal Crush" ;
+        ex:itemURI    <http://ex.org/items/fatal_crush> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material2  <http://ex.org/items/throne_of_the_empire> ;
+        ex:material3  <http://ex.org/items/dragonic_stone> ;
+        ex:material4  <http://ex.org/items/dragonic_stone> ;
+        ex:material5  <http://ex.org/items/dragonic_stone> ;
+        ex:level      90 ;
+        ex:priority   533 .
+
+<http://ex.org/recipes/saint_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Saint Axe" ;
+        ex:itemURI    <http://ex.org/items/saint_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/light_crystal> ;
+        ex:material3  <http://ex.org/items/white_crystal> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/big_crystal> ;
+        ex:level      98 ;
+        ex:priority   534 .
+
+<http://ex.org/recipes/splash_star>
+        rdf:type      ex:Recipe ;
+        ex:name       "Splash Star" ;
+        ex:itemURI    <http://ex.org/items/splash_star> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material3  <http://ex.org/items/dragon_fin> ;
+        ex:material4  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material5  <http://ex.org/items/firewyrm_scale> ;
+        ex:level      99 ;
+        ex:priority   535 .
+
+<http://ex.org/recipes/hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hammer" ;
+        ex:itemURI    <http://ex.org/items/hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/cheap_hammer> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      7 ;
+        ex:priority   536 .
+
+<http://ex.org/recipes/toy_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Toy Hammer" ;
+        ex:itemURI    <http://ex.org/items/toy_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer> ;
+        ex:material1  <http://ex.org/items/sticks_and_stems> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      8 ;
+        ex:priority   537 .
+
+<http://ex.org/recipes/axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Axe" ;
+        ex:itemURI    <http://ex.org/items/axe> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/cheap_axe> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      9 ;
+        ex:priority   538 .
+
+<http://ex.org/recipes/lollipop>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lollipop" ;
+        ex:itemURI    <http://ex.org/items/lollipop> ;
+        ex:type       <http://ex.org/itemCategories/axe> ;
+        ex:material1  <http://ex.org/items/butter> ;
+        ex:material2  <http://ex.org/items/apple> ;
+        ex:level      28 ;
+        ex:priority   539 .
+
+<http://ex.org/recipes/rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rod" ;
+        ex:itemURI    <http://ex.org/items/rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      2 ;
+        ex:priority   560 .
+
+<http://ex.org/recipes/amethyst_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Amethyst Rod" ;
+        ex:itemURI    <http://ex.org/items/amethyst_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/amethyst> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      6 ;
+        ex:priority   561 .
+
+<http://ex.org/recipes/aquamarine_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Aquamarine Rod" ;
+        ex:itemURI    <http://ex.org/items/aquamarine_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/aquamarine> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      8 ;
+        ex:priority   562 .
+
+<http://ex.org/recipes/friendly_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Friendly Rod" ;
+        ex:itemURI    <http://ex.org/items/friendly_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/love_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      13 ;
+        ex:priority   563 .
+
+<http://ex.org/recipes/love-love_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Love-Love Rod" ;
+        ex:itemURI    <http://ex.org/items/love-love_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/friendly_rod> ;
+        ex:material2  <http://ex.org/items/love_crystal> ;
+        ex:material3  <http://ex.org/items/love_crystal> ;
+        ex:material4  <http://ex.org/items/love_crystal> ;
+        ex:level      15 ;
+        ex:priority   564 .
+
+<http://ex.org/recipes/staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Staff" ;
+        ex:itemURI    <http://ex.org/items/staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/magic_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      16 ;
+        ex:priority   565 .
+
+<http://ex.org/recipes/emerald_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Emerald Rod" ;
+        ex:itemURI    <http://ex.org/items/emerald_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/emerald> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      18 ;
+        ex:priority   566 .
+
+<http://ex.org/recipes/silver_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Staff" ;
+        ex:itemURI    <http://ex.org/items/silver_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      21 ;
+        ex:priority   567 .
+
+<http://ex.org/recipes/flare_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Flare Staff" ;
+        ex:itemURI    <http://ex.org/items/flare_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/fire_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      22 ;
+        ex:priority   568 .
+
+<http://ex.org/recipes/ruby_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ruby Rod" ;
+        ex:itemURI    <http://ex.org/items/ruby_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/ruby> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      23 ;
+        ex:priority   569 .
+
+<http://ex.org/recipes/sapphire_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sapphire Rod" ;
+        ex:itemURI    <http://ex.org/items/sapphire_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/sapphire> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      26 ;
+        ex:priority   570 .
+
+<http://ex.org/recipes/earth_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earth Staff" ;
+        ex:itemURI    <http://ex.org/items/earth_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/earth_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      28 ;
+        ex:priority   571 .
+
+<http://ex.org/recipes/lightning_wand>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lightning Wand" ;
+        ex:itemURI    <http://ex.org/items/lightning_wand> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/wind_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      30 ;
+        ex:priority   572 .
+
+<http://ex.org/recipes/ice_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ice Staff" ;
+        ex:itemURI    <http://ex.org/items/ice_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/water_crystal> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      31 ;
+        ex:priority   573 .
+
+<http://ex.org/recipes/diamond_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Diamond Rod" ;
+        ex:itemURI    <http://ex.org/items/diamond_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      33 ;
+        ex:priority   574 .
+
+<http://ex.org/recipes/wizard's_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wizard's Staff" ;
+        ex:itemURI    <http://ex.org/items/wizard's_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/magic> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      35 ;
+        ex:priority   575 .
+
+<http://ex.org/recipes/mage's_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mage's Staff" ;
+        ex:itemURI    <http://ex.org/items/mage's_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      40 ;
+        ex:priority   576 .
+
+<http://ex.org/recipes/shooting_star_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shooting Star Staff" ;
+        ex:itemURI    <http://ex.org/items/shooting_star_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/fairy_elixir> ;
+        ex:material2  <http://ex.org/items/golem_stone> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      43 ;
+        ex:priority   577 .
+
+<http://ex.org/recipes/hell_branch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hell Branch" ;
+        ex:itemURI    <http://ex.org/items/hell_branch> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/skull> ;
+        ex:material2  <http://ex.org/items/warrior's_proof> ;
+        ex:material3  <http://ex.org/items/proof_of_rank> ;
+        ex:material4  <http://ex.org/items/devil_horn> ;
+        ex:level      49 ;
+        ex:priority   578 .
+
+<http://ex.org/recipes/crimson_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Crimson Staff" ;
+        ex:itemURI    <http://ex.org/items/crimson_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/red_core> ;
+        ex:material2  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material3  <http://ex.org/items/devil_horn> ;
+        ex:level      50 ;
+        ex:priority   579 .
+
+<http://ex.org/recipes/bubble_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bubble Staff" ;
+        ex:itemURI    <http://ex.org/items/bubble_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/blue_core> ;
+        ex:material2  <http://ex.org/items/water_dragon_ash> ;
+        ex:material3  <http://ex.org/items/orichalcum> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      53 ;
+        ex:priority   580 .
+
+<http://ex.org/recipes/gaia_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gaia Rod" ;
+        ex:itemURI    <http://ex.org/items/gaia_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/yellow_core> ;
+        ex:material2  <http://ex.org/items/earth_dragon_ash> ;
+        ex:material3  <http://ex.org/items/yellow_feather> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      56 ;
+        ex:priority   581 .
+
+<http://ex.org/recipes/cyclone_rod>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cyclone Rod" ;
+        ex:itemURI    <http://ex.org/items/cyclone_rod> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/green_core> ;
+        ex:material2  <http://ex.org/items/grimoire_scale> ;
+        ex:material3  <http://ex.org/items/turnip's_miracle> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      60 ;
+        ex:priority   582 .
+
+<http://ex.org/recipes/storm_wand>
+        rdf:type      ex:Recipe ;
+        ex:name       "Storm Wand" ;
+        ex:itemURI    <http://ex.org/items/storm_wand> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/mealy_apple> ;
+        ex:material2  <http://ex.org/items/electro_crystal> ;
+        ex:material3  <http://ex.org/items/orichalcum> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      65 ;
+        ex:priority   583 .
+
+<http://ex.org/recipes/rune_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Staff" ;
+        ex:itemURI    <http://ex.org/items/rune_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/rune_crystal> ;
+        ex:material2  <http://ex.org/items/rune_crystal> ;
+        ex:material3  <http://ex.org/items/crimson_scale> ;
+        ex:material4  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      70 ;
+        ex:priority   584 .
+
+<http://ex.org/recipes/mage's_staff+>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mage's Staff+" ;
+        ex:itemURI    <http://ex.org/items/mage's_staff+> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/orichalcum> ;
+        ex:material3  <http://ex.org/items/love_scale> ;
+        ex:material4  <http://ex.org/items/love_crystal> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      76 ;
+        ex:priority   585 .
+
+<http://ex.org/recipes/magic_broom>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Broom" ;
+        ex:itemURI    <http://ex.org/items/magic_broom> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/ancient_orc_cloth> ;
+        ex:material2  <http://ex.org/items/moving_branch> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/big_crystal> ;
+        ex:material5  <http://ex.org/items/strings> ;
+        ex:level      82 ;
+        ex:priority   586 .
+
+<http://ex.org/recipes/magic_shot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Magic Shot" ;
+        ex:itemURI    <http://ex.org/items/magic_shot> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material2  <http://ex.org/items/melody_bottle> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      85 ;
+        ex:priority   587 .
+
+<http://ex.org/recipes/hell_curse>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hell Curse" ;
+        ex:itemURI    <http://ex.org/items/hell_curse> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/moving_branch> ;
+        ex:material2  <http://ex.org/items/dragon_fin> ;
+        ex:material3  <http://ex.org/items/cursed_doll> ;
+        ex:material4  <http://ex.org/items/crystal_skull> ;
+        ex:material5  <http://ex.org/items/small_crystal> ;
+        ex:level      87 ;
+        ex:priority   588 .
+
+<http://ex.org/recipes/algernon>
+        rdf:type      ex:Recipe ;
+        ex:name       "Algernon" ;
+        ex:itemURI    <http://ex.org/items/algernon> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/moving_branch> ;
+        ex:material2  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material3  <http://ex.org/items/wind_dragon_tooth> ;
+        ex:material4  <http://ex.org/items/charm_blue> ;
+        ex:material5  <http://ex.org/items/lamp_grass> ;
+        ex:level      91 ;
+        ex:priority   589 .
+
+<http://ex.org/recipes/sorcerer's_wand>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sorcerer's Wand" ;
+        ex:itemURI    <http://ex.org/items/sorcerer's_wand> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/dragon_fin> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/moving_branch> ;
+        ex:level      99 ;
+        ex:priority   590 .
+
+<http://ex.org/recipes/basket>
+        rdf:type      ex:Recipe ;
+        ex:name       "Basket" ;
+        ex:itemURI    <http://ex.org/items/basket> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/strings> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      4 ;
+        ex:priority   591 .
+
+<http://ex.org/recipes/golden_turnip_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Golden Turnip Staff" ;
+        ex:itemURI    <http://ex.org/items/golden_turnip_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/golden_turnip> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      80 ;
+        ex:priority   592 .
+
+<http://ex.org/recipes/sweet_potato_staff>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sweet Potato Staff" ;
+        ex:itemURI    <http://ex.org/items/sweet_potato_staff> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/sweet_potato> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      10 ;
+        ex:priority   593 .
+
+<http://ex.org/recipes/elvish_harp>
+        rdf:type      ex:Recipe ;
+        ex:name       "Elvish Harp" ;
+        ex:itemURI    <http://ex.org/items/elvish_harp> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/strings> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      24 ;
+        ex:priority   594 .
+
+<http://ex.org/recipes/syringe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Syringe" ;
+        ex:itemURI    <http://ex.org/items/syringe> ;
+        ex:type       <http://ex.org/itemCategories/staff> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/furs> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      29 ;
+        ex:priority   595 .
+
+<http://ex.org/recipes/short_dagger>
+        rdf:type      ex:Recipe ;
+        ex:name       "Short Dagger" ;
+        ex:itemURI    <http://ex.org/items/short_dagger> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/minerals> ;
+        ex:level      5 ;
+        ex:priority   596 .
+
+<http://ex.org/recipes/steel_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steel Edge" ;
+        ex:itemURI    <http://ex.org/items/steel_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/iron> ;
+        ex:material2  <http://ex.org/items/iron> ;
+        ex:material3  <http://ex.org/items/bronze> ;
+        ex:level      9 ;
+        ex:priority   597 .
+
+<http://ex.org/recipes/frost_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Frost Edge" ;
+        ex:itemURI    <http://ex.org/items/frost_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/aquamarine> ;
+        ex:material2  <http://ex.org/items/aquamarine> ;
+        ex:material3  <http://ex.org/items/liquids> ;
+        ex:level      13 ;
+        ex:priority   598 .
+
+<http://ex.org/recipes/iron_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Edge" ;
+        ex:itemURI    <http://ex.org/items/iron_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/iron> ;
+        ex:material2  <http://ex.org/items/iron> ;
+        ex:material3  <http://ex.org/items/silver> ;
+        ex:level      21 ;
+        ex:priority   600 .
+
+<http://ex.org/recipes/thief_knife>
+        rdf:type      ex:Recipe ;
+        ex:name       "Thief Knife" ;
+        ex:itemURI    <http://ex.org/items/thief_knife> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:level      23 ;
+        ex:priority   601 .
+
+<http://ex.org/recipes/wind_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Wind Edge" ;
+        ex:itemURI    <http://ex.org/items/wind_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/emerald> ;
+        ex:material2  <http://ex.org/items/emerald> ;
+        ex:material3  <http://ex.org/items/palm_claw> ;
+        ex:level      25 ;
+        ex:priority   602 .
+
+<http://ex.org/recipes/gorgeous_lx>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gorgeous Lx" ;
+        ex:itemURI    <http://ex.org/items/gorgeous_lx> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/gorgeous_sword> ;
+        ex:material2  <http://ex.org/items/gorgeous_sword> ;
+        ex:level      28 ;
+        ex:priority   603 .
+
+<http://ex.org/recipes/steel_katana>
+        rdf:type      ex:Recipe ;
+        ex:name       "Steel Katana" ;
+        ex:itemURI    <http://ex.org/items/steel_katana> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/black_bird_feather> ;
+        ex:level      30 ;
+        ex:priority   604 .
+
+<http://ex.org/recipes/twin_blade>
+        rdf:type      ex:Recipe ;
+        ex:name       "Twin Blade" ;
+        ex:itemURI    <http://ex.org/items/twin_blade> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/gold> ;
+        ex:material3  <http://ex.org/items/rigid_horn> ;
+        ex:material4  <http://ex.org/items/rigid_horn> ;
+        ex:material5  <http://ex.org/items/paralysis_poison> ;
+        ex:level      32 ;
+        ex:priority   605 .
+
+<http://ex.org/recipes/rampage>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rampage" ;
+        ex:itemURI    <http://ex.org/items/rampage> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/diamond> ;
+        ex:material3  <http://ex.org/items/gold_wolf_fang> ;
+        ex:level      33 ;
+        ex:priority   606 .
+
+<http://ex.org/recipes/salamander>
+        rdf:type      ex:Recipe ;
+        ex:name       "Salamander" ;
+        ex:itemURI    <http://ex.org/items/salamander> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/diamond> ;
+        ex:material3  <http://ex.org/items/fire_crystal> ;
+        ex:material4  <http://ex.org/items/cheap_propeller> ;
+        ex:level      35 ;
+        ex:priority   607 .
+
+<http://ex.org/recipes/platinum_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Edge" ;
+        ex:itemURI    <http://ex.org/items/platinum_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/dragon_fang> ;
+        ex:material4  <http://ex.org/items/dragon_fang> ;
+        ex:level      37 ;
+        ex:priority   608 .
+
+<http://ex.org/recipes/sonic_dagger>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sonic Dagger" ;
+        ex:itemURI    <http://ex.org/items/sonic_dagger> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/emerald> ;
+        ex:material4  <http://ex.org/items/emerald> ;
+        ex:material5  <http://ex.org/items/thunderbird_feather> ;
+        ex:level      39 ;
+        ex:priority   609 .
+
+<http://ex.org/recipes/chaos_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chaos Edge" ;
+        ex:itemURI    <http://ex.org/items/chaos_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/platinum> ;
+        ex:material3  <http://ex.org/items/quality_propeller> ;
+        ex:material4  <http://ex.org/items/quality_propeller> ;
+        ex:material5  <http://ex.org/items/holy_spore> ;
+        ex:level      40 ;
+        ex:priority   610 .
+
+<http://ex.org/recipes/desert_wind>
+        rdf:type      ex:Recipe ;
+        ex:name       "Desert Wind" ;
+        ex:itemURI    <http://ex.org/items/desert_wind> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/malm_claw> ;
+        ex:material2  <http://ex.org/items/wind_crystal> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:material4  <http://ex.org/items/mtgu_plate> ;
+        ex:level      44 ;
+        ex:priority   611 .
+
+<http://ex.org/recipes/broken_wall>
+        rdf:type      ex:Recipe ;
+        ex:name       "Broken Wall" ;
+        ex:itemURI    <http://ex.org/items/broken_wall> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/left_rock_shard> ;
+        ex:material2  <http://ex.org/items/right_rock_shard> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:level      48 ;
+        ex:priority   612 .
+
+<http://ex.org/recipes/force_divide>
+        rdf:type      ex:Recipe ;
+        ex:name       "Force Divide" ;
+        ex:itemURI    <http://ex.org/items/force_divide> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:material3  <http://ex.org/items/water_crystal> ;
+        ex:material4  <http://ex.org/items/red_core> ;
+        ex:material5  <http://ex.org/items/blue_core> ;
+        ex:level      51 ;
+        ex:priority   613 .
+
+<http://ex.org/recipes/heart_fire>
+        rdf:type      ex:Recipe ;
+        ex:name       "Heart Fire" ;
+        ex:itemURI    <http://ex.org/items/heart_fire> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material2  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material3  <http://ex.org/items/yellow_feather> ;
+        ex:material4  <http://ex.org/items/fire_crystal> ;
+        ex:level      54 ;
+        ex:priority   614 .
+
+<http://ex.org/recipes/orcus_sword>
+        rdf:type      ex:Recipe ;
+        ex:name       "Orcus Sword" ;
+        ex:itemURI    <http://ex.org/items/orcus_sword> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/turnip's_miracle> ;
+        ex:material2  <http://ex.org/items/earth_dragon_ash> ;
+        ex:material3  <http://ex.org/items/earth_dragon_ash> ;
+        ex:material4  <http://ex.org/items/glitta_augite> ;
+        ex:material5  <http://ex.org/items/glitta_augite> ;
+        ex:level      57 ;
+        ex:priority   615 .
+
+<http://ex.org/recipes/deep_blizzard>
+        rdf:type      ex:Recipe ;
+        ex:name       "Deep Blizzard" ;
+        ex:itemURI    <http://ex.org/items/deep_blizzard> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/icy_nose> ;
+        ex:material2  <http://ex.org/items/icy_nose> ;
+        ex:material3  <http://ex.org/items/water_crystal> ;
+        ex:material4  <http://ex.org/items/water_crystal> ;
+        ex:level      63 ;
+        ex:priority   616 .
+
+<http://ex.org/recipes/dark_invitation>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dark Invitation" ;
+        ex:itemURI    <http://ex.org/items/dark_invitation> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dangerous_scissors> ;
+        ex:material2  <http://ex.org/items/blue_lion_fur> ;
+        ex:material3  <http://ex.org/items/red_lion_fur> ;
+        ex:material4  <http://ex.org/items/legendary_scale> ;
+        ex:material5  <http://ex.org/items/dark_crystal> ;
+        ex:level      68 ;
+        ex:priority   617 .
+
+<http://ex.org/recipes/priest_saber>
+        rdf:type      ex:Recipe ;
+        ex:name       "Priest Saber" ;
+        ex:itemURI    <http://ex.org/items/priest_saber> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dangerous_scissors> ;
+        ex:material2  <http://ex.org/items/mtgu_plate> ;
+        ex:material3  <http://ex.org/items/mtgu_plate> ;
+        ex:material4  <http://ex.org/items/light_crystal> ;
+        ex:material5  <http://ex.org/items/light_crystal> ;
+        ex:level      72 ;
+        ex:priority   618 .
+
+<http://ex.org/recipes/efreet>
+        rdf:type      ex:Recipe ;
+        ex:name       "Efreet" ;
+        ex:itemURI    <http://ex.org/items/efreet> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/red_core> ;
+        ex:material2  <http://ex.org/items/crimson_scale> ;
+        ex:material3  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material5  <http://ex.org/items/fire_dragon_ash> ;
+        ex:level      74 ;
+        ex:priority   619 .
+
+<http://ex.org/recipes/dragoon_claw>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dragoon Claw" ;
+        ex:itemURI    <http://ex.org/items/dragoon_claw> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dragon_fang> ;
+        ex:material2  <http://ex.org/items/blue_scale> ;
+        ex:material3  <http://ex.org/items/glitter_scale> ;
+        ex:material4  <http://ex.org/items/grimoire_scale> ;
+        ex:material5  <http://ex.org/items/small_crystal> ;
+        ex:level      76 ;
+        ex:priority   620 .
+
+<http://ex.org/recipes/emerald_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Emerald Edge" ;
+        ex:itemURI    <http://ex.org/items/emerald_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/green_core> ;
+        ex:material3  <http://ex.org/items/green_core> ;
+        ex:level      79 ;
+        ex:priority   621 .
+
+<http://ex.org/recipes/rune_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rune Edge" ;
+        ex:itemURI    <http://ex.org/items/rune_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/rune_crystal> ;
+        ex:material3  <http://ex.org/items/rune_crystal> ;
+        ex:level      87 ;
+        ex:priority   622 .
+
+<http://ex.org/recipes/earnest_edge>
+        rdf:type      ex:Recipe ;
+        ex:name       "Earnest Edge" ;
+        ex:itemURI    <http://ex.org/items/earnest_edge> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material4  <http://ex.org/items/glitta_augite> ;
+        ex:material5  <http://ex.org/items/glitta_augite> ;
+        ex:level      90 ;
+        ex:priority   623 .
+
+<http://ex.org/recipes/twin_justice>
+        rdf:type      ex:Recipe ;
+        ex:name       "Twin Justice" ;
+        ex:itemURI    <http://ex.org/items/twin_justice> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/firewyrm_scale> ;
+        ex:material3  <http://ex.org/items/dragon_fin> ;
+        ex:material4  <http://ex.org/items/fire_dragon_ash> ;
+        ex:material5  <http://ex.org/items/water_dragon_ash> ;
+        ex:level      99 ;
+        ex:priority   624 .
+
+<http://ex.org/recipes/double_scratch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Double Scratch" ;
+        ex:itemURI    <http://ex.org/items/double_scratch> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/back_scratcher> ;
+        ex:material2  <http://ex.org/items/back_scratcher> ;
+        ex:level      12 ;
+        ex:priority   625 .
+
+<http://ex.org/recipes/acutorimass>
+        rdf:type      ex:Recipe ;
+        ex:name       "Acutorimass" ;
+        ex:itemURI    <http://ex.org/items/acutorimass> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/silver> ;
+        ex:material3  <http://ex.org/items/iron> ;
+        ex:material4  <http://ex.org/items/iron> ;
+        ex:level      23 ;
+        ex:priority   626 .
+
+<http://ex.org/recipes/twin_leeks>
+        rdf:type      ex:Recipe ;
+        ex:name       "Twin Leeks" ;
+        ex:itemURI    <http://ex.org/items/twin_leeks> ;
+        ex:type       <http://ex.org/itemCategories/dual_blade> ;
+        ex:material1  <http://ex.org/items/leek> ;
+        ex:material2  <http://ex.org/items/leek> ;
+        ex:level      39 ;
+        ex:priority   599 .
+
+<http://ex.org/recipes/leather_gloves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Leather Gloves" ;
+        ex:itemURI    <http://ex.org/items/leather_gloves> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      2 ;
+        ex:priority   627 .
+
+<http://ex.org/recipes/brass_knuckles>
+        rdf:type      ex:Recipe ;
+        ex:name       "Brass Knuckles" ;
+        ex:itemURI    <http://ex.org/items/brass_knuckles> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      10 ;
+        ex:priority   628 .
+
+<http://ex.org/recipes/kote>
+        rdf:type      ex:Recipe ;
+        ex:name       "Kote" ;
+        ex:itemURI    <http://ex.org/items/kote> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/iron> ;
+        ex:material2  <http://ex.org/items/palm_claw> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      16 ;
+        ex:priority   629 .
+
+<http://ex.org/recipes/gloves>
+        rdf:type      ex:Recipe ;
+        ex:name       "Gloves" ;
+        ex:itemURI    <http://ex.org/items/gloves> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/quality_cloth> ;
+        ex:material2  <http://ex.org/items/fur_(m)> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      20 ;
+        ex:priority   630 .
+
+<http://ex.org/recipes/bear_claws>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bear Claws" ;
+        ex:itemURI    <http://ex.org/items/bear_claws> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      28 ;
+        ex:priority   631 .
+
+<http://ex.org/recipes/fists_of_the_earth>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of the Earth" ;
+        ex:itemURI    <http://ex.org/items/fists_of_the_earth> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/rigid_horn> ;
+        ex:material3  <http://ex.org/items/earth_crystal> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      30 ;
+        ex:priority   632 .
+
+<http://ex.org/recipes/fists_of_fire>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of Fire" ;
+        ex:itemURI    <http://ex.org/items/fists_of_fire> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/diamond> ;
+        ex:material2  <http://ex.org/items/fire_crystal> ;
+        ex:material3  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      33 ;
+        ex:priority   633 .
+
+<http://ex.org/recipes/fists_of_water>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of Water" ;
+        ex:itemURI    <http://ex.org/items/fists_of_water> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/water_crystal> ;
+        ex:material3  <http://ex.org/items/aquamarine> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      38 ;
+        ex:priority   634 .
+
+<http://ex.org/recipes/dragon_claws>
+        rdf:type      ex:Recipe ;
+        ex:name       "Dragon Claws" ;
+        ex:itemURI    <http://ex.org/items/dragon_claws> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/dragon_fang> ;
+        ex:material3  <http://ex.org/items/scales> ;
+        ex:material4  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      42 ;
+        ex:priority   635 .
+
+<http://ex.org/recipes/fists_of_dark>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of Dark" ;
+        ex:itemURI    <http://ex.org/items/fists_of_dark> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/malm_claw> ;
+        ex:material2  <http://ex.org/items/dark_crystal> ;
+        ex:material3  <http://ex.org/items/cursed_doll> ;
+        ex:level      46 ;
+        ex:priority   636 .
+
+<http://ex.org/recipes/fists_of_wind>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of Wind" ;
+        ex:itemURI    <http://ex.org/items/fists_of_wind> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/malm_claw> ;
+        ex:material2  <http://ex.org/items/wind_crystal> ;
+        ex:material3  <http://ex.org/items/chimera's_claw> ;
+        ex:level      50 ;
+        ex:priority   637 .
+
+<http://ex.org/recipes/fists_of_light>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fists of Light" ;
+        ex:itemURI    <http://ex.org/items/fists_of_light> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/light_crystal> ;
+        ex:material3  <http://ex.org/items/light_crystal> ;
+        ex:material4  <http://ex.org/items/big_crystal> ;
+        ex:level      53 ;
+        ex:priority   638 .
+
+<http://ex.org/recipes/cat_punch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cat Punch" ;
+        ex:itemURI    <http://ex.org/items/cat_punch> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/quality_worn_cloth> ;
+        ex:material3  <http://ex.org/items/yellow_feather> ;
+        ex:material4  <http://ex.org/items/big_bird's_comb> ;
+        ex:material5  <http://ex.org/items/chimera's_claw> ;
+        ex:level      57 ;
+        ex:priority   639 .
+
+<http://ex.org/recipes/animal_puppets>
+        rdf:type      ex:Recipe ;
+        ex:name       "Animal Puppets" ;
+        ex:itemURI    <http://ex.org/items/animal_puppets> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/turnip's_miracle> ;
+        ex:material2  <http://ex.org/items/rune_crystal> ;
+        ex:material3  <http://ex.org/items/puppetry_strings> ;
+        ex:material4  <http://ex.org/items/furs> ;
+        ex:material5  <http://ex.org/items/furs> ;
+        ex:level      60 ;
+        ex:priority   640 .
+
+<http://ex.org/recipes/ironleaf_fists>
+        rdf:type      ex:Recipe ;
+        ex:name       "Ironleaf Fists" ;
+        ex:itemURI    <http://ex.org/items/ironleaf_fists> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/crimson_scale> ;
+        ex:material3  <http://ex.org/items/mtgu_plate> ;
+        ex:material4  <http://ex.org/items/ironleaf> ;
+        ex:material5  <http://ex.org/items/ironleaf> ;
+        ex:level      64 ;
+        ex:priority   641 .
+
+<http://ex.org/recipes/caestus>
+        rdf:type      ex:Recipe ;
+        ex:name       "Caestus" ;
+        ex:itemURI    <http://ex.org/items/caestus> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/dangerous_scissors> ;
+        ex:material3  <http://ex.org/items/red_lion_fur> ;
+        ex:material4  <http://ex.org/items/blue_lion_fur> ;
+        ex:level      69 ;
+        ex:priority   642 .
+
+<http://ex.org/recipes/golem_punch>
+        rdf:type      ex:Recipe ;
+        ex:name       "Golem Punch" ;
+        ex:itemURI    <http://ex.org/items/golem_punch> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/orichalcum> ;
+        ex:material2  <http://ex.org/items/golem_spirit_stone> ;
+        ex:material3  <http://ex.org/items/golem_tablet> ;
+        ex:material4  <http://ex.org/items/mtgu_plate> ;
+        ex:material5  <http://ex.org/items/shiny_screw> ;
+        ex:level      75 ;
+        ex:priority   643 .
+
+<http://ex.org/recipes/hand_of_god>
+        rdf:type      ex:Recipe ;
+        ex:name       "Hand of God" ;
+        ex:itemURI    <http://ex.org/items/hand_of_god> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/chimera_tail> ;
+        ex:material3  <http://ex.org/items/ambrosia's_thorns> ;
+        ex:material4  <http://ex.org/items/small_crystal> ;
+        ex:material5  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      82 ;
+        ex:priority   644 .
+
+<http://ex.org/recipes/bazal_katar>
+        rdf:type      ex:Recipe ;
+        ex:name       "Bazal Katar" ;
+        ex:itemURI    <http://ex.org/items/bazal_katar> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/dragonic_stone> ;
+        ex:material2  <http://ex.org/items/earthwyrm_scale> ;
+        ex:material3  <http://ex.org/items/firewyrm_scale> ;
+        ex:material4  <http://ex.org/items/crystal_skull> ;
+        ex:material5  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      90 ;
+        ex:priority   645 .
+
+<http://ex.org/recipes/fenrir>
+        rdf:type      ex:Recipe ;
+        ex:name       "Fenrir" ;
+        ex:itemURI    <http://ex.org/items/fenrir> ;
+        ex:type       <http://ex.org/itemCategories/fist> ;
+        ex:material1  <http://ex.org/items/rune_sphere_shard> ;
+        ex:material2  <http://ex.org/items/rune_crystal> ;
+        ex:material3  <http://ex.org/items/red_lion_fur> ;
+        ex:material4  <http://ex.org/items/blue_lion_fur> ;
+        ex:material5  <http://ex.org/items/broken_ice_wall> ;
+        ex:level      99 ;
+        ex:priority   646 .
+
+<http://ex.org/recipes/cheap_hoe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Hoe" ;
+        ex:itemURI    <http://ex.org/items/cheap_hoe> ;
+        ex:type       <http://ex.org/itemCategories/hoe_(tool)> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:level      5 ;
+        ex:priority   279 .
+
+<http://ex.org/recipes/sturdy_hoe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sturdy Hoe" ;
+        ex:itemURI    <http://ex.org/items/sturdy_hoe> ;
+        ex:type       <http://ex.org/itemCategories/hoe_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:level      15 ;
+        ex:priority   280 .
+
+<http://ex.org/recipes/seasoned_hoe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Seasoned Hoe" ;
+        ex:itemURI    <http://ex.org/items/seasoned_hoe> ;
+        ex:type       <http://ex.org/itemCategories/hoe_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:level      30 ;
+        ex:priority   281 .
+
+<http://ex.org/recipes/shiny_hoe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Shiny Hoe" ;
+        ex:itemURI    <http://ex.org/items/shiny_hoe> ;
+        ex:type       <http://ex.org/itemCategories/hoe_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:level      45 ;
+        ex:priority   282 .
+
+<http://ex.org/recipes/blessed_hoe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Blessed Hoe" ;
+        ex:itemURI    <http://ex.org/items/blessed_hoe> ;
+        ex:type       <http://ex.org/itemCategories/hoe_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:level      80 ;
+        ex:priority   283 .
+
+<http://ex.org/recipes/cheap_waterpot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Waterpot" ;
+        ex:itemURI    <http://ex.org/items/cheap_waterpot> ;
+        ex:type       <http://ex.org/itemCategories/waterpot_(tool)> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      5 ;
+        ex:priority   284 .
+
+<http://ex.org/recipes/tin_waterpot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Tin Waterpot" ;
+        ex:itemURI    <http://ex.org/items/tin_waterpot> ;
+        ex:type       <http://ex.org/itemCategories/waterpot_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      15 ;
+        ex:priority   285 .
+
+<http://ex.org/recipes/lion_waterpot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lion Waterpot" ;
+        ex:itemURI    <http://ex.org/items/lion_waterpot> ;
+        ex:type       <http://ex.org/itemCategories/waterpot_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      30 ;
+        ex:priority   286 .
+
+<http://ex.org/recipes/rainbow_waterpot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Rainbow Waterpot" ;
+        ex:itemURI    <http://ex.org/items/rainbow_waterpot> ;
+        ex:type       <http://ex.org/itemCategories/waterpot_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      45 ;
+        ex:priority   287 .
+
+<http://ex.org/recipes/joy_waterpot>
+        rdf:type      ex:Recipe ;
+        ex:name       "Joy Waterpot" ;
+        ex:itemURI    <http://ex.org/items/joy_waterpot> ;
+        ex:type       <http://ex.org/itemCategories/waterpot_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/cloths_and_skins> ;
+        ex:level      80 ;
+        ex:priority   288 .
+
+<http://ex.org/recipes/cheap_sickle>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Sickle" ;
+        ex:itemURI    <http://ex.org/items/cheap_sickle> ;
+        ex:type       <http://ex.org/itemCategories/sickle_(tool)> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      5 ;
+        ex:priority   289 .
+
+<http://ex.org/recipes/iron_sickle>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Sickle" ;
+        ex:itemURI    <http://ex.org/items/iron_sickle> ;
+        ex:type       <http://ex.org/itemCategories/sickle_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      15 ;
+        ex:priority   290 .
+
+<http://ex.org/recipes/quality_sickle>
+        rdf:type      ex:Recipe ;
+        ex:name       "Quality Sickle" ;
+        ex:itemURI    <http://ex.org/items/quality_sickle> ;
+        ex:type       <http://ex.org/itemCategories/sickle_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      30 ;
+        ex:priority   291 .
+
+<http://ex.org/recipes/super_sickle>
+        rdf:type      ex:Recipe ;
+        ex:name       "Super Sickle" ;
+        ex:itemURI    <http://ex.org/items/super_sickle> ;
+        ex:type       <http://ex.org/itemCategories/sickle_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      45 ;
+        ex:priority   292 .
+
+<http://ex.org/recipes/legendary_sickle>
+        rdf:type      ex:Recipe ;
+        ex:name       "Legendary Sickle" ;
+        ex:itemURI    <http://ex.org/items/legendary_sickle> ;
+        ex:type       <http://ex.org/itemCategories/sickle_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/shards> ;
+        ex:level      80 ;
+        ex:priority   293 .
+
+<http://ex.org/recipes/cheap_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Axe" ;
+        ex:itemURI    <http://ex.org/items/cheap_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe_(tool)> ;
+        ex:material1  <http://ex.org/items/stones> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      5 ;
+        ex:priority   299 .
+
+<http://ex.org/recipes/chopping_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Chopping Axe" ;
+        ex:itemURI    <http://ex.org/items/chopping_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/stones> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      15 ;
+        ex:priority   300 .
+
+<http://ex.org/recipes/lumber_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Lumber Axe" ;
+        ex:itemURI    <http://ex.org/items/lumber_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/stones> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      30 ;
+        ex:priority   301 .
+
+<http://ex.org/recipes/mountain_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Mountain Axe" ;
+        ex:itemURI    <http://ex.org/items/mountain_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/stones> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      45 ;
+        ex:priority   302 .
+
+<http://ex.org/recipes/miracle_axe>
+        rdf:type      ex:Recipe ;
+        ex:name       "Miracle Axe" ;
+        ex:itemURI    <http://ex.org/items/miracle_axe> ;
+        ex:type       <http://ex.org/itemCategories/axe_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/stones> ;
+        ex:material3  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      80 ;
+        ex:priority   303 .
+
+<http://ex.org/recipes/cheap_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Hammer" ;
+        ex:itemURI    <http://ex.org/items/cheap_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer_(tool)> ;
+        ex:material1  <http://ex.org/items/minerals> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      5 ;
+        ex:priority   294 .
+
+<http://ex.org/recipes/iron_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Iron Hammer" ;
+        ex:itemURI    <http://ex.org/items/iron_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      15 ;
+        ex:priority   295 .
+
+<http://ex.org/recipes/silver_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Silver Hammer" ;
+        ex:itemURI    <http://ex.org/items/silver_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      30 ;
+        ex:priority   296 .
+
+<http://ex.org/recipes/golden_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Golden Hammer" ;
+        ex:itemURI    <http://ex.org/items/golden_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      45 ;
+        ex:priority   297 .
+
+<http://ex.org/recipes/platinum_hammer>
+        rdf:type      ex:Recipe ;
+        ex:name       "Platinum Hammer" ;
+        ex:itemURI    <http://ex.org/items/platinum_hammer> ;
+        ex:type       <http://ex.org/itemCategories/hammer_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:level      80 ;
+        ex:priority   298 .
+
+<http://ex.org/recipes/cheap_pole>
+        rdf:type      ex:Recipe ;
+        ex:name       "Cheap Pole" ;
+        ex:itemURI    <http://ex.org/items/cheap_pole> ;
+        ex:type       <http://ex.org/itemCategories/pole_(tool)> ;
+        ex:material1  <http://ex.org/items/sticks_and_stems> ;
+        ex:material2  <http://ex.org/items/strings> ;
+        ex:level      5 ;
+        ex:priority   304 .
+
+<http://ex.org/recipes/beginner's_pole>
+        rdf:type      ex:Recipe ;
+        ex:name       "Beginner's Pole" ;
+        ex:itemURI    <http://ex.org/items/beginner's_pole> ;
+        ex:type       <http://ex.org/itemCategories/pole_(tool)> ;
+        ex:material1  <http://ex.org/items/bronze> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      15 ;
+        ex:priority   305 .
+
+<http://ex.org/recipes/skilled_pole>
+        rdf:type      ex:Recipe ;
+        ex:name       "Skilled Pole" ;
+        ex:itemURI    <http://ex.org/items/skilled_pole> ;
+        ex:type       <http://ex.org/itemCategories/pole_(tool)> ;
+        ex:material1  <http://ex.org/items/silver> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      30 ;
+        ex:priority   306 .
+
+<http://ex.org/recipes/famous_pole>
+        rdf:type      ex:Recipe ;
+        ex:name       "Famous Pole" ;
+        ex:itemURI    <http://ex.org/items/famous_pole> ;
+        ex:type       <http://ex.org/itemCategories/pole_(tool)> ;
+        ex:material1  <http://ex.org/items/gold> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      45 ;
+        ex:priority   307 .
+
+<http://ex.org/recipes/sacred_pole>
+        rdf:type      ex:Recipe ;
+        ex:name       "Sacred Pole" ;
+        ex:itemURI    <http://ex.org/items/sacred_pole> ;
+        ex:type       <http://ex.org/itemCategories/pole_(tool)> ;
+        ex:material1  <http://ex.org/items/platinum> ;
+        ex:material2  <http://ex.org/items/sticks_and_stems> ;
+        ex:material3  <http://ex.org/items/strings> ;
+        ex:level      80 ;
+        ex:priority   308 .

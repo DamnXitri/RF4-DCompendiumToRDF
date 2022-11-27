@@ -1,0 +1,293 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://ex.org/itemCategories/vegetable>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Vegetable" ;
+        owl:sameAs  <http://ex.org/itemCategories/0> ;
+        ex:info     "Crops" .
+
+<http://ex.org/itemCategories/fruit>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Fruit" ;
+        owl:sameAs  <http://ex.org/itemCategories/1> ;
+        ex:info     "Crops" .
+
+<http://ex.org/itemCategories/plant>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Plant" ;
+        owl:sameAs  <http://ex.org/itemCategories/2> ;
+        ex:info     "Crops" .
+
+<http://ex.org/itemCategories/medicine>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Medicine" ;
+        owl:sameAs  <http://ex.org/itemCategories/3> ;
+        ex:info     "Medicine" .
+
+<http://ex.org/itemCategories/failed_dish>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Failed Dish" ;
+        owl:sameAs  <http://ex.org/itemCategories/4> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/knife>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Knife" ;
+        owl:sameAs  <http://ex.org/itemCategories/5> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/frying_pan>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Frying Pan" ;
+        owl:sameAs  <http://ex.org/itemCategories/6> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/pot>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Pot" ;
+        owl:sameAs  <http://ex.org/itemCategories/7> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/oven>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Oven" ;
+        owl:sameAs  <http://ex.org/itemCategories/8> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/mixer>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Mixer" ;
+        owl:sameAs  <http://ex.org/itemCategories/9> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/steamed>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Steamed" ;
+        owl:sameAs  <http://ex.org/itemCategories/10> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/no_tool>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "No Tool" ;
+        owl:sameAs  <http://ex.org/itemCategories/11> ;
+        ex:info     "Cooking" .
+
+<http://ex.org/itemCategories/ready-made>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Ready-made" ;
+        owl:sameAs  <http://ex.org/itemCategories/12> ;
+        ex:info     "Products" .
+
+<http://ex.org/itemCategories/dairy>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Dairy" ;
+        owl:sameAs  <http://ex.org/itemCategories/13> ;
+        ex:info     "Products" .
+
+<http://ex.org/itemCategories/ingredient>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Ingredient" ;
+        owl:sameAs  <http://ex.org/itemCategories/14> ;
+        ex:info     "Products" .
+
+<http://ex.org/itemCategories/short_sword>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Short Sword" ;
+        owl:sameAs  <http://ex.org/itemCategories/15> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/long_sword>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Long Sword" ;
+        owl:sameAs  <http://ex.org/itemCategories/16> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/spear>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Spear" ;
+        owl:sameAs  <http://ex.org/itemCategories/17> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/hammer>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Hammer" ;
+        owl:sameAs  <http://ex.org/itemCategories/18> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/axe>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Axe" ;
+        owl:sameAs  <http://ex.org/itemCategories/19> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/staff>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Staff" ;
+        owl:sameAs  <http://ex.org/itemCategories/24> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/dual_blade>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Dual Blade" ;
+        owl:sameAs  <http://ex.org/itemCategories/25> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/fist>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Fist" ;
+        owl:sameAs  <http://ex.org/itemCategories/26> ;
+        ex:info     "Weapons" .
+
+<http://ex.org/itemCategories/hoe_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Hoe (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/27> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/waterpot_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Waterpot (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/28> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/sickle_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Sickle (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/29> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/hammer_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Hammer (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/30> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/axe_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Axe (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/31> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/pole_(tool)>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Pole (Tool)" ;
+        owl:sameAs  <http://ex.org/itemCategories/32> ;
+        ex:info     "Tools" .
+
+<http://ex.org/itemCategories/shield>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Shield" ;
+        owl:sameAs  <http://ex.org/itemCategories/33> ;
+        ex:info     "Equipment" .
+
+<http://ex.org/itemCategories/accessory>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Accessory" ;
+        owl:sameAs  <http://ex.org/itemCategories/34> ;
+        ex:info     "Equipment" .
+
+<http://ex.org/itemCategories/headgear>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Headgear" ;
+        owl:sameAs  <http://ex.org/itemCategories/35> ;
+        ex:info     "Equipment" .
+
+<http://ex.org/itemCategories/shoes>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Shoes" ;
+        owl:sameAs  <http://ex.org/itemCategories/36> ;
+        ex:info     "Equipment" .
+
+<http://ex.org/itemCategories/armor>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Armor" ;
+        owl:sameAs  <http://ex.org/itemCategories/37> ;
+        ex:info     "Equipment" .
+
+<http://ex.org/itemCategories/brush>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Brush" ;
+        owl:sameAs  <http://ex.org/itemCategories/40> ;
+        ex:info     "Monster Tools" .
+
+<http://ex.org/itemCategories/clippers>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Clippers" ;
+        owl:sameAs  <http://ex.org/itemCategories/41> ;
+        ex:info     "Monster Tools" .
+
+<http://ex.org/itemCategories/magnifying_glass>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Magnifying Glass" ;
+        owl:sameAs  <http://ex.org/itemCategories/45> ;
+        ex:info     "Crop Tools" .
+
+<http://ex.org/itemCategories/seed>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Seed" ;
+        owl:sameAs  <http://ex.org/itemCategories/46> ;
+        ex:info     "Crop Tools" .
+
+<http://ex.org/itemCategories/nutrient>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Nutrient" ;
+        owl:sameAs  <http://ex.org/itemCategories/47> ;
+        ex:info     "Crop Tools" .
+
+<http://ex.org/itemCategories/magic>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Magic" ;
+        owl:sameAs  <http://ex.org/itemCategories/48> ;
+        ex:info     "Ability Charms" .
+
+<http://ex.org/itemCategories/rune_ability>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Rune Ability" ;
+        owl:sameAs  <http://ex.org/itemCategories/49> ;
+        ex:info     "Ability Charms" .
+
+<http://ex.org/itemCategories/ability>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Ability" ;
+        owl:sameAs  <http://ex.org/itemCategories/50> ;
+        ex:info     "Ability Charms" .
+
+<http://ex.org/itemCategories/collectible>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Collectible" ;
+        owl:sameAs  <http://ex.org/itemCategories/51> ;
+        ex:info     "(Most crafting materials)" .
+
+<http://ex.org/itemCategories/fish>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Fish" ;
+        owl:sameAs  <http://ex.org/itemCategories/52> ;
+        ex:info     "(Fishing food)" .
+
+<http://ex.org/itemCategories/trash>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Trash" ;
+        owl:sameAs  <http://ex.org/itemCategories/53> ;
+        ex:info     "(Fishing trash)" .
+
+<http://ex.org/itemCategories/other>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Other" ;
+        owl:sameAs  <http://ex.org/itemCategories/54> ;
+        ex:info     "(Rocks, branches and their materials)" .
+
+<http://ex.org/itemCategories/other2>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Other2" ;
+        owl:sameAs  <http://ex.org/itemCategories/55> ;
+        ex:info     "Special" .
+
+<http://ex.org/itemCategories/recipe_bread>
+        rdf:type    ex:ItemCategory ;
+        rdfs:label  "Recipe Bread" ;
+        owl:sameAs  <http://ex.org/itemCategories/57> ;
+        ex:info     "(Eat to learn recipes)" .

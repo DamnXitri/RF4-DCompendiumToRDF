@@ -1,0 +1,3333 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://ex.org/npc/lest>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Lest" ;
+        owl:sameAs       <http://ex.org/npc/0> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/vishnal>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Vishnal" ;
+        owl:sameAs       <http://ex.org/npc/1> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/steel_edge> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/clorica>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Clorica" ;
+        owl:sameAs       <http://ex.org/npc/2> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/lance> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/volkanon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Volkanon" ;
+        owl:sameAs       <http://ex.org/npc/3> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/bear_claws> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/forte>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Forte" ;
+        owl:sameAs       <http://ex.org/npc/4> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/zweihaender> ;
+        ex:drop2         <http://ex.org/items/iron_shield> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/kiel>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Kiel" ;
+        owl:sameAs       <http://ex.org/npc/5> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/steel_sword> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/bado>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Bado" ;
+        owl:sameAs       <http://ex.org/npc/6> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/zweihaender+> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/margaret>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Margaret" ;
+        owl:sameAs       <http://ex.org/npc/7> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/elvish_harp> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dylas>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dylas" ;
+        owl:sameAs       <http://ex.org/npc/8> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/brass_knuckles> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/arthur>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Arthur" ;
+        owl:sameAs       <http://ex.org/npc/9> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/silver_staff> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/porcoline>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Porcoline" ;
+        owl:sameAs       <http://ex.org/npc/10> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/double_scratch> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/xiao_pai>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Xiao Pai" ;
+        owl:sameAs       <http://ex.org/npc/11> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/battle_axe> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/lin_fa>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Lin Fa" ;
+        owl:sameAs       <http://ex.org/npc/12> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/safety_lance> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/amber>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Amber" ;
+        owl:sameAs       <http://ex.org/npc/13> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/tin_waterpot> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/illuminata>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Illuminata" ;
+        owl:sameAs       <http://ex.org/npc/14> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/tin_waterpot> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/doug>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Doug" ;
+        owl:sameAs       <http://ex.org/npc/15> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/defender> ;
+        ex:drop4         <http://ex.org/items/charm> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blossom>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blossom" ;
+        owl:sameAs       <http://ex.org/npc/16> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/iron_sickle> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dolce>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dolce" ;
+        owl:sameAs       <http://ex.org/npc/17> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/friendly_rod> ;
+        ex:drop3         <http://ex.org/items/silk_hat> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/jones>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Jones" ;
+        owl:sameAs       <http://ex.org/npc/18> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/short_dagger> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/nancy>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Nancy" ;
+        owl:sameAs       <http://ex.org/npc/19> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/leather_gloves> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/leon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Leon" ;
+        owl:sameAs       <http://ex.org/npc/20> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/halberd> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ventuswill>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ventuswill" ;
+        owl:sameAs       <http://ex.org/npc/21> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/son>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Son" ;
+        owl:sameAs       <http://ex.org/npc/22> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/back_scratcher> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/daughter>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Daughter" ;
+        owl:sameAs       <http://ex.org/npc/23> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/back_scratcher> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/barrett>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Barrett" ;
+        owl:sameAs       <http://ex.org/npc/24> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/steel_edge> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/raven>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Raven" ;
+        owl:sameAs       <http://ex.org/npc/25> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/steel_sword> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/mistress_trupin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Mistress Trupin" ;
+        owl:sameAs       <http://ex.org/npc/26> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/steel_sword> ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/traveler>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/27> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/28> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/29> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/30> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/31> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/32> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/33> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/34> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/35> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/36> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/37> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/38> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/39> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Traveler" ;
+        owl:sameAs       <http://ex.org/npc/40> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/soldier>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/41> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/42> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/43> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/44> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/45> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/46> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" ;
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/47> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/orc>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Orc" ;
+        owl:sameAs       <http://ex.org/npc/48> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/cheap_cloth> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/cheap_bracelet> ;
+        ex:drop4         <http://ex.org/items/stick> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     1 ;
+        ex:scarcity3     20 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/high_orc>
+        rdf:type         ex:NPC ;
+        rdfs:label       "High Orc" ;
+        owl:sameAs       <http://ex.org/npc/49> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/cheap_cloth> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/cheap_bracelet> ;
+        ex:drop4         <http://ex.org/items/stick> ;
+        ex:scarcity1     40 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     25 ;
+        ex:scarcity4     70 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/orc_archer>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Orc Archer" ;
+        owl:sameAs       <http://ex.org/npc/50> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/arrowhead> ;
+        ex:drop2         <http://ex.org/items/gunpowder> ;
+        ex:drop3         <http://ex.org/items/recovery_potion> ;
+        ex:drop4         <http://ex.org/items/stick> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     40 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/orc_hunter>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Orc Hunter" ;
+        owl:sameAs       <http://ex.org/npc/51> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/arrowhead> ;
+        ex:drop2         <http://ex.org/items/gunpowder> ;
+        ex:drop3         <http://ex.org/items/recovery_potion> ;
+        ex:drop4         <http://ex.org/items/stick> ;
+        ex:scarcity1     40 ;
+        ex:scarcity2     140 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     70 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/goblin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Goblin" ;
+        owl:sameAs       <http://ex.org/npc/52> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/blade_shard> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/old_bandage> ;
+        ex:drop4         <http://ex.org/items/onigiri> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     2 ;
+        ex:scarcity3     20 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/hobgoblin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Hobgoblin" ;
+        owl:sameAs       <http://ex.org/npc/53> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/blade_shard> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/silk_cloth> ;
+        ex:drop4         <http://ex.org/items/onigiri> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/goblin_archer>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Goblin Archer" ;
+        owl:sameAs       <http://ex.org/npc/54> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/arrowhead> ;
+        ex:drop2         <http://ex.org/items/gunpowder> ;
+        ex:drop3         <http://ex.org/items/old_bandage> ;
+        ex:drop4         <http://ex.org/items/recovery_potion> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/goblin_sniper>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Goblin Sniper" ;
+        owl:sameAs       <http://ex.org/npc/55> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/arrowhead> ;
+        ex:drop2         <http://ex.org/items/gunpowder> ;
+        ex:drop3         <http://ex.org/items/silk_cloth> ;
+        ex:drop4         <http://ex.org/items/healing_potion> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     90 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/minotaur>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Minotaur" ;
+        owl:sameAs       <http://ex.org/npc/56> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/hammer_piece> ;
+        ex:drop2         <http://ex.org/items/devil_horn> ;
+        ex:drop3         <http://ex.org/items/the_protein> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     4 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/minotaur_king>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Minotaur King" ;
+        owl:sameAs       <http://ex.org/npc/57> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/hammer_piece> ;
+        ex:drop2         <http://ex.org/items/devil_horn> ;
+        ex:drop3         <http://ex.org/items/the_protein> ;
+        ex:scarcity1     220 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/daemon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Daemon" ;
+        owl:sameAs       <http://ex.org/npc/58> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/devil_horn> ;
+        ex:drop2         <http://ex.org/items/devil_blood> ;
+        ex:scarcity1     4 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/arch-daemon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Arch-Daemon" ;
+        owl:sameAs       <http://ex.org/npc/59> ;
+        ex:Friendliness  5 ;
+        ex:drop1         <http://ex.org/items/devil_horn> ;
+        ex:drop2         <http://ex.org/items/devil_blood> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     160 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/little_mage>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Little Mage" ;
+        owl:sameAs       <http://ex.org/npc/60> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/magic_powder> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/medicine_bread> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     180 ;
+        ex:scarcity3     2 ;
+        ex:scarcity4     5 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/little_wizard>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Little Wizard" ;
+        owl:sameAs       <http://ex.org/npc/61> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/magic> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/accessory_bread> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     3 ;
+        ex:scarcity4     5 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/little_emperor>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Little Emperor" ;
+        owl:sameAs       <http://ex.org/npc/62> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/magic> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/medicine_bread> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     4 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/troll>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Troll" ;
+        owl:sameAs       <http://ex.org/npc/63> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/titan>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Titan" ;
+        owl:sameAs       <http://ex.org/npc/64> ;
+        ex:Friendliness  10 ;
+        ex:drop1         <http://ex.org/items/giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:drop3         <http://ex.org/items/blue_giant's_glove> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     16 ;
+        ex:scarcity3     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/hammer_troll>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Hammer Troll" ;
+        owl:sameAs       <http://ex.org/npc/65> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:drop3         <http://ex.org/items/hammer_piece> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/gigantes>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gigantes" ;
+        owl:sameAs       <http://ex.org/npc/66> ;
+        ex:Friendliness  10 ;
+        ex:drop1         <http://ex.org/items/giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:drop3         <http://ex.org/items/hammer_piece> ;
+        ex:drop4         <http://ex.org/items/thick_stick> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     140 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ant>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Ant" ;
+        owl:sameAs        <http://ex.org/npc/67> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/insect_carapace> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:drop4          <http://ex.org/items/lumber> ;
+        ex:scarcity1      100 ;
+        ex:scarcity2      2 ;
+        ex:scarcity3      30 ;
+        ex:scarcity4      70 ;
+        ex:produce        <http://ex.org/items/insect_carapace> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/killer_ant>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Killer Ant" ;
+        owl:sameAs        <http://ex.org/npc/68> ;
+        ex:Friendliness   25 ;
+        ex:drop1          <http://ex.org/items/insect_carapace> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:drop4          <http://ex.org/items/lumber> ;
+        ex:scarcity1      80 ;
+        ex:scarcity2      160 ;
+        ex:scarcity3      20 ;
+        ex:scarcity4      150 ;
+        ex:produce        <http://ex.org/items/pretty_carapace> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/hornet>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Hornet" ;
+        owl:sameAs        <http://ex.org/npc/69> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/insect_carapace> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:drop4          <http://ex.org/items/honey> ;
+        ex:scarcity1      70 ;
+        ex:scarcity2      100 ;
+        ex:scarcity3      50 ;
+        ex:scarcity4      70 ;
+        ex:produce        <http://ex.org/items/honey> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/hornet_queen>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Hornet Queen" ;
+        owl:sameAs        <http://ex.org/npc/70> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/paralysis_poison> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:drop4          <http://ex.org/items/honey> ;
+        ex:scarcity1      90 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      100 ;
+        ex:scarcity4      80 ;
+        ex:produce        <http://ex.org/items/honey> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/spider>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Spider" ;
+        owl:sameAs        <http://ex.org/npc/71> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/spider's_thread> ;
+        ex:drop2          <http://ex.org/items/pretty_thread> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      2 ;
+        ex:scarcity3      80 ;
+        ex:produce        <http://ex.org/items/spider's_thread> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/hell_spider>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Hell Spider" ;
+        owl:sameAs        <http://ex.org/npc/72> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/spider's_thread> ;
+        ex:drop2          <http://ex.org/items/pretty_thread> ;
+        ex:drop3          <http://ex.org/items/insect_jaw> ;
+        ex:scarcity1      100 ;
+        ex:scarcity2      160 ;
+        ex:scarcity3      80 ;
+        ex:produce        <http://ex.org/items/pretty_thread> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/beetle>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Beetle" ;
+        owl:sameAs        <http://ex.org/npc/73> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/insect_horn> ;
+        ex:drop2          <http://ex.org/items/insect_carapace> ;
+        ex:drop3          <http://ex.org/items/pretty_carapace> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      2 ;
+        ex:produce        <http://ex.org/items/insect_horn> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/heracles>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Heracles" ;
+        owl:sameAs        <http://ex.org/npc/74> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/rigid_horn> ;
+        ex:drop2          <http://ex.org/items/insect_carapace> ;
+        ex:drop3          <http://ex.org/items/pretty_carapace> ;
+        ex:scarcity1      200 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      10 ;
+        ex:produce        <http://ex.org/items/rigid_horn> ;
+        ex:produceChance  "0.50200003"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/scorpion>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Scorpion" ;
+        owl:sameAs        <http://ex.org/npc/75> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/scorpion_tail> ;
+        ex:drop2          <http://ex.org/items/scorpion_pincer> ;
+        ex:drop3          <http://ex.org/items/insect_carapace> ;
+        ex:drop4          <http://ex.org/items/pretty_carapace> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      4 ;
+        ex:scarcity3      50 ;
+        ex:scarcity4      40 ;
+        ex:produce        <http://ex.org/items/scorpion_tail> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/death_stalker>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Death Stalker" ;
+        owl:sameAs        <http://ex.org/npc/76> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/scorpion_tail> ;
+        ex:drop2          <http://ex.org/items/scorpion_pincer> ;
+        ex:drop3          <http://ex.org/items/insect_carapace> ;
+        ex:drop4          <http://ex.org/items/pretty_carapace> ;
+        ex:scarcity1      60 ;
+        ex:scarcity2      160 ;
+        ex:scarcity3      70 ;
+        ex:scarcity4      60 ;
+        ex:produce        <http://ex.org/items/scorpion_tail> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/shadow_panther>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Shadow Panther" ;
+        owl:sameAs       <http://ex.org/npc/77> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/panther_claw> ;
+        ex:drop2         <http://ex.org/items/fur> ;
+        ex:drop3         <http://ex.org/items/quality_fur> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     10 ;
+        ex:scarcity3     70 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blood_panther>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blood Panther" ;
+        owl:sameAs       <http://ex.org/npc/78> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/magic_claw> ;
+        ex:drop2         <http://ex.org/items/fur> ;
+        ex:drop3         <http://ex.org/items/fur> ;
+        ex:drop4         <http://ex.org/items/devil_blood> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/silver_wolf>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Silver Wolf" ;
+        owl:sameAs        <http://ex.org/npc/79> ;
+        ex:Friendliness   14 ;
+        ex:drop1          <http://ex.org/items/wolf_fang> ;
+        ex:drop2          <http://ex.org/items/fur> ;
+        ex:drop3          <http://ex.org/items/quality_fur> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      80 ;
+        ex:scarcity3      40 ;
+        ex:produce        <http://ex.org/items/wolf_fang> ;
+        ex:produceChance  "0.7843"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/hunter_wolf>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Hunter Wolf" ;
+        owl:sameAs        <http://ex.org/npc/80> ;
+        ex:Friendliness   12 ;
+        ex:drop1          <http://ex.org/items/wolf_fang> ;
+        ex:drop2          <http://ex.org/items/fur> ;
+        ex:drop3          <http://ex.org/items/quality_fur> ;
+        ex:drop4          <http://ex.org/items/gold_wolf_fang> ;
+        ex:scarcity1      100 ;
+        ex:scarcity2      80 ;
+        ex:scarcity3      80 ;
+        ex:scarcity4      90 ;
+        ex:produce        <http://ex.org/items/gold_wolf_fang> ;
+        ex:produceChance  "0.25100002"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/buffaloo>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Buffaloo" ;
+        owl:sameAs        <http://ex.org/npc/81> ;
+        ex:Friendliness   16 ;
+        ex:drop1          <http://ex.org/items/bull's_horn> ;
+        ex:drop2          <http://ex.org/items/bull's_horn> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      90 ;
+        ex:produce        <http://ex.org/items/bull's_horn> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/buffamoo>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Buffamoo" ;
+        owl:sameAs        <http://ex.org/npc/82> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/milk_(s)> ;
+        ex:drop2          <http://ex.org/items/milk_(m)> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      70 ;
+        ex:produce        <http://ex.org/items/milk_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/weagle>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Weagle" ;
+        owl:sameAs        <http://ex.org/npc/83> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/bird's_feather> ;
+        ex:drop2          <http://ex.org/items/bird's_feather> ;
+        ex:drop3          <http://ex.org/items/branch> ;
+        ex:drop4          <http://ex.org/items/shining_seed> ;
+        ex:scarcity1      80 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      100 ;
+        ex:scarcity4      5 ;
+        ex:produce        <http://ex.org/items/bird's_feather> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/blackbird>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Blackbird" ;
+        owl:sameAs        <http://ex.org/npc/84> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/black_bird_feather> ;
+        ex:drop2          <http://ex.org/items/black_bird_feather> ;
+        ex:drop3          <http://ex.org/items/stick> ;
+        ex:drop4          <http://ex.org/items/branch> ;
+        ex:scarcity1      240 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      150 ;
+        ex:scarcity4      150 ;
+        ex:produce        <http://ex.org/items/black_bird_feather> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/chipsqueek>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Chipsqueek" ;
+        owl:sameAs        <http://ex.org/npc/85> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/fur> ;
+        ex:drop2          <http://ex.org/items/quality_fur> ;
+        ex:drop3          <http://ex.org/items/branch> ;
+        ex:drop4          <http://ex.org/items/stick> ;
+        ex:scarcity1      170 ;
+        ex:scarcity2      5 ;
+        ex:scarcity3      200 ;
+        ex:scarcity4      60 ;
+        ex:produce        <http://ex.org/items/fur> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/furpy>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Furpy" ;
+        owl:sameAs        <http://ex.org/npc/86> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/quality_puffy_fur> ;
+        ex:drop2          <http://ex.org/items/quality_puffy_fur> ;
+        ex:drop3          <http://ex.org/items/branch> ;
+        ex:drop4          <http://ex.org/items/stick> ;
+        ex:scarcity1      190 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      250 ;
+        ex:scarcity4      70 ;
+        ex:produce        <http://ex.org/items/quality_puffy_fur> ;
+        ex:produceChance  "0.50200003"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/flower_blossom>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Flower Blossom" ;
+        owl:sameAs        <http://ex.org/npc/87> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/vine> ;
+        ex:drop4          <http://ex.org/items/strong_vine> ;
+        ex:scarcity1      120 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      90 ;
+        ex:scarcity4      2 ;
+        ex:produce        <http://ex.org/items/root> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/flower_lion>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Flower Lion" ;
+        owl:sameAs        <http://ex.org/npc/88> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/vine> ;
+        ex:drop4          <http://ex.org/items/strong_vine> ;
+        ex:scarcity1      3 ;
+        ex:scarcity2      70 ;
+        ex:scarcity3      180 ;
+        ex:scarcity4      1 ;
+        ex:produce        <http://ex.org/items/plant_stem> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/flower_lily>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Flower Lily" ;
+        owl:sameAs        <http://ex.org/npc/89> ;
+        ex:Friendliness   16 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/vine> ;
+        ex:scarcity1      2 ;
+        ex:scarcity2      100 ;
+        ex:scarcity3      100 ;
+        ex:produce        <http://ex.org/items/vine> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/flower_crystal>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Flower Crystal" ;
+        owl:sameAs        <http://ex.org/npc/90> ;
+        ex:Friendliness   14 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/strong_vine> ;
+        ex:scarcity1      180 ;
+        ex:scarcity2      120 ;
+        ex:scarcity3      80 ;
+        ex:produce        <http://ex.org/items/strong_vine> ;
+        ex:produceChance  "0.70589995"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/big_muck>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Big Muck" ;
+        owl:sameAs        <http://ex.org/npc/91> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/spore> ;
+        ex:drop2          <http://ex.org/items/poison_powder> ;
+        ex:drop3          <http://ex.org/items/mushroom> ;
+        ex:scarcity1      200 ;
+        ex:scarcity2      5 ;
+        ex:scarcity3      100 ;
+        ex:produce        <http://ex.org/items/spore> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/tricky_muck>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Tricky Muck" ;
+        owl:sameAs        <http://ex.org/npc/92> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/spore> ;
+        ex:drop2          <http://ex.org/items/poison_powder> ;
+        ex:drop3          <http://ex.org/items/mushroom> ;
+        ex:drop4          <http://ex.org/items/monarch_mushroom> ;
+        ex:scarcity1      200 ;
+        ex:scarcity2      110 ;
+        ex:scarcity3      100 ;
+        ex:scarcity4      1 ;
+        ex:produce        <http://ex.org/items/poison_powder> ;
+        ex:produceChance  "0.70589995"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/leaf_ball>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Leaf Ball" ;
+        owl:sameAs        <http://ex.org/npc/93> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/vine> ;
+        ex:scarcity1      1 ;
+        ex:scarcity2      160 ;
+        ex:scarcity3      4 ;
+        ex:produce        <http://ex.org/items/plant_stem> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/planchoa>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Planchoa" ;
+        owl:sameAs        <http://ex.org/npc/94> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/root> ;
+        ex:drop2          <http://ex.org/items/plant_stem> ;
+        ex:drop3          <http://ex.org/items/strong_vine> ;
+        ex:drop4          <http://ex.org/items/strong_vine> ;
+        ex:scarcity1      60 ;
+        ex:scarcity2      80 ;
+        ex:scarcity3      90 ;
+        ex:scarcity4      150 ;
+        ex:produce        <http://ex.org/items/root> ;
+        ex:produceChance  "0.70589995"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/sky_fish>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sky Fish" ;
+        owl:sameAs       <http://ex.org/npc/95> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/fish_fossil> ;
+        ex:drop2         <http://ex.org/items/fish_fossil> ;
+        ex:drop3         <http://ex.org/items/can> ;
+        ex:drop4         <http://ex.org/items/rare_can> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     60 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sealy>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sealy" ;
+        owl:sameAs       <http://ex.org/npc/96> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/wet_scale> ;
+        ex:drop2         <http://ex.org/items/fish_fossil> ;
+        ex:drop3         <http://ex.org/items/can> ;
+        ex:drop4         <http://ex.org/items/rare_can> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     60 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/tortas>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Tortas" ;
+        owl:sameAs       <http://ex.org/npc/97> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/turtle_shell> ;
+        ex:drop2         <http://ex.org/items/turtle_shell> ;
+        ex:drop3         <http://ex.org/items/iron> ;
+        ex:drop4         <http://ex.org/items/bronze> ;
+        ex:scarcity1     220 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     4 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ignis>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ignis" ;
+        owl:sameAs       <http://ex.org/npc/98> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/magic_crystal> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     70 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/tundra>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Tundra" ;
+        owl:sameAs       <http://ex.org/npc/99> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/magic_crystal> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/airror>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Airror" ;
+        owl:sameAs       <http://ex.org/npc/100> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/magic_crystal> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ghost" ;
+        owl:sameAs       <http://ex.org/npc/101> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/ghost_hood> ;
+        ex:drop2         <http://ex.org/items/skull> ;
+        ex:drop3         <http://ex.org/items/stick> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/necro>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Necro" ;
+        owl:sameAs       <http://ex.org/npc/102> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/ghost_hood> ;
+        ex:drop2         <http://ex.org/items/skull> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     90 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/faust>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Faust" ;
+        owl:sameAs       <http://ex.org/npc/103> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/ghost_hood> ;
+        ex:drop2         <http://ex.org/items/skull> ;
+        ex:drop3         <http://ex.org/items/glistening_blade> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     90 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/monster_box>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Monster Box" ;
+        owl:sameAs       <http://ex.org/npc/104> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/broken_hilt> ;
+        ex:drop2         <http://ex.org/items/broken_box> ;
+        ex:drop3         <http://ex.org/items/failed_dish> ;
+        ex:drop4         <http://ex.org/items/disastrous_dish> ;
+        ex:scarcity1     680 ;
+        ex:scarcity2     8 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     8 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/gobble_box>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gobble Box" ;
+        owl:sameAs       <http://ex.org/npc/105> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/broken_hilt> ;
+        ex:drop2         <http://ex.org/items/broken_box> ;
+        ex:drop3         <http://ex.org/items/failed_dish> ;
+        ex:drop4         <http://ex.org/items/disastrous_dish> ;
+        ex:scarcity1     300 ;
+        ex:scarcity2     550 ;
+        ex:scarcity3     250 ;
+        ex:scarcity4     70 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/fairy>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Fairy" ;
+        owl:sameAs        <http://ex.org/npc/106> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/fairy_dust> ;
+        ex:drop2          <http://ex.org/items/fairy_dust> ;
+        ex:drop3          <http://ex.org/items/love_potion> ;
+        ex:drop4          <http://ex.org/items/prelude_to_love> ;
+        ex:scarcity1      75 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      1 ;
+        ex:scarcity4      7 ;
+        ex:produce        <http://ex.org/items/fairy_dust> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/dark_fairy>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Dark Fairy" ;
+        owl:sameAs        <http://ex.org/npc/107> ;
+        ex:Friendliness   18 ;
+        ex:drop1          <http://ex.org/items/fairy_elixir> ;
+        ex:drop2          <http://ex.org/items/fairy_dust> ;
+        ex:drop3          <http://ex.org/items/love_potion> ;
+        ex:drop4          <http://ex.org/items/prelude_to_love> ;
+        ex:scarcity1      75 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      2 ;
+        ex:scarcity4      7 ;
+        ex:produce        <http://ex.org/items/fairy_elixir> ;
+        ex:produceChance  "0.15689999"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/slime>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Slime" ;
+        owl:sameAs       <http://ex.org/npc/108> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/small_crystal> ;
+        ex:drop2         <http://ex.org/items/aquamarine> ;
+        ex:drop3         <http://ex.org/items/bronze> ;
+        ex:drop4         <http://ex.org/items/amethyst> ;
+        ex:scarcity1     1 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     24 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dark_slime>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dark Slime" ;
+        owl:sameAs       <http://ex.org/npc/109> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/emerald> ;
+        ex:drop2         <http://ex.org/items/sapphire> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     2 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/wooly>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Wooly" ;
+        owl:sameAs        <http://ex.org/npc/110> ;
+        ex:Friendliness   40 ;
+        ex:drop1          <http://ex.org/items/fur_(s)> ;
+        ex:drop2          <http://ex.org/items/clippers> ;
+        ex:scarcity1      15 ;
+        ex:scarcity2      32 ;
+        ex:produce        <http://ex.org/items/fur_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/little_golem>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Little Golem" ;
+        owl:sameAs       <http://ex.org/npc/112> ;
+        ex:Friendliness  8 ;
+        ex:drop1         <http://ex.org/items/tiny_golem_stone> ;
+        ex:drop2         <http://ex.org/items/silver> ;
+        ex:drop3         <http://ex.org/items/ruby> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     70 ;
+        ex:scarcity3     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/cluckadoodle>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Cluckadoodle" ;
+        owl:sameAs        <http://ex.org/npc/113> ;
+        ex:Friendliness   25 ;
+        ex:drop1          <http://ex.org/items/egg_(s)> ;
+        ex:drop2          <http://ex.org/items/egg_(m)> ;
+        ex:drop3          <http://ex.org/items/bird's_feather> ;
+        ex:scarcity1      60 ;
+        ex:scarcity2      15 ;
+        ex:scarcity3      10 ;
+        ex:produce        <http://ex.org/items/egg_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/little_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Little Dragon" ;
+        owl:sameAs       <http://ex.org/npc/114> ;
+        ex:Friendliness  8 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/dragon_fang> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/pomme_pomme>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Pomme Pomme" ;
+        owl:sameAs       <http://ex.org/npc/115> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/apple> ;
+        ex:drop2         <http://ex.org/items/apple> ;
+        ex:drop3         <http://ex.org/items/baked_apple> ;
+        ex:drop4         <http://ex.org/items/apple_tree_seeds> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     30 ;
+        ex:scarcity3     4 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/orc_viking>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Orc Viking" ;
+        owl:sameAs       <http://ex.org/npc/116> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/shoulder_piece> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/wine> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     60 ;
+        ex:scarcity3     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/high_orc_viking>
+        rdf:type         ex:NPC ;
+        rdfs:label       "High Orc Viking" ;
+        owl:sameAs       <http://ex.org/npc/117> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/pirate's_armor> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/wine> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     60 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ogre_viking>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ogre Viking" ;
+        owl:sameAs       <http://ex.org/npc/118> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/shoulder_piece> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/wine> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/high_ogre_viking>
+        rdf:type         ex:NPC ;
+        rdfs:label       "High Ogre Viking" ;
+        owl:sameAs       <http://ex.org/npc/119> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/pirate's_armor> ;
+        ex:drop2         <http://ex.org/items/glue> ;
+        ex:drop3         <http://ex.org/items/wine> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     60 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/goblin_pirate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Goblin Pirate" ;
+        owl:sameAs       <http://ex.org/npc/120> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/quality_cloth> ;
+        ex:drop2         <http://ex.org/items/silk_cloth> ;
+        ex:drop3         <http://ex.org/items/skull> ;
+        ex:drop4         <http://ex.org/items/oil> ;
+        ex:scarcity1     120 ;
+        ex:scarcity2     1 ;
+        ex:scarcity3     1 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/captain_goblin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Captain Goblin" ;
+        owl:sameAs       <http://ex.org/npc/121> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/warrior's_proof> ;
+        ex:drop2         <http://ex.org/items/silk_cloth> ;
+        ex:drop3         <http://ex.org/items/skull> ;
+        ex:drop4         <http://ex.org/items/wine> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     40 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/gangster_goblin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gangster Goblin" ;
+        owl:sameAs       <http://ex.org/npc/122> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/quality_cloth> ;
+        ex:drop2         <http://ex.org/items/old_bandage> ;
+        ex:drop3         <http://ex.org/items/skull> ;
+        ex:drop4         <http://ex.org/items/oil> ;
+        ex:scarcity1     180 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     1 ;
+        ex:scarcity4     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/goblin_don>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Goblin Don" ;
+        owl:sameAs       <http://ex.org/npc/123> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/proof_of_rank> ;
+        ex:drop2         <http://ex.org/items/old_bandage> ;
+        ex:drop3         <http://ex.org/items/skull> ;
+        ex:drop4         <http://ex.org/items/wine> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     140 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     140 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/duck>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Duck" ;
+        owl:sameAs       <http://ex.org/npc/124> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/yellow_down> ;
+        ex:drop2         <http://ex.org/items/yellow_down> ;
+        ex:drop3         <http://ex.org/items/bird's_feather> ;
+        ex:drop4         <http://ex.org/items/yellow_feather> ;
+        ex:scarcity1     160 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     20 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/emperor_penguin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Emperor Penguin" ;
+        owl:sameAs       <http://ex.org/npc/125> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/penguin_down> ;
+        ex:drop2         <http://ex.org/items/penguin_down> ;
+        ex:drop3         <http://ex.org/items/bird's_feather> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/elefun>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Elefun" ;
+        owl:sameAs       <http://ex.org/npc/126> ;
+        ex:Friendliness  15 ;
+        ex:drop1         <http://ex.org/items/ivory_tusk> ;
+        ex:drop2         <http://ex.org/items/ivory_tusk> ;
+        ex:drop3         <http://ex.org/items/cheap_waterpot> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/mammoo>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Mammoo" ;
+        owl:sameAs       <http://ex.org/npc/127> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/unbroken_ivory_tusk> ;
+        ex:drop2         <http://ex.org/items/ivory_tusk> ;
+        ex:drop3         <http://ex.org/items/tin_waterpot> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     160 ;
+        ex:scarcity3     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/onion_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Onion Ghost" ;
+        owl:sameAs       <http://ex.org/npc/128> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/onion_seeds> ;
+        ex:drop2         <http://ex.org/items/onion> ;
+        ex:drop3         <http://ex.org/items/ghost_hood> ;
+        ex:scarcity1     15 ;
+        ex:scarcity2     6 ;
+        ex:scarcity3     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/tomato_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Tomato Ghost" ;
+        owl:sameAs       <http://ex.org/npc/129> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/tomato_seeds> ;
+        ex:drop2         <http://ex.org/items/tomato> ;
+        ex:drop3         <http://ex.org/items/ghost_hood> ;
+        ex:drop4         <http://ex.org/items/titan_tomato> ;
+        ex:scarcity1     15 ;
+        ex:scarcity2     60 ;
+        ex:scarcity3     98 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/pepper_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Pepper Ghost" ;
+        owl:sameAs       <http://ex.org/npc/130> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/green_pepper_seeds> ;
+        ex:drop2         <http://ex.org/items/green_pepper> ;
+        ex:drop3         <http://ex.org/items/green_pepper_rex> ;
+        ex:drop4         <http://ex.org/items/ghost_hood> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     4 ;
+        ex:scarcity4     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/turnip_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Turnip Ghost" ;
+        owl:sameAs       <http://ex.org/npc/131> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/turnip_seeds> ;
+        ex:drop2         <http://ex.org/items/turnip> ;
+        ex:drop3         <http://ex.org/items/turnip's_miracle> ;
+        ex:drop4         <http://ex.org/items/gold_turnip_seeds> ;
+        ex:scarcity1     400 ;
+        ex:scarcity2     200 ;
+        ex:scarcity3     15 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/rider_orc>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Rider Orc" ;
+        owl:sameAs       <http://ex.org/npc/132> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/cheap_cloth> ;
+        ex:drop2         <http://ex.org/items/blade_shard> ;
+        ex:drop3         <http://ex.org/items/glue> ;
+        ex:drop4         <http://ex.org/items/cheap_bracelet> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     140 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/cloudy>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Cloudy" ;
+        owl:sameAs        <http://ex.org/npc/133> ;
+        ex:Friendliness   0 ;
+        ex:drop1          <http://ex.org/items/wooly_furball> ;
+        ex:drop2          <http://ex.org/items/wooly_furball> ;
+        ex:scarcity1      140 ;
+        ex:scarcity2      40 ;
+        ex:produce        <http://ex.org/items/fur_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/nappie>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Nappie" ;
+        owl:sameAs       <http://ex.org/npc/134> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/pineapple> ;
+        ex:drop2         <http://ex.org/items/pineapple> ;
+        ex:drop3         <http://ex.org/items/pineapple_seeds> ;
+        ex:drop4         <http://ex.org/items/king_pineapple> ;
+        ex:scarcity1     30 ;
+        ex:scarcity2     30 ;
+        ex:scarcity3     90 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/mino>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Mino" ;
+        owl:sameAs       <http://ex.org/npc/135> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/grapes> ;
+        ex:drop2         <http://ex.org/items/grapes> ;
+        ex:drop3         <http://ex.org/items/grape_juice> ;
+        ex:drop4         <http://ex.org/items/grape_tree_seed> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     5 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/snowy>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Snowy" ;
+        owl:sameAs       <http://ex.org/npc/136> ;
+        ex:Friendliness  25 ;
+        ex:drop1         <http://ex.org/items/orange> ;
+        ex:drop2         <http://ex.org/items/orange> ;
+        ex:drop3         <http://ex.org/items/orange_juice> ;
+        ex:drop4         <http://ex.org/items/orange_tree_seed> ;
+        ex:scarcity1     200 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     5 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/master_troll>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Master Troll" ;
+        owl:sameAs       <http://ex.org/npc/137> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/big_giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:drop3         <http://ex.org/items/hammer_piece> ;
+        ex:drop4         <http://ex.org/items/formuade> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     60 ;
+        ex:scarcity4     8 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/big_duck>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Big Duck" ;
+        owl:sameAs       <http://ex.org/npc/138> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/yellow_down> ;
+        ex:drop2         <http://ex.org/items/yellow_down> ;
+        ex:drop3         <http://ex.org/items/yellow_feather> ;
+        ex:drop4         <http://ex.org/items/formuade> ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     160 ;
+        ex:scarcity4     8 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/king_wooly>
+        rdf:type         ex:NPC ;
+        rdfs:label       "King Wooly" ;
+        owl:sameAs       <http://ex.org/npc/139> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wooly_furball> ;
+        ex:drop2         <http://ex.org/items/fur_(s)> ;
+        ex:drop3         <http://ex.org/items/fur_(m)> ;
+        ex:scarcity1     8 ;
+        ex:scarcity2     90 ;
+        ex:scarcity3     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/death_fungus>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Death Fungus" ;
+        owl:sameAs        <http://ex.org/npc/140> ;
+        ex:Friendliness   0 ;
+        ex:drop1          <http://ex.org/items/holy_spore> ;
+        ex:drop2          <http://ex.org/items/spore> ;
+        ex:drop3          <http://ex.org/items/poison_powder> ;
+        ex:drop4          <http://ex.org/items/monarch_mushroom> ;
+        ex:scarcity1      280 ;
+        ex:scarcity2      150 ;
+        ex:scarcity3      100 ;
+        ex:scarcity4      7 ;
+        ex:produce        <http://ex.org/items/spore> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/treasure_chest>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Treasure Chest" ;
+        owl:sameAs       <http://ex.org/npc/141> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/pretty_chest>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Pretty Chest" ;
+        owl:sameAs       <http://ex.org/npc/142> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/treasure>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Treasure" ;
+        owl:sameAs       <http://ex.org/npc/143> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/little_wooly>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Little Wooly" ;
+        owl:sameAs        <http://ex.org/npc/144> ;
+        ex:Friendliness   0 ;
+        ex:produce        <http://ex.org/items/fur_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/baal>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Baal" ;
+        owl:sameAs       <http://ex.org/npc/145> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/devil_blood> ;
+        ex:drop2         <http://ex.org/items/devil_blood> ;
+        ex:drop3         <http://ex.org/items/great_hammer_shard> ;
+        ex:drop4         <http://ex.org/items/devil_horn> ;
+        ex:scarcity1     90 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     40 ;
+        ex:scarcity4     15 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/black_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Black Dragon" ;
+        owl:sameAs       <http://ex.org/npc/146> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/black_scale> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     70 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/guardian>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Guardian" ;
+        owl:sameAs       <http://ex.org/npc/147> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/golem_spirit_stone> ;
+        ex:scarcity1     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/death_orc>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Death Orc" ;
+        owl:sameAs       <http://ex.org/npc/148> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/ancient_orc_cloth> ;
+        ex:scarcity1     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/soldier>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Soldier" ;
+        owl:sameAs       <http://ex.org/npc/149> ;
+        ex:Friendliness  25 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/onionger>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Onionger" ;
+        owl:sameAs       <http://ex.org/npc/151> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/onion_seeds> ;
+        ex:drop2         <http://ex.org/items/onion> ;
+        ex:drop3         <http://ex.org/items/ghost_hood> ;
+        ex:drop4         <http://ex.org/items/quality_worn_cloth> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     40 ;
+        ex:scarcity4     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ghost_ray>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ghost Ray" ;
+        owl:sameAs       <http://ex.org/npc/152> ;
+        ex:Friendliness  20 ;
+        ex:drop1         <http://ex.org/items/ghost_hood> ;
+        ex:drop2         <http://ex.org/items/skull> ;
+        ex:drop3         <http://ex.org/items/stick> ;
+        ex:drop4         <http://ex.org/items/thick_stick> ;
+        ex:scarcity1     300 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     4 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/spirit>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Spirit" ;
+        owl:sameAs       <http://ex.org/npc/153> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/magic_crystal> ;
+        ex:drop2         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     70 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ant_queen>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Ant Queen" ;
+        owl:sameAs        <http://ex.org/npc/154> ;
+        ex:Friendliness   25 ;
+        ex:drop1          <http://ex.org/items/insect_carapace> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/queen's_jaw> ;
+        ex:drop4          <http://ex.org/items/lumber> ;
+        ex:scarcity1      80 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      80 ;
+        ex:scarcity4      50 ;
+        ex:produce        <http://ex.org/items/queen's_jaw> ;
+        ex:produceChance  "0.12550001"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/king_bee>
+        rdf:type          ex:NPC ;
+        rdfs:label        "King Bee" ;
+        owl:sameAs        <http://ex.org/npc/155> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/insect_carapace> ;
+        ex:drop2          <http://ex.org/items/pretty_carapace> ;
+        ex:drop3          <http://ex.org/items/poison_king> ;
+        ex:drop4          <http://ex.org/items/honey> ;
+        ex:scarcity1      80 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      80 ;
+        ex:scarcity4      50 ;
+        ex:produce        <http://ex.org/items/honey> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/heaven's_scissors>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Heaven's Scissors" ;
+        owl:sameAs        <http://ex.org/npc/156> ;
+        ex:Friendliness   20 ;
+        ex:drop1          <http://ex.org/items/scorpion_tail> ;
+        ex:drop2          <http://ex.org/items/dangerous_scissors> ;
+        ex:drop3          <http://ex.org/items/insect_carapace> ;
+        ex:drop4          <http://ex.org/items/pretty_carapace> ;
+        ex:scarcity1      160 ;
+        ex:scarcity2      60 ;
+        ex:scarcity3      50 ;
+        ex:scarcity4      40 ;
+        ex:produce        <http://ex.org/items/dangerous_scissors> ;
+        ex:produceChance  "0.12550001"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/gaias>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gaias" ;
+        owl:sameAs       <http://ex.org/npc/157> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/magic_crystal> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     120 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/master_giant>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Master Giant" ;
+        owl:sameAs       <http://ex.org/npc/158> ;
+        ex:Friendliness  16 ;
+        ex:drop1         <http://ex.org/items/giant's_nail> ;
+        ex:drop2         <http://ex.org/items/giant's_gloves> ;
+        ex:drop3         <http://ex.org/items/hammer_piece> ;
+        ex:drop4         <http://ex.org/items/great_hammer_shard> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     120 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sechs_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sechs Dragon" ;
+        owl:sameAs       <http://ex.org/npc/159> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/palm_cat>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Palm Cat" ;
+        owl:sameAs       <http://ex.org/npc/160> ;
+        ex:Friendliness  4 ;
+        ex:drop1         <http://ex.org/items/palm_claw> ;
+        ex:drop2         <http://ex.org/items/fur> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     90 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/malm_tiger>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Malm Tiger" ;
+        owl:sameAs       <http://ex.org/npc/161> ;
+        ex:Friendliness  2 ;
+        ex:drop1         <http://ex.org/items/malm_claw> ;
+        ex:drop2         <http://ex.org/items/fur> ;
+        ex:drop3         <http://ex.org/items/quality_fur> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/hover_soldier>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Hover Soldier" ;
+        owl:sameAs       <http://ex.org/npc/162> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/cheap_propeller> ;
+        ex:drop2         <http://ex.org/items/quality_propeller> ;
+        ex:drop3         <http://ex.org/items/iron> ;
+        ex:drop4         <http://ex.org/items/gold> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     2 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/hover_warrior>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Hover Warrior" ;
+        owl:sameAs       <http://ex.org/npc/163> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/quality_propeller> ;
+        ex:drop2         <http://ex.org/items/cheap_propeller> ;
+        ex:drop3         <http://ex.org/items/iron> ;
+        ex:drop4         <http://ex.org/items/gold> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     18 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/gasham>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gasham" ;
+        owl:sameAs       <http://ex.org/npc/164> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/rusty_screw> ;
+        ex:drop2         <http://ex.org/items/shiny_screw> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ruffled_vine>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ruffled Vine" ;
+        owl:sameAs       <http://ex.org/npc/166> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/plant_stem> ;
+        ex:drop2         <http://ex.org/items/root> ;
+        ex:scarcity1     40 ;
+        ex:scarcity2     20 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ruffled_horsetail>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ruffled Horsetail" ;
+        owl:sameAs       <http://ex.org/npc/167> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/plant_stem> ;
+        ex:drop2         <http://ex.org/items/root> ;
+        ex:scarcity1     40 ;
+        ex:scarcity2     20 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ruffled_flower>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ruffled Flower" ;
+        owl:sameAs       <http://ex.org/npc/168> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/plant_stem> ;
+        ex:drop2         <http://ex.org/items/root> ;
+        ex:scarcity1     40 ;
+        ex:scarcity2     20 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/red>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Red" ;
+        owl:sameAs       <http://ex.org/npc/169> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/red_core> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/green>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Green" ;
+        owl:sameAs       <http://ex.org/npc/170> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/green_core> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blue>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blue" ;
+        owl:sameAs       <http://ex.org/npc/171> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/blue_core> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/yellow>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Yellow" ;
+        owl:sameAs       <http://ex.org/npc/172> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/yellow_core> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/minotaur>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Minotaur" ;
+        owl:sameAs       <http://ex.org/npc/173> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/recovery_potion> ;
+        ex:drop2         <http://ex.org/items/recovery_potion> ;
+        ex:drop3         <http://ex.org/items/the_protein> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     30 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/onion_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Onion Ghost" ;
+        owl:sameAs       <http://ex.org/npc/174> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/onion_seeds> ;
+        ex:drop2         <http://ex.org/items/onion> ;
+        ex:drop3         <http://ex.org/items/ghost_hood> ;
+        ex:scarcity1     125 ;
+        ex:scarcity2     3 ;
+        ex:scarcity3     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/shmooly>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Shmooly" ;
+        owl:sameAs        <http://ex.org/npc/176> ;
+        ex:Friendliness   10 ;
+        ex:drop1          <http://ex.org/items/wooly_furball> ;
+        ex:drop2          <http://ex.org/items/clippers> ;
+        ex:drop3          <http://ex.org/items/fur_(s)> ;
+        ex:drop4          <http://ex.org/items/fur_(m)> ;
+        ex:scarcity1      15 ;
+        ex:scarcity2      20 ;
+        ex:scarcity3      80 ;
+        ex:scarcity4      30 ;
+        ex:produce        <http://ex.org/items/fur_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/golem>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Golem" ;
+        owl:sameAs       <http://ex.org/npc/177> ;
+        ex:Friendliness  8 ;
+        ex:drop1         <http://ex.org/items/silver> ;
+        ex:drop2         <http://ex.org/items/gold> ;
+        ex:drop3         <http://ex.org/items/golem_stone> ;
+        ex:drop4         <http://ex.org/items/diamond> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     70 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     10 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/???>
+        rdf:type         ex:NPC ;
+        rdfs:label       "???" ;
+        owl:sameAs       <http://ex.org/npc/178> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/mysterious_powder> ;
+        ex:drop2         <http://ex.org/items/mysterious_powder> ;
+        ex:drop3         <http://ex.org/items/mysterious_powder> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sechs_sorcerer>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sechs Sorcerer" ;
+        owl:sameAs       <http://ex.org/npc/182> ;
+        ex:Friendliness  0 ;
+        ex:scarcity1     140 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sechs_cat>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sechs Cat" ;
+        owl:sameAs       <http://ex.org/npc/183> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/fortoise>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Fortoise" ;
+        owl:sameAs       <http://ex.org/npc/184> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/blk._tortoise_shell> ;
+        ex:drop2         <http://ex.org/items/blk._tortoise_shell> ;
+        ex:drop3         <http://ex.org/items/silver> ;
+        ex:drop4         <http://ex.org/items/gold> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     40 ;
+        ex:scarcity3     120 ;
+        ex:scarcity4     40 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/thunderbird>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Thunderbird" ;
+        owl:sameAs        <http://ex.org/npc/185> ;
+        ex:Friendliness   1 ;
+        ex:drop1          <http://ex.org/items/thunderbird_feather> ;
+        ex:drop2          <http://ex.org/items/thunderbird_feather> ;
+        ex:drop3          <http://ex.org/items/branch> ;
+        ex:drop4          <http://ex.org/items/branch> ;
+        ex:scarcity1      120 ;
+        ex:scarcity2      40 ;
+        ex:scarcity3      150 ;
+        ex:scarcity4      150 ;
+        ex:produce        <http://ex.org/items/thunderbird_feather> ;
+        ex:produceChance  "0.31370002"^^xsd:float ;
+        ex:upgradable     "No" .
+
+<http://ex.org/npc/mamadoodle>
+        rdf:type          ex:NPC ;
+        rdfs:label        "Mamadoodle" ;
+        owl:sameAs        <http://ex.org/npc/186> ;
+        ex:Friendliness   1 ;
+        ex:drop1          <http://ex.org/items/egg_(s)> ;
+        ex:drop2          <http://ex.org/items/egg_(m)> ;
+        ex:drop3          <http://ex.org/items/bird's_feather> ;
+        ex:drop4          <http://ex.org/items/big_bird's_comb> ;
+        ex:scarcity1      200 ;
+        ex:scarcity2      150 ;
+        ex:scarcity3      150 ;
+        ex:scarcity4      120 ;
+        ex:produce        <http://ex.org/items/egg_(s)> ;
+        ex:produceChance  "1.0"^^xsd:float ;
+        ex:upgradable     "Yes" .
+
+<http://ex.org/npc/mineral_squeek>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Mineral Squeek" ;
+        owl:sameAs       <http://ex.org/npc/187> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/typhoon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Typhoon" ;
+        owl:sameAs       <http://ex.org/npc/188> ;
+        ex:Friendliness  5 ;
+        ex:drop1         <http://ex.org/items/mealy_apple> ;
+        ex:drop2         <http://ex.org/items/mealy_apple> ;
+        ex:drop3         <http://ex.org/items/devil_horn> ;
+        ex:drop4         <http://ex.org/items/devil_blood> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     30 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/raccoon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Raccoon" ;
+        owl:sameAs       <http://ex.org/npc/189> ;
+        ex:Friendliness  1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/green_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Green Dragon" ;
+        owl:sameAs       <http://ex.org/npc/190> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/dragon_scale> ;
+        ex:drop3         <http://ex.org/items/dragon_scale> ;
+        ex:drop4         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     180 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/red_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Red Dragon" ;
+        owl:sameAs       <http://ex.org/npc/191> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/crimson_scale> ;
+        ex:drop3         <http://ex.org/items/crimson_scale> ;
+        ex:drop4         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/leoplicant>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Leoplicant" ;
+        owl:sameAs       <http://ex.org/npc/192> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/fur> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/palm_claw> ;
+        ex:drop4         <http://ex.org/items/malm_claw> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/armed_ghost>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Armed Ghost" ;
+        owl:sameAs       <http://ex.org/npc/193> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/orichalcum> ;
+        ex:drop2         <http://ex.org/items/broadsword> ;
+        ex:drop3         <http://ex.org/items/small_shield> ;
+        ex:scarcity1     10 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/flare_mage>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Flare Mage" ;
+        owl:sameAs       <http://ex.org/npc/194> ;
+        ex:Friendliness  18 ;
+        ex:drop1         <http://ex.org/items/magic> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/medicine_bread> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     7 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ice_wizard>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ice Wizard" ;
+        owl:sameAs       <http://ex.org/npc/195> ;
+        ex:Friendliness  14 ;
+        ex:drop1         <http://ex.org/items/magic> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/medicine_bread> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     9 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/elemental_emperor>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Elemental Emperor" ;
+        owl:sameAs       <http://ex.org/npc/196> ;
+        ex:Friendliness  12 ;
+        ex:drop1         <http://ex.org/items/magic> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/medicine_bread> ;
+        ex:scarcity1     60 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     13 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blue_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blue Dragon" ;
+        owl:sameAs       <http://ex.org/npc/197> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/blue_scale> ;
+        ex:drop3         <http://ex.org/items/blue_scale> ;
+        ex:drop4         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/yellow_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Yellow Dragon" ;
+        owl:sameAs       <http://ex.org/npc/198> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/glitter_scale> ;
+        ex:drop3         <http://ex.org/items/glitter_scale> ;
+        ex:drop4         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/pink_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Pink Dragon" ;
+        owl:sameAs       <http://ex.org/npc/199> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fang> ;
+        ex:drop2         <http://ex.org/items/love_scale> ;
+        ex:drop3         <http://ex.org/items/love_scale> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dead_tree_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dead Tree 2" ;
+        owl:sameAs       <http://ex.org/npc/200> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/moving_branch> ;
+        ex:drop2         <http://ex.org/items/moving_branch> ;
+        ex:drop3         <http://ex.org/items/apple> ;
+        ex:drop4         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     500 ;
+        ex:scarcity4     30 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dead_tree>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dead Tree" ;
+        owl:sameAs       <http://ex.org/npc/201> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/moving_branch> ;
+        ex:drop2         <http://ex.org/items/apple> ;
+        ex:drop3         <http://ex.org/items/apple> ;
+        ex:drop4         <http://ex.org/items/apple_tree_seeds> ;
+        ex:scarcity1     1 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     500 ;
+        ex:scarcity4     30 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/octopirate_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Octopirate 2" ;
+        owl:sameAs       <http://ex.org/npc/202> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/ammonite> ;
+        ex:drop2         <http://ex.org/items/ammonite> ;
+        ex:drop3         <http://ex.org/items/fish_fossil> ;
+        ex:drop4         <http://ex.org/items/vital_gummi> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     200 ;
+        ex:scarcity3     400 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/octopirate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Octopirate" ;
+        owl:sameAs       <http://ex.org/npc/203> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/ammonite> ;
+        ex:drop2         <http://ex.org/items/ammonite> ;
+        ex:drop3         <http://ex.org/items/fish_fossil> ;
+        ex:drop4         <http://ex.org/items/vital_gummi> ;
+        ex:scarcity1     7 ;
+        ex:scarcity2     1 ;
+        ex:scarcity3     400 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/bane_dragon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Bane Dragon" ;
+        owl:sameAs       <http://ex.org/npc/204> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/electro_crystal> ;
+        ex:drop2         <http://ex.org/items/electro_crystal> ;
+        ex:drop3         <http://ex.org/items/vital_gummi> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/crystal_mammoth_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Crystal Mammoth 2" ;
+        owl:sameAs       <http://ex.org/npc/205> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/icy_nose> ;
+        ex:drop2         <http://ex.org/items/diamond> ;
+        ex:drop3         <http://ex.org/items/diamond> ;
+        ex:drop4         <http://ex.org/items/quality_fur> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/crystal_mammoth>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Crystal Mammoth" ;
+        owl:sameAs       <http://ex.org/npc/206> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/icy_nose> ;
+        ex:drop2         <http://ex.org/items/diamond> ;
+        ex:drop3         <http://ex.org/items/diamond> ;
+        ex:drop4         <http://ex.org/items/quality_fur> ;
+        ex:scarcity1     8 ;
+        ex:scarcity2     300 ;
+        ex:scarcity3     500 ;
+        ex:scarcity4     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/greater_demon_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Greater Demon 2" ;
+        owl:sameAs       <http://ex.org/npc/207> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/chest_hair> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/fur> ;
+        ex:drop4         <http://ex.org/items/fur> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/greater_demon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Greater Demon" ;
+        owl:sameAs       <http://ex.org/npc/208> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/chest_hair> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/fur> ;
+        ex:drop4         <http://ex.org/items/fur> ;
+        ex:scarcity1     9 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/chimera_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Chimera 2" ;
+        owl:sameAs       <http://ex.org/npc/209> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/chimera_tail> ;
+        ex:drop2         <http://ex.org/items/chimera's_claw> ;
+        ex:drop3         <http://ex.org/items/devil_blood> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/chimera>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Chimera" ;
+        owl:sameAs       <http://ex.org/npc/210> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/chimera_tail> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/devil_blood> ;
+        ex:drop4         <http://ex.org/items/chimera's_claw> ;
+        ex:scarcity1     1 ;
+        ex:scarcity2     120 ;
+        ex:scarcity3     2 ;
+        ex:scarcity4     500 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/g_golem>
+        rdf:type         ex:NPC ;
+        rdfs:label       "G Golem" ;
+        owl:sameAs       <http://ex.org/npc/211> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/tablet_of_truth> ;
+        ex:drop2         <http://ex.org/items/golem_tablet> ;
+        ex:drop3         <http://ex.org/items/platinum> ;
+        ex:drop4         <http://ex.org/items/diamond> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     300 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sechs_golem>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sechs Golem" ;
+        owl:sameAs       <http://ex.org/npc/212> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/golem_tablet> ;
+        ex:drop2         <http://ex.org/items/golem_tablet> ;
+        ex:drop3         <http://ex.org/items/platinum> ;
+        ex:drop4         <http://ex.org/items/diamond> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     20 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/grimoire_2>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Grimoire 2" ;
+        owl:sameAs       <http://ex.org/npc/213> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/grimoire_scale> ;
+        ex:drop2         <http://ex.org/items/grimoire_scale> ;
+        ex:drop3         <http://ex.org/items/dragon_fang> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/grimoire>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Grimoire" ;
+        owl:sameAs       <http://ex.org/npc/214> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/grimoire_scale> ;
+        ex:drop2         <http://ex.org/items/grimoire_scale> ;
+        ex:drop3         <http://ex.org/items/dragon_fang> ;
+        ex:drop4         <http://ex.org/items/dragon_fang> ;
+        ex:scarcity1     8 ;
+        ex:scarcity2     1 ;
+        ex:scarcity3     500 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/siren>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Siren" ;
+        owl:sameAs       <http://ex.org/npc/215> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/melody_bottle> ;
+        ex:drop2         <http://ex.org/items/melody_bottle> ;
+        ex:drop3         <http://ex.org/items/intelligencer> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     90 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/terrable>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Terrable" ;
+        owl:sameAs       <http://ex.org/npc/216> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/earthwyrm_scale> ;
+        ex:drop2         <http://ex.org/items/earthwyrm_scale> ;
+        ex:drop3         <http://ex.org/items/dragon_fang> ;
+        ex:drop4         <http://ex.org/items/vital_gummi> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     400 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/terraclone>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Terraclone" ;
+        owl:sameAs       <http://ex.org/npc/217> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/earth_dragon_ash> ;
+        ex:drop2         <http://ex.org/items/earth_dragon_ash> ;
+        ex:drop4         <http://ex.org/items/vital_gummi> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     200 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/fiersome>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Fiersome" ;
+        owl:sameAs       <http://ex.org/npc/218> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/firewyrm_scale> ;
+        ex:drop2         <http://ex.org/items/firewyrm_scale> ;
+        ex:drop3         <http://ex.org/items/dragon_fang> ;
+        ex:drop4         <http://ex.org/items/the_protein> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     400 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/fiergaenger>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Fiergaenger" ;
+        owl:sameAs       <http://ex.org/npc/219> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/fire_dragon_ash> ;
+        ex:drop2         <http://ex.org/items/fire_dragon_ash> ;
+        ex:drop4         <http://ex.org/items/the_protein> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     200 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/magnuto>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Magnuto" ;
+        owl:sameAs       <http://ex.org/npc/220> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/raccoon_leaf> ;
+        ex:drop2         <http://ex.org/items/curry_udon> ;
+        ex:drop3         <http://ex.org/items/tempura_udon> ;
+        ex:drop4         <http://ex.org/items/udon> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     20 ;
+        ex:scarcity4     60 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ancient_bone>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ancient Bone" ;
+        owl:sameAs       <http://ex.org/npc/222> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_bones> ;
+        ex:drop2         <http://ex.org/items/skull> ;
+        ex:drop3         <http://ex.org/items/fish_fossil> ;
+        ex:drop4         <http://ex.org/items/fish_fossil> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     120 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/hinoe>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Hinoe" ;
+        owl:sameAs       <http://ex.org/npc/223> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/red_lion_fur> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/quality_fur> ;
+        ex:drop4         <http://ex.org/items/fur> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/kinoto>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Kinoto" ;
+        owl:sameAs       <http://ex.org/npc/224> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/blue_lion_fur> ;
+        ex:drop2         <http://ex.org/items/quality_fur> ;
+        ex:drop3         <http://ex.org/items/quality_fur> ;
+        ex:drop4         <http://ex.org/items/fur> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/death_wall>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Death Wall" ;
+        owl:sameAs       <http://ex.org/npc/225> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/broken_ice_wall> ;
+        ex:drop2         <http://ex.org/items/broken_ice_wall> ;
+        ex:drop3         <http://ex.org/items/water_crystal> ;
+        ex:drop4         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/aquaticus>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Aquaticus" ;
+        owl:sameAs       <http://ex.org/npc/226> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/dragon_fin> ;
+        ex:drop2         <http://ex.org/items/dragon_fin> ;
+        ex:drop3         <http://ex.org/items/legendary_scale> ;
+        ex:drop4         <http://ex.org/items/intelligencer> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/aquameleon>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Aquameleon" ;
+        owl:sameAs       <http://ex.org/npc/227> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/water_dragon_ash> ;
+        ex:drop2         <http://ex.org/items/water_dragon_ash> ;
+        ex:drop4         <http://ex.org/items/intelligencer> ;
+        ex:scarcity1     700 ;
+        ex:scarcity2     200 ;
+        ex:scarcity4     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ambrosia>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ambrosia" ;
+        owl:sameAs       <http://ex.org/npc/228> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/ambrosia's_thorns> ;
+        ex:drop2         <http://ex.org/items/ambrosia's_thorns> ;
+        ex:drop3         <http://ex.org/items/toyherb> ;
+        ex:drop4         <http://ex.org/items/plant_stem> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     10 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/thunderbolt>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Thunderbolt" ;
+        owl:sameAs       <http://ex.org/npc/230> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/lightning_mane> ;
+        ex:drop2         <http://ex.org/items/lightning_mane> ;
+        ex:drop3         <http://ex.org/items/fur> ;
+        ex:drop4         <http://ex.org/items/quality_fur> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/marionetta>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Marionetta" ;
+        owl:sameAs       <http://ex.org/npc/231> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/cursed_doll> ;
+        ex:drop2         <http://ex.org/items/puppetry_strings> ;
+        ex:drop3         <http://ex.org/items/fur_(s)> ;
+        ex:drop4         <http://ex.org/items/fur_(m)> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     50 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     20 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/handonetta>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Handonetta" ;
+        owl:sameAs       <http://ex.org/npc/232> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/puppetry_strings> ;
+        ex:scarcity1     600 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sarcophagus>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sarcophagus" ;
+        owl:sameAs       <http://ex.org/npc/234> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/crystal_skull> ;
+        ex:drop2         <http://ex.org/items/magic_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/lumber> ;
+        ex:scarcity1     500 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     200 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ventuswill>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ventuswill" ;
+        owl:sameAs       <http://ex.org/npc/235> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wind_dragon_tooth> ;
+        ex:drop2         <http://ex.org/items/wind_dragon_tooth> ;
+        ex:drop3         <http://ex.org/items/dragon_scale> ;
+        ex:drop4         <http://ex.org/items/heart_drink> ;
+        ex:scarcity1     400 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ethelwill>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ethelwill" ;
+        owl:sameAs       <http://ex.org/npc/237> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/rune_sphere_shard> ;
+        ex:drop2         <http://ex.org/items/rune_sphere_shard> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     30 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ragnarok>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ragnarok" ;
+        owl:sameAs       <http://ex.org/npc/238> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/throne_of_the_empire> ;
+        ex:drop2         <http://ex.org/items/rune_sphere_shard> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     650 ;
+        ex:scarcity3     80 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ethelberd>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ethelberd" ;
+        owl:sameAs       <http://ex.org/npc/239> ;
+        ex:Friendliness  0 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/rafflesia>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Rafflesia" ;
+        owl:sameAs       <http://ex.org/npc/240> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/rafflesia_petal> ;
+        ex:drop2         <http://ex.org/items/rafflesia_petal> ;
+        ex:drop3         <http://ex.org/items/plant_stem> ;
+        ex:drop4         <http://ex.org/items/root> ;
+        ex:scarcity1     450 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     100 ;
+        ex:scarcity4     200 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/armored_tank_+>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Armored Tank +" ;
+        owl:sameAs       <http://ex.org/npc/241> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/mtgu_plate> ;
+        ex:drop2         <http://ex.org/items/mtgu_plate> ;
+        ex:drop3         <http://ex.org/items/platinum> ;
+        ex:drop4         <http://ex.org/items/gold> ;
+        ex:scarcity1     450 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     50 ;
+        ex:scarcity4     200 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sano>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sano" ;
+        owl:sameAs       <http://ex.org/npc/244> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/left_rock_shard> ;
+        ex:drop2         <http://ex.org/items/left_rock_shard> ;
+        ex:drop3         <http://ex.org/items/material_stone> ;
+        ex:drop4         <http://ex.org/items/rock> ;
+        ex:scarcity1     480 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/uno>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Uno" ;
+        owl:sameAs       <http://ex.org/npc/245> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/right_rock_shard> ;
+        ex:drop2         <http://ex.org/items/right_rock_shard> ;
+        ex:drop3         <http://ex.org/items/material_stone> ;
+        ex:drop4         <http://ex.org/items/rock> ;
+        ex:scarcity1     480 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/sechs_tank>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Sechs Tank" ;
+        owl:sameAs       <http://ex.org/npc/249> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/shiny_screw> ;
+        ex:drop2         <http://ex.org/items/shiny_screw> ;
+        ex:drop3         <http://ex.org/items/rusty_screw> ;
+        ex:drop4         <http://ex.org/items/platinum> ;
+        ex:scarcity1     600 ;
+        ex:scarcity2     150 ;
+        ex:scarcity3     200 ;
+        ex:scarcity4     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/rouge>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Rouge" ;
+        owl:sameAs       <http://ex.org/npc/250> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/red_core> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/emerald>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Emerald" ;
+        owl:sameAs       <http://ex.org/npc/251> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/green_core> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/marin>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Marin" ;
+        owl:sameAs       <http://ex.org/npc/252> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/blue_core> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/olive>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Olive" ;
+        owl:sameAs       <http://ex.org/npc/253> ;
+        ex:Friendliness  1 ;
+        ex:drop1         <http://ex.org/items/yellow_core> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:drop3         <http://ex.org/items/small_crystal> ;
+        ex:drop4         <http://ex.org/items/rune_crystal> ;
+        ex:scarcity1     150 ;
+        ex:scarcity2     100 ;
+        ex:scarcity3     10 ;
+        ex:scarcity4     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Gate" ;
+        owl:sameAs       <http://ex.org/npc/359> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/small_crystal> ;
+        ex:drop2         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     1 ;
+        ex:scarcity2     1 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/fire_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Fire Gate" ;
+        owl:sameAs       <http://ex.org/npc/360> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/fire_crystal> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/water_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Water Gate" ;
+        owl:sameAs       <http://ex.org/npc/361> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/water_crystal> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/field_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Field Gate" ;
+        owl:sameAs       <http://ex.org/npc/362> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/earth_crystal> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/wind_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Wind Gate" ;
+        owl:sameAs       <http://ex.org/npc/363> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wind_crystal> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/light_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Light Gate" ;
+        owl:sameAs       <http://ex.org/npc/364> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/light_crystal> ;
+        ex:drop2         <http://ex.org/items/light_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/dark_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Dark Gate" ;
+        owl:sameAs       <http://ex.org/npc/365> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/dark_crystal> ;
+        ex:drop2         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     50 ;
+        ex:scarcity2     50 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/love_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Love Gate" ;
+        owl:sameAs       <http://ex.org/npc/366> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/love_crystal> ;
+        ex:drop2         <http://ex.org/items/love_crystal> ;
+        ex:scarcity1     3 ;
+        ex:scarcity2     3 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/big_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Big Gate" ;
+        owl:sameAs       <http://ex.org/npc/367> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/small_crystal> ;
+        ex:drop2         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     2 ;
+        ex:scarcity2     2 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/flame_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Flame Gate" ;
+        owl:sameAs       <http://ex.org/npc/368> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/fire_crystal> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/ice_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Ice Gate" ;
+        owl:sameAs       <http://ex.org/npc/369> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/water_crystal> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/earth_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Earth Gate" ;
+        owl:sameAs       <http://ex.org/npc/370> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/earth_crystal> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/storm_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Storm Gate" ;
+        owl:sameAs       <http://ex.org/npc/371> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wind_crystal> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/flash_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Flash Gate" ;
+        owl:sameAs       <http://ex.org/npc/372> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/light_crystal> ;
+        ex:drop2         <http://ex.org/items/light_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/black_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Black Gate" ;
+        owl:sameAs       <http://ex.org/npc/373> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/dark_crystal> ;
+        ex:drop2         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     80 ;
+        ex:scarcity2     80 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/precious_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Precious Gate" ;
+        owl:sameAs       <http://ex.org/npc/374> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/love_crystal> ;
+        ex:drop2         <http://ex.org/items/love_crystal> ;
+        ex:scarcity1     4 ;
+        ex:scarcity2     4 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/void_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Void Gate" ;
+        owl:sameAs       <http://ex.org/npc/375> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/small_crystal> ;
+        ex:drop2         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     3 ;
+        ex:scarcity2     3 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blaze_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blaze Gate" ;
+        owl:sameAs       <http://ex.org/npc/376> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/fire_crystal> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/frozen_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Frozen Gate" ;
+        owl:sameAs       <http://ex.org/npc/377> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/water_crystal> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/star_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Star Gate" ;
+        owl:sameAs       <http://ex.org/npc/378> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/earth_crystal> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/tornado_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Tornado Gate" ;
+        owl:sameAs       <http://ex.org/npc/379> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wind_crystal> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/angel_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Angel Gate" ;
+        owl:sameAs       <http://ex.org/npc/380> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/light_crystal> ;
+        ex:drop2         <http://ex.org/items/light_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/abyss_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Abyss Gate" ;
+        owl:sameAs       <http://ex.org/npc/381> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/dark_crystal> ;
+        ex:drop2         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     100 ;
+        ex:scarcity2     100 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/affection_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Affection Gate" ;
+        owl:sameAs       <http://ex.org/npc/382> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/love_crystal> ;
+        ex:drop2         <http://ex.org/items/love_crystal> ;
+        ex:scarcity1     5 ;
+        ex:scarcity2     5 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/void_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Void Gate" ;
+        owl:sameAs       <http://ex.org/npc/383> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/small_crystal> ;
+        ex:drop2         <http://ex.org/items/small_crystal> ;
+        ex:scarcity1     4 ;
+        ex:scarcity2     4 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/blaze_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Blaze Gate" ;
+        owl:sameAs       <http://ex.org/npc/384> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/fire_crystal> ;
+        ex:drop2         <http://ex.org/items/fire_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/frozen_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Frozen Gate" ;
+        owl:sameAs       <http://ex.org/npc/385> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/water_crystal> ;
+        ex:drop2         <http://ex.org/items/water_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/star_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Star Gate" ;
+        owl:sameAs       <http://ex.org/npc/386> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/earth_crystal> ;
+        ex:drop2         <http://ex.org/items/earth_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/tornado_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Tornado Gate" ;
+        owl:sameAs       <http://ex.org/npc/387> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/wind_crystal> ;
+        ex:drop2         <http://ex.org/items/wind_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/angel_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Angel Gate" ;
+        owl:sameAs       <http://ex.org/npc/388> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/light_crystal> ;
+        ex:drop2         <http://ex.org/items/light_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/abyss_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Abyss Gate" ;
+        owl:sameAs       <http://ex.org/npc/389> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/dark_crystal> ;
+        ex:drop2         <http://ex.org/items/dark_crystal> ;
+        ex:scarcity1     250 ;
+        ex:scarcity2     250 ;
+        ex:upgradable    "No" .
+
+<http://ex.org/npc/affection_gate>
+        rdf:type         ex:NPC ;
+        rdfs:label       "Affection Gate" ;
+        owl:sameAs       <http://ex.org/npc/390> ;
+        ex:Friendliness  0 ;
+        ex:drop1         <http://ex.org/items/love_crystal> ;
+        ex:drop2         <http://ex.org/items/love_crystal> ;
+        ex:scarcity1     15 ;
+        ex:scarcity2     15 ;
+        ex:upgradable    "No" .
