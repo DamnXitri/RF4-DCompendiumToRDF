@@ -8,16 +8,16 @@ Para utilizar tarql con los csv, utilizar el siguiente comando \
 ```<tarql.bat Route> <mapping>.sparql <source>.csv > <output>.ttl```
 
 Por ejemplo, con nuestra disposicion de carpetas, para ejecutar el mapping de itemCategories utilizamos:\
-```..\tarql-1.2\bin\tarql.bat itemCategories.sparql itemCategories.csv > itemCategories.ttl```
+```..\..\tarql-1.2\bin\tarql worldMap.sparql ..\input\worldMap.csv > ..\output\worldMap.ttl```
 
 Tambien podiamos utilizar: \
-```..\tarql-1.2\bin\tarql.bat <mapping>.sparql > <output>.ttl``` \
+```<tarql.bat Route> <mapping>.sparql > <output>.ttl``` \
 Si en el mapping esta definido FROM, lo cual ocurre en todos los mappings :)
 
 ## Evitar tripletas duplicadas
 
 En algunos casos, queremos evitar tripletas duplicadas, esto se evita con la flag `--dedup <size>`, por ejemplo: \
-```..\tarql-1.2\bin\tarql.bat --dedup 100000 worldMap.sparql > worldMap.ttl``` \
+```..\..\tarql-1.2\bin\tarql --dedup 100000 worldMap.sparql > ..\output\worldMap.ttl``` \
 El valor de `size` es el numero de lineas que se van a guardar en memoria antes de hacer el dedup. En general nuestros archivos no tienen
 mas de 20k lineas y 100k no son problema para las memorias actuales :3
 
