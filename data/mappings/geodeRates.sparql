@@ -1,0 +1,42 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?nameURI a ex:Geode;
+		rdfs:label ?Possible_mineral_name;
+		owl:sameAs ?entryURI;
+		ex:sprite ?SpriteV;
+		ex:hardness ?HardnessV;
+		ex:drop1 ?dropURI_1;
+		ex:drop2 ?dropURI_2;
+		ex:drop3 ?dropURI_3;
+		ex:drop4 ?dropURI_4;
+		ex:scarcity1 ?Scarcity1;
+		ex:scarcity2 ?Scarcity2;
+		ex:scarcity3 ?Scarcity3;
+		ex:scarcity4 ?Scarcity4;
+		ex:location ?LocationList;
+}
+FROM <file:../input/geodeRates.csv>
+WHERE {
+	# URI
+	BIND (URI(CONCAT('http://ex.org/geodes/', REPLACE(LCASE(?Posible_mineral_name), ' ', '_'))) AS ?nameURI)
+	BIND (URI(CONCAT('http://ex.org/geodes/', ?Entry)) AS ?entryURI)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_1), ' ', '_'))) AS ?dropURI_1)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_2), ' ', '_'))) AS ?dropURI_2)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_3), ' ', '_'))) AS ?dropURI_3)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_4), ' ', '_'))) AS ?dropURI_4)
+
+	# values
+	BIND (REPLACE(?Location, ' ', ',') AS ?LocationList)
+	BIND (xsd:integer(?Sprite) AS ?SpriteV)
+	BIND (xsd:integer(?Hardness) AS ?HardnessV)
+	BIND (xsd:integer(?Scarcity_1) AS ?Scarcity1)
+	BIND (xsd:integer(?Scarcity_2) AS ?Scarcity2)
+	BIND (xsd:integer(?Scarcity_3) AS ?Scarcity3)
+	BIND (xsd:integer(?Scarcity_4) AS ?Scarcity4)
+}

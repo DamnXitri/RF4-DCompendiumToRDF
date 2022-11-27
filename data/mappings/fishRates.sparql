@@ -1,0 +1,58 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Fish;
+		ex:name ?Item;
+		ex:spring ?SpringV;
+		ex:summer ?SummerV;
+		ex:autumn ?AutumnV;
+		ex:winter ?WinterV;
+		ex:springRain ?SpringRainV;
+		ex:summerRain ?SummerRainV;
+		ex:autumnRain ?AutumnRainV;
+		ex:winterSnow ?WinterSnowV;
+		ex:sandPond ?SandPondV;
+		ex:idra1F ?Idra1FV;
+		ex:idraB1 ?IdraB1V;
+		ex:idraB2 ?IdraB2V;
+		ex:yokmirWaterfall ?YokmirWaterfallV;
+		ex:yokmirPond ?YokmirPondV;
+		ex:waterRuins ?WaterRuinsV;
+		ex:mayaRoad ?MayaRoadV;
+		ex:sechsCave ?SechsCaveV;
+		ex:Loc17 ?Loc17V;
+		ex:Loc18 ?Loc18V;
+		ex:Loc19 ?Loc19V;
+		ex:Loc20 ?Loc20V;
+		ex:Loc21 ?Loc21V;
+		ex:levelRate ?LevelRateV;
+}
+FROM <file:../input/fishRates.csv>
+WHERE {
+	BIND (URI(CONCAT('http://ex.org/fish/', REPLACE(LCASE(?Item),' ','_'))) AS ?URI)
+	BIND (xsd:integer(?Spring) AS ?SpringV)
+	BIND (xsd:integer(?Summer) AS ?SummerV)
+	BIND (xsd:integer(?Autumn) AS ?AutumnV)
+	BIND (xsd:integer(?Winter) AS ?WinterV)
+	BIND (xsd:integer(?Spring_Rain_and_Idra_1F) AS ?SpringRainV)
+	BIND (xsd:integer(?Summer_Rain) AS ?SummerRainV)
+	BIND (xsd:integer(?Autumn_Rain) AS ?AutumnRainV)
+	BIND (xsd:integer(?Winter_Snow) AS ?WinterSnowV)
+	BIND (xsd:integer(?Sand_Pond) AS ?SandPondV)
+	BIND (xsd:integer(?Spring_Rain_and_Idra_1F) AS ?Idra1FV)
+	BIND (xsd:integer(?Idra_B1) AS ?IdraB1V)
+	BIND (xsd:integer(?Idra_B2) AS ?IdraB2V)
+	BIND (xsd:integer(?Yokmir_Waterfall) AS ?YokmirWaterfallV)
+	BIND (xsd:integer(?Yokmir_Pond) AS ?YokmirPondV)
+	BIND (xsd:integer(?Water_Ruins) AS ?WaterRuinsV)
+	BIND (xsd:integer(?Maya_Road) AS ?MayaRoadV)
+	BIND (xsd:integer(?Sechs_Cave) AS ?SechsCaveV)
+	BIND (xsd:integer(?Loc_17) AS ?Loc17V)
+	BIND (xsd:integer(?Loc_18) AS ?Loc18V)
+	BIND (xsd:integer(?Loc_19) AS ?Loc19V)
+	BIND (xsd:integer(?Loc_20) AS ?Loc20V)
+	BIND (xsd:integer(?Loc_21) AS ?Loc21V)
+	BIND (xsd:integer(?Level_Rate) AS ?LevelRateV)
+}

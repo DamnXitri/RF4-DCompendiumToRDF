@@ -1,0 +1,43 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?nameURI a ex:NPC;
+		rdfs:label ?NPC;
+		owl:sameAs ?idURI;
+		ex:Friendliness ?FriendlinessValue;
+		ex:drop1 ?DropURI_1;
+		ex:drop2 ?DropURI_2;
+		ex:drop3 ?DropURI_3;
+		ex:drop4 ?DropURI_4;
+		ex:scarcity1 ?Scarcity1;
+		ex:scarcity2 ?Scarcity2;
+		ex:scarcity3 ?Scarcity3;
+		ex:scarcity4 ?Scarcity4;
+		ex:produce ?ProduceURI;
+		ex:produceChance ?ProduceChance;
+		ex:upgradable ?Upgradable;
+}
+FROM <file:../input/npcMonsterValues.csv>
+WHERE {
+	# URIs and URI connections
+	BIND (URI(CONCAT('http://ex.org/npc/', ?ID_Dec)) AS ?idURI)
+	BIND (URI(CONCAT('http://ex.org/npc/', REPLACE(LCASE(?NPC), ' ', '_'))) AS ?nameURI)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_1), ' ', '_'))) AS ?DropURI_1)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_2), ' ', '_'))) AS ?DropURI_2)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_3), ' ', '_'))) AS ?DropURI_3)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Drop_4), ' ', '_'))) AS ?DropURI_4)
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Produce), ' ', '_'))) AS ?ProduceURI)
+
+	# values
+	BIND (xsd:integer(?Friendliness) AS ?FriendlinessValue)
+	BIND (xsd:integer(?Scarcity_1) AS ?Scarcity1)
+	BIND (xsd:integer(?Scarcity_2) AS ?Scarcity2)
+	BIND (xsd:integer(?Scarcity_3) AS ?Scarcity3)
+	BIND (xsd:integer(?Scarcity_4) AS ?Scarcity4)
+	BIND ((xsd:float(REPLACE(?Produce_Chance, '%', ''))/xsd:integer(100)) AS ?ProduceChance)
+}

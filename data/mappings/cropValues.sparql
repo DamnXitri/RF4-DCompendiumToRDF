@@ -1,0 +1,40 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Crop;
+		rdfs:label ?Crop;
+		ex:stage1Days ?Stage1;
+		ex:stage2Days ?Stage2;
+		ex:stage3Days ?Stage3;
+		ex:stage4Days ?Stage4;
+		ex:initialHP ?InitialHP;
+		ex:regrowthDays ?Regrowth;
+		ex:quantity ?QuantityV;
+		ex:soilOverall ?SoilOverall;
+		ex:soilSpeed ?SoilSpeed;
+		ex:soilQuality ?SoilQuality;
+		ex:soilSize ?SoilSize;
+		ex:soilNumber ?SoilNumber;
+		ex:pickupItem ?Pickup_Item;
+		ex:pickupSeed ?Pickup_Seed;
+}
+FROM <file:../input/cropValues.csv>
+WHERE {
+	BIND (URI(CONCAT('http://ex.org/crop/', REPLACE(LCASE(?Crop),' ','_'))) AS ?URI)
+	BIND (xsd:integer(?Stage_1_Days) AS ?Stage1)
+	BIND (xsd:integer(?Stage_2_Days) AS ?Stage2)
+	BIND (xsd:integer(?Stage_3_Days) AS ?Stage3)
+	BIND (xsd:integer(?Stage_4_Days) AS ?Stage4)
+	BIND (xsd:integer(?Initial_HP) AS ?InitialHP)
+	BIND (xsd:integer(?Regrowth_Days) AS ?Regrowth)
+	BIND (xsd:integer(?Quantity) AS ?QuantityV)
+	BIND (xsd:float(?Soil_Overall) AS ?SoilOverall)
+	BIND (xsd:float(?Soil_Speed) AS ?SoilSpeed)
+	BIND (xsd:float(?Soil_Quality) AS ?SoilQuality)
+	BIND (xsd:float(?Soil_Size) AS ?SoilSize)
+	BIND (xsd:float(?Soil_Number) AS ?SoilNumber)
+}

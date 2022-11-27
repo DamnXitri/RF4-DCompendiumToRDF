@@ -1,0 +1,22 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?nameURI a ex:ItemCategory;
+		rdfs:label ?Category_Name;
+		owl:sameAs ?idURI;
+		ex:info ?c;
+}
+FROM <file:../input/itemCategories.csv>
+WHERE {
+	# URI
+	BIND (URI(CONCAT('http://ex.org/itemCategories/', REPLACE(LCASE(?Category_Name), ' ', '_'))) AS ?nameURI)
+	BIND (URI(CONCAT('http://ex.org/itemCategories/', ?Category_ID)) AS ?idURI)
+
+	# values
+	BIND (xsd:integer(?Category_ID) AS ?CategoryID)
+}

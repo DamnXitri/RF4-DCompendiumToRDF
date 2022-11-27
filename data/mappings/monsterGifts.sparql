@@ -1,0 +1,32 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Monster;
+		rdfs:label ?Monster;
+		owl:sameAs ?NPC_URI;
+		ex:like1 ?Like_1;
+		ex:like2 ?Like_2;
+		ex:like3 ?Like_3;
+		ex:like4 ?Like_4;
+		ex:fp1 ?FP1V;
+		ex:fp2 ?FP2V;
+		ex:fp3 ?FP3V;
+		ex:fp4 ?FP4V;
+}
+FROM <file:../input/monsterGifts.csv>
+WHERE {
+	# URI
+	BIND (URI(CONCAT('http://ex.org/monster/', REPLACE(LCASE(?Monster),' ','_'))) AS ?URI)
+	BIND (URI(CONCAT('http://ex.org/npc/', REPLACE(LCASE(?Monster),' ','_'))) AS ?NPC_URI)
+	
+	# Values
+	BIND (xsd:integer(?FP) AS ?FP1V)
+	BIND (xsd:integer(?e) AS ?FP2V)
+	BIND (xsd:integer(?g) AS ?FP3V)
+	BIND (xsd:integer(?i) AS ?FP4V)
+}

@@ -1,0 +1,41 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?mapAreaURI a ex:MapLocation;
+		ex:mainArea ?Main_Area;
+		ex:mapURL ?Map_Link;
+		ex:floor ?Floor;
+		ex:subArea ?Sub_Area;
+		ex:has ?NameURI;
+}
+FROM <file:../input/worldMap.csv>
+WHERE {
+	# URIs and URI connections
+	BIND( IF(
+		(!BOUND(?Floor) || ?Floor = "-"),
+		IF( # If there is no floor:
+			(!BOUND(?Sub_Area) || ?Sub_Area = "-"), # If there is no sub area:
+			(URI(CONCAT('http://ex.org/map/', REPLACE(LCASE(?Main_Area), ' ', '_')))),
+			(URI(CONCAT('http://ex.org/map/', REPLACE(LCASE(?Main_Area), ' ', '_'), '/', REPLACE(LCASE(?Sub_Area), ' ', '_'))))
+		),
+		IF( # If there is a floor:
+			(!BOUND(?Sub_Area) || ?Sub_Area = "-"), # If there is no sub area:
+			(URI(CONCAT('http://ex.org/map/', REPLACE(LCASE(?Main_Area), ' ', '_'), '/', REPLACE(LCASE(?Floor), ' ', '_')))),
+			(URI(CONCAT('http://ex.org/map/', REPLACE(LCASE(?Main_Area), ' ', '_'), '/', REPLACE(LCASE(?Floor), ' ', '_'), '/', REPLACE(LCASE(?Sub_Area), ' ', '_'))))
+		)
+	) AS ?mapAreaURI)
+
+	BIND(
+		IF(?Type_Found = "Monster", URI(CONCAT('http://ex.org/monster/', REPLACE(LCASE(?Name), ' ', '_'))),
+		IF(?Type_Found = "NPC", URI(CONCAT('http://ex.org/npc/', REPLACE(LCASE(?Name), ' ', '_'))),
+		IF(?Type_Found = "Item", URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Name), ' ', '_'))),
+		IF(?Type_Found = "Mineral", URI(CONCAT('http://ex.org/geodes/', REPLACE(LCASE(?Name), ' ', '_'))),
+		""
+		))))
+	AS ?NameURI)
+}

@@ -1,0 +1,30 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Recipe;
+		ex:name ?Recipe;
+    ex:itemURI ?ItemURI;
+		ex:type ?TypeURI;
+		ex:material1 ?MaterialURI_1;
+    ex:material2 ?MaterialURI_2;
+    ex:material3 ?MaterialURI_3;
+    ex:material4 ?MaterialURI_4;
+    ex:material5 ?MaterialURI_5;
+    ex:level ?LevelV;
+    ex:priority ?PriorityV;
+}
+FROM <file:../input/craftRecipes.csv>
+WHERE {
+	BIND (URI(CONCAT('http://ex.org/recipes/', REPLACE(LCASE(?Recipe),' ','_'))) AS ?URI)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Recipe),' ','_'))) AS ?ItemURI)
+  BIND (URI(CONCAT('http://ex.org/itemCategories/', REPLACE(LCASE(?Type),' ','_'))) AS ?TypeURI)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Material_1),' ','_'))) AS ?MaterialURI_1)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Material_2),' ','_'))) AS ?MaterialURI_2)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Material_3),' ','_'))) AS ?MaterialURI_3)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Material_4),' ','_'))) AS ?MaterialURI_4)
+  BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Material_5),' ','_'))) AS ?MaterialURI_5)
+	BIND (xsd:integer(?Level) AS ?LevelV)
+  BIND (xsd:integer(?Priority) AS ?PriorityV)
+}

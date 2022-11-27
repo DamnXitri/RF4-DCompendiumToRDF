@@ -1,0 +1,38 @@
+
+PREFIX ex: <http://ex.org/a#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Item;
+		rdfs:label ?Item;
+		rdfs:subClassOf ?ItemTypeURI;
+		rdfs:subClassOf ?CategoryURI;
+		ex:rarity ?RarityV;
+		ex:maxStack ?MaxStack;
+		ex:sellRate ?SellRate;
+		ex:buy ?BuyPrice;
+		ex:sell ?SellPrice;
+		ex:upgradeType ?UpgradeType;
+		ex:bonusType ?Bonus_Type;
+		ex:shippingType ?ShippingType;
+		ex:itemClass ?Item_Class;
+		ex:obtainMethod ?Obtain_Method;
+}
+FROM <file:../input/itemValues.csv>
+WHERE {
+	# URI
+	BIND (URI(CONCAT('http://ex.org/items/', REPLACE(LCASE(?Item),' ','_'))) AS ?URI)
+	BIND (URI(CONCAT('http://ex.org/itemTypes/', REPLACE(LCASE(?Item_Type_ID),' ','_'))) AS ?ItemTypeURI)
+	BIND (URI(CONCAT('http://ex.org/itemCategories/', REPLACE(LCASE(?Category),' ','_'))) AS ?CategoryURI)
+
+	# values
+	BIND (xsd:integer(?Rarity) AS ?RarityV)
+	BIND (xsd:integer(?Max_Stack) AS ?MaxStack)
+	BIND (xsd:integer(?Sell_Rate) AS ?SellRate)
+	BIND (xsd:integer(?Buy) AS ?BuyPrice)
+	BIND (xsd:integer(?Sell) AS ?SellPrice)
+	BIND (xsd:integer(?Upgrade_Type) AS ?UpgradeType)
+	BIND (xsd:integer(?Shipping_Type) AS ?ShippingType)
+}
