@@ -1,0 +1,21 @@
+Entry,Sprite,Hardness,Drop 1,Scarcity 1,Drop 2,Scarcity 2,Drop 3,Scarcity 3,Drop 4,Scarcity 4,Posible mineral name,Location
+1,26,128,iron,100,earth crystal,100,invisible stone,1,small crystal,1,Scrap Mineral,SummerArea YokmirForest
+2,27,128,iron,30,earth crystal,50,invisible stone,4,big crystal,1,Iron Mineral,YokmirForest
+3,36,128,amethyst,60,earth crystal,100,iron,5,light ore,30,Amethyst Mineral,YokmirForest MayaRoad
+4,28,160,bronze,120,iron,150,big crystal,50,invisible stone,1,Copper Mineral,ObsidianMansion
+5,37,172,aquamarine,120,iron,100,water crystal,50,light ore,5,Aquamarine Mineral,WaterRuins MayaRoad
+6,34,200,emerald,180,iron,90,wind crystal,60,light ore,5,Emerald Mineral,YokmirCave MayaRoad
+7,33,208,ruby,180,iron,70,fire crystal,80,light ore,5,Ruby Mineral,DeliriumLavaRuins MayaRoad
+8,35,216,sapphire,180,iron,50,invisible stone,100,light ore,3,Sapphire Mineral,IdraCave MayaRoad
+9,32,216,diamond,196,iron,40,invisible stone,110,light ore,3,Diamond Mineral,SechsTerritory
+10,29,200,silver,196,iron,80,big crystal,70,small crystal,2,Silver Mineral,DeliriumLavaRuins AutumnRoad MayaRoad
+11,30,200,gold,196,iron,50,big crystal,100,small crystal,2,Gold Mineral,IdraCave MayaRoad
+12,31,216,platinum,200,iron,20,big crystal,130,small crystal,5,Platinum Mineral,FloatingEmpire RunePrana
+13,30,232,orichalcum,200,iron,15,big crystal,135,small crystal,8,Orichalcum Mineral,LeonKarnak RunePrana
+14,26,200,shade stone,80,iron,30,scrap metal,100,shade stone,50,Shade Mineral,ObsidianMansion
+15,26,248,dragonic stone,220,iron,5,scrap metal,100,dragonic stone,40,Dragon Mineral,RunePrana
+16,36,240,amethyst,200,earth crystal,50,light ore,15,invisible stone,1,Amethyst Mineral,YokmirForest MayaRoad
+17,37,240,aquamarine,200,water crystal,50,light ore,15,invisible stone,1,Aquamarine Mineral,WaterRuins MayaRoad
+18,34,240,emerald,200,wind crystal,50,light ore,15,invisible stone,1,Emerald Mineral,YokmirCave MayaRoad
+19,33,240,ruby,200,fire crystal,50,light ore,15,invisible stone,1,Ruby Mineral,DeliriumLavaRuins MayaRoad
+20,35,240,sapphire,200,light ore,64,light ore,1,invisible stone,1,Sapphire Mineral,IdraCave MayaRoad

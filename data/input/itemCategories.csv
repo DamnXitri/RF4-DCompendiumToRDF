@@ -1,0 +1,59 @@
+Category ID,Category Name,
+0,Vegetable,Crops
+1,Fruit,Crops
+2,Plant,Crops
+3,Medicine,Medicine
+4,Failed Dish,Cooking
+5,Knife,Cooking
+6,Frying Pan,Cooking
+7,Pot,Cooking
+8,Oven,Cooking
+9,Mixer,Cooking
+10,Steamed,Cooking
+11,No Tool,Cooking
+12,Ready-made,Products
+13,Dairy,Products
+14,Ingredient,Products
+15,Short Sword,Weapons
+16,Long Sword,Weapons
+17,Spear,Weapons
+18,Hammer,Weapons
+19,Axe,Weapons
+20,,
+21,,
+22,,
+23,,
+24,Staff,Weapons
+25,Dual Blade,Weapons
+26,Fist,Weapons
+27,Hoe (Tool),Tools
+28,Waterpot (Tool),Tools
+29,Sickle (Tool),Tools
+30,Hammer (Tool),Tools
+31,Axe (Tool),Tools
+32,Pole (Tool),Tools
+33,Shield,Equipment
+34,Accessory,Equipment
+35,Headgear,Equipment
+36,Shoes,Equipment
+37,Armor,Equipment
+38,,
+39,,
+40,Brush,Monster Tools
+41,Clippers,Monster Tools
+42,,
+43,,
+44,,
+45,Magnifying Glass,Crop Tools
+46,Seed,Crop Tools
+47,Nutrient,Crop Tools
+48,Magic,Ability Charms
+49,Rune Ability,Ability Charms
+50,Ability,Ability Charms
+51,Collectible,(Most crafting materials)
+52,Fish,(Fishing food)
+53,Trash,(Fishing trash)
+54,Other,"(Rocks, branches and their materials)"
+55,Other2,Special
+56,,
+57,Recipe Bread,(Eat to learn recipes)

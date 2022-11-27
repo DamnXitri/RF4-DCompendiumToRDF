@@ -1,0 +1,1083 @@
+Item,Dec ID,Hex ID,Item Type ID,Item Type,Category,,Buy,Sell,Bonus Type,Shipping Type,,,,Obtain Method
+Cabbage,1,0001,1,#N/A,0,0,2800,680,None,0,#0000,0,25,Farmed
+King Cabbage,2,0002,1,#N/A,0,0,12000,3400,None,0,#03E7,1,25,Farmed
+Pink Turnip,3,0003,3,#N/A,0,0,700,200,None,1,#0027,2,26,Farmed
+Colossal Pink,4,0004,3,#N/A,0,0,3200,1000,None,1,#03E7,3,26,Farmed
+Pink Melon,5,0005,5,#N/A,0,0,5000,850,None,2,#0000,4,35,Farmed
+Conqueror Melon,6,0006,5,#N/A,0,0,25000,4250,None,2,#03E7,5,35,Farmed
+Onion,7,0007,7,#N/A,0,0,6700,800,None,3,#0000,6,27,Farmed
+Ultra Onion,8,0008,7,#N/A,0,0,16000,4000,None,3,#03E7,7,27,Farmed
+Pumpkin,9,0009,9,#N/A,0,0,420,110,None,4,#0027,8,37,Farmed
+Doom Pumpkin,10,000A,9,#N/A,0,0,1560,550,None,4,#03E7,9,37,Farmed
+Cucumber,11,000B,11,#N/A,0,0,250,68,None,5,#0000,10,38,Farmed
+Kaiser Cucumber,12,000C,11,#N/A,0,0,980,350,None,5,#03E7,11,38,Farmed
+Corn,13,000D,13,#N/A,0,0,3000,1000,None,6,#0027,12,39,Farmed
+Gigant Corn,14,000E,13,#N/A,0,0,20000,7500,None,6,#03E7,13,39,Farmed
+Tomato,15,000F,15,#N/A,0,0,1800,540,None,7,#0000,14,40,Farmed
+Titan Tomato,16,0010,15,#N/A,0,0,8000,3000,None,7,#03E7,15,40,Farmed
+Eggplant,17,0011,17,#N/A,0,0,950,190,None,8,#0027,16,41,Farmed
+Emperor Eggplant,18,0012,17,#N/A,0,0,3500,1000,None,8,#03E7,17,41,Farmed
+Yam,19,0013,19,#N/A,0,0,450,140,None,9,#0027,18,53,Farmed
+Lordly Yam,20,0014,19,#N/A,0,0,2200,800,None,9,#03E7,19,53,Farmed
+Potato,21,0015,21,#N/A,0,0,600,90,None,10,#0027,20,54,Farmed
+Princely Potato,22,0016,21,#N/A,0,0,1600,500,None,10,#03E7,21,54,Farmed
+Carrot,23,0017,23,#N/A,0,0,2600,380,None,11,#0027,22,55,Farmed
+Royal Carrot,24,0018,23,#N/A,0,0,7000,2000,None,11,#03E7,23,55,Farmed
+Green Pepper,25,0019,25,#N/A,0,0,700,150,None,12,#0027,24,56,Farmed
+Green Pepper Rex,26,001A,25,#N/A,0,0,2300,800,None,12,#03E7,25,56,Farmed
+Spinach,27,001B,27,#N/A,0,0,300,65,None,13,#0027,26,57,Farmed
+Sovereign Spinach,28,001C,27,#N/A,0,0,1000,350,None,13,#03E7,27,57,Farmed
+Turnip,29,001D,29,#N/A,0,0,200,30,None,14,#0027,28,63,Farmed
+Tyrant Turnip,30,001E,29,#N/A,0,0,800,200,None,14,#03E7,29,63,Farmed
+Radish,31,001F,31,#N/A,0,0,1580,360,None,15,#0027,30,64,Farmed
+Noble Radish,32,0020,31,#N/A,0,0,5400,2000,None,15,#03E7,31,64,Farmed
+Leek,33,0021,33,#N/A,0,0,4800,1600,None,16,#0000,32,65,Farmed
+Legendary Leek,34,0022,33,#N/A,0,0,20000,8000,None,16,#03E7,33,65,Farmed
+Bok Choy,35,0023,35,#N/A,0,0,1900,420,None,17,#0027,34,66,Farmed
+Boss Bok Choy,36,0024,35,#N/A,0,0,6200,2250,None,17,#03E7,35,66,Farmed
+Hot-Hot Fruit,37,0025,37,#N/A,0,0,7000,900,None,18,#0000,36,70,Farmed
+Giant Hot-Hot Fruit,38,0026,37,#N/A,0,0,16000,4500,None,18,#03E7,37,70,Farmed
+Bamboo Sprout,39,0027,39,#N/A,0,0,200,40,None,19,#0027,100,0,Farmed
+Golden Cabbage,40,0028,40,#N/A,0,0,50000,11500,None,20,#0027,39,34,Farmed
+Golden King Cabbage,41,0029,40,#N/A,0,0,200000,52000,None,21,#03E7,40,34,Farmed
+Golden Pumpkin,42,002A,42,#N/A,0,0,20000,4000,None,21,#0000,41,48,Farmed
+Gldn. Doom Pumpkin,43,002B,42,#N/A,0,0,80000,18000,None,22,#03E7,42,48,Farmed
+Golden Potato,44,002C,44,#N/A,0,0,30000,6000,None,22,#0000,43,62,Farmed
+Gold Prince Potato,45,002D,44,#N/A,0,0,100000,27000,None,23,#03E7,44,62,Farmed
+Golden Turnip,46,002E,46,#N/A,0,0,100000,20000,None,23,#0000,45,69,Farmed
+Golden Tyrant Turnip,47,002F,46,#N/A,0,0,500000,90000,None,24,#03E7,46,69,Farmed
+Mushroom,48,0030,48,#N/A,0,0,2000,10,None,24,#0027,200,0,Pick up
+Mushroom,49,0031,48,#N/A,0,0,2000,10,None,25,#0027,201,0,Pick up
+Mushroom,50,0032,48,#N/A,0,0,2000,10,None,26,#0027,202,0,Pick up
+Mushroom,51,0033,48,#N/A,0,0,2000,10,None,27,#0027,203,0,Pick up
+Mushroom,52,0034,48,#N/A,0,0,2000,10,None,28,#0027,204,0,Pick up
+Mushroom,53,0035,48,#N/A,0,0,2000,10,None,29,#0027,205,0,Pick up
+Monarch Mushroom,54,0036,48,#N/A,0,0,50000,10000,None,30,#03E7,206,0,Pick up
+Strawberry,55,0037,55,#N/A,1,0,800,135,None,30,#0027,10,24,Farmed
+Sultan Strawberry,56,0038,55,#N/A,1,0,2500,700,None,31,#03E7,11,24,Farmed
+Pineapple,57,0039,57,#N/A,1,0,8500,1600,None,31,#0000,12,42,Farmed
+King Pineapple,58,003A,57,#N/A,1,0,28000,8000,None,32,#03E7,13,42,Farmed
+Grapes,59,003B,59,#N/A,1,0,650,120,None,32,#009F,4,0,Farmed
+Apple,60,003C,60,#N/A,1,0,850,150,None,33,#0045,5,0,Farmed
+Orange,61,003D,61,#N/A,1,0,500,80,None,34,#009F,7,0,Farmed
+Mealy Apple,62,003E,60,#N/A,1,0,9000,3000,None,-1,#03E7,6,0,Farmed
+Toyherb,63,003F,63,#N/A,2,0,250,65,None,35,#0027,0,28,Farmed
+Ultra Toyherb,64,0040,63,#N/A,2,0,1500,350,None,36,#03E7,1,28,Farmed
+Moondrop Flower,65,0041,65,#N/A,2,0,400,115,None,36,#0027,2,29,Farmed
+Ultra Moondrop Flower,66,0042,65,#N/A,2,0,2000,650,None,37,#03E7,3,29,Farmed
+Pink Cat,67,0043,67,#N/A,2,0,450,110,None,37,#0027,4,43,Farmed
+King Pink Cat,68,0044,67,#N/A,2,0,2200,600,None,38,#03E7,5,43,Farmed
+Charm Blue,69,0045,69,#N/A,2,0,800,220,None,38,#0027,6,58,Farmed
+Great Charm Blue,70,0046,69,#N/A,2,0,4000,1200,None,39,#03E7,7,58,Farmed
+Medicinal Herb,71,0047,71,#N/A,2,0,80,8,None,39,#0027,100,0,Pick up
+Antidote Grass,72,0048,72,#N/A,2,0,150,6,None,40,#0027,101,0,Pick up
+Black Grass,73,0049,73,#N/A,2,0,120,5,None,41,#0064,102,0,Pick up
+Orange Grass,74,004A,74,#N/A,2,0,120,5,None,42,#010E,103,0,Pick up
+Red Grass,75,004B,75,#N/A,2,0,120,5,None,43,#00A1,104,0,Pick up
+Yellow Grass,76,004C,76,#N/A,2,0,120,5,None,44,#00A1,105,0,Pick up
+Blue Grass,77,004D,77,#N/A,2,0,120,5,None,45,#0027,106,0,Pick up
+Green Grass,78,004E,78,#N/A,2,0,120,5,None,46,#0027,107,0,Pick up
+Purple Grass,79,004F,79,#N/A,2,0,120,5,None,47,#0027,108,0,Pick up
+Indigo Grass,80,0050,80,#N/A,2,0,120,5,None,48,#008C,109,0,Pick up
+White Grass,81,0051,81,#N/A,2,0,120,5,None,49,#014A,110,0,Pick up
+Weeds,82,0052,82,#N/A,2,0,30,1,None,50,#0027,111,0,Pick up
+Withered Grass,83,0053,83,#N/A,2,0,100,1,None,51,#0027,112,0,Pick up
+Cherry Grass,84,0054,84,#N/A,2,0,700,230,None,52,#0027,21,30,Farmed
+King Cherry Grass,85,0055,84,#N/A,2,0,3800,1200,None,53,#03E7,22,30,Farmed
+Lamp Grass,86,0056,86,#N/A,2,0,2000,650,None,53,#0000,23,31,Farmed
+Kaiser Lamp Grass,87,0057,86,#N/A,2,0,8500,3250,None,54,#03E7,24,31,Farmed
+Blue Crystal,88,0058,88,#N/A,2,0,40000,15000,None,54,#0000,25,33,Farmed
+Big Blue Crystal,89,0059,88,#N/A,2,0,200000,67500,None,55,#03E7,26,33,Farmed
+Emery Flower,90,005A,90,#N/A,2,0,500000,55000,None,55,#0000,27,32,Farmed
+Great Emery Flower,91,005B,90,#N/A,2,0,1000000,250000,None,56,#03E7,28,32,Farmed
+Ironleaf,92,005C,92,#N/A,2,0,4444,1111,None,56,#0000,29,44,Farmed
+Super Ironleaf,93,005D,92,#N/A,2,0,22222,5555,None,57,#03E7,30,44,Farmed
+4-Leaf Clover,94,005E,94,#N/A,2,0,4000,980,None,57,#0000,31,45,Farmed
+Great 4-Leaf Clover,95,005F,94,#N/A,2,0,20000,5000,None,58,#03E7,32,45,Farmed
+Fireflower,96,0060,96,#N/A,2,0,10000,2800,None,58,#0000,33,46,Farmed
+Big Fireflower,97,0061,96,#N/A,2,0,50000,14000,None,59,#03E7,34,46,Farmed
+Green Crystal,98,0062,98,#N/A,2,0,48000,17000,None,59,#0000,35,47,Farmed
+Big Green Crystal,99,0063,98,#N/A,2,0,240000,76500,None,60,#03E7,36,47,Farmed
+Noel Grass,100,0064,100,#N/A,2,0,6660,2000,None,60,#0000,37,67,Farmed
+Large Noel Grass,101,0065,100,#N/A,2,0,33300,10000,None,61,#03E7,38,67,Farmed
+Autumn Grass,102,0066,102,#N/A,2,0,6000,1800,None,61,#0000,39,59,Farmed
+Big Autumn Grass,103,0067,102,#N/A,2,0,30000,9000,None,62,#03E7,40,59,Farmed
+Pom-Pom Grass,104,0068,104,#N/A,2,0,1500,440,None,62,#0027,41,60,Farmed
+King Pom-Pom Grass,105,0069,104,#N/A,2,0,7000,2300,None,63,#03E7,42,60,Farmed
+Red Crystal,106,006A,106,#N/A,2,0,56000,20000,None,63,#0000,43,61,Farmed
+Big Red Crystal,107,006B,106,#N/A,2,0,280000,90000,None,64,#03E7,44,61,Farmed
+White Crystal,108,006C,108,#N/A,2,0,80000,22500,None,64,#0000,45,68,Farmed
+Big White Crystal,109,006D,108,#N/A,2,0,400000,101500,None,65,#03E7,46,68,Farmed
+Ayngondaia Lawn,110,006E,110,#N/A,2,0,0,33,None,66,#03E7,113,61,Pick up
+The Protein,111,006F,111,#N/A,3,0,2000000,1500,None,66,#0064,12,0,Cooked
+Intelligencer,112,0070,112,#N/A,3,0,2000000,1500,None,67,#0064,13,0,Cooked
+Vital Gummi,113,0071,113,#N/A,3,0,2000000,1500,None,68,#0064,14,0,Cooked
+Heart Drink,114,0072,114,#N/A,3,0,1500000,1300,None,69,#0064,15,0,Cooked
+Antidote Potion,115,0073,115,#N/A,3,0,1200,150,None,70,#0027,4,0,Cooked
+Para-Gone,116,0074,116,#N/A,3,0,900,80,None,71,#0027,5,0,Cooked
+Roundoff,117,0075,117,#N/A,3,0,800,60,None,72,#0027,6,0,Cooked
+Cold Medicine,118,0076,118,#N/A,3,0,1000,110,None,73,#0027,7,0,Cooked
+Formuade,119,0077,119,#N/A,3,0,20000,2500,None,74,#012C,8,0,Cooked
+Love Potion,120,0078,120,#N/A,3,0,3000000,500,None,75,#012C,9,0,Cooked
+Invinciroid,121,0079,121,#N/A,3,0,1120000,5000,None,76,#012C,10,0,Cooked
+Leveliser,122,007A,122,#N/A,3,0,5000000,3000,None,77,#0064,16,0,Cooked
+Heavy Spice,123,007B,123,#N/A,14,0,480,180,None,78,#0027,17,0,Cooked
+Sweet Powder,124,007C,124,#N/A,14,0,450,170,None,79,#0027,18,0,Cooked
+Sour Drop,125,007D,125,#N/A,14,0,250,90,None,80,#0027,19,0,Cooked
+Mixed Herbs,126,007E,126,#N/A,14,0,750,280,None,81,#0027,20,0,Cooked
+Recovery Potion,127,007F,127,#N/A,3,0,80,15,None,82,#0027,0,0,Cooked
+Healing Potion,128,0080,128,#N/A,3,0,500,120,None,83,#0064,1,0,Cooked
+Mystery Potion,129,0081,129,#N/A,3,0,1500,200,None,84,#012C,2,0,Cooked
+Magical Potion,130,0082,130,#N/A,3,0,5000,2000,None,0,#0168,3,0,Cooked
+Object X,131,0083,131,#N/A,3,0,150,2,None,0,#0027,11,0,Cooked
+Failed Dish,132,0084,132,#N/A,4,2,15,2,None,85,#0027,0,0,Cooked
+Disastrous Dish,133,0085,133,#N/A,4,2,1000,50,None,86,#0064,1,0,Cooked
+Trout Sashimi,134,0086,134,#N/A,5,7,210,17,None,87,#0027,0,0,Cooked
+Char Sashimi,135,0087,135,#N/A,5,7,720,130,None,88,#0027,1,0,Cooked
+Rainbow Sashimi,136,0088,136,#N/A,5,7,1740,240,None,89,#0027,2,0,Cooked
+Salmon Sashimi,137,0089,137,#N/A,5,7,570,100,None,90,#0027,3,0,Cooked
+Cherry Sashimi,138,008A,138,#N/A,5,7,240,21,None,91,#0027,4,0,Cooked
+Taimen Sashimi,139,008B,139,#N/A,5,9,68000,12200,None,92,#0000,5,0,Cooked
+Snapper Sashimi,140,008C,140,#N/A,5,8,8000,1980,None,93,#0027,6,0,Cooked
+Glitter Sashimi,141,008D,141,#N/A,5,9,120000,24000,None,94,#0000,7,0,Cooked
+Lover Sashimi,142,008E,142,#N/A,5,8,21800,5400,None,95,#0000,8,0,Cooked
+Girella Sashimi,143,008F,143,#N/A,5,7,400,52,None,96,#0027,9,0,Cooked
+Skipjack Sashimi,144,0090,144,#N/A,5,7,3400,300,None,97,#0027,10,0,Cooked
+Yellowtail Sashimi,145,0091,145,#N/A,5,8,27000,6700,None,98,#0000,11,0,Cooked
+Tuna Sashimi,146,0092,146,#N/A,5,9,48000,9500,None,99,#0000,12,0,Cooked
+Sardine Sashimi,147,0093,147,#N/A,5,7,500,88,None,100,#0027,13,0,Cooked
+Needlefish Sashimi,148,0094,148,#N/A,5,7,300,34,None,101,#0027,14,0,Cooked
+Pike Sashimi,149,0095,149,#N/A,5,7,150,13,None,102,#0027,15,0,Cooked
+Flounder Sashimi,150,0096,150,#N/A,5,7,2300,300,None,103,#0027,16,0,Cooked
+Turbot Sashimi,151,0097,151,#N/A,5,7,1300,150,None,104,#0027,17,0,Cooked
+Fall Sashimi,152,0098,152,#N/A,5,8,15800,3750,None,105,#0000,18,0,Cooked
+Squid Sashimi,153,0099,153,#N/A,5,7,300,29,None,106,#0027,19,0,Cooked
+Sunsquid Sashimi,154,009A,154,#N/A,5,9,64000,11800,None,107,#0000,20,0,Cooked
+Lamp Squid Sashimi,155,009B,155,#N/A,5,8,12000,2895,None,108,#0027,21,0,Cooked
+Blowfish Sashimi,156,009C,156,#N/A,5,8,36000,8800,None,109,#0000,22,0,Cooked
+Lobster Sashimi,157,009D,157,#N/A,5,7,3800,1230,None,110,#0027,23,0,Cooked
+Shrimp Sashimi,158,009E,158,#N/A,5,7,680,125,None,111,#0027,24,0,Cooked
+Fried Veggies,159,009F,159,#N/A,6,7,5000,1550,None,112,#0027,0,0,Cooked
+Fried Rice,160,00A0,160,#N/A,6,7,3300,1080,None,113,#0027,1,0,Cooked
+Cabbage Cakes,161,00A1,161,#N/A,6,7,23600,6000,None,114,#0000,2,0,Cooked
+French Fries,162,00A2,162,#N/A,6,7,2000,614,None,115,#0027,3,0,Cooked
+Croquettes,163,00A3,163,#N/A,6,7,4000,1300,None,116,#0027,4,0,Cooked
+Popcorn,164,00A4,164,#N/A,6,7,6200,1800,None,117,#0027,5,0,Cooked
+Corn Cereal,165,00A5,165,#N/A,6,7,9200,2800,None,118,#0027,6,0,Cooked
+Miso Eggplant,166,00A6,166,#N/A,6,7,1800,375,None,119,#0027,7,0,Cooked
+Fried Eggs,167,00A7,167,#N/A,6,7,1100,335,None,120,#0027,8,0,Cooked
+Omelet,168,00A8,168,#N/A,6,7,2500,820,None,121,#0027,9,0,Cooked
+Omelet Rice,169,00A9,169,#N/A,6,7,16000,5200,None,122,#0000,10,0,Cooked
+Baked Apple,170,00AA,170,#N/A,6,7,550,175,None,123,#0027,11,0,Cooked
+Curry Bread,171,00AB,171,#N/A,6,7,36000,6000,None,124,#0000,12,0,Cooked
+French Toast,172,00AC,172,#N/A,6,7,3000,670,None,125,#0027,13,0,Cooked
+Donut,173,00AD,173,#N/A,6,7,7500,2450,None,126,#0027,14,0,Cooked
+Fried Udon,174,00AE,174,#N/A,6,7,50000,12000,None,127,#0000,15,0,Cooked
+Tempura,175,00AF,175,#N/A,6,7,5600,1820,None,128,#0027,16,0,Cooked
+Pancakes,176,00B0,176,#N/A,6,7,9500,3120,None,129,#0027,17,0,Cooked
+Gyoza,177,00B1,177,#N/A,6,7,32000,9000,None,130,#0000,18,0,Cooked
+Risotto,178,00B2,178,#N/A,6,7,7000,2300,None,131,#0027,19,0,Cooked
+Dry Curry,179,00B3,1100,Curry,6,7,49800,8600,None,132,#0000,20,0,Cooked
+Salted Masu Trout,180,00B4,180,#N/A,6,7,680,220,None,133,#0027,21,0,Cooked
+Salted Char,181,00B5,181,#N/A,6,7,1300,260,None,134,#0027,22,0,Cooked
+Salted R. Trout,182,00B6,182,#N/A,6,7,2750,390,None,135,#0027,23,0,Cooked
+Salted C. Salmon,183,00B7,183,#N/A,6,7,730,238,None,136,#0027,24,0,Cooked
+Salted Chub,184,00B8,184,#N/A,6,7,2200,330,None,137,#0027,25,0,Cooked
+Salted Salmon,185,00B9,185,#N/A,6,7,1200,370,None,138,#0027,26,0,Cooked
+Salted Taimen,186,00BA,186,#N/A,6,9,88000,16000,None,139,#0000,27,0,Cooked
+Grilled C. Carp,187,00BB,187,#N/A,6,7,810,265,None,140,#0027,28,0,Cooked
+Grilled Gibelio,188,00BC,188,#N/A,6,7,1800,272,None,141,#0027,29,0,Cooked
+Grilled Snapper,189,00BD,189,#N/A,6,8,11200,2680,None,142,#0000,30,0,Cooked
+Grilled Girella,190,00BE,190,#N/A,6,7,900,295,None,143,#0027,31,0,Cooked
+Grilled G. Snapper,191,00BF,191,#N/A,6,9,154000,30500,None,144,#0000,32,0,Cooked
+Grilled L. Snapper,192,00C0,192,#N/A,6,8,28800,7100,None,145,#0027,33,0,Cooked
+Grilled Skipjack,193,00C1,193,#N/A,6,7,4800,510,None,146,#0027,34,0,Cooked
+Grilled Mackerel,194,00C2,194,#N/A,6,7,1000,325,None,147,#0027,35,0,Cooked
+Grilled Yellowtail,195,00C3,195,#N/A,6,8,35400,8600,None,148,#0000,36,0,Cooked
+Salted Pond Smelt,196,00C4,196,#N/A,6,7,600,173,None,149,#0027,37,0,Cooked
+Tuna Teriyaki,197,00C5,197,#N/A,6,9,61000,11000,None,150,#0000,38,0,Cooked
+Dried Sardines,198,00C6,198,#N/A,6,7,2300,400,None,151,#0027,39,0,Cooked
+Grilled Needlefish,199,00C7,199,#N/A,6,7,750,248,None,152,#0027,40,0,Cooked
+Salted Pike,200,00C8,200,#N/A,6,7,600,190,None,153,#0027,41,0,Cooked
+Grilled Flounder,201,00C9,201,#N/A,6,7,3250,420,None,154,#0027,42,0,Cooked
+Grilled Turbot,202,00CA,202,#N/A,6,7,2000,648,None,155,#0027,43,0,Cooked
+Grilled F.Flounder,203,00CB,203,#N/A,6,8,20000,4850,None,156,#0027,44,0,Cooked
+Grilled Squid,204,00CC,204,#N/A,6,7,800,250,None,157,#0027,45,0,Cooked
+Grilled Sunsquid,205,00CD,205,#N/A,6,9,80000,15800,None,158,#0000,46,0,Cooked
+Grilled Lamp Squid,206,00CE,206,#N/A,6,8,15200,3780,None,159,#0027,47,0,Cooked
+Grilled Blowfish,207,00CF,207,#N/A,6,8,48000,7800,None,160,#0000,48,0,Cooked
+Grilled Lobster,208,00D0,208,#N/A,6,7,5200,1720,None,161,#0027,49,0,Cooked
+Grilled Shrimp,209,00D1,209,#N/A,6,7,1200,398,None,162,#0027,50,0,Cooked
+Grilled S.Flounder,210,00D2,210,#N/A,6,7,850,275,None,163,#0027,51,0,Cooked
+Hot Milk,211,00D3,211,#N/A,7,7,930,308,None,164,#0027,0,0,Cooked
+Hot Chocolate,212,00D4,212,#N/A,7,7,530,175,None,165,#0027,1,0,Cooked
+Grape Liqueur,213,00D5,213,#N/A,7,7,4420,1470,None,166,#0027,2,0,Cooked
+Boiled Pumpkin,214,00D6,214,#N/A,7,7,580,180,None,167,#0027,3,0,Cooked
+Boiled Spinach,215,00D7,215,#N/A,7,7,340,95,None,168,#0027,4,0,Cooked
+Boiled Egg,216,00D8,216,#N/A,7,7,1000,330,None,169,#0027,5,0,Cooked
+Glazed Yam,217,00D9,217,#N/A,7,7,1850,560,None,170,#0027,6,0,Cooked
+Boiled Gyoza,218,00DA,218,#N/A,7,7,32000,9000,None,171,#0000,7,0,Cooked
+Strawberry Jam,219,00DB,1099,Jam,7,7,680,215,None,172,#0027,8,0,Cooked
+Apple Jam,220,00DC,1099,Jam,7,7,520,170,None,173,#0027,9,0,Cooked
+Grape Jam,221,00DD,1099,Jam,7,7,420,135,None,174,#0027,10,0,Cooked
+Marmalade,222,00DE,1099,Jam,7,7,280,90,None,175,#0027,11,0,Cooked
+Cheese Fondue,223,00DF,223,#N/A,7,7,3100,1025,None,176,#0027,12,0,Cooked
+Udon,224,00E0,224,#N/A,7,7,450,145,None,177,#0027,13,0,Cooked
+Curry Udon,225,00E1,225,#N/A,7,7,29000,5000,None,178,#0000,14,0,Cooked
+Tempura Udon,226,00E2,226,#N/A,7,7,11000,3500,None,179,#0027,15,0,Cooked
+Rice Porridge,227,00E3,227,#N/A,7,7,190,57,None,180,#0027,16,0,Cooked
+Milk Porridge,228,00E4,228,#N/A,7,7,1400,464,None,181,#0027,17,0,Cooked
+Tempura Bowl,229,00E5,229,#N/A,7,7,11500,3500,None,182,#0027,18,0,Cooked
+Egg Bowl,230,00E6,230,#N/A,7,7,1500,492,None,183,#0027,19,0,Cooked
+Stew,231,00E7,231,#N/A,7,7,42800,12000,None,184,#0000,20,0,Cooked
+Curry Rice,232,00E8,1100,Curry,7,7,8800,2400,None,185,#0027,21,0,Cooked
+Ultimate Curry,233,00E9,1100,Curry,7,7,825000,250000,None,186,#03E7,22,0,Cooked
+Royal Curry,234,00EA,1100,Curry,7,7,1600000,500000,None,187,#03E7,23,0,Cooked
+Relax Tea,235,00EB,235,#N/A,7,7,30000,10000,None,188,#0027,24,0,Cooked
+Grilled Miso,236,00EC,236,#N/A,7,7,2000,660,None,189,#0027,25,0,Cooked
+Union Stew,237,00ED,237,#N/A,7,8,70000,15000,None,190,#0000,26,0,Cooked
+Rockfish Stew,238,00EE,238,#N/A,7,8,5800,1360,None,191,#0027,27,0,Cooked
+Corn on the Cob,239,00EF,239,#N/A,8,7,6200,1860,None,192,#0027,0,0,Cooked
+Baked Onigiri,240,00F0,240,#N/A,8,7,220,65,None,193,#0027,1,0,Cooked
+Sweet Potato,241,00F1,241,#N/A,8,7,870,240,None,194,#0027,2,0,Cooked
+Toast,242,00F2,242,#N/A,8,7,610,170,None,195,#0027,3,0,Cooked
+Jam Roll,243,00F3,243,#N/A,8,7,5000,1940,None,196,#0027,4,0,Cooked
+Butter Roll,244,00F4,244,#N/A,8,7,6800,2200,None,197,#0027,5,0,Cooked
+Pizza,245,00F5,245,#N/A,8,7,25800,8000,None,198,#0000,6,0,Cooked
+Seafood Pizza,246,00F6,246,#N/A,8,7,19800,6450,None,199,#0000,7,0,Cooked
+Doria,247,00F7,247,#N/A,8,7,18300,6000,None,200,#0000,8,0,Cooked
+Seafood Doria,248,00F8,248,#N/A,8,7,7400,2450,None,201,#0027,9,0,Cooked
+Gratin,249,00F9,249,#N/A,8,7,26200,8200,None,202,#0000,10,0,Cooked
+Seafood Gratin,250,00FA,250,#N/A,8,7,8200,2700,None,203,#0027,11,0,Cooked
+Yam of the Ages,251,00FB,251,#N/A,8,7,7520,2200,None,204,#0027,12,0,Cooked
+Cookie,252,00FC,252,#N/A,8,7,5980,1960,None,205,#0027,13,0,Cooked
+Choco Cookie,253,00FD,253,#N/A,8,7,8200,2700,None,206,#0027,14,0,Cooked
+Cake,254,00FE,254,#N/A,8,7,15000,4200,None,207,#0027,15,0,Cooked
+Chocolate Cake,255,00FF,255,#N/A,8,7,12000,3860,None,208,#0027,16,0,Cooked
+Cheesecake,256,0100,256,#N/A,8,7,7820,2540,None,209,#0027,17,0,Cooked
+Apple Pie,257,0101,257,#N/A,8,7,5820,1910,None,210,#0027,18,0,Cooked
+Pineapple Juice,258,0102,258,#N/A,9,7,14800,4400,None,211,#0027,0,0,Cooked
+Tomato Juice,259,0103,259,#N/A,9,7,3200,1000,None,212,#0027,1,0,Cooked
+Grape Juice,260,0104,260,#N/A,9,7,440,140,None,213,#0027,2,0,Cooked
+Orange Juice,261,0105,261,#N/A,9,7,290,92,None,214,#0027,3,0,Cooked
+Apple Juice,262,0106,262,#N/A,9,7,530,175,None,215,#0027,4,0,Cooked
+Strawberry Milk,263,0107,263,#N/A,9,7,2980,720,None,216,#0027,5,0,Cooked
+Fruit Juice,264,0108,264,#N/A,9,7,1980,630,None,217,#0027,6,0,Cooked
+Fruit Smoothie,265,0109,265,#N/A,9,7,4280,1400,None,218,#0027,7,0,Cooked
+Vegetable Juice,266,010A,266,#N/A,9,7,8000,2350,None,219,#0027,8,0,Cooked
+Veggie Smoothie,267,010B,267,#N/A,9,7,15800,5200,None,220,#0000,9,0,Cooked
+Mixed Juice,268,010C,268,#N/A,9,7,36000,12000,None,221,#0000,10,0,Cooked
+Mixed Smoothie,269,010D,269,#N/A,9,7,75000,25000,None,222,#0000,11,0,Cooked
+Ketchup,270,010E,270,#N/A,9,7,4000,1300,None,223,#0027,12,0,Cooked
+Butter,271,010F,271,#N/A,9,7,1500,300,None,224,#0027,13,0,Cooked
+Gold Juice,272,0110,272,#N/A,9,7,2400000,800000,None,225,#03E7,14,0,Cooked
+Prelude to Love,273,0111,273,#N/A,9,7,11200,2600,None,226,#0027,15,0,Cooked
+Hot Juice,274,0112,274,#N/A,9,7,13000,3600,None,227,#0027,16,0,Cooked
+Steamed Bread,275,0113,275,#N/A,10,7,3820,1240,None,228,#0027,0,0,Cooked
+Cheese Bread,276,0114,276,#N/A,10,7,7300,2420,None,229,#0027,1,0,Cooked
+Meat Dumpling,277,0115,277,#N/A,10,7,16000,5200,None,230,#0000,2,0,Cooked
+Chinese Manju,278,0116,278,#N/A,10,7,820,272,None,231,#0027,3,0,Cooked
+Curry Manju,279,0117,279,#N/A,10,7,36800,4800,None,232,#0027,4,0,Cooked
+Steamed Gyoza,280,0118,280,#N/A,10,7,32000,9000,None,233,#0000,5,0,Cooked
+Pound Cake,281,0119,281,#N/A,10,7,1880,608,None,234,#0027,6,0,Cooked
+Chocolate Sponge,282,011A,282,#N/A,10,7,5600,1800,None,235,#0027,7,0,Cooked
+Flan,283,011B,283,#N/A,10,7,2500,832,None,236,#0027,8,0,Cooked
+Pumpkin Flan,284,011C,284,#N/A,10,7,5250,1350,None,237,#0027,9,0,Cooked
+Dumplings,285,011D,285,#N/A,10,7,150,45,None,238,#0027,10,0,Cooked
+Salad,286,011E,286,#N/A,11,7,21000,6900,None,239,#0000,0,0,Cooked
+Sandwich,287,011F,287,#N/A,11,7,3900,964,None,240,#0027,1,0,Cooked
+Fruit Sandwich,288,0120,288,#N/A,11,7,1920,540,None,241,#0027,2,0,Cooked
+Pickled Turnip,289,0121,289,#N/A,11,7,400,48,None,242,#0027,3,0,Cooked
+Pickles,290,0122,290,#N/A,11,7,450,105,None,243,#0027,4,0,Cooked
+Bamboo Rice,291,0123,291,#N/A,11,7,490,162,None,244,#0027,5,0,Cooked
+Raisin Bread,292,0124,292,#N/A,8,7,1200,380,None,245,#0027,6,0,Cooked
+Ice Cream,293,0125,293,#N/A,9,7,2000,645,None,246,#0027,7,0,Cooked
+Relax Tea Leaves,294,0126,294,#N/A,11,7,2800,100,None,247,#0027,8,0,Cooked
+Onigiri,295,0127,295,#N/A,11,7,180,57,None,248,#0045,9,0,Cooked
+Bread,296,0128,296,#N/A,8,7,440,145,None,249,#0027,10,0,Cooked
+Salmon Onigiri,297,0129,297,#N/A,11,7,2000,645,None,250,#0027,11,0,Cooked
+Pickle Mix,298,012A,298,#N/A,11,7,2800,520,None,251,#0027,12,0,Cooked
+Turnip Heaven,299,012B,299,#N/A,11,7,542000,150000,None,252,#0000,13,0,Cooked
+Rice,300,012C,300,#N/A,12,2,200,30,None,253,#0027,0,0,Purchased
+Chocolate,301,012D,301,#N/A,12,2,400,150,None,254,#0027,1,0,Purchased
+Wine,302,012E,302,#N/A,12,2,2000,800,None,255,#0027,2,0,Purchased
+Elli Leaves,303,012F,303,#N/A,2,7,3500,250,None,256,#0174,3,0,Pick up
+Milk (S),304,0130,304,#N/A,13,1,1600,260,None,257,#0045,0,0,Produced
+Milk (M),305,0131,304,#N/A,13,2,2000,380,None,258,#0027,1,0,Produced
+Milk (L),306,0132,304,#N/A,13,3,2800,500,None,259,#0027,2,0,Produced
+Egg (S),307,0133,307,#N/A,13,1,1200,280,None,260,#0027,3,0,Produced
+Egg (M),308,0134,307,#N/A,13,2,1500,380,None,261,#0027,4,0,Produced
+Egg (L),309,0135,307,#N/A,13,3,1800,480,None,262,#0027,5,0,Produced
+Mayonnaise,310,0136,310,#N/A,13,2,2200,720,None,263,#0027,6,0,Cooked
+Cheese,311,0137,311,#N/A,13,2,2500,400,None,264,#0027,7,0,Cooked
+Yogurt,312,0138,312,#N/A,13,7,3000,800,None,265,#0027,8,0,Cooked
+Honey,313,0139,313,#N/A,13,2,1800,680,None,266,#0027,9,0,Produced
+Flour,314,013A,314,#N/A,14,1,320,125,None,267,#0027,0,0,Purchased
+Oil,315,013B,315,#N/A,14,1,650,250,None,268,#0027,1,0,Purchased
+Curry Powder,316,013C,316,#N/A,14,1,300,70,None,269,#0027,2,0,Purchased
+Rice Flour,317,013D,317,#N/A,14,1,100,40,None,270,#0027,3,0,Purchased
+Medicine Bread,318,013E,318,#N/A,57,0,320,120,None,0,#0027,0,0,Purchased
+Medicine Bread+,319,013F,318,#N/A,57,0,999999,3000,None,0,#270F,1,0,Purchased
+Cooking Bread,320,0140,318,#N/A,57,0,400,100,None,0,#0027,2,0,Purchased
+Cooking Bread+,321,0141,318,#N/A,57,0,999999,3000,None,0,#270F,3,0,Purchased
+Weapon Bread,322,0142,318,#N/A,57,0,700,180,None,0,#0027,4,0,Purchased
+Weapon Bread+,323,0143,318,#N/A,57,0,999999,3000,None,0,#270F,5,0,Purchased
+Accessory Bread,324,0144,318,#N/A,57,0,600,150,None,0,#0027,6,0,Purchased
+Accessory Bread+,325,0145,318,#N/A,57,0,999999,3000,None,0,#270F,7,0,Purchased
+Farming Bread,326,0146,318,#N/A,57,0,900,250,None,0,#0027,8,0,Purchased
+Farming Bread+,327,0147,318,#N/A,57,0,999999,3000,None,0,#270F,9,0,Purchased
+Broadsword,328,0148,328,#N/A,15,0,90,23,Atk,0,#0027,0,0,Forged
+Steel Sword,329,0149,328,#N/A,15,0,1210,42,Atk,1,#0045,1,0,Forged
+Wind Sword,330,014A,328,#N/A,15,0,104475,2400,Atk,2,#0167,14,0,Forged
+Aqua Sword,331,014B,328,#N/A,15,0,11800,780,Atk,3,#009F,4,0,Forged
+Defender,332,014C,328,#N/A,15,0,26800,640,Atk,4,#010E,6,0,Forged
+Aerial Blade,333,014D,328,#N/A,15,0,0,5600,Atk,5,#01C0,19,0,Forged
+Burning Sword,334,014E,328,#N/A,15,0,35500,800,Atk,6,#010F,7,0,Forged
+Sakura,335,014F,328,#N/A,15,0,155400,2320,Atk,7,#0167,16,0,Forged
+Luck Blade,336,0150,328,#N/A,15,0,77777,950,Atk,8,#0149,11,0,Forged
+Platinum Sword,337,0151,328,#N/A,15,0,95730,2100,Atk,9,#0167,12,0,Forged
+Raventine,338,0152,328,#N/A,15,0,0,12500,Atk,10,#01CA,25,0,Forged
+Icifier,339,0153,328,#N/A,15,0,0,8500,Atk,11,#01C6,22,0,Forged
+Soul Eater,340,0154,328,#N/A,15,0,0,11000,Atk,12,#01C8,23,0,Forged
+Smash Blade,341,0155,328,#N/A,15,0,0,7000,Atk,13,#01C4,21,0,Forged
+Dragon Slayer,342,0156,328,#N/A,15,0,0,23000,Atk,14,#01CC,26,0,Forged
+Sunspot,343,0157,328,#N/A,15,0,308900,3600,Atk,15,#01AE,17,0,Forged
+Star Saber,344,0158,328,#N/A,15,0,0,9500,Atk,16,#01CA,24,0,Forged
+Gaia Sword,345,0159,328,#N/A,15,0,59200,1000,Atk,17,#0118,9,0,Forged
+Grantale,346,015A,328,#N/A,15,0,0,5400,Atk,18,#01C2,20,0,Forged
+Chaos Blade,347,015B,328,#N/A,15,0,125105,3500,Atk,19,#0167,15,0,Forged
+Rune Blade,348,015C,328,#N/A,15,0,0,50000,Atk,20,#01FF,27,0,Forged
+Steel Sword+,349,015D,328,#N/A,15,0,3320,70,Atk,21,#0063,2,0,Forged
+Platinum Sword+,350,015E,328,#N/A,15,0,0,8700,Atk,22,#01CC,13,0,Forged
+Cutlass,351,015F,328,#N/A,15,0,6380,138,Atk,23,#0063,3,0,Forged
+Back Scratcher,352,0160,328,#N/A,15,0,800,90,Atk,24,#008B,30,0,Forged
+Durendal,353,0161,328,#N/A,15,0,999999,4800,Atk,25,#01AE,18,0,Forged
+Gladius,354,0162,328,#N/A,15,0,0,58000,Atk,26,#01FF,28,0,Forged
+Gorgeous Sword,355,0163,328,#N/A,15,0,100000,2400,Atk,27,#010F,8,0,Forged
+Spoon,356,0164,328,#N/A,15,0,7800,750,Atk,28,#009F,31,0,Forged
+Rune Legend,357,0165,328,#N/A,15,0,0,120000,Atk,29,#03B6,29,0,Forged
+Snakesword,358,0166,328,#N/A,15,0,75400,780,Atk,30,#0149,10,0,Forged
+Veggieblade,359,0167,328,#N/A,15,0,6250,500,Atk,31,#009F,32,0,Forged
+Invisiblade,360,0168,328,#N/A,15,0,18320,800,Atk,32,#009F,5,0,Forged
+Plant Sword,361,0169,328,#N/A,15,0,0,1000,Atk,33,#270F,33,0,Forged
+Claymore,362,016A,362,#N/A,16,0,160,23,Atk,33,#0027,0,0,Forged
+Zweihaender,363,016B,362,#N/A,16,0,1675,41,Atk,34,#0045,1,0,Forged
+Flame Saber,364,016C,362,#N/A,16,0,89800,1200,Atk,35,#0149,11,0,Forged
+Cyclone Blade,365,016D,362,#N/A,16,0,24000,1000,Atk,36,#010E,5,0,Forged
+Dancing Dicer,366,016E,362,#N/A,16,0,157200,4400,Atk,37,#0167,14,0,Forged
+Great Sword,367,016F,362,#N/A,16,0,9700,200,Atk,38,#008B,3,0,Forged
+Heaven Asunder,368,0170,362,#N/A,16,0,0,58000,Atk,39,#03B6,30,0,Forged
+Grand Smasher,369,0171,362,#N/A,16,0,0,3480,Atk,40,#01C2,20,0,Forged
+Blue-Eyed Blade,370,0172,362,#N/A,16,0,0,14800,Atk,41,#01CC,26,0,Forged
+Poison Blade,371,0173,362,#N/A,16,0,32300,1050,Atk,42,#010F,6,0,Forged
+Steel Slicer,372,0174,362,#N/A,16,0,0,12000,Atk,43,#01CA,24,0,Forged
+Flamberge,373,0175,362,#N/A,16,0,187900,5800,Atk,44,#0167,15,0,Forged
+Shine Blade,374,0176,362,#N/A,16,0,0,8000,Atk,45,#01C0,19,0,Forged
+Earth Shade,375,0177,362,#N/A,16,0,62050,1400,Atk,46,#0118,8,0,Forged
+Bio Smasher,376,0178,362,#N/A,16,0,105000,2700,Atk,47,#0167,12,0,Forged
+Punisher,377,0179,362,#N/A,16,0,0,5400,Atk,48,#01C8,23,0,Forged
+Sea Cutter,378,017A,362,#N/A,16,0,14600,550,Atk,49,#009F,4,0,Forged
+Volcanon,379,017B,362,#N/A,16,0,720000,2400,Atk,50,#01AE,17,0,Forged
+Snow Crown,380,017C,362,#N/A,16,0,130500,3000,Atk,51,#0167,13,0,Forged
+Moon Shadow,381,017D,362,#N/A,16,0,0,9500,Atk,52,#01CA,25,0,Forged
+Force Element,382,017E,362,#N/A,16,0,0,47200,Atk,53,#01FF,29,0,Forged
+Zweihaender+,383,017F,362,#N/A,16,0,4450,160,Atk,54,#0063,2,0,Forged
+Flamberge+,384,0180,362,#N/A,16,0,439500,7300,Atk,55,#01AE,16,0,Forged
+Katzbalger,385,0181,362,#N/A,16,0,50080,1100,Atk,56,#0118,7,0,Forged
+Big Knife,386,0182,362,#N/A,16,0,78600,800,Atk,57,#0149,9,0,Forged
+Katana,387,0183,362,#N/A,16,0,87600,980,Atk,58,#0149,10,0,Forged
+Balmung,388,0184,362,#N/A,16,0,0,21200,Atk,59,#01CC,27,0,Forged
+Psycho,389,0185,362,#N/A,16,0,999999,2469,Atk,60,#01AE,18,0,Forged
+Dekash,390,0186,362,#N/A,16,0,26000,7200,Atk,61,#010E,32,0,Forged
+Braveheart,391,0187,362,#N/A,16,0,0,36020,Atk,62,#01FF,28,0,Forged
+Belzebuth,392,0188,362,#N/A,16,0,0,4450,Atk,63,#01C4,21,0,Forged
+Daicone,393,0189,362,#N/A,16,0,4800,450,Atk,64,#0063,33,0,Forged
+Caliburn,394,018A,362,#N/A,16,0,0,150000,Atk,65,#03B6,31,0,Forged
+Orochi,395,018B,362,#N/A,16,0,0,4500,Atk,66,#01C6,22,0,Forged
+Spear,396,018C,396,#N/A,17,0,200,23,Atk,67,#0027,0,0,Forged
+Lance,397,018D,396,#N/A,17,0,1700,34,Atk,68,#0045,2,0,Forged
+Needle Spear,398,018E,396,#N/A,17,0,9600,225,Atk,69,#008B,4,0,Forged
+Halberd,399,018F,396,#N/A,17,0,35000,600,Atk,70,#010F,7,0,Forged
+Water Spear,400,0190,396,#N/A,17,0,24250,585,Atk,71,#009F,6,0,Forged
+Blood Lance,401,0191,396,#N/A,17,0,186700,3500,Atk,72,#0167,15,0,Forged
+Wood Staff,402,0192,396,#N/A,17,0,1220,12,Atk,73,#0045,1,0,Forged
+Poison Spear,403,0193,396,#N/A,17,0,75200,900,Atk,74,#0149,10,0,Forged
+Corsesca,404,0194,396,#N/A,17,0,58800,750,Atk,75,#0118,8,0,Forged
+Silent Grave,405,0195,396,#N/A,17,0,0,9800,Atk,76,#01C8,22,0,Forged
+Flare Lance,406,0196,396,#N/A,17,0,999999,4900,Atk,77,#01AE,17,0,Forged
+Heavy Lance,407,0197,396,#N/A,17,0,96800,2400,Atk,78,#0167,12,0,Forged
+Iceberg,408,0198,396,#N/A,17,0,155480,4400,Atk,79,#0167,14,0,Forged
+Metus,409,0199,396,#N/A,17,0,0,8888,Atk,80,#01C6,21,0,Forged
+Monk Staff,410,019A,396,#N/A,17,0,0,6500,Atk,81,#01C4,20,0,Forged
+Overbreak,411,019B,396,#N/A,17,0,0,10000,Atk,82,#01CA,23,0,Forged
+Brionac,412,019C,396,#N/A,17,0,0,7300,Atk,83,#01C0,18,0,Forged
+Feather Lance,413,019D,396,#N/A,17,0,124710,2900,Atk,84,#0167,13,0,Forged
+Belvarose,414,019E,396,#N/A,17,0,0,15000,Atk,85,#01CC,25,0,Forged
+Bjor,415,019F,396,#N/A,17,0,0,24000,Atk,86,#01CA,24,0,Forged
+Gungnir,416,01A0,396,#N/A,17,0,0,72000,Atk,87,#01FF,28,0,Forged
+Lance+,417,01A1,396,#N/A,17,0,4580,160,Atk,88,#0063,3,0,Forged
+Corsesca+,418,01A2,396,#N/A,17,0,60400,1050,Atk,89,#0118,9,0,Forged
+Trident,419,01A3,396,#N/A,17,0,18800,400,Atk,90,#009F,5,0,Forged
+Pitchfork,420,01A4,396,#N/A,17,0,1500,200,Atk,91,#008B,30,0,Forged
+Dragon's Fang,421,01A5,396,#N/A,17,0,0,40000,Atk,92,#01FF,27,0,Forged
+Gae Bolg,422,01A6,396,#N/A,17,0,0,42000,Atk,93,#01CC,26,0,Forged
+Magical Lance,423,01A7,396,#N/A,17,0,428888,2500,Atk,94,#01AE,16,0,Forged
+Safety Lance,424,01A8,396,#N/A,17,0,600,80,Atk,95,#0063,31,0,Forged
+Legion,425,01A9,396,#N/A,17,0,0,105000,Atk,96,#01FF,29,0,Forged
+Poison Queen,426,01AA,396,#N/A,17,0,0,9980,Atk,97,#01C2,19,0,Forged
+Pine Club,427,01AB,396,#N/A,17,0,29800,2000,Atk,98,#0149,32,0,Forged
+Fivestaff,428,01AC,396,#N/A,17,0,82800,1150,Atk,99,#0149,11,0,Forged
+Battle Hammer,429,01AD,429,#N/A,18,0,340,42,Atk,100,#0045,0,0,Forged
+War Hammer,430,01AE,429,#N/A,18,0,6120,135,Atk,101,#0063,2,0,Forged
+Great Hammer,431,01AF,429,#N/A,18,0,22400,400,Atk,102,#009F,5,0,Forged
+Schnabel,432,01B0,429,#N/A,18,0,0,11800,Atk,103,#01C4,15,0,Forged
+Gigant Hammer,433,01B1,429,#N/A,18,0,134980,2800,Atk,104,#0167,10,0,Forged
+Mjolnir,434,01B2,429,#N/A,18,0,0,68000,Atk,105,#01FF,18,0,Forged
+Spiked Hammer,435,01B3,429,#N/A,18,0,999999,6100,Atk,106,#01AE,13,0,Forged
+Flame Hammer,436,01B4,429,#N/A,18,0,100000,1550,Atk,107,#0149,9,0,Forged
+Ice Hammer,437,01B5,429,#N/A,18,0,36450,780,Atk,108,#010E,6,0,Forged
+Sky Hammer,438,01B6,429,#N/A,18,0,156100,2900,Atk,109,#0167,11,0,Forged
+Graviton Hammer,439,01B7,429,#N/A,18,0,840000,3800,Atk,110,#01AE,12,0,Forged
+Bone Hammer,440,01B8,429,#N/A,18,0,78800,820,Atk,111,#0118,7,0,Forged
+Crystal Hammer,441,01B9,429,#N/A,18,0,0,11000,Atk,112,#01C2,14,0,Forged
+War Hammer+,442,01BA,429,#N/A,18,0,9020,245,Atk,113,#008B,3,0,Forged
+Gigant Hammer+,443,01BB,429,#N/A,18,0,0,22000,Atk,114,#01CA,16,0,Forged
+Hammer,444,01BC,429,#N/A,18,0,580,38,Atk,115,#0045,21,0,Forged
+Toy Hammer,445,01BD,429,#N/A,18,0,230,24,Atk,116,#0045,22,0,Forged
+Fatal Crush,446,01BE,429,#N/A,18,0,0,50000,Atk,117,#01FF,19,0,Forged
+Strong Stone,447,01BF,429,#N/A,18,0,92080,990,Atk,118,#0149,8,0,Forged
+Kongo,448,01C0,429,#N/A,18,0,0,25800,Atk,119,#01CC,17,0,Forged
+Bat,449,01C1,429,#N/A,18,0,4620,120,Atk,120,#0063,1,0,Forged
+Iron Bat,450,01C2,429,#N/A,18,0,17200,530,Atk,121,#009F,4,0,Forged
+Splash Star,451,01C3,429,#N/A,18,0,0,120000,Atk,122,#03B6,20,0,Forged
+Battle Axe,452,01C4,452,#N/A,19,0,1380,42,Atk,123,#0045,0,0,Forged
+Pole Axe,453,01C5,452,#N/A,19,0,11800,220,Atk,124,#008B,2,0,Forged
+Alldale,454,01C6,452,#N/A,19,0,0,22000,Atk,125,#01C8,14,0,Forged
+Great Axe,455,01C7,452,#N/A,19,0,30900,610,Atk,126,#010E,4,0,Forged
+Demon Axe,456,01C8,452,#N/A,19,0,96666,1100,Atk,127,#0149,8,0,Forged
+Crescent Axe,457,01C9,452,#N/A,19,0,449000,3400,Atk,128,#01AE,10,0,Forged
+Executioner,458,01CA,452,#N/A,19,0,0,38000,Atk,129,#01CC,16,0,Forged
+Heat Axe,459,01CB,452,#N/A,19,0,0,7500,Atk,130,#01C0,12,0,Forged
+Frost Axe,460,01CC,452,#N/A,19,0,198200,4600,Atk,131,#0167,9,0,Forged
+Tomahawk,461,01CD,452,#N/A,19,0,49700,1020,Atk,132,#010F,5,0,Forged
+Rock Axe,462,01CE,452,#N/A,19,0,80200,1450,Atk,133,#0118,7,0,Forged
+Double Edge,463,01CF,452,#N/A,19,0,0,7500,Atk,134,#01C6,13,0,Forged
+Saint Axe,464,01D0,452,#N/A,19,0,0,99800,Atk,135,#01FF,17,0,Forged
+Pole Axe+,465,01D1,452,#N/A,19,0,18900,650,Atk,136,#009F,3,0,Forged
+Crescent Axe+,466,01D2,452,#N/A,19,0,640000,4800,Atk,137,#01AE,11,0,Forged
+Axe,467,01D3,452,#N/A,19,0,600,64,Atk,138,#0045,18,0,Forged
+Lollipop,468,01D4,452,#N/A,19,0,5200,550,Atk,139,#008B,19,0,Forged
+Battle Scythe,469,01D5,452,#N/A,19,0,6590,140,Atk,140,#0063,1,0,Forged
+Basilisk Fang,470,01D6,452,#N/A,19,0,71500,770,Atk,141,#0118,6,0,Forged
+Devil Finger,471,01D7,452,#N/A,19,0,0,13333,Atk,142,#01CA,15,0,Forged
+Rod,472,01D8,472,#N/A,24,0,1300,12,MAtk,177,#0045,0,0,Forged
+Staff,473,01D9,472,#N/A,24,0,6280,80,MAtk,178,#0063,5,0,Forged
+Silver Staff,474,01DA,472,#N/A,24,0,13000,390,MAtk,179,#009F,7,2,Forged
+Flare Staff,475,01DB,472,#N/A,24,0,18000,250,MAtk,180,#009F,8,2,Forged
+Ice Staff,476,01DC,472,#N/A,24,0,70000,380,MAtk,181,#0149,13,3,Forged
+Lightning Wand,477,01DD,472,#N/A,24,0,65500,330,MAtk,182,#0118,12,3,Forged
+Earth Staff,478,01DE,472,#N/A,24,0,40000,310,MAtk,183,#010F,11,2,Forged
+Wizard's Staff,479,01DF,472,#N/A,24,0,90000,200,MAtk,184,#0149,15,3,Forged
+Mage's Staff,480,01E0,472,#N/A,24,0,120000,1850,MAtk,185,#0167,16,3,Forged
+Rune Staff,481,01E1,472,#N/A,24,0,0,24000,MAtk,186,#01C8,24,6,Forged
+Mage's Staff+,482,01E2,472,#N/A,24,0,0,11500,MAtk,187,#01CA,25,7,Forged
+Magic Broom,483,01E3,472,#N/A,24,0,0,27000,MAtk,188,#01CC,26,7,Forged
+Basket,484,01E4,472,#N/A,24,0,500,80,MAtk,189,#0045,31,1,Forged
+Magic Shot,485,01E5,472,#N/A,24,0,0,48000,MAtk,190,#01FF,27,8,Forged
+Hell Branch,486,01E6,472,#N/A,24,0,409100,1220,MAtk,177,#01AE,18,3,Forged
+Crimson Staff,487,01E7,472,#N/A,24,0,999999,6500,MAtk,177,#01AE,19,4,Forged
+Bubble Staff,488,01E8,472,#N/A,24,0,0,10500,MAtk,177,#01C0,20,4,Forged
+Gaia Rod,489,01E9,472,#N/A,24,0,0,6200,MAtk,177,#01C2,21,5,Forged
+Shooting Star Staff,490,01EA,472,#N/A,24,0,165000,550,MAtk,177,#0167,17,3,Forged
+Cyclone Rod,491,01EB,472,#N/A,24,0,0,7800,MAtk,177,#01C4,22,5,Forged
+Storm Wand,492,01EC,472,#N/A,24,0,0,12000,MAtk,177,#01C6,23,6,Forged
+Ruby Rod,493,01ED,472,#N/A,24,0,22500,550,MAtk,177,#009F,9,2,Forged
+Emerald Rod,494,01EE,472,#N/A,24,0,9000,470,MAtk,177,#008B,6,1,Forged
+Sapphire Rod,495,01EF,472,#N/A,24,0,35000,650,MAtk,177,#010E,10,2,Forged
+Amethyst Rod,496,01F0,472,#N/A,24,0,1880,72,MAtk,177,#0027,1,0,Forged
+Aquamarine Rod,497,01F1,472,#N/A,24,0,2500,190,MAtk,177,#0045,2,0,Forged
+Diamond Rod,498,01F2,472,#N/A,24,0,84800,800,MAtk,177,#0149,14,3,Forged
+Friendly Rod,499,01F3,472,#N/A,24,0,4800,300,MAtk,177,#0063,3,1,Forged
+Love-Love Rod,500,01F4,472,#N/A,24,0,5200,1300,MAtk,177,#0063,4,1,Forged
+Sorcerer's Wand,501,01F5,472,#N/A,24,0,0,98000,MAtk,177,#01FF,30,9,Forged
+Hell Curse,502,01F6,472,#N/A,24,0,0,50000,MAtk,177,#01FF,28,8,Forged
+Algernon,503,01F7,472,#N/A,24,0,0,28000,MAtk,177,#01FF,29,8,Forged
+Golden Turnip Staff,504,01F8,472,#N/A,24,0,0,24000,MAtk,177,#0149,32,1,Forged
+Sweet Potato Staff,505,01F9,472,#N/A,24,0,0,300,MAtk,177,#0045,33,1,Forged
+Elvish Harp,506,01FA,472,#N/A,24,0,0,45,MAtk,191,#0063,34,1,Forged
+Syringe,507,01FB,472,#N/A,24,0,0,444,MAtk,178,#0045,35,1,Forged
+Short Dagger,508,01FC,508,#N/A,25,0,1310,45,Atk,299,#0045,0,0,Forged
+Steel Edge,509,01FD,508,#N/A,25,0,6500,167,Atk,300,#0063,1,0,Forged
+Wind Edge,510,01FE,508,#N/A,25,0,43800,1000,Atk,301,#010E,5,0,Forged
+Frost Edge,511,01FF,508,#N/A,25,0,9990,438,Atk,302,#008B,2,0,Forged
+Steel Katana,512,0200,508,#N/A,25,0,71040,1300,Atk,303,#0118,7,0,Forged
+Sonic Dagger,513,0201,508,#N/A,25,0,145700,4800,Atk,304,#0167,12,0,Forged
+Salamander,514,0202,508,#N/A,25,0,96700,2000,Atk,305,#0149,10,0,Forged
+Twin Blade,515,0203,508,#N/A,25,0,88000,1650,Atk,306,#0118,8,0,Forged
+Rampage,516,0204,508,#N/A,25,0,91400,1700,Atk,307,#0149,9,0,Forged
+Platinum Edge,517,0205,508,#N/A,25,0,104400,4200,Atk,308,#0167,11,0,Forged
+Efreet,518,0206,508,#N/A,25,0,0,9800,Atk,309,#01CA,22,0,Forged
+Deep Blizzard,519,0207,508,#N/A,25,0,0,8000,Atk,310,#01C6,19,0,Forged
+Dark Invitation,520,0208,508,#N/A,25,0,0,11200,Atk,311,#01C8,20,0,Forged
+Force Divide,521,0209,508,#N/A,25,0,0,12200,Atk,312,#01C0,16,0,Forged
+Dragoon Claw,522,020A,508,#N/A,25,0,0,22000,Atk,313,#01CA,23,0,Forged
+Heart Fire,523,020B,508,#N/A,25,0,0,5500,Atk,314,#01C2,17,0,Forged
+Desert Wind,524,020C,508,#N/A,25,0,419800,4000,Atk,315,#01AE,14,0,Forged
+Broken Wall,525,020D,508,#N/A,25,0,999999,6400,Atk,316,#01AE,15,0,Forged
+Orcus Sword,526,020E,508,#N/A,25,0,0,7100,Atk,317,#01C4,18,0,Forged
+Chaos Edge,527,020F,508,#N/A,25,0,186550,5400,Atk,318,#0167,13,0,Forged
+Rune Edge,528,0210,508,#N/A,25,0,0,44000,Atk,319,#01CC,25,0,Forged
+Iron Edge,529,0211,508,#N/A,25,0,16700,440,Atk,320,#009F,3,0,Forged
+Emerald Edge,530,0212,508,#N/A,25,0,0,18000,Atk,321,#01CC,24,0,Forged
+Thief Knife,531,0213,508,#N/A,25,0,23900,780,Atk,322,#009F,4,0,Forged
+Double Scratch,532,0214,508,#N/A,25,0,0,200,Atk,323,#008B,28,0,Forged
+Priest Saber,533,0215,508,#N/A,25,0,0,9000,Atk,324,#01C8,21,0,Forged
+Earnest Edge,534,0216,508,#N/A,25,0,0,50000,Atk,325,#01FF,26,0,Forged
+Gorgeous Lx,535,0217,508,#N/A,25,0,50000,6200,Atk,326,#010F,6,0,Forged
+Acutorimass,536,0218,508,#N/A,25,0,0,800,Atk,327,#009F,29,0,Forged
+Twin Leeks,537,0219,508,#N/A,25,0,30939,3939,Atk,328,#0149,30,0,Forged
+Twin Justice,538,021A,508,#N/A,25,0,0,115000,Atk,329,#01FF,27,0,Forged
+Leather Gloves,539,021B,539,#N/A,26,0,290,13,Atk,0,#0045,0,0,Forged
+Brass Knuckles,540,021C,539,#N/A,26,0,4660,130,Atk,0,#0063,1,0,Forged
+Kote,541,021D,539,#N/A,26,0,10150,139,Atk,0,#008B,2,0,Forged
+Bear Claws,542,021E,539,#N/A,26,0,35700,580,Atk,0,#010E,4,0,Forged
+Fists of Fire,543,021F,539,#N/A,26,0,86000,1030,Atk,0,#0149,6,0,Forged
+Fists of Water,544,0220,539,#N/A,26,0,98000,2300,Atk,0,#0167,7,0,Forged
+Fists of Wind,545,0221,539,#N/A,26,0,999999,2000,Atk,0,#01AE,10,0,Forged
+Fists of the Earth,546,0222,539,#N/A,26,0,64000,1020,Atk,0,#0118,5,0,Forged
+Fists of Light,547,0223,539,#N/A,26,0,0,9000,Atk,0,#01C0,11,0,Forged
+Fists of Dark,548,0224,539,#N/A,26,0,429500,1580,Atk,0,#01AE,9,0,Forged
+Gloves,549,0225,539,#N/A,26,0,21500,380,Atk,0,#009F,3,0,Forged
+Cat Punch,550,0226,539,#N/A,26,0,0,7500,Atk,0,#01C2,12,0,Forged
+Dragon Claws,551,0227,539,#N/A,26,0,126000,2350,Atk,0,#0167,8,0,Forged
+Animal Puppets,552,0228,539,#N/A,26,0,0,14000,Atk,0,#01C4,13,0,Forged
+Ironleaf Fists,553,0229,539,#N/A,26,0,0,11000,Atk,0,#01C6,14,0,Forged
+Golem Punch,554,022A,539,#N/A,26,0,0,18000,Atk,0,#01CA,16,0,Forged
+Hand of God,555,022B,539,#N/A,26,0,0,40000,Atk,0,#01CC,17,0,Forged
+Caestus,556,022C,539,#N/A,26,0,0,12500,Atk,0,#01C8,15,0,Forged
+Bazal Katar,557,022D,539,#N/A,26,0,0,60000,Atk,0,#01FF,18,0,Forged
+Fenrir,558,022E,539,#N/A,26,0,0,100000,Atk,0,#01FF,19,0,Forged
+Cheap Hoe,559,022F,559,#N/A,27,0,150,24,Atk,165,#0027,0,0,Forged
+Sturdy Hoe,560,0230,560,#N/A,27,0,3000,120,Atk,166,#0063,1,0,Forged
+Seasoned Hoe,561,0231,561,#N/A,27,0,25000,400,Atk,167,#009F,2,0,Forged
+Shiny Hoe,562,0232,562,#N/A,27,0,0,600,Atk,168,#03B6,3,0,Forged
+Blessed Hoe,563,0233,563,#N/A,27,0,0,2500,Atk,169,#03B6,4,0,Forged
+Cheap Waterpot,564,0234,564,#N/A,28,0,150,37,MAtk,159,#0027,0,0,Forged
+Tin Waterpot,565,0235,565,#N/A,28,0,3000,135,MAtk,160,#0063,1,0,Forged
+Lion Waterpot,566,0236,566,#N/A,28,0,25000,400,MAtk,161,#009F,2,0,Forged
+Rainbow Waterpot,567,0237,567,#N/A,28,0,0,600,MAtk,162,#03B6,3,0,Forged
+Joy Waterpot,568,0238,568,#N/A,28,0,0,2500,MAtk,163,#03B6,4,0,Forged
+Cheap Sickle,569,0239,569,#N/A,29,0,300,38,Atk,153,#0027,0,0,Forged
+Iron Sickle,570,023A,570,#N/A,29,0,3000,140,Atk,154,#0063,1,0,Forged
+Quality Sickle,571,023B,571,#N/A,29,0,25000,400,Atk,155,#009F,2,0,Forged
+Super Sickle,572,023C,572,#N/A,29,0,0,600,Atk,156,#03B6,3,0,Forged
+Legendary Sickle,573,023D,573,#N/A,29,0,0,2500,Atk,157,#03B6,4,0,Forged
+Cheap Hammer,574,023E,574,#N/A,30,0,1500,13,Atk,100,#0027,0,0,Forged
+Iron Hammer,575,023F,575,#N/A,30,0,5000,138,Atk,101,#0063,1,0,Forged
+Silver Hammer,576,0240,576,#N/A,30,0,30000,400,Atk,102,#009F,2,0,Forged
+Golden Hammer,577,0241,577,#N/A,30,0,0,600,Atk,103,#03B6,3,0,Forged
+Platinum Hammer,578,0242,578,#N/A,30,0,0,2500,Atk,104,#03B6,4,0,Forged
+Cheap Axe,579,0243,579,#N/A,31,0,1500,34,Atk,128,#0027,0,0,Forged
+Chopping Axe,580,0244,580,#N/A,31,0,5000,130,Atk,129,#0063,1,0,Forged
+Lumber Axe,581,0245,581,#N/A,31,0,30000,400,Atk,130,#009F,2,0,Forged
+Mountain Axe,582,0246,582,#N/A,31,0,0,600,Atk,131,#03B6,3,0,Forged
+Miracle Axe,583,0247,583,#N/A,31,0,0,2500,Atk,132,#03B6,4,0,Forged
+Cheap Pole,584,0248,584,#N/A,32,0,1500,44,Atk,171,#0027,0,0,Forged
+Beginner's Pole,585,0249,585,#N/A,32,0,5000,170,Atk,172,#0063,1,0,Forged
+Skilled Pole,586,024A,586,#N/A,32,0,25000,440,Atk,173,#009F,2,0,Forged
+Famous Pole,587,024B,587,#N/A,32,0,0,650,Atk,174,#03B6,3,0,Forged
+Sacred Pole,588,024C,588,#N/A,32,0,0,2500,Atk,175,#03B6,4,0,Forged
+Small Shield,589,024D,589,#N/A,33,0,70,22,Def,191,#0027,0,0,Crafted
+Iron Shield,590,024E,589,#N/A,33,0,1240,47,Def,192,#0045,2,0,Crafted
+Round Shield,591,024F,589,#N/A,33,0,5440,118,Def,193,#0063,4,0,Crafted
+Platinum Shield,592,0250,589,#N/A,33,0,127000,3800,Def,194,#0167,10,0,Crafted
+Heavy Shield,593,0251,589,#N/A,33,0,90000,940,Def,195,#0149,9,0,Crafted
+Knight Shield,594,0252,589,#N/A,33,0,0,7900,Def,196,#01C0,12,0,Crafted
+Rune Shield,595,0253,589,#N/A,33,0,0,110000,Def,197,#01FF,16,0,Crafted
+Magic Shield,596,0254,589,#N/A,33,0,71500,1200,MDef,198,#0118,8,0,Crafted
+Prism Shield,597,0255,589,#N/A,33,0,0,30000,Def,199,#01CA,15,0,Crafted
+Element Shield,598,0256,589,#N/A,33,0,0,14800,MDef,200,#01C2,13,0,Crafted
+Chaos Shield,599,0257,589,#N/A,33,0,21500,480,Def,201,#009F,6,0,Crafted
+Turtle Shield,600,0258,589,#N/A,33,0,9800,240,Def,202,#008B,5,0,Crafted
+Bone Shield,601,0259,589,#N/A,33,0,42000,610,Def,203,#010F,7,0,Crafted
+Kite Shield,602,025A,589,#N/A,33,0,378000,4600,Def,204,#01AE,11,0,Crafted
+Magical Shield,603,025B,589,#N/A,33,0,0,18000,None,205,#01C6,14,0,Crafted
+Monkey Plush,604,025C,589,#N/A,33,0,3950,74,MDef,206,#0063,3,0,Crafted
+Umbrella,605,025D,589,#N/A,33,0,300,52,MDef,207,#0045,1,0,Crafted
+Magic Plant Shield,606,025E,589,#N/A,33,0,0,1000,Def,208,#270F,17,0,Crafted
+Aquamarine Ring,607,025F,607,#N/A,34,0,19800,580,MDef,208,#009F,21,0,Crafted
+Amethyst Ring,608,0260,607,#N/A,34,0,19800,450,MDef,209,#009F,22,0,Crafted
+Emerald Ring,609,0261,609,#N/A,34,0,19800,850,MDef,210,#009F,23,0,Crafted
+Sapphire Ring,610,0262,610,#N/A,34,0,19800,1000,MDef,211,#009F,24,0,Crafted
+Diamond Ring,611,0263,611,#N/A,34,0,0,5000,MDef,212,#01C0,27,0,Crafted
+Ruby Ring,612,0264,612,#N/A,34,0,19800,900,MDef,213,#009F,25,0,Crafted
+Happy Ring,613,0265,613,#N/A,34,0,0,1800,MDef,214,#009F,44,0,Crafted
+Cursed Ring,614,0266,614,#N/A,34,0,19800,420,MDef,215,#009F,26,0,Crafted
+Fire Ring,615,0267,615,#N/A,34,0,0,5000,MDef,216,#01FF,40,0,Crafted
+Wind Ring,616,0268,616,#N/A,34,0,0,5000,MDef,217,#01FF,41,0,Crafted
+Water Ring,617,0269,617,#N/A,34,0,0,5000,MDef,218,#01FF,42,0,Crafted
+Earth Ring,618,026A,618,#N/A,34,0,0,5000,MDef,219,#01FF,43,0,Crafted
+Silver Ring,619,026B,619,#N/A,34,0,45000,450,MDef,220,#010E,10,0,Crafted
+Gold Ring,620,026C,620,#N/A,34,0,0,5200,MDef,221,#01FF,11,0,Crafted
+Platinum Ring,621,026D,621,#N/A,34,0,0,7200,MDef,222,#01FF,12,0,Crafted
+Critical Ring,622,026E,622,#N/A,34,0,65000,750,MDef,223,#010F,14,0,Crafted
+Silent Ring,623,026F,623,#N/A,34,0,19800,2600,MDef,224,#009F,15,0,Crafted
+Paralysis Ring,624,0270,624,#N/A,34,0,19800,550,MDef,225,#009F,16,0,Crafted
+Poison Ring,625,0271,625,#N/A,34,0,19800,480,MDef,226,#009F,17,0,Crafted
+Magic Ring,626,0272,626,#N/A,34,0,180000,1900,MDef,227,#0167,18,0,Crafted
+Cheap Bracelet,627,0273,627,#N/A,34,0,100,24,MDef,228,#0027,0,0,Crafted
+Bronze Bracelet,628,0274,628,#N/A,34,0,8500,135,MDef,229,#008B,1,0,Crafted
+Silver Bracelet,629,0275,629,#N/A,34,0,27200,390,MDef,230,#009F,2,0,Crafted
+Gold Bracelet,630,0276,630,#N/A,34,0,72800,600,MDef,231,#010F,3,0,Crafted
+Platinum Bracelet,631,0277,631,#N/A,34,0,1020000,1800,MDef,232,#0167,4,0,Crafted
+Aquamarine Brooch,632,0278,632,#N/A,34,0,498000,2000,MDef,233,#0167,28,0,Crafted
+Amethyst Brooch,633,0279,633,#N/A,34,0,498000,2000,MDef,234,#0167,29,0,Crafted
+Emerald Brooch,634,027A,634,#N/A,34,0,498000,2300,MDef,235,#0167,30,0,Crafted
+Sapphire Brooch,635,027B,635,#N/A,34,0,498000,2500,MDef,236,#0167,31,0,Crafted
+Diamond Brooch,636,027C,636,#N/A,34,0,0,28000,MDef,237,#01FF,33,0,Crafted
+Ruby Brooch,637,027D,637,#N/A,34,0,498000,2350,MDef,238,#0167,32,0,Crafted
+Silver Pendant,638,027E,638,#N/A,34,0,5000,380,MDef,239,#009F,45,0,Crafted
+Heart Pendant,639,027F,639,#N/A,34,0,250000,800,MDef,240,#009F,51,0,Crafted
+Star Pendant,640,0280,640,#N/A,34,0,75000,1380,MDef,241,#010F,46,0,Crafted
+Sun Pendant,641,0281,641,#N/A,34,0,75000,1300,MDef,242,#010F,47,0,Crafted
+Field Pendant,642,0282,642,#N/A,34,0,75000,1350,MDef,243,#010F,48,0,Crafted
+Dew Pendant,643,0283,643,#N/A,34,0,75000,1400,MDef,244,#010F,49,0,Crafted
+Earth Pendant,644,0284,644,#N/A,34,0,75000,1370,MDef,245,#010F,50,0,Crafted
+Holy Amulet,645,0285,645,#N/A,34,0,498000,2600,MDef,246,#0167,101,0,Crafted
+Charm,646,0286,646,#N/A,34,0,350,45,MDef,247,#0027,100,0,Crafted
+Leather Belt,647,0287,647,#N/A,34,0,1600,27,Def,248,#0063,110,0,Crafted
+Lucky Strike,648,0288,648,#N/A,34,0,0,6200,Def,249,#01C0,144,0,Crafted
+Talisman,649,0289,649,#N/A,34,0,60000,2100,MDef,250,#009F,103,0,Crafted
+Champ Belt,650,028A,650,#N/A,34,0,0,720,Def,251,#01C0,145,0,Crafted
+Gloves,651,028B,651,#N/A,34,0,120000,170,Atk,252,#0118,61,0,Crafted
+Work Gloves,652,028C,652,#N/A,34,0,1500,13,Atk,253,#0063,60,0,Crafted
+Badge,653,028D,653,#N/A,34,0,500,14,Def,254,#0027,500,0,Crafted
+Power Gloves,654,028E,654,#N/A,34,0,312000,420,Atk,255,#0149,62,0,Crafted
+Magic Charm,655,028F,655,#N/A,34,0,150000,800,MDef,256,#0118,104,0,Crafted
+Shield Ring,656,0290,656,#N/A,34,0,68000,320,Def,257,#0118,13,0,Crafted
+Rosary,657,0291,657,#N/A,34,0,78000,1580,MDef,258,#009F,102,0,Crafted
+Courage Badge,658,0292,658,#N/A,34,0,0,80000,Def,259,#01FF,501,0,Crafted
+Hero's Proof,659,0293,659,#N/A,34,0,0,30000,Atk,260,#01C0,400,0,Crafted
+Proof of Wisdom,660,0294,660,#N/A,34,0,0,30000,MAtk,261,#01C0,401,0,Crafted
+Hand-Knit Scarf,661,0295,661,#N/A,34,0,18000,390,MDef,262,#008B,162,0,Crafted
+Fluffy Scarf,662,0296,662,#N/A,34,0,0,1350,MDef,263,#0167,163,0,Crafted
+Art of Attack,663,0297,663,#N/A,34,0,0,30000,Atk,264,#01FF,402,0,Crafted
+Art of Defense,664,0298,664,#N/A,34,0,0,30000,Def,265,#01FF,403,0,Crafted
+Art of Magic,665,0299,665,#N/A,34,0,0,30000,MDef,266,#01FF,404,0,Crafted
+Earrings,666,029A,666,#N/A,34,0,1500,50,MAtk,267,#0063,70,0,Crafted
+Witch Earrings,667,029B,667,#N/A,34,0,160000,1200,MAtk,268,#0118,71,0,Crafted
+Magic Earrings,668,029C,668,#N/A,34,0,425000,1400,MAtk,269,#0149,72,0,Crafted
+Venti's Charm,669,029D,669,#N/A,34,0,0,0,None,270,#270F,1000,0,Crafted
+Venti's Charm,670,029E,669,#N/A,34,0,0,0,None,270,#270F,1000,0,Crafted
+Anette's Necklace,671,029F,671,#N/A,34,0,0,25000,Def,270,#01FF,53,0,Crafted
+Throwing Ring,672,02A0,672,#N/A,34,0,0,1200,Def,271,#0118,19,0,Crafted
+Stay-up Ring,673,02A1,673,#N/A,34,0,0,1100,Def,271,#0118,20,0,Crafted
+Strange Pendant,674,02A2,674,#N/A,34,0,0,600,MDef,0,#009F,52,0,Crafted
+Dolphin Brooch,675,02A3,675,#N/A,34,0,0,15000,MDef,0,#0149,35,0,Crafted
+Engagement Ring,676,02A4,676,#N/A,34,0,0,1,None,0,#270F,20,0,Crafted
+Silver Hairpin,677,02A5,677,#N/A,35,0,25000,380,MDef,267,#009F,19,0,Crafted
+Gold Hairpin,678,02A6,677,#N/A,35,0,0,1200,MDef,268,#01C4,27,0,Crafted
+Fancy Hat,679,02A7,677,#N/A,35,0,2800,47,Def,269,#0063,7,0,Crafted
+Headband,680,02A8,677,#N/A,35,0,65,13,Def,270,#0027,0,0,Crafted
+Feathered Hat,681,02A9,677,#N/A,35,0,0,330,MDef,271,#01C0,26,0,Crafted
+Brand Glasses,682,02AA,677,#N/A,35,0,6500,650,MDef,272,#0063,8,0,Crafted
+Spectacles,683,02AB,677,#N/A,35,0,5000,350,MDef,273,#0045,5,0,Crafted
+Intelligent Glasses,684,02AC,677,#N/A,35,0,5500,420,MDef,274,#0063,10,0,Crafted
+Straw Hat,685,02AD,677,#N/A,35,0,1600,68,Def,275,#0045,6,0,Crafted
+Fireproof Hood,686,02AE,677,#N/A,35,0,6800,77,Def,276,#0063,11,0,Crafted
+Cute Knitting,687,02AF,677,#N/A,35,0,1800,27,Def,277,#0063,9,0,Crafted
+Black Ribbon,688,02B0,677,#N/A,35,0,5000,50,Def,275,#0063,12,0,Crafted
+Orange Ribbon,689,02B1,677,#N/A,35,0,50000,50,Def,276,#010F,22,0,Crafted
+Red Ribbon,690,02B2,677,#N/A,35,0,31500,50,Def,277,#009F,20,0,Crafted
+Yellow Ribbon,691,02B3,677,#N/A,35,0,10000,50,Def,278,#009F,16,0,Crafted
+Blue Ribbon,692,02B4,677,#N/A,35,0,500,50,Def,276,#0045,1,0,Crafted
+Green Ribbon,693,02B5,677,#N/A,35,0,500,50,Def,277,#0045,2,0,Crafted
+Purple Ribbon,694,02B6,677,#N/A,35,0,500,50,Def,278,#0045,3,0,Crafted
+Indigo Ribbon,695,02B7,677,#N/A,35,0,0,500,Def,279,#01CA,28,0,Crafted
+White Ribbon,696,02B8,677,#N/A,35,0,80000,50,Def,277,#0149,24,0,Crafted
+Turnip Headgear,697,02B9,677,#N/A,35,0,2500,40,Def,278,#0045,30,0,Crafted
+Pumpkin Headgear,698,02BA,677,#N/A,35,0,2500,135,Def,279,#0045,31,0,Crafted
+Spring Headdress,699,02BB,677,#N/A,35,0,0,500,Def,280,#010E,21,0,Crafted
+Summer Headdress,700,02BC,677,#N/A,35,0,0,500,Def,278,#0045,4,0,Crafted
+Autumn Headdress,701,02BD,677,#N/A,35,0,0,500,Def,279,#009F,17,0,Crafted
+Winter Headdress,702,02BE,677,#N/A,35,0,0,500,Def,280,#0118,23,0,Crafted
+Lolita Headdress,703,02BF,677,#N/A,35,0,9200,68,Def,281,#0063,13,0,Crafted
+Headdress,704,02C0,677,#N/A,35,0,11480,75,Def,279,#008B,15,0,Crafted
+Cat Ears,705,02C1,677,#N/A,35,0,25000,7,Def,280,#009F,18,0,Crafted
+Crown,706,02C2,677,#N/A,35,0,0,60000,Def,281,#01CC,29,0,Crafted
+Four Seasons,707,02C3,677,#N/A,35,0,0,2500,Def,282,#0167,25,0,Crafted
+Silk Hat,708,02C4,677,#N/A,35,0,0,19,Def,280,#0063,14,0,Crafted
+Feather Boots,709,02C5,709,#N/A,36,0,0,7780,MDef,278,#01C0,13,0,Crafted
+Heavy Boots,710,02C6,709,#N/A,36,0,20700,520,Def,279,#009F,5,0,Crafted
+Leather Boots,711,02C7,709,#N/A,36,0,80,7,Def,280,#0027,0,0,Crafted
+Knight Boots,712,02C8,709,#N/A,36,0,0,12500,Def,281,#01FF,16,0,Crafted
+Snow Boots,713,02C9,709,#N/A,36,0,95000,1500,Def,282,#0149,10,0,Crafted
+Ice Skates,714,02CA,709,#N/A,36,0,0,5400,Def,283,#01CC,18,0,Crafted
+Piyo Sandals,715,02CB,709,#N/A,36,0,320,25,Def,284,#0063,2,0,Crafted
+Step-In Boots,716,02CC,709,#N/A,36,0,0,3200,Def,285,#01AE,12,0,Crafted
+Ghost Boots,717,02CD,709,#N/A,36,0,0,6800,Def,286,#01C6,14,0,Crafted
+Iron Geta,718,02CE,709,#N/A,36,0,0,7000,Def,287,#01C8,15,0,Crafted
+Strider Boots,719,02CF,709,#N/A,36,0,188000,2600,Def,288,#0167,11,0,Crafted
+Secret Shoes,720,02D0,709,#N/A,36,0,8120,108,Def,289,#008B,3,0,Crafted
+Wet Boots,721,02D1,709,#N/A,36,0,78000,370,Def,290,#0149,19,0,Crafted
+Sneaking Boots,722,02D2,709,#N/A,36,0,22000,780,Def,291,#009F,6,0,Crafted
+Fast Step Boots,723,02D3,709,#N/A,36,0,33600,770,Def,292,#010E,7,0,Crafted
+Water Shoes,724,02D4,709,#N/A,36,0,0,280,Def,293,#0167,20,0,Crafted
+Rocket Wing,725,02D5,709,#N/A,36,0,0,120000,Def,294,#01FF,21,0,Crafted
+Silver Boots,726,02D6,709,#N/A,36,0,14280,400,Def,295,#009F,4,0,Crafted
+Gold Boots,727,02D7,709,#N/A,36,0,50000,1200,Def,296,#010F,8,0,Crafted
+Bone Boots,728,02D8,709,#N/A,36,0,68900,2100,Def,297,#0118,9,0,Crafted
+Fairy Boots,729,02D9,709,#N/A,36,0,0,52000,MDef,298,#01FF,17,0,Crafted
+Free Farming Shoes,730,02DA,709,#N/A,36,0,450,40,Def,299,#0045,1,0,Crafted
+Shirt,731,02DB,731,#N/A,37,0,120,13,Def,300,#0045,0,0,Crafted
+Vest,732,02DC,731,#N/A,37,0,1300,20,Def,301,#0045,1,0,Crafted
+Wooly Shirt,733,02DD,731,#N/A,37,0,0,4200,Def,302,#01FF,12,0,Crafted
+Mercenary's Cloak,734,02DE,731,#N/A,37,0,0,3000,MDef,303,#01FF,11,0,Crafted
+Mail,735,02DF,731,#N/A,37,0,9200,206,Def,304,#008B,3,0,Crafted
+Cotton Cloth,736,02E0,731,#N/A,37,0,4980,125,Def,305,#0063,2,0,Crafted
+Chain Mail,737,02E1,731,#N/A,37,0,18000,420,Def,306,#009F,4,0,Crafted
+Scale Vest,738,02E2,731,#N/A,37,0,31000,620,Def,307,#010E,5,0,Crafted
+Protector,739,02E3,731,#N/A,37,0,106200,1000,Def,308,#0149,8,0,Crafted
+Wind Cloak,740,02E4,731,#N/A,37,0,72780,980,MDef,309,#0118,7,0,Crafted
+Sparkling Shirt,741,02E5,731,#N/A,37,0,49200,600,Def,310,#010F,6,0,Crafted
+Platinum Mail,742,02E6,731,#N/A,37,0,198000,3800,Def,311,#0167,9,0,Crafted
+Lamellar Vest,743,02E7,731,#N/A,37,0,0,4500,Def,312,#01AE,10,0,Crafted
+Elvish Cloak,744,02E8,731,#N/A,37,0,0,6400,MDef,313,#01FF,13,0,Crafted
+Power Protector,745,02E9,731,#N/A,37,0,0,18000,Def,314,#01FF,15,0,Crafted
+Dragon Cloak,746,02EA,731,#N/A,37,0,0,7800,MDef,315,#01FF,14,0,Crafted
+Rune Vest,747,02EB,731,#N/A,37,0,0,30000,Def,316,#01FF,16,0,Crafted
+Royal Garter,748,02EC,731,#N/A,37,0,0,48000,Def,317,#01FF,17,0,Crafted
+Four Dragons' Vest,749,02ED,731,#N/A,37,0,0,120000,Def,318,#01FF,18,0,Crafted
+Brush,750,02EE,750,#N/A,40,0,2400,640,None,-1,#0027,0,0,Purchased
+Clippers,751,02EF,751,#N/A,41,0,1900,520,None,-1,#0027,0,0,Purchased
+Magnifying Glass,752,02F0,752,#N/A,45,0,2000,500,None,-1,#0027,0,0,Purchased
+Turnip Seeds,753,02F1,753,#N/A,46,0,10,2,None,-1,#0027,0,0,Purchased
+Potato Seeds,754,02F2,753,#N/A,46,0,80,8,None,-1,#0000,1,0,Purchased
+Cucumber Seeds,755,02F3,753,#N/A,46,0,320,32,None,-1,#0000,2,0,Purchased
+Strawberry Seeds,756,02F4,753,#N/A,46,0,400,40,None,-1,#0000,3,0,Purchased
+Cabbage Seeds,757,02F5,753,#N/A,46,0,980,98,None,-1,#0000,4,0,Purchased
+Moondrop Seeds,758,02F6,753,#N/A,46,0,250,25,None,-1,#0000,5,0,Purchased
+Toyherb Seeds,759,02F7,753,#N/A,46,0,60,6,None,-1,#0027,6,0,Purchased
+Tomato Seeds,760,02F8,753,#N/A,46,0,1880,188,None,-1,#0000,7,0,Purchased
+Corn Seeds,761,02F9,753,#N/A,46,0,450,45,None,-1,#0000,8,0,Purchased
+Onion Seeds,762,02FA,753,#N/A,46,0,1480,148,None,-1,#0000,9,0,Purchased
+Pumpkin Seeds,763,02FB,753,#N/A,46,0,200,20,None,-1,#0000,10,0,Purchased
+Pineapple Seeds,764,02FC,753,#N/A,46,0,2800,280,None,-1,#0000,11,0,Purchased
+Pink Cat Seeds,765,02FD,753,#N/A,46,0,180,18,None,-1,#0000,12,0,Purchased
+Eggplant Seeds,766,02FE,753,#N/A,46,0,720,72,None,-1,#0000,13,0,Purchased
+Carrot Seeds,767,02FF,753,#N/A,46,0,400,40,None,-1,#0000,14,0,Purchased
+Yam Seeds,768,0300,753,#N/A,46,0,250,25,None,-1,#0000,15,0,Purchased
+Spinach Seeds,769,0301,753,#N/A,46,0,60,6,None,-1,#0000,16,0,Purchased
+Green Pepper Seeds,770,0302,753,#N/A,46,0,800,80,None,-1,#0000,17,0,Purchased
+Charm Blue Seeds,771,0303,753,#N/A,46,0,370,37,None,-1,#0000,18,0,Purchased
+Fodder Seeds,772,0304,753,#N/A,46,0,30,3,None,-1,#0027,19,0,Purchased
+Cherry Grass Seeds,773,0305,753,#N/A,46,0,420,42,None,-1,#0000,20,0,Purchased
+Lamp Grass Seeds,774,0306,753,#N/A,46,0,740,74,None,-1,#0000,21,0,Purchased
+Blue Crystal Seeds,775,0307,753,#N/A,46,0,30000,1000,None,-1,#0000,22,0,Purchased
+Emery Flower Seeds,776,0308,753,#N/A,46,0,50000,2500,None,-1,#0000,23,0,Purchased
+Ironleaf Seeds,777,0309,753,#N/A,46,0,600,60,None,-1,#0000,24,0,Purchased
+Clover Seeds,778,030A,753,#N/A,46,0,960,96,None,-1,#0000,25,0,Purchased
+Fireflower Seeds,779,030B,753,#N/A,46,0,5000,500,None,-1,#0000,26,0,Purchased
+Green Crystal Seeds,780,030C,753,#N/A,46,0,30000,1000,None,-1,#0000,27,0,Purchased
+Noel Grass Seeds,781,030D,753,#N/A,46,0,2700,270,None,-1,#0000,28,0,Purchased
+Autumn Grass Seeds,782,030E,753,#N/A,46,0,2500,250,None,-1,#0000,29,0,Purchased
+Pom-Pom Grass Sds.,783,030F,753,#N/A,46,0,510,51,None,-1,#0000,30,0,Purchased
+Red Crystal Seeds,784,0310,753,#N/A,46,0,30000,1000,None,-1,#0000,31,0,Purchased
+White Crystal Seeds,785,0311,753,#N/A,46,0,30000,1000,None,-1,#0000,32,0,Purchased
+Pink Turnip Seeds,786,0312,753,#N/A,46,0,160,16,None,-1,#0000,33,0,Purchased
+Radish Seeds,787,0313,753,#N/A,46,0,120,12,None,-1,#0000,34,0,Purchased
+Leek Seeds,788,0314,753,#N/A,46,0,680,68,None,-1,#0000,35,0,Purchased
+Bok Choy Seeds,789,0315,753,#N/A,46,0,1000,100,None,-1,#0000,36,0,Purchased
+Gold Cabbage Seeds,790,0316,753,#N/A,46,0,5000,500,None,-1,#0000,37,0,Purchased
+Gold Pumpkin Seeds,791,0317,753,#N/A,46,0,4500,450,None,-1,#0000,38,0,Purchased
+Gold Potato Seeds,792,0318,753,#N/A,46,0,4000,400,None,-1,#0000,39,0,Purchased
+Gold Turnip Seeds,793,0319,753,#N/A,46,0,10000,1000,None,-1,#0000,40,0,Purchased
+Gold Melon Seeds,794,031A,753,#N/A,46,0,2120,212,None,-1,#0000,41,0,Purchased
+Hot-Hot Seeds,795,031B,753,#N/A,46,0,1200,120,None,-1,#0000,42,0,Purchased
+Apple Tree Seeds,796,031C,753,#N/A,46,0,7000,700,None,-1,#0000,43,0,Dropped
+Orange Tree Seed,797,031D,753,#N/A,46,0,5000,500,None,-1,#0000,44,0,Dropped
+Grape Tree Seed,798,031E,753,#N/A,46,0,6000,600,None,-1,#0000,45,0,Dropped
+Shining Seed,799,031F,753,#N/A,46,0,3000,300,None,-1,#0000,46,0,Dropped
+Dungeon Seed,800,0320,753,#N/A,46,0,5000,500,None,-1,#0000,47,0,Purchased
+Sword Seed,801,0321,753,#N/A,46,0,1500,150,None,-1,#0000,48,0,Purchased
+Shield Seed,802,0322,753,#N/A,46,0,1500,150,None,-1,#0000,49,0,Purchased
+Wettable Powder,803,0323,803,#N/A,47,0,2000,150,None,-1,#0027,0,0,Cooked
+Greenifier,804,0324,803,#N/A,47,0,3000,80,None,-1,#0027,1,0,Cooked
+Greenifier+,805,0325,803,#N/A,47,0,12000,800,None,-1,#0027,2,0,Cooked
+Formula A,806,0326,803,#N/A,47,0,1200,30,None,-1,#0027,3,0,Cooked
+Formula B,807,0327,803,#N/A,47,0,3600,240,None,-1,#0027,4,0,Cooked
+Formula C,808,0328,803,#N/A,47,0,9800,500,None,-1,#0027,5,0,Cooked
+No Rot Alpha,809,0329,803,#N/A,47,0,2000,50,None,-1,#0027,6,0,Cooked
+No Rot Beta,810,032A,803,#N/A,47,0,8000,480,None,-1,#0027,7,0,Cooked
+Giantizer,811,032B,803,#N/A,47,0,12000,300,None,-1,#0027,8,0,Cooked
+Minimizer,812,032C,803,#N/A,47,0,8000,100,None,-1,#0027,9,0,Cooked
+Fodder,813,032D,813,#N/A,51,0,240,60,None,0,#0027,1,0,Farmed
+Fur (S),814,032E,1088,Furs,51,0,30,6,None,1,#0027,700,0,Produced
+Fur (M),815,032F,1088,Furs,51,0,1400,200,None,2,#009F,706,0,Produced
+Fur (L),816,0330,1088,Furs,51,0,3800,700,None,3,#009F,708,0,Produced
+Yarn,817,0331,1089,Strings,51,0,300,80,None,4,#0027,500,0,Crafted
+Scrap Metal,818,0332,818,#N/A,51,9,50,3,None,5,#0027,10,0,Mined
+Iron,819,0333,1083,Minerals,51,0,200,20,None,6,#0027,11,0,Mined
+Bronze,820,0334,1083,Minerals,51,0,800,100,None,7,#0063,13,0,Mined
+Silver,821,0335,1083,Minerals,51,0,3600,320,None,8,#009F,14,0,Mined
+Gold,822,0336,1083,Minerals,51,0,7800,480,None,9,#010F,15,0,Mined
+Platinum,823,0337,1083,Minerals,51,0,12000,1500,None,10,#0167,16,0,Mined
+Orichalcum,824,0338,1083,Minerals,51,0,28000,3500,None,11,#01FF,17,0,Mined
+Diamond,825,0339,1097,Jewels,51,0,14400,640,None,12,#0149,25,0,Mined
+Ruby,826,033A,1097,Jewels,51,0,7000,440,None,13,#009F,23,0,Mined
+Emerald,827,033B,1097,Jewels,51,0,4800,380,None,14,#008B,22,0,Mined
+Sapphire,828,033C,1097,Jewels,51,0,9800,520,None,15,#010E,24,0,Mined
+Amethyst,829,033D,1097,Jewels,51,0,500,50,None,16,#0027,20,0,Mined
+Aquamarine,830,033E,1097,Jewels,51,0,1500,150,None,17,#0045,21,0,Mined
+Cheap Cloth,831,033F,1087,Cloths and Skins,51,0,55,11,None,18,#0027,900,0,Dropped
+Quality Cloth,832,0340,1087,Cloths and Skins,51,0,720,96,None,19,#009F,904,0,Dropped
+Silk Cloth,833,0341,1087,Cloths and Skins,51,0,1000,126,None,20,#010F,906,0,Dropped
+Arrowhead,834,0342,1090,Shards,51,0,60,12,None,21,#0027,600,0,Dropped
+Warrior's Proof,835,0343,835,#N/A,51,0,2780,300,None,22,#01AE,2005,0,Dropped
+Glue,836,0344,1084,Liquids,51,0,420,70,None,23,#008B,100,0,Dropped
+Old Bandage,837,0345,1089,Strings,51,0,140,28,None,24,#0045,501,0,Dropped
+Gunpowder,838,0346,1091,Powders and Spores,51,0,430,72,None,25,#008B,802,0,Dropped
+Earth Crystal,839,0347,1096,Crystals,51,0,2000,250,None,26,#010E,63,0,Mined
+Devil Horn,840,0348,1086,Sticks and Stems,51,0,2810,312,None,27,#01AE,87,0,Dropped
+Devil Blood,841,0349,1084,Liquids,51,0,920,116,None,28,#010F,101,0,Dropped
+Magic Powder,842,034A,1091,Powders and Spores,51,0,960,120,None,29,#010F,806,0,Dropped
+Magic Crystal,843,034B,1096,Crystals,51,0,350,58,None,30,#0063,60,0,Dropped
+Shoulder Piece,844,034C,1090,Shards,51,0,1190,149,None,31,#0149,605,0,Dropped
+Giant's Nail,845,034D,1085,Claws and Fangs,51,0,690,98,None,32,#009F,1004,0,Dropped
+Giant's Gloves,846,034E,1087,Cloths and Skins,51,0,1070,135,None,33,#0118,907,0,Dropped
+Hammer Piece,847,034F,1090,Shards,51,0,940,118,None,34,#010F,604,0,Dropped
+Insect Carapace,848,0350,1087,Cloths and Skins,51,0,50,10,None,35,#0027,901,0,Dropped
+Insect Jaw,849,0351,1085,Claws and Fangs,51,0,80,16,None,36,#0027,1000,0,Dropped
+Spider's Thread,850,0352,1089,Strings,51,0,290,48,None,37,#0063,503,0,Dropped
+Pretty Thread,851,0353,1089,Strings,51,0,1610,201,None,38,#0167,508,0,Dropped
+Pretty Carapace,852,0354,1087,Cloths and Skins,51,0,630,90,None,39,#009F,903,0,Dropped
+Rigid Horn,853,0355,1086,Sticks and Stems,51,0,1040,130,None,40,#0118,85,0,Dropped
+Scorpion Tail,854,0356,1089,Strings,51,0,650,93,None,41,#009F,506,0,Dropped
+Scorpion Pincer,855,0357,1085,Claws and Fangs,51,0,1230,153,None,42,#0149,1009,0,Dropped
+Panther Claw,856,0358,1085,Claws and Fangs,51,0,360,60,None,43,#0063,1001,0,Dropped
+Dragon Fang,857,0359,1085,Claws and Fangs,51,0,1920,240,None,44,#0167,1014,0,Dropped
+Wolf Fang,858,035A,1085,Claws and Fangs,51,0,460,76,None,45,#008B,1002,0,Dropped
+Quality Fur,859,035B,1088,Furs,51,0,300,51,None,46,#0063,703,0,Dropped
+Bull's Horn,860,035C,1086,Sticks and Stems,51,0,670,95,None,47,#009F,83,0,Dropped
+Bird's Feather,861,035D,1098,Feathers,51,0,155,31,None,48,#0045,200,0,Dropped
+Wind Crystal,862,035E,1096,Crystals,51,0,2150,260,None,49,#0118,65,0,Mined
+Fur,863,035F,1088,Furs,51,0,120,25,None,50,#0045,701,0,Dropped
+Root,864,0360,1091,Powders and Spores,51,0,840,105,None,51,#010E,805,0,Dropped
+Spore,865,0361,1091,Powders and Spores,51,0,110,22,None,52,#0045,800,0,Dropped
+Poison Powder,866,0362,1091,Powders and Spores,51,0,570,82,None,53,#009F,803,0,Dropped
+Plant Stem,867,0363,1086,Sticks and Stems,51,0,390,65,None,54,#008B,82,0,Dropped
+Strong Vine,868,0364,1089,Strings,51,0,1060,132,None,55,#0118,507,0,Dropped
+Fish Fossil,869,0365,1093,Shells and Bones,51,0,165,33,None,56,#0045,301,0,Dropped
+Water Crystal,870,0366,1096,Crystals,51,0,2400,300,None,57,#0149,66,0,Mined
+Turtle Shell,871,0367,1093,Shells and Bones,51,0,150,30,None,58,#0045,300,0,Dropped
+Fire Crystal,872,0368,1096,Crystals,51,0,1600,200,None,59,#009F,62,0,Mined
+Ghost Hood,873,0369,1087,Cloths and Skins,51,0,310,52,None,60,#0063,902,0,Dropped
+Skull,874,036A,1093,Shells and Bones,51,0,960,120,None,61,#010F,303,0,Dropped
+Broken Hilt,875,036B,1090,Shards,51,0,540,90,None,62,#0027,602,0,Dropped
+Broken Box,876,036C,1090,Shards,51,0,800,220,None,63,#0027,603,0,Dropped
+Fairy Dust,877,036D,1091,Powders and Spores,51,0,270,45,None,64,#0063,801,0,Dropped
+Small Crystal,878,036E,1096,Crystals,51,0,120000,12000,None,65,#01FF,68,0,Mined
+Wooly Furball,879,036F,1088,Furs,51,0,960,120,None,66,#010E,707,0,Dropped
+Light Crystal,880,0370,1096,Crystals,51,0,3000,1200,None,67,#0027,67,0,Dropped
+Dark Crystal,881,0371,1096,Crystals,51,0,1440,240,None,68,#0063,61,0,Dropped
+Love Crystal,882,0372,1096,Crystals,51,0,2080,255,None,69,#0027,64,0,Dropped
+Raccoon Leaf,883,0373,883,#N/A,51,0,30000,2000,None,70,#010E,2000,0,Dropped
+Dragon Bones,884,0374,1093,Shells and Bones,51,0,24000,1800,None,71,#009F,302,0,Dropped
+Red Lion Fur,885,0375,1088,Furs,51,0,75000,2800,None,72,#01FF,710,0,Dropped
+Blue Lion Fur,886,0376,1088,Furs,51,0,75000,2800,None,73,#01FF,711,0,Dropped
+Broken Ice Wall,887,0377,1090,Shards,51,0,90000,4444,None,74,#01FF,614,0,Dropped
+Ammonite,888,0378,1093,Shells and Bones,51,0,168000,3200,None,75,#01FF,305,0,Dropped
+Icy Nose,889,0379,889,#N/A,51,0,170000,3000,None,76,#01FF,2001,0,Dropped
+Chest Hair,890,037A,1088,Furs,51,0,196000,3600,None,77,#01FF,712,0,Dropped
+Chimera Tail,891,037B,1089,Strings,51,0,215000,4500,None,78,#01FF,509,0,Dropped
+Grimoire Scale,892,037C,1092,Scales,51,0,154000,2800,None,79,#01AE,1107,0,Dropped
+Legendary Scale,893,037D,1092,Scales,51,0,50000,3000,None,80,#01FF,1108,0,Dropped
+Dragon Fin,894,037E,1098,Feathers,51,0,300000,10000,None,81,#01FF,204,0,Dropped
+Moving Branch,895,037F,1086,Sticks and Stems,51,0,210000,4500,None,82,#01FF,84,0,Dropped
+Electro Crystal,896,0380,1096,Crystals,51,0,160000,3100,None,83,#01FF,71,0,Dropped
+Melody Bottle,897,0381,1091,Powders and Spores,51,0,180000,3500,None,84,#01FF,814,0,Dropped
+Golem Tablet,898,0382,1094,Stones,51,0,150000,2300,None,85,#0167,403,0,Dropped
+Earthwyrm Scale,899,0383,1092,Scales,51,0,300000,10000,None,86,#01FF,1109,0,Dropped
+Firewyrm Scale,900,0384,1092,Scales,51,0,300000,10000,None,87,#01FF,1110,0,Dropped
+Ambrosia's Thorns,901,0385,1089,Strings,51,0,7000,400,None,88,#0027,502,0,Dropped
+Lightning Mane,902,0386,1088,Furs,51,0,12000,700,None,89,#0045,704,0,Dropped
+Cursed Doll,903,0387,903,#N/A,51,0,30000,666,None,90,#0063,2004,0,Dropped
+Puppetry Strings,904,0388,1089,Strings,51,0,32000,964,None,91,#0063,504,0,Dropped
+Left Rock Shard,905,0389,1090,Shards,51,0,110000,2500,None,92,#01AE,610,0,Dropped
+Right Rock Shard,906,038A,1090,Shards,51,0,110000,2500,None,93,#01AE,611,0,Dropped
+Crystal Skull,907,038B,1097,Jewels,51,0,180000,4000,None,94,#01AE,30,0,Dropped
+Throne of the Empire,908,038C,908,#N/A,51,0,250000,1,None,95,#03E7,2007,0,Dropped
+Wind Dragon Tooth,909,038D,1085,Claws and Fangs,51,0,300000,10000,None,96,#03E7,1018,0,Dropped
+Rune Sphere Shard,910,038E,910,#N/A,51,0,400000,15000,None,97,#03E7,36,0,Dropped
+Rafflesia Petal,911,038F,911,#N/A,51,0,50000,1250,None,98,#009F,2003,0,Dropped
+MTGU Plate,912,0390,1090,Shards,51,0,150000,2300,None,99,#0167,612,0,Dropped
+Cheap Propeller,913,0391,1085,Claws and Fangs,51,0,1320,165,None,100,#0149,1010,0,Dropped
+Quality Propeller,914,0392,1085,Claws and Fangs,51,0,1900,238,None,101,#0167,1012,0,Dropped
+Rusty Screw,915,0393,1090,Shards,51,0,1590,198,None,102,#0167,606,0,Dropped
+Shiny Screw,916,0394,1090,Shards,51,0,150000,2300,None,103,#0167,607,0,Dropped
+Palm Claw,917,0395,1085,Claws and Fangs,51,0,600,86,None,104,#009F,1003,0,Dropped
+Malm Claw,918,0396,1085,Claws and Fangs,51,0,3240,360,None,105,#01AE,1015,0,Dropped
+Big Crystal,919,0397,1096,Crystals,51,0,16000,1600,None,106,#0149,69,0,Mined
+Rune Crystal,920,0398,1096,Crystals,51,0,96000,9800,None,107,#03E7,70,0,Dropped
+Green Core,921,0399,1097,Jewels,51,0,30000,3000,None,108,#0118,26,0,Dropped
+Red Core,922,039A,1097,Jewels,51,0,30000,3000,None,109,#009F,27,0,Dropped
+Yellow Core,923,039B,1097,Jewels,51,0,30000,3000,None,110,#010E,28,0,Dropped
+Blue Core,924,039C,1097,Jewels,51,0,30000,3000,None,111,#0149,29,0,Dropped
+Water Dragon Ash,925,039D,1091,Powders and Spores,51,0,130000,2200,None,112,#0149,812,0,Dropped
+Fire Dragon Ash,926,039E,1091,Powders and Spores,51,0,110000,2100,None,113,#0118,810,0,Dropped
+Earth Dragon Ash,927,039F,1091,Powders and Spores,51,0,90000,2000,None,114,#010F,808,0,Dropped
+Holy Spore,928,03A0,1091,Powders and Spores,51,0,8000,880,None,115,#03E7,804,0,Dropped
+White Stone,929,03A1,929,#N/A,51,0,80000,8000,None,116,#03E7,38,0,Pick up
+Invisible Stone,930,03A2,930,#N/A,51,0,5800,600,None,117,#03E7,34,0,Mined
+Shade Stone,931,03A3,931,#N/A,51,0,2800,250,None,118,#03E7,37,0,Mined
+Double Steel,932,03A4,932,#N/A,51,0,5000,100,None,119,#03E7,32,0,Dropped
+10-Fold Steel,933,03A5,933,#N/A,51,0,50000,1000,None,120,#03E7,31,0,Dropped
+Round Stone,934,03A6,1094,Stones,51,0,480,50,None,121,#03E7,400,0,Fished
+Glitta Augite,935,03A7,935,#N/A,51,0,6800,680,None,122,#03E7,33,0,Hit
+Light Ore,936,03A8,936,#N/A,51,0,200000,10000,None,123,#03E7,35,0,Mined
+Scrap Metal+,937,03A9,1083,Minerals,51,0,100,2,None,124,#03E7,12,0,Forged
+Stick,938,03AA,1086,Sticks and Stems,51,0,50,9,None,125,#0027,80,0,Dropped
+Quality Puffy Fur,939,03AB,1088,Furs,51,0,560,80,None,126,#009F,705,0,Dropped
+Yellow Down,940,03AC,1088,Furs,51,0,240,40,None,127,#0063,702,0,Dropped
+Penguin Down,941,03AD,1088,Furs,51,0,1050,150,None,128,#0149,709,0,Dropped
+Ivory Tusk,942,03AE,1085,Claws and Fangs,51,0,880,110,None,129,#010E,1006,0,Dropped
+Unbroken Ivory Tusk,943,03AF,1085,Claws and Fangs,51,0,1220,151,None,130,#0149,1008,0,Dropped
+Tiny Golem Stone,944,03B0,1094,Stones,51,0,970,121,None,131,#010F,401,0,Dropped
+Paralysis Poison,945,03B1,1084,Liquids,51,0,1050,131,None,132,#0118,102,0,Dropped
+Black Bird Feather,946,03B2,1098,Feathers,51,0,1080,135,None,133,#0118,202,0,Dropped
+Vine,947,03B3,1089,Strings,51,0,590,84,None,134,#009F,505,0,Dropped
+Insect Horn,948,03B4,1086,Sticks and Stems,51,0,100,21,None,135,#0027,81,0,Dropped
+Mysterious Powder,949,03B5,1091,Powders and Spores,51,0,1110,139,None,136,#0118,807,0,Dropped
+Wet Scale,950,03B6,1092,Scales,51,0,1210,151,None,137,#0149,1100,0,Dropped
+Magic,951,03B7,1091,Powders and Spores,51,0,1250,156,None,138,#0149,809,0,Dropped
+Gold Wolf Fang,952,03B8,1085,Claws and Fangs,51,0,1280,160,None,139,#0149,1011,0,Dropped
+Blue Giant's Glove,953,03B9,1087,Cloths and Skins,51,0,1650,210,None,140,#0149,908,0,Dropped
+Thick Stick,954,03BA,1086,Sticks and Stems,51,0,1590,198,None,141,#0167,86,0,Dropped
+Magic Claw,955,03BB,1085,Claws and Fangs,51,0,1800,224,None,142,#0167,1013,0,Dropped
+Glistening Blade,956,03BC,1090,Shards,51,0,1700,212,None,143,#0167,608,0,Dropped
+Fairy Elixir,957,03BD,1091,Powders and Spores,51,0,1760,220,None,144,#0167,811,0,Dropped
+Great Hammer Shard,958,03BE,1090,Shards,51,0,1740,217,None,145,#0167,609,0,Dropped
+Golem Stone,959,03BF,1094,Stones,51,0,1670,208,None,146,#0167,402,0,Dropped
+Blk. Tortoise Shell,960,03C0,1093,Shells and Bones,51,0,1600,200,None,147,#0167,304,0,Dropped
+Thunderbird Feather,961,03C1,1098,Feathers,51,0,1680,210,None,148,#0167,203,0,Dropped
+Big Giant's Nail,962,03C2,1085,Claws and Fangs,51,0,1150,320,None,149,#01FF,1007,0,Dropped
+Yellow Feather,963,03C3,1098,Feathers,51,0,800,100,None,150,#01FF,201,0,Dropped
+Quality Worn Cloth,964,03C4,1087,Cloths and Skins,51,0,900,215,None,151,#01FF,905,0,Dropped
+Pirate's Armor,965,03C5,1090,Shards,51,0,2800,311,None,152,#01FF,613,0,Dropped
+Blade Shard,966,03C6,1090,Shards,51,0,145,29,None,153,#0045,601,0,Dropped
+Proof of Rank,967,03C7,967,#N/A,51,0,2700,300,None,154,#01AE,2006,0,Dropped
+Turnip's Miracle,968,03C8,1091,Powders and Spores,51,0,4500,500,None,155,#01FF,813,0,Dropped
+Dragon Scale,969,03C9,1092,Scales,51,0,3280,364,None,156,#01FF,1101,0,Dropped
+Golem Spirit Stone,970,03CA,1094,Stones,51,0,2880,320,None,157,#01FF,404,0,Dropped
+Ancient Orc Cloth,971,03CB,1087,Cloths and Skins,51,0,2920,324,None,158,#01FF,909,0,Dropped
+Queen's Jaw,972,03CC,1085,Claws and Fangs,51,0,3100,345,None,159,#01FF,1016,0,Dropped
+Poison King,973,03CD,1084,Liquids,51,0,2770,308,None,160,#01FF,103,0,Dropped
+Dangerous Scissors,974,03CE,1085,Claws and Fangs,51,0,3010,335,None,161,#01FF,1017,0,Dropped
+Chimera's Claw,975,03CF,1085,Claws and Fangs,51,0,48000,1000,None,162,#009F,1005,0,Dropped
+Tablet of Truth,976,03D0,1094,Stones,51,0,82000,3800,None,163,#01FF,405,0,Dropped
+Big Bird's Comb,977,03D1,977,#N/A,51,0,5200,1200,None,164,#0045,2002,0,Dropped
+Battle Turnip,978,03D2,1102,Squid,55,0,0,0,None,165,#270F,2,0,Dropped
+Black Scale,979,03D3,1092,Scales,51,0,3280,364,None,167,#01FF,1102,0,Dropped
+Blue Scale,980,03D4,1092,Scales,51,0,3280,364,None,169,#01FF,1103,0,Dropped
+Glitter Scale,981,03D5,1092,Scales,51,0,3280,364,None,170,#01FF,1104,0,Dropped
+Crimson Scale,982,03D6,1092,Scales,51,0,3280,364,None,171,#01FF,1105,0,Dropped
+Love Scale,983,03D7,1092,Scales,51,0,3280,364,None,172,#01FF,1106,0,Dropped
+Dragonic Stone,984,03D8,1083,Minerals,51,0,128000,5000,None,173,#03E7,18,0,Mined
+Masu Trout,985,03D9,985,#N/A,52,7,300,15,None,-1,#0027,0,1,Fished
+Squid,986,03DA,1101,Squid,52,7,400,24,None,-1,#0027,1,2,Fished
+Taimen,987,03DB,987,#N/A,52,9,78000,6500,None,-1,#0000,2,3,Fished
+Sardine,988,03DC,988,#N/A,52,7,1200,70,None,-1,#0027,3,0,Fished
+Char,989,03DD,989,#N/A,52,7,1800,92,None,-1,#0027,4,1,Fished
+Chub,990,03DE,990,#N/A,52,7,2600,130,None,-1,#0027,5,1,Fished
+Glitter Snapper,991,03DF,991,#N/A,52,9,120000,8800,None,-1,#0000,6,3,Fished
+Skipjack,992,03E0,992,#N/A,52,7,4500,220,None,-1,#0027,7,3,Fished
+Turbot,993,03E1,993,#N/A,52,7,2500,120,None,-1,#0027,8,2,Fished
+Gibelio,994,03E2,994,#N/A,52,7,2000,100,None,-1,#0027,9,1,Fished
+Salmon,995,03E3,995,#N/A,52,7,1350,80,None,-1,#0027,10,3,Fished
+Mackerel,996,03E4,996,#N/A,52,7,1000,60,None,-1,#0027,11,2,Fished
+Needlefish,997,03E5,997,#N/A,52,7,500,30,None,-1,#0027,12,1,Fished
+Pike,998,03E6,998,#N/A,52,7,240,12,None,-1,#0027,13,2,Fished
+Sunsquid,999,03E7,1101,Squid,52,9,74000,6800,None,-1,#0000,14,2,Fished
+Shrimp,1000,03E8,1000,#N/A,52,7,1500,85,None,-1,#0027,15,0,Fished
+Snapper,1001,03E9,1001,#N/A,52,8,14800,1280,None,-1,#0027,16,2,Fished
+Throbby Snapper,1002,03EA,1002,#N/A,52,8,38000,3500,None,-1,#0000,17,3,Fished
+Rainbow Trout,1003,03EB,1003,#N/A,52,7,3000,150,None,-1,#0027,18,2,Fished
+Flounder,1004,03EC,1004,#N/A,52,7,4000,190,None,-1,#0027,19,2,Fished
+Blowfish,1005,03ED,1005,#N/A,52,8,57000,4200,None,-1,#0000,20,2,Fished
+Yellowtail,1006,03EE,1006,#N/A,52,8,45000,3800,None,-1,#0000,21,3,Fished
+Crucian Carp,1007,03EF,1007,#N/A,52,7,620,35,None,-1,#0027,22,2,Fished
+Tuna,1008,03F0,1008,#N/A,52,9,61000,5600,None,-1,#0000,23,3,Fished
+Girella,1009,03F1,1009,#N/A,52,7,850,45,None,-1,#0027,24,1,Fished
+Fall Flounder,1010,03F2,1010,#N/A,52,8,27000,2000,None,-1,#0027,25,2,Fished
+Cherry Salmon,1011,03F3,1011,#N/A,52,7,350,18,None,-1,#0027,26,1,Fished
+Lamp Squid,1012,03F4,1101,Squid,52,8,21000,1800,None,-1,#0027,27,0,Fished
+Lobster,1013,03F5,1013,#N/A,52,7,9600,960,None,-1,#0027,28,2,Fished
+Pond Smelt,1014,03F6,1014,#N/A,52,7,200,10,None,-1,#0027,29,0,Fished
+Sand Flounder,1015,03F7,1015,#N/A,52,7,700,38,None,-1,#0000,30,2,Fished
+Rockfish,1016,03F8,1016,#N/A,52,8,10400,1040,None,-1,#0000,31,3,Fished
+Can,1017,03F9,1017,#N/A,53,7,5,1,None,-1,#0045,0,0,Fished
+Boot,1018,03FA,1018,#N/A,53,7,8,2,None,-1,#0027,1,0,Fished
+Rare Can,1019,03FB,1017,#N/A,53,7,800,300,None,-1,#03E7,2,0,Fished
+Rock,1020,03FC,1094,Stones,54,0,10,2,None,-1,#0027,0,0,Pick up
+Branch,1021,03FD,1086,Sticks and Stems,54,0,100,20,None,-1,#0045,1,0,Pick up
+Lumber,1022,03FE,1086,Sticks and Stems,54,0,500,40,None,-1,#0027,2,0,Hit
+Material Stone,1023,03FF,1094,Stones,54,0,500,40,None,-1,#0027,3,0,Hit
+Escape,1024,0400,1024,#N/A,48,3,0,0,None,-1,#270F,0,0,Purchased
+Fireball,1025,0401,1025,#N/A,48,3,2200,110,None,-1,#0000,100,255,Purchased
+Big Fire,1026,0402,1025,#N/A,48,3,4400,220,None,-1,#0000,101,255,Purchased
+Explosion,1027,0403,1025,#N/A,48,3,6600,330,None,-1,#0000,102,255,Purchased
+Water Laser,1028,0404,1025,#N/A,48,3,2400,120,None,-1,#0000,103,255,Purchased
+Parallel Laser,1029,0405,1025,#N/A,48,3,4800,240,None,-1,#0000,104,255,Purchased
+Delta Laser,1030,0406,1025,#N/A,48,3,7200,360,None,-1,#0000,105,255,Purchased
+Screw Rock,1031,0407,1025,#N/A,48,3,2300,115,None,-1,#0000,106,64,Purchased
+Earth Spike,1032,0408,1025,#N/A,48,3,4600,230,None,-1,#0000,107,64,Purchased
+Avenger Rock,1033,0409,1025,#N/A,48,3,6900,345,None,-1,#0000,108,96,Purchased
+Sonic Wind,1034,040A,1025,#N/A,48,3,2500,125,None,-1,#0000,109,255,Purchased
+Double Sonic,1035,040B,1025,#N/A,48,3,5000,250,None,-1,#0000,110,255,Purchased
+Penetrate Sonic,1036,040C,1025,#N/A,48,3,7500,375,None,-1,#0000,111,255,Purchased
+Light Barrier,1037,040D,1025,#N/A,48,3,3000,150,None,-1,#0000,112,32,Purchased
+Shine,1038,040E,1025,#N/A,48,3,6000,300,None,-1,#0000,113,32,Purchased
+Prism,1039,040F,1025,#N/A,48,3,9000,450,None,-1,#0000,114,32,Purchased
+Dark Ball,1040,0410,1025,#N/A,48,3,2800,140,None,-1,#0000,115,255,Purchased
+Dark Snake,1041,0411,1025,#N/A,48,3,5600,280,None,-1,#0000,116,255,Purchased
+Darkness,1042,0412,1025,#N/A,48,3,8400,420,None,-1,#0000,117,255,Purchased
+Cure,1043,0413,1025,#N/A,48,3,1200,60,None,-1,#0000,2,0,Purchased
+Cure All,1044,0414,1025,#N/A,48,3,5800,290,None,-1,#0000,3,0,Purchased
+Master Cure,1045,0415,1025,#N/A,48,3,9800,490,None,-1,#0000,4,0,Purchased
+Medipoison,1046,0416,1025,#N/A,48,3,1800,90,None,-1,#0000,5,0,Purchased
+Mediparalyze,1047,0417,1025,#N/A,48,3,3200,160,None,-1,#0000,6,0,Purchased
+Mediseal,1048,0418,1025,#N/A,48,3,4800,240,None,-1,#0000,7,0,Purchased
+Greeting Spell,1049,0419,1025,#N/A,48,3,1500,75,None,-1,#0000,1,0,Purchased
+Power Wave,1050,041A,1050,#N/A,49,3,1300,130,None,-1,#0000,0,32,Purchased
+Dash Slash,1051,041B,1050,#N/A,49,3,2000,100,None,-1,#0000,1,100,Purchased
+Rush Attack,1052,041C,1050,#N/A,49,3,3800,190,None,-1,#0000,2,32,Purchased
+Round Break,1053,041D,1050,#N/A,49,3,6900,345,None,-1,#0000,3,60,Purchased
+Mind Thrust,1054,041E,1050,#N/A,49,3,2800,140,None,-1,#0000,4,40,Purchased
+Gust,1055,041F,1050,#N/A,49,3,2600,130,None,-1,#0000,5,80,Purchased
+Storm,1056,0420,1050,#N/A,49,3,4500,225,None,-1,#0000,6,40,Purchased
+Blitz,1057,0421,1050,#N/A,49,3,8400,420,None,-1,#0000,7,0,Purchased
+Twin Attack,1058,0422,1050,#N/A,49,3,1700,85,None,-1,#0000,8,40,Purchased
+Rail Strike,1059,0423,1050,#N/A,49,3,3800,190,None,-1,#0000,9,40,Purchased
+Wind Slash,1060,0424,1050,#N/A,49,3,3400,170,None,-1,#0000,10,80,Purchased
+Flash Strike,1061,0425,1050,#N/A,49,3,9800,490,None,-1,#0000,11,80,Purchased
+Naive Blade,1062,0426,1050,#N/A,49,3,5500,275,None,-1,#0000,12,0,Purchased
+Steel Heart,1063,0427,1050,#N/A,49,3,3800,190,None,-1,#0000,13,0,Purchased
+Delta Strike,1064,0428,1050,#N/A,49,3,1500,75,None,-1,#0000,14,60,Purchased
+Hurricane,1065,0429,1050,#N/A,49,3,2100,105,None,-1,#0000,15,24,Purchased
+Reaper Slash,1066,042A,1050,#N/A,49,3,2700,135,None,-1,#0000,16,40,Purchased
+Millionstrike,1067,042B,1050,#N/A,49,3,8800,440,None,-1,#0000,17,96,Purchased
+Axel Disaster,1068,042C,1050,#N/A,49,3,3200,160,None,-1,#0000,18,96,Purchased
+Stardust Upper,1069,042D,1050,#N/A,49,3,1900,95,None,-1,#0000,19,48,Purchased
+Tornado Swing,1070,042E,1050,#N/A,49,3,2400,120,None,-1,#0000,20,32,Purchased
+Grand Impact,1071,042F,1050,#N/A,49,3,5700,285,None,-1,#0000,21,32,Purchased
+Giga Swing,1072,0430,1050,#N/A,49,3,11000,550,None,-1,#0000,22,40,Purchased
+Upper Cut,1073,0431,1050,#N/A,49,3,3000,150,None,-1,#0000,23,40,Purchased
+Double Kick,1074,0432,1050,#N/A,49,3,7800,390,None,-1,#0000,24,40,Purchased
+Straight Punch,1075,0433,1050,#N/A,49,3,9000,450,None,-1,#0000,25,40,Purchased
+Neko Damashi,1076,0434,1050,#N/A,49,3,6500,325,None,-1,#0000,26,40,Purchased
+Rush Punch,1077,0435,1050,#N/A,49,3,5800,240,None,-1,#0000,27,40,Purchased
+Cyclone,1078,0436,1050,#N/A,49,3,12000,600,None,-1,#0000,28,40,Purchased
+Rapid Move,1079,0437,1050,#N/A,49,3,9800,490,None,-1,#0000,29,40,Purchased
+Bonus Concerto,1080,0438,1080,#N/A,50,3,3800,190,None,-1,#0000,0,0,Purchased
+Striking March,1081,0439,1080,#N/A,50,3,8000,400,None,-1,#0000,1,0,Purchased
+Iron Waltz,1082,043A,1080,#N/A,50,3,7800,390,None,-1,#0000,2,0,Purchased

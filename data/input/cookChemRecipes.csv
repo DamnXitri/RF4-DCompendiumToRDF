@@ -1,0 +1,217 @@
+Type,Recipe,Material 1,Material 2,Material 3,Material 4,Material 5,Material 6,Level,Priority
+No Tool,Onigiri,Rice,,,,,,2,252
+No Tool,Salmon Onigiri,Salted Salmon,Rice,,,,,20,254
+No Tool,Bamboo Rice,Rice,Bamboo Sprout,,,,,7,248
+No Tool,Sandwich,Bread,Egg (S),Cucumber,,,,34,244
+No Tool,Fruit Sandwich,Bread,Strawberry,,,,,35,245
+No Tool,Pickled Turnip,Turnip,,,,,,4,246
+No Tool,Pickled Turnip,Pink Turnip,,,,,,12,246
+No Tool,Pickles,Cucumber,,,,,,10,247
+No Tool,Pickle Mix,Turnip,Pink Turnip,,,,,48,255
+No Tool,Turnip Heaven,Turnip,Pink Turnip,Golden Turnip,,,,96,256
+No Tool,Salad,Mayonnaise,Cucumber,Tomato,Cabbage,,,67,243
+No Tool,Cheese,Sour Drop,Milk (S),,,,,22,257
+No Tool,Relax Tea Leaves,White Grass,Orange Grass,Green Grass,Yellow Grass,Blue Grass,Purple Grass,50,251
+Knife,Pike Sashimi,Pike,,,,,,1,105
+Knife,Trout Sashimi,Masu Trout,,,,,,2,90
+Knife,Cherry Sashimi,Cherry Salmon,,,,,,3,94
+Knife,Needlefish Sashimi,Needlefish,,,,,,4,104
+Knife,Girella Sashimi,Girella,,,,,,6,99
+Knife,Sardine Sashimi,Sardine,,,,,,8,103
+Knife,Salmon Sashimi,Salmon,,,,,,12,93
+Knife,Char Sashimi,Char,,,,,,15,91
+Knife,Rainbow Sashimi,Rainbow Trout,,,,,,26,92
+Knife,Skipjack Sashimi,Skipjack,,,,,,37,100
+Knife,Yellowtail Sashimi,Yellowtail,,,,,,68,101
+Knife,Blowfish Sashimi,Blowfish,,,,,,71,112
+Knife,Tuna Sashimi,Tuna,,,,,,74,102
+Knife,Taimen Sashimi,Taimen,,,,,,79,95
+Knife,Flounder Sashimi,Flounder,,,,,,30,106
+Knife,Turbot Sashimi,Turbot,,,,,,21,107
+Knife,Fall Sashimi,Fall Flounder,,,,,,58,108
+Knife,Squid Sashimi,Squid,,,,,,4,109
+Knife,Sunsquid Sashimi,Sunsquid,,,,,,77,110
+Knife,Lamp Squid Sashimi,Lamp Squid,,,,,,53,111
+Knife,Shrimp Sashimi,Shrimp,,,,,,14,114
+Knife,Lobster Sashimi,Lobster,,,,,,40,113
+Knife,Snapper Sashimi,Snapper,,,,,,50,96
+Knife,Lover Sashimi,Throbby Snapper,,,,,,63,98
+Knife,Glitter Sashimi,Glitter Snapper,,,,,,92,97
+Frying Pan,Baked Apple,Apple,,,,,,9,126
+Frying Pan,Fried Eggs,Egg (S),,,,,,20,123
+Frying Pan,French Fries,Oil,Potato,,,,,24,118
+Frying Pan,Omelet,Milk (S),Egg (S),,,,,28,124
+Frying Pan,Fried Rice,Rice,Oil,Egg (S),,,,30,116
+Frying Pan,Miso Eggplant,Eggplant,,,,,,31,122
+Frying Pan,French Toast,Bread,Egg (S),,,,,31,128
+Frying Pan,Croquettes,Oil,Potato,Egg (S),,,,33,119
+Frying Pan,Tempura,Oil,Flour,Shrimp,Egg (S),,,36,131
+Frying Pan,Donut,Oil,Flour,Butter,Egg (M),,,46,129
+Frying Pan,Risotto,Rice,Wine,Butter,,,,48,134
+Frying Pan,Pancakes,Flour,Honey,Milk (S),Egg (S),,,49,132
+Frying Pan,Popcorn,Corn,,,,,,51,120
+Frying Pan,Corn Cereal,Corn,Milk (S),,,,,53,121
+Frying Pan,Curry Bread,Oil,Flour,Curry,,,,59,127
+Frying Pan,Omelet Rice,Omelet,Rice,Ketchup,,,,60,125
+Frying Pan,Fried Veggies,Cabbage,,,,,,62,115
+Frying Pan,Cabbage Cakes,Flour,Cabbage,Egg (S),Leek,,,64,117
+Frying Pan,Dry Curry,Rice,Curry Powder,Carrot,Onion,,,86,135
+Frying Pan,Gyoza,Flour,Onion,Cabbage,,,,88,133
+Frying Pan,Fried Udon,Flour,Onion,Carrot,Cabbage,,,95,130
+Frying Pan,Salted Pond Smelt,Pond Smelt,Sour Drop,,,,,6,152
+Frying Pan,Salted Pike,Pike,Sour Drop,,,,,8,156
+Frying Pan,Salted Masu Trout,Masu Trout,Sour Drop,,,,,9,136
+Frying Pan,Salted C. Salmon,Cherry Salmon,Sour Drop,,,,,12,139
+Frying Pan,Grilled Needlefish,Needlefish,Sour Drop,,,,,12,155
+Frying Pan,Grilled Squid,Squid,Sour Drop,,,,,13,160
+Frying Pan,Grilled C. Carp,Crucian Carp,Sour Drop,,,,,14,143
+Frying Pan,Grilled S.Flounder,Sand Flounder,Sour Drop,,,,,15,166
+Frying Pan,Grilled Girella,Girella,Sour Drop,,,,,16,146
+Frying Pan,Grilled Mackerel,Mackerel,Sour Drop,,,,,16,150
+Frying Pan,Salted Salmon,Salmon,Sour Drop,,,,,17,141
+Frying Pan,Grilled Shrimp,Shrimp,Sour Drop,,,,,18,165
+Frying Pan,Salted Char,Char,Sour Drop,,,,,19,137
+Frying Pan,Grilled Gibelio,Gibelio,Sour Drop,,,,,19,144
+Frying Pan,Grilled Turbot,Turbot,Sour Drop,,,,,21,158
+Frying Pan,Salted Chub,Chub,Sour Drop,,,,,23,140
+Frying Pan,Dried Sardines,Sardine,Sardine,Sardine,,,,24,154
+Frying Pan,Salted R. Trout,Rainbow Trout,Sour Drop,,,,,27,138
+Frying Pan,Grilled Flounder,Flounder,Sour Drop,,,,,31,157
+Frying Pan,Grilled Skipjack,Skipjack,Sour Drop,,,,,37,149
+Frying Pan,Grilled Lobster,Lobster,Sour Drop,,,,,41,164
+Frying Pan,Grilled Snapper,Snapper,Sour Drop,,,,,51,145
+Frying Pan,Grilled Lamp Squid,Lamp Squid,Sour Drop,,,,,54,162
+Frying Pan,Grilled F.Flounder,Fall Flounder,Sour Drop,,,,,58,159
+Frying Pan,Grilled L. Snapper,Throbby Snapper,Sour Drop,,,,,66,148
+Frying Pan,Grilled Yellowtail,Yellowtail,Sour Drop,,,,,69,151
+Frying Pan,Grilled Blowfish,Blowfish,Sour Drop,,,,,72,163
+Frying Pan,Tuna Teriyaki,Tuna,Sour Drop,,,,,75,153
+Frying Pan,Grilled Sunsquid,Sunsquid,Sour Drop,,,,,78,161
+Frying Pan,Salted Taimen,Taimen,Sour Drop,,,,,80,142
+Frying Pan,Grilled G. Snapper,Glitter Snapper,Sour Drop,,,,,93,147
+Pot,Boiled Spinach,Spinach,,,,,,13,171
+Pot,Boiled Egg,Egg (S),,,,,,18,172
+Pot,Yogurt,Sweet Powder,Milk (S),,,,,19,195
+Pot,Glazed Yam,Sweet Powder,Yam,,,,,28,173
+Pot,Grilled Miso,Radish,,,,,,29,192
+Pot,Marmalade,Orange,,,,,,5,178
+Pot,Grape Jam,Grapes,,,,,,9,177
+Pot,Apple Jam,Apple,,,,,,10,176
+Pot,Strawberry Jam,Strawberry,,,,,,27,175
+Pot,Hot Chocolate,Chocolate,,,,,,11,168
+Pot,Hot Milk,Milk (S),,,,,,17,167
+Pot,Grape Liqueur,Grapes,Wine,,,,,39,169
+Pot,Relax Tea,Relax Tea Leaves,Honey,Pink Melon,Leek,,,73,191
+Pot,Boiled Pumpkin,Pumpkin,,,,,,25,170
+Pot,Rockfish Stew,Rockfish,,,,,,45,194
+Pot,Udon,Flour,,,,,,7,180
+Pot,Curry Udon,Flour,Curry,,,,,56,181
+Pot,Tempura Udon,Tempura,Udon,,,,,54,182
+Pot,Rice Porridge,Rice,,,,,,2,183
+Pot,Milk Porridge,Rice,Milk (S),,,,,20,184
+Pot,Tempura Bowl,Rice,Tempura,,,,,70,185
+Pot,Egg Bowl,Rice,Egg (S),,,,,21,186
+Pot,Cheese Fondue,Bread,Cheese,,,,,32,179
+Pot,Stew,Flour,Milk (M),Potato,Carrot,Onion,,87,187
+Pot,Curry Rice,Rice,Curry Powder,Carrot,Potato,,,55,188
+Pot,Ultimate Curry,Curry Powder,Wine,Devil Blood,Heavy Spice,Onion,Golden Turnip,97,189
+Pot,Royal Curry,Curry Powder,Apple,Honey,Mixed Herbs,Onion,Emery Flower,98,190
+Pot,Boiled Gyoza,Flour,Onion,Cabbage,,,,89,174
+Pot,Union Stew,Radish,Leek,Bok Choy,Mushroom (1),Hot-Hot Fruit,,94,193
+Steamer,Dumplings,Rice Flour,,,,,,2,242
+Steamer,Flan,Egg (S),Milk (S),,,,,29,240
+Steamer,Pumpkin Flan,Egg (S),Milk (S),Pumpkin,,,,48,241
+Steamer,Steamed Bread,Flour,Egg (S),Milk (S),,,,32,232
+Steamer,Cheese Bread,Flour,Cheese,Egg (S),Milk (S),,,44,233
+Steamer,Chinese Manju,Flour,Bamboo Sprout,,,,,15,235
+Steamer,Curry Manju,Flour,Curry,,,,,57,236
+Steamer,Pound Cake,Flour,Egg (S),,,,,23,238
+Steamer,Chocolate Sponge,Flour,Chocolate,Egg (S),Milk (S),,,35,239
+Steamer,Meat Dumpling,Flour,Shrimp,Onion,,,,82,234
+Steamer,Steamed Gyoza,Flour,Onion,Cabbage,,,,90,237
+Oven,Baked Onigiri,Onigiri,,,,,,10,197
+Oven,Sweet Potato,Yam,,,,,,20,198
+Oven,Corn on the Cob,Corn,,,,,,52,196
+Oven,Bread,Flour,,,,,,8,253
+Oven,Raisin Bread,Flour,Grapes,,,,,27,249
+Oven,Toast,Bread,,,,,,21,199
+Oven,Jam Roll,Flour,Jam,Egg (S),Milk (S),,,34,200
+Oven,Butter Roll,Flour,Butter,Egg (S),Milk (S),,,43,201
+Oven,Apple Pie,Flour,Apple,Butter,Egg (S),,,36,214
+Oven,Yam of the Ages,Sweet Powder,Butter,Milk (S),Yam,,,47,208
+Oven,Pizza,Flour,Cheese,Ketchup,Green Pepper,Eggplant,,60,202
+Oven,Seafood Pizza,Flour,Cheese,Ketchup,Shrimp,Squid,,56,203
+Oven,Doria,Rice,Cheese,Milk (S),Onion,,,84,204
+Oven,Seafood Doria,Rice,Shrimp,Cheese,Squid,Milk (S),,39,205
+Oven,Gratin,Flour,Cheese,Milk (S),Onion,,,85,206
+Oven,Seafood Gratin,Flour,Shrimp,Cheese,Squid,Milk (S),,42,207
+Oven,Cookie,Flour,Sweet Powder,Egg (S),Butter,,,38,209
+Oven,Choco Cookie,Flour,Butter,Sweet Powder,Chocolate,Egg (S),,45,210
+Oven,Cake,Flour,Butter,Sweet Powder,Strawberry,Milk (S),Egg (S),54,211
+Oven,Chocolate Cake,Flour,Chocolate,Butter,Sweet Powder,Milk (S),Egg (S),48,212
+Oven,Cheesecake,Cheese,Egg (S),Milk (S),Sweet Powder,,,46,213
+Mixer,Butter,Milk (S),,,,,,15,228
+Mixer,Mayonnaise,Oil,Egg (S),,,,,28,258
+Mixer,Ketchup,Sour Drop,Tomato,,,,,38,227
+Mixer,Ice Cream,Sweet Powder,Milk (S),,,,,25,250
+Mixer,Orange Juice,Orange,,,,,,5,218
+Mixer,Grape Juice,Grapes,,,,,,7,217
+Mixer,Apple Juice,Apple,,,,,,11,219
+Mixer,Fruit Juice,Apple,Grapes,Orange,,,,18,221
+Mixer,Strawberry Milk,Strawberry,Milk (S),,,,,33,220
+Mixer,Tomato Juice,Tomato,,,,,,35,216
+Mixer,Fruit Smoothie,Fruit Juice,Milk (S),,,,,37,222
+Mixer,Vegetable Juice,Pumpkin,Turnip,Carrot,Spinach,,,59,223
+Mixer,Prelude to Love,Pink Melon,Strawberry,,,,,61,230
+Mixer,Veggie Smoothie,Vegetable Juice,Milk (S),,,,,65,224
+Mixer,Hot Juice,Heavy Spice,Hot-Hot Fruit,,,,,76,231
+Mixer,Pineapple Juice,Pineapple,,,,,,81,215
+Mixer,Mixed Juice,Apple,Grapes,Orange,Pineapple,Strawberry,Milk (S),83,225
+Mixer,Mixed Smoothie,Mixed Juice,Honey,,,,,91,226
+Mixer,Gold Juice,Golden Pumpkin,Emery Flower,Golden Potato,Golden Turnip,Golden Cabbage,,99,229
+Chemistry,Recovery Potion,Medicinal Herb,Green Grass,,,,,3,275
+Chemistry,Recovery Potion,Blue Grass,,,,,,15,275
+Chemistry,Healing Potion,Medicinal Herb,Red Grass,,,,,20,276
+Chemistry,Healing Potion,Pom-Pom Grass,,,,,,40,276
+Chemistry,Mystery Potion,Medicinal Herb,White Grass,,,,,33,277
+Chemistry,Mystery Potion,Autumn Grass,,,,,,60,277
+Chemistry,Magical Potion,Medicinal Herb,Elli Leaves,,,,,45,278
+Chemistry,Magical Potion,Fireflower,,,,,,70,278
+Chemistry,Antidote Potion,Antidote Grass,Yellow Grass,,,,,25,263
+Chemistry,Antidote Potion,Cherry Grass,,,,,,38,263
+Chemistry,Para-Gone,Indigo Grass,Indigo Grass,,,,,18,264
+Chemistry,Para-Gone,Pink Cat,,,,,,31,264
+Chemistry,Roundoff,Black Grass,Black Grass,,,,,13,265
+Chemistry,Roundoff,Moondrop Flower,,,,,,28,265
+Chemistry,Cold Medicine,Orange Grass,Toyherb,,,,,22,266
+Chemistry,Cold Medicine,Charm Blue,,,,,,32,266
+Chemistry,Heavy Spice,Purple Grass,,,,,,10,271
+Chemistry,Sweet Powder,Apple,,,,,,5,272
+Chemistry,Sour Drop,Orange,,,,,,7,273
+Chemistry,Mixed Herbs,Green Grass,Toyherb,,,,,8,274
+Chemistry,Wettable Powder,Charm Blue,Cherry Grass,,,,,30,343
+Chemistry,Greenifier,Withered Grass,Indigo Grass,Moondrop Flower,,,,34,344
+Chemistry,Greenifier+,Withered Grass,Orange Grass,Corn,,,,64,345
+Chemistry,Formula A,Withered Grass,Blue Grass,Black Grass,,,,29,346
+Chemistry,Formula B,Yellow Grass,Pink Cat,4-Leaf Clover,,,,41,347
+Chemistry,Formula C,White Grass,Fireflower,Corn,,,,72,348
+Chemistry,No Rot Alpha,Withered Grass,Toyherb,,,,,26,349
+Chemistry,No Rot Beta,Withered Grass,Red Grass,4-Leaf Clover,,,,50,350
+Chemistry,Giantizer,Lamp Grass,,,,,,57,351
+Chemistry,Minimizer,Ironleaf,,,,,,53,352
+Chemistry,Formuade,Heavy Spice,Lamp Grass,Ironleaf,Liquids,Powders and Spores,,46,267
+Chemistry,Formuade,Hot-Hot Fruit,,,,,,65,267
+Chemistry,Invinciroid,Formuade,Autumn Grass,Hot-Hot Fruit,Noel Grass,Emery Flower,,76,269
+Chemistry,Invinciroid,Formuade,Giant Hot-Hot Fruit,,,,,86,269
+Chemistry,The Protein,Red Crystal,Red Crystal,Spinach,Powders and Spores,Liquids,,80,259
+Chemistry,The Protein,Big Red Crystal,,,,,,90,259
+Chemistry,Intelligencer,White Crystal,White Crystal,Eggplant,Powders and Spores,Liquids,,82,260
+Chemistry,Intelligencer,Big White Crystal,,,,,,92,260
+Chemistry,Vital Gummi,Blue Crystal,Blue Crystal,Bok Choy,Powders and Spores,Liquids,,83,261
+Chemistry,Vital Gummi,Big Blue Crystal,,,,,,93,261
+Chemistry,Heart Drink,Green Crystal,Green Crystal,Ironleaf,Powders and Spores,Liquids,,85,262
+Chemistry,Heart Drink,Big Green Crystal,,,,,,95,262
+Chemistry,Love Potion,Grape Liqueur,Pink Melon,Strawberry,Honey,Hot-Hot Fruit,Emery Flower,87,268
+Chemistry,Love Potion,Great Emery Flower,,,,,,97,268
+Chemistry,Leveliser,Emery Flower,4-Leaf Clover,Noel Grass,Autumn Grass,Fireflower,Hot-Hot Fruit,96,270
+Chemistry,Leveliser,Great Emery Flower,Great 4-Leaf Clover,,,,,99,270

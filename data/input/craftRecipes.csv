@@ -1,0 +1,162 @@
+Type,Recipe,Material 1,Material 2,Material 3,Material 4,Material 5,Level,Priority
+Accessory,Yarn,Furs,,,,,6,1
+Accessory,Engagement Ring,Minerals,Jewels,,,,20,342
+Accessory,Cheap Bracelet,Minerals,,,,,5,2
+Accessory,Bronze Bracelet,Bronze,Cloths and Skins,,,,10,3
+Accessory,Silver Bracelet,Silver,Cloths and Skins,,,,25,4
+Accessory,Gold Bracelet,Gold,Cloths and Skins,,,,39,5
+Accessory,Platinum Bracelet,Platinum,Cloths and Skins,,,,50,6
+Accessory,Silver Ring,Silver,Crystals,,,,24,7
+Accessory,Gold Ring,Orichalcum,Gold,Turnip's Miracle,,,63,8
+Accessory,Platinum Ring,Dragonic Stone,Platinum,,,,75,9
+Accessory,Shield Ring,Blk. Tortoise Shell,Turtle Shell,Minerals,,,44,10
+Accessory,Critical Ring,Gold,Rigid Horn,,,,30,11
+Accessory,Silent Ring,Silver,Lamp Squid,,,,29,12
+Accessory,Paralysis Ring,Silver,Scorpion Tail,,,,28,13
+Accessory,Poison Ring,Silver,Poison Powder,,,,27,14
+Accessory,Magic Ring,Platinum,Crystals,,,,51,15
+Accessory,Throwing Ring,Puppetry Strings,Minerals,,,,33,16
+Accessory,Stay-up Ring,Holy Spore,Minerals,,,,46,17
+Accessory,Aquamarine Ring,Silver,Aquamarine,,,,15,18
+Accessory,Amethyst Ring,Silver,Amethyst,,,,15,19
+Accessory,Emerald Ring,Silver,Emerald,,,,15,20
+Accessory,Sapphire Ring,Silver,Sapphire,,,,15,21
+Accessory,Ruby Ring,Silver,Ruby,,,,15,22
+Accessory,Cursed Ring,Silver,Shells and Bones,,,,15,23
+Accessory,Diamond Ring,Orichalcum,Diamond,,,,60,24
+Accessory,Aquamarine Brooch,Platinum,Aquamarine,,,,55,25
+Accessory,Amethyst Brooch,Platinum,Amethyst,,,,55,26
+Accessory,Emerald Brooch,Platinum,Emerald,,,,55,27
+Accessory,Sapphire Brooch,Platinum,Sapphire,,,,55,28
+Accessory,Ruby Brooch,Platinum,Ruby,,,,55,29
+Accessory,Diamond Brooch,Orichalcum,Light Ore,Rune Crystal,Diamond,,77,30
+Accessory,Dolphin Brooch,White Stone,Orichalcum,,,,88,31
+Accessory,Fire Ring,Orichalcum,Fire Crystal,,,,95,32
+Accessory,Wind Ring,Orichalcum,Wind Crystal,,,,93,33
+Accessory,Water Ring,Orichalcum,Water Crystal,,,,96,34
+Accessory,Earth Ring,Orichalcum,Earth Crystal,,,,94,35
+Accessory,Happy Ring,Silver,4-Leaf Clover,,,,30,36
+Accessory,Silver Pendant,Silver,,,,,20,37
+Accessory,Star Pendant,Silver Pendant,Gold,Love Crystal,,,40,38
+Accessory,Sun Pendant,Silver Pendant,Gold,Fire Crystal,,,45,39
+Accessory,Field Pendant,Silver Pendant,Gold,Wind Crystal,,,35,40
+Accessory,Dew Pendant,Silver Pendant,Gold,Water Crystal,,,28,41
+Accessory,Earth Pendant,Silver Pendant,Gold,Earth Crystal,,,19,42
+Accessory,Heart Pendant,Silver Pendant,Love Crystal,,,,40,43
+Accessory,Strange Pendant,Amethyst,Ruby,Minerals,,,85,44
+Accessory,Anette's Necklace,Rune Sphere Shard,Ancient Orc Cloth,Strings,,,80,45
+Accessory,Work Gloves,Cloths and Skins,,,,,4,46
+Accessory,Gloves,Giant's Gloves,,,,,18,47
+Accessory,Power Gloves,Giant's Gloves,Blue Giant's Glove,,,,42,48
+Accessory,Earrings,Iron,Powders and Spores,,,,8,49
+Accessory,Witch Earrings,Gold,Emerald,Mysterious Powder,,,30,50
+Accessory,Magic Earrings,Diamond,Ruby,Minerals,,,45,51
+Accessory,Charm,Cloths and Skins,Strings,,,,3,52
+Accessory,Holy Amulet,Platinum,Diamond,,,,55,53
+Accessory,Rosary,Silver,Puppetry Strings,,,,68,54
+Accessory,Talisman,Rafflesia Petal,Ambrosia's Thorns,Strings,,,71,55
+Accessory,Magic Charm,Round Stone,Turnip's Miracle,Powders and Spores,Crystals,,66,56
+Accessory,Leather Belt,Cloths and Skins,Shards,,,,13,57
+Accessory,Lucky Strike,Critical Ring,Tablet of Truth,Dangerous Scissors,Minerals,,78,58
+Accessory,Champ Belt,Warrior's Proof,Proof of Rank,Cloths and Skins,,,58,59
+Accessory,Hand-Knit Scarf,Yarn,Yarn,Yarn,Yarn,,43,60
+Accessory,Fluffy Scarf,Wooly Furball,Fur (S),Fur (M),Fur (L),Yarn,96,61
+Accessory,Hero's Proof,Chest Hair,Small Crystal,Rune Crystal,,,73,62
+Accessory,Proof of Wisdom,Moving Branch,Small Crystal,Rune Crystal,,,74,63
+Accessory,Art of Attack,Dragonic Stone,Throne of the Empire,Wind Dragon Tooth,,,91,64
+Accessory,Art of Defense,Dragonic Stone,Grimoire Scale,Broken Ice Wall,,,90,65
+Accessory,Art of Magic,Dragonic Stone,Chimera Tail,Melody Bottle,,,92,66
+Accessory,Badge,Shards,,,,,6,67
+Accessory,Courage Badge,Badge,Rune Sphere Shard,Rune Crystal,,,99,68
+Accessory,Venti's Charm,,,,,,999,69
+Accessory,Venti's Charm,,,,,,999,70
+Armor,Shirt,Cloths and Skins,,,,,2,71
+Armor,Vest,Cloths and Skins,Furs,,,,8,72
+Armor,Cotton Cloth,Old Bandage,Old Bandage,Spider's Thread,,,12,73
+Armor,Mail,Bronze,Liquids,,,,16,74
+Armor,Chain Mail,Silver,Strings,,,,20,75
+Armor,Scale Vest,Silver,Pretty Carapace,Root,,,25,76
+Armor,Sparkling Shirt,Gold,Furs,Cloths and Skins,,,28,77
+Armor,Wind Cloak,Black Bird Feather,Wind Crystal,Emerald,Cloths and Skins,Strings,32,78
+Armor,Protector,Shoulder Piece,Diamond,,,,38,79
+Armor,Platinum Mail,Platinum,Platinum,Blk. Tortoise Shell,Cloths and Skins,,44,80
+Armor,Lamellar Vest,Orichalcum,Scales,Strings,,,50,81
+Armor,Mercenary's Cloak,Quality Worn Cloth,Big Bird's Comb,Puppetry Strings,,,53,82
+Armor,Wooly Shirt,Electro Crystal,Wooly Furball,Wooly Furball,Strings,,56,83
+Armor,Elvish Cloak,Turnip's Miracle,Ambrosia's Thorns,Crystal Skull,Powders and Spores,,59,84
+Armor,Dragon Cloak,Dragon Scale,Crimson Scale,Grimoire Scale,Earth Dragon Ash,Strings,64,85
+Armor,Power Protector,Orichalcum,Orichalcum,Orichalcum,MTGU Plate,Dangerous Scissors,69,86
+Armor,Rune Vest,Golem Spirit Stone,Rune Crystal,Rune Crystal,Cloths and Skins,Strings,76,87
+Armor,Royal Garter,Dragonic Stone,Ancient Orc Cloth,Love Scale,Small Crystal,White Stone,90,88
+Armor,Four Dragons' Vest,Dragon Fin,Earthwyrm Scale,Firewyrm Scale,Wind Dragon Tooth,Rune Crystal,99,89
+Headgear,Headband,Cloths and Skins,,,,,2,309
+Headgear,Blue Ribbon,Blue Grass,Cloths and Skins,Strings,,,4,310
+Headgear,Green Ribbon,Green Grass,Cloths and Skins,Strings,,,5,311
+Headgear,Purple Ribbon,Purple Grass,Cloths and Skins,Strings,,,6,312
+Headgear,Summer Headdress,Headdress,Pink Cat,,,,999,313
+Headgear,Spectacles,Aquamarine,Aquamarine,,,,7,314
+Headgear,Straw Hat,Strings,Strings,,,,8,315
+Headgear,Fancy Hat,Cloths and Skins,Strings,,,,9,316
+Headgear,Brand Glasses,Dark Crystal,Aquamarine,Aquamarine,,,11,317
+Headgear,Cute Knitting,Cloths and Skins,Cloths and Skins,,,,13,318
+Headgear,Intelligent Glasses,Magic Crystal,Aquamarine,Aquamarine,,,15,319
+Headgear,Fireproof Hood,Ghost Hood,Cloths and Skins,,,,16,320
+Headgear,Silk Hat,Black Grass,Cloths and Skins,,,,17,340
+Headgear,Black Ribbon,Black Grass,Cloths and Skins,Strings,,,18,321
+Headgear,Lolita Headdress,Black Grass,Cloths and Skins,Cloths and Skins,Strings,,19,322
+Headgear,Headdress,Cloths and Skins,Cloths and Skins,Cloths and Skins,Strings,,20,323
+Headgear,Yellow Ribbon,Yellow Grass,Cloths and Skins,Strings,,,22,324
+Headgear,Autumn Headdress,Headdress,Red Crystal,,,,999,325
+Headgear,Cat Ears,Furs,,,,,24,326
+Headgear,Silver Hairpin,Silver,,,,,26,327
+Headgear,Red Ribbon,Red Grass,Cloths and Skins,Strings,,,30,328
+Headgear,Spring Headdress,Headdress,Moondrop Flower,,,,999,329
+Headgear,Orange Ribbon,Orange Grass,Cloths and Skins,Strings,,,35,330
+Headgear,Winter Headdress,Headdress,White Crystal,,,,999,331
+Headgear,White Ribbon,White Grass,Cloths and Skins,Strings,,,38,332
+Headgear,Four Seasons,Spring Headdress,Summer Headdress,Autumn Headdress,Winter Headdress,,44,333
+Headgear,Feathered Hat,Quality Worn Cloth,Feathers,Strings,,,51,334
+Headgear,Gold Hairpin,Turnip's Miracle,Gold,,,,60,335
+Headgear,Indigo Ribbon,Blue Scale,Indigo Grass,Cloths and Skins,Strings,,77,336
+Headgear,Crown,Dragonic Stone,Small Crystal,Black Scale,White Stone,Rune Crystal,95,337
+Headgear,Turnip Headgear,Turnip,,,,,30,338
+Headgear,Pumpkin Headgear,Pumpkin,,,,,20,339
+Shield,Small Shield,Minerals,,,,,2,353
+Shield,Umbrella,Cloths and Skins,Strings,Sticks and Stems,,,6,354
+Shield,Iron Shield,Iron,Iron,,,,8,355
+Shield,Monkey Plush,Yellow Down,Cloths and Skins,Cloths and Skins,,,12,356
+Shield,Round Shield,Bronze,,,,,15,357
+Shield,Turtle Shield,Turtle Shell,Bronze,Liquids,,,20,358
+Shield,Chaos Shield,Silver,Pretty Carapace,,,,25,359
+Shield,Bone Shield,Gold,Shells and Bones,,,,32,360
+Shield,Magic Shield,Gold,Silver,Mysterious Powder,Crystals,,37,361
+Shield,Heavy Shield,Diamond,Shoulder Piece,,,,41,362
+Shield,Platinum Shield,Platinum,Platinum,Blk. Tortoise Shell,,,43,363
+Shield,Kite Shield,Proof of Rank,Warrior's Proof,Platinum,Dragon Bones,,50,364
+Shield,Knight Shield,Orichalcum,Grimoire Scale,,,,54,365
+Shield,Element Shield,Yellow Feather,Green Core,Red Core,Yellow Core,Blue Core,58,366
+Shield,Magical Shield,Crimson Scale,Left Rock Shard,Right Rock Shard,Rune Crystal,,65,367
+Shield,Prism Shield,Blue Scale,Glitter Scale,Crimson Scale,Light Ore,Small Crystal,78,368
+Shield,Rune Shield,Dragonic Stone,Dragon Fin,Earthwyrm Scale,Rune Crystal,Small Crystal,94,369
+Shoes,Leather Boots,Furs,,,,,6,372
+Shoes,Free Farming Shoes,Strings,Furs,,,,8,391
+Shoes,Piyo Sandals,Insect Carapace,Cloths and Skins,,,,11,376
+Shoes,Secret Shoes,Glue,Minerals,,,,14,381
+Shoes,Silver Boots,Silver,Shards,,,,18,387
+Shoes,Heavy Boots,Silver,Iron,Pretty Carapace,,,20,371
+Shoes,Sneaking Boots,Invisible Stone,Cloths and Skins,Strings,,,23,383
+Shoes,Fast Step Boots,Root,Sapphire,Furs,,,26,384
+Shoes,Gold Boots,Gold,Gold,Shards,,,28,388
+Shoes,Bone Boots,Strong Vine,Big Crystal,Shells and Bones,,,33,389
+Shoes,Snow Boots,Shoulder Piece,Lightning Mane,Ambrosia's Thorns,,,37,374
+Shoes,Strider Boots,Pretty Thread,Platinum,Gold,Cloths and Skins,,40,380
+Shoes,Step-In Boots,Warrior's Proof,Shiny Screw,Cloths and Skins,Strings,,48,377
+Shoes,Feather Boots,Orichalcum,Big Bird's Comb,Big Crystal,Feathers,Strings,54,370
+Shoes,Ghost Boots,Quality Worn Cloth,Dragon Scale,Crimson Scale,Crystal Skull,Strings,65,378
+Shoes,Iron Geta,Dangerous Scissors,MTGU Plate,MTGU Plate,Iron,Iron,70,373
+Shoes,Knight Boots,Dragonic Stone,Black Scale,Ammonite,Strings,,86,379
+Shoes,Fairy Boots,Earthwyrm Scale,Small Crystal,Melody Bottle,Strings,Feathers,95,390
+Shoes,Wet Boots,Scales,Scales,,,,20,382
+Shoes,Water Shoes,Pretty Thread,Sticks and Stems,Cloths and Skins,Furs,,75,385
+Shoes,Ice Skates,Broken Ice Wall,Cloths and Skins,Strings,,,79,375
+Shoes,Rocket Wing,Dragon Fin,Earthwyrm Scale,Firewyrm Scale,Wind Dragon Tooth,Feathers,99,386

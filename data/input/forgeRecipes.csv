@@ -1,0 +1,261 @@
+Type,Recipe,Material 1,Material 2,Material 3,Material 4,Material 5,Level,Priority
+Short Sword,Broadsword,Minerals,,,,,1,392
+Short Sword,Steel Sword,Minerals,Claws and Fangs,,,,3,393
+Short Sword,Steel Sword+,Steel Sword,Minerals,,,,4,394
+Short Sword,Cutlass,Bronze,Claws and Fangs,,,,7,395
+Short Sword,Aqua Sword,Silver,Aquamarine,,,,15,396
+Short Sword,Invisiblade,Invisible Stone,Claws and Fangs,Crystals,,,16,397
+Short Sword,Defender,Sapphire,Claws and Fangs,,,,19,398
+Short Sword,Burning Sword,Gold,Fire Crystal,,,,20,399
+Short Sword,Gorgeous Sword,Gold,Gold,Gold,Gold,,23,400
+Short Sword,Gaia Sword,Gold,Earth Crystal,Rigid Horn,,,27,401
+Short Sword,Snakesword,Diamond,Claws and Fangs,,,,30,402
+Short Sword,Luck Blade,Diamond,Scorpion Pincer,Claws and Fangs,,,35,403
+Short Sword,Platinum Sword,Platinum,Silver,Claws and Fangs,Sticks and Stems,,38,404
+Short Sword,Wind Sword,Platinum,Silver,Wind Crystal,,,40,405
+Short Sword,Chaos Blade,Platinum,Gold,Magic,Holy Spore,,42,406
+Short Sword,Sakura,Platinum,Paralysis Poison,Poison Powder,Cherry Grass,,44,407
+Short Sword,Sunspot,Platinum,Gold,Warrior's Proof,Fire Crystal,Ruby,46,408
+Short Sword,Durendal,Platinum,Platinum,Malm Claw,Devil Horn,Ambrosia's Thorns,50,409
+Short Sword,Aerial Blade,Orichalcum,Lightning Mane,Wind Crystal,Emerald,Claws and Fangs,54,410
+Short Sword,Grantale,Orichalcum,Yellow Feather,Earth Crystal,Amethyst,Cursed Doll,59,411
+Short Sword,Smash Blade,Orichalcum,Pirate's Armor,4-Leaf Clover,Chimera's Claw,Claws and Fangs,64,412
+Short Sword,Icifier,Orichalcum,Icy Nose,Water Crystal,Aquamarine,Claws and Fangs,68,413
+Short Sword,Soul Eater,Orichalcum,Dangerous Scissors,Love Crystal,Legendary Scale,Earth Dragon Ash,70,414
+Short Sword,Raventine,Orichalcum,Orichalcum,Golem Spirit Stone,Fire Crystal,Fire Dragon Ash,74,415
+Short Sword,Star Saber,Orichalcum,Golem Spirit Stone,Wind Crystal,Emerald,Electro Crystal,77,416
+Short Sword,Platinum Sword+,Platinum Sword,Dragonic Stone,,,,79,417
+Short Sword,Dragon Slayer,Dragonic Stone,Dragonic Stone,Black Scale,Blue Scale,Glitter Scale,82,418
+Short Sword,Rune Blade,Dragonic Stone,Earthwyrm Scale,Rune Crystal,Claws and Fangs,Sticks and Stems,85,419
+Short Sword,Gladius,Dragonic Stone,Firewyrm Scale,Throne of the Empire,Small Crystal,Claws and Fangs,90,420
+Short Sword,Rune Legend,Rune Sphere Shard,Dragonic Stone,Rune Crystal,Green Core,Wind Dragon Tooth,99,421
+Short Sword,Back Scratcher,Glue,Sticks and Stems,,,,20,422
+Short Sword,Spoon,Silver,Silver,,,,25,423
+Short Sword,Veggieblade,Carrot,,,,,32,424
+Long Sword,Claymore,Minerals,,,,,2,425
+Long Sword,Zweihaender,Minerals,Claws and Fangs,,,,6,426
+Long Sword,Zweihaender+,Zweihaender,Bronze,,,,11,427
+Long Sword,Great Sword,Bronze,Liquids,,,,16,428
+Long Sword,Sea Cutter,Silver,Aquamarine,,,,21,429
+Long Sword,Cyclone Blade,Gold,Emerald,,,,25,430
+Long Sword,Poison Blade,Gold,Silver,Poison Powder,,,27,431
+Long Sword,Katzbalger,Gold,Silver,Rigid Horn,,,29,432
+Long Sword,Earth Shade,Gold,Silver,Black Bird Feather,Earth Crystal,,30,433
+Long Sword,Big Knife,Diamond,Claws and Fangs,Sticks and Stems,,,32,434
+Long Sword,Katana,Diamond,Magic,Claws and Fangs,,,35,435
+Long Sword,Flame Saber,Diamond,Gold Wolf Fang,Fire Crystal,,,39,436
+Long Sword,Bio Smasher,Platinum,Paralysis Poison,Poison Powder,Pom-Pom Grass,,40,437
+Long Sword,Snow Crown,Platinum,Gold,Water Crystal,Aquamarine,,42,438
+Long Sword,Dancing Dicer,Platinum,Dragon Fang,Dragon Bones,,,43,439
+Long Sword,Flamberge,Platinum,Platinum,Magic Claw,Thunderbird Feather,Big Bird's Comb,45,440
+Long Sword,Flamberge+,Flamberge,Malm Claw,,,,46,441
+Long Sword,Volcanon,Devil Horn,Fire Crystal,Ruby,Chimera's Claw,,48,442
+Long Sword,Psycho,Devil Horn,Malm Claw,Dark Crystal,Rafflesia Petal,,50,443
+Long Sword,Shine Blade,Orichalcum,Platinum,Light Crystal,Sapphire,,52,444
+Long Sword,Grand Smasher,Yellow Feather,Earth Crystal,Ambrosia's Thorns,Earth Dragon Ash,,55,445
+Long Sword,Belzebuth,Ammonite,Devil Blood,Dark Crystal,,,58,446
+Long Sword,Orochi,Queen's Jaw,Grimoire Scale,Scales,Scales,Strings,63,447
+Long Sword,Punisher,Dangerous Scissors,Tablet of Truth,Minerals,,,68,448
+Long Sword,Steel Slicer,Orichalcum,Orichalcum,Golem Spirit Stone,MTGU Plate,,73,449
+Long Sword,Moon Shadow,Glitter Scale,Light Crystal,Earth Crystal,Red Lion Fur,Blue Lion Fur,76,450
+Long Sword,Blue-Eyed Blade,Dragonic Stone,Orichalcum,Blue Core,Claws and Fangs,,79,451
+Long Sword,Balmung,Dragonic Stone,Tablet of Truth,Golem Tablet,Claws and Fangs,,84,452
+Long Sword,Braveheart,Dragonic Stone,Earthwyrm Scale,Love Crystal,Light Crystal,Sapphire,89,453
+Long Sword,Force Element,Firewyrm Scale,Green Core,Red Core,Yellow Core,Blue Core,91,454
+Long Sword,Heaven Asunder,Rune Sphere Shard,Dragonic Stone,Water Dragon Ash,Fire Dragon Ash,Earth Dragon Ash,92,455
+Long Sword,Caliburn,Rune Sphere Shard,Wind Dragon Tooth,Dragon Fin,Earthwyrm Scale,Firewyrm Scale,99,456
+Long Sword,Dekash,Tuna,,,,,42,457
+Long Sword,Daicone,Radish,,,,,28,458
+Spear,Spear,Minerals,,,,,3,459
+Spear,Wood Staff,Sticks and Stems,,,,,6,460
+Spear,Lance,Minerals,Sticks and Stems,,,,9,461
+Spear,Lance+,Lance,Bronze,,,,12,462
+Spear,Needle Spear,Bronze,Wolf Fang,Sticks and Stems,,,15,463
+Spear,Trident,Silver,Sticks and Stems,,,,18,464
+Spear,Water Spear,Silver,Aquamarine,Sticks and Stems,,,21,465
+Spear,Halberd,Gold,Sticks and Stems,,,,25,466
+Spear,Corsesca,Gold,Rigid Horn,Sticks and Stems,,,27,467
+Spear,Corsesca+,Corsesca,Black Bird Feather,,,,29,468
+Spear,Poison Spear,Diamond,Poison Powder,Sticks and Stems,,,30,469
+Spear,Fivestaff,Diamond,Sticks and Stems,Scales,Scales,,34,470
+Spear,Heavy Lance,Platinum,Gold,Sticks and Stems,,,37,471
+Spear,Feather Lance,Platinum,Silver,Thick Stick,Wind Crystal,Feathers,38,472
+Spear,Iceberg,Platinum,Platinum,Thick Stick,Water Crystal,Aquamarine,41,473
+Spear,Blood Lance,Platinum,Cursed Doll,Thick Stick,Magic Claw,Devil Blood,43,474
+Spear,Magical Lance,Devil Horn,Cursed Doll,Puppetry Strings,Round Stone,Crystals,47,475
+Spear,Flare Lance,Platinum,Devil Horn,Proof of Rank,Fire Crystal,Dragon Bones,49,476
+Spear,Brionac,Orichalcum,Light Crystal,Sapphire,Lightning Mane,Sticks and Stems,51,477
+Spear,Poison Queen,Orichalcum,Orichalcum,Poison King,Holy Spore,Poison Powder,55,478
+Spear,Monk Staff,Orichalcum,Turnip's Miracle,Glitta Augite,Sticks and Stems,,57,479
+Spear,Metus,Orichalcum,Queen's Jaw,Cursed Doll,Legendary Scale,Sticks and Stems,60,480
+Spear,Silent Grave,Orichalcum,Dangerous Scissors,Crystal Skull,Shards,Sticks and Stems,65,481
+Spear,Overbreak,Blue Scale,Left Rock Shard,Right Rock Shard,Grimoire Scale,Sticks and Stems,69,482
+Spear,Bjor,Melody Bottle,Holy Spore,Orichalcum,Small Crystal,Sticks and Stems,74,483
+Spear,Belvarose,Dragonic Stone,Ambrosia's Thorns,Tablet of Truth,MTGU Plate,Sticks and Stems,76,484
+Spear,Gae Bolg,Dragonic Stone,Orichalcum,Grimoire Scale,Black Scale,Moving Branch,81,485
+Spear,Dragon's Fang,Earthwyrm Scale,Big Crystal,Rune Crystal,Sticks and Stems,,86,487
+Spear,Gungnir,Dragon Fin,Green Core,Earth Dragon Ash,Fire Dragon Ash,Sticks and Stems,91,486
+Spear,Legion,Rune Sphere Shard,Firewyrm Scale,Dragon Fin,Light Ore,Sticks and Stems,99,488
+Spear,Pitchfork,Wolf Fang,Fodder ,Sticks and Stems,,,14,489
+Spear,Safety Lance,Ghost Hood,Sticks and Stems,,,,13,490
+Spear,Pine Club,Pineapple,Sticks and Stems,,,,40,491
+Hammer,Battle Hammer,Minerals,,,,,3,497
+Axe,Battle Axe,Minerals,Claws and Fangs,,,,6,498
+Hammer,Bat,Bronze,,,,,9,499
+Hammer,War Hammer,Bronze,Shards,,,,11,500
+Axe,Battle Scythe,Bronze,Claws and Fangs,,,,13,501
+Hammer,War Hammer+,War Hammer,Liquids,,,,15,502
+Axe,Pole Axe,Wolf Fang,Bronze,Sticks and Stems,,,16,503
+Hammer,Iron Bat,Bat,Silver,,,,18,504
+Axe,Pole Axe+,Pole Axe,Silver,,,,20,505
+Hammer,Great Hammer,Silver,Shards,,,,22,506
+Axe,Great Axe,Gold,Claws and Fangs,,,,23,507
+Hammer,Ice Hammer,Gold,Aquamarine,Shards,,,26,508
+Axe,Tomahawk,Silver,Emerald,Silk Cloth,Claws and Fangs,,28,509
+Axe,Basilisk Fang,Gold,Paralysis Poison,Claws and Fangs,Claws and Fangs,,30,510
+Hammer,Bone Hammer,Gold,Giant's Gloves,Shells and Bones,Shells and Bones,,31,511
+Axe,Rock Axe,Gold,Silver,Giant's Gloves,Earth Crystal,,32,512
+Hammer,Strong Stone,Diamond,Stones,Scales,Strings,,33,513
+Axe,Demon Axe,Diamond,Scorpion Pincer,Devil Blood,,,35,514
+Hammer,Flame Hammer,Diamond,Fire Crystal,Ruby,Shards,,36,515
+Hammer,Gigant Hammer,Platinum,Gold,Silver,Shards,,38,516
+Hammer,Sky Hammer,Platinum,Wind Crystal,Emerald,Thunderbird Feather,,40,517
+Axe,Frost Axe,Platinum,Dragon Fang,Big Crystal,Water Crystal,Aquamarine,42,518
+Axe,Crescent Axe,Platinum,Chimera's Claw,Devil Horn,,,46,519
+Axe,Crescent Axe+,Crescent Axe,Warrior's Proof,Proof of Rank,,,47,520
+Hammer,Graviton Hammer,Grimoire Scale,Earth Crystal,Minerals,,,49,521
+Hammer,Spiked Hammer,Left Rock Shard,Right Rock Shard,Claws and Fangs,Sticks and Stems,,50,522
+Axe,Heat Axe,Orichalcum,Fire Crystal,Ruby,Fire Dragon Ash,,53,523
+Hammer,Crystal Hammer,Orichalcum,Crystal Skull,Big Crystal,Shards,,57,524
+Hammer,Schnabel,Orichalcum,Ammonite,Blue Core,Shards,,60,525
+Axe,Double Edge,Big Giant's Nail,Queen's Jaw,Red Lion Fur,Blue Lion Fur,,65,526
+Axe,Alldale,Orichalcum,Orichalcum,Dangerous Scissors,White Stone,Yellow Core,69,527
+Hammer,Gigant Hammer+,Gigant Hammer,Golem Spirit Stone,Orichalcum,Small Crystal,,71,528
+Axe,Devil Finger,Love Scale,Legendary Scale,Water Dragon Ash,Fire Dragon Ash,Earth Dragon Ash,73,529
+Hammer,Kongo,Strong Stone,Dragonic Stone,Small Crystal,,,77,530
+Axe,Executioner,Dragonic Stone,Golem Spirit Stone,Light Ore,Chimera Tail,Dark Crystal,81,531
+Hammer,Mjolnir,Earthwyrm Scale,Dragonic Stone,Small Crystal,Rune Crystal,,86,532
+Hammer,Fatal Crush,Wind Dragon Tooth,Throne of the Empire,Dragonic Stone,Dragonic Stone,Dragonic Stone,90,533
+Axe,Saint Axe,Rune Sphere Shard,Light Crystal,White Crystal,Small Crystal,Big Crystal,98,534
+Hammer,Splash Star,Rune Sphere Shard,Wind Dragon Tooth,Dragon Fin,Earthwyrm Scale,Firewyrm Scale,99,535
+Hammer,Hammer,Cheap Hammer,Minerals,,,,7,536
+Hammer,Toy Hammer,Sticks and Stems,Cloths and Skins,,,,8,537
+Axe,Axe,Cheap Axe,Minerals,,,,9,538
+Axe,Lollipop,Butter,Apple,,,,28,539
+Staff,Rod,Sticks and Stems,,,,,2,560
+Staff,Amethyst Rod,Amethyst,Sticks and Stems,,,,6,561
+Staff,Aquamarine Rod,Aquamarine,Sticks and Stems,,,,8,562
+Staff,Friendly Rod,Love Crystal,Sticks and Stems,,,,13,563
+Staff,Love-Love Rod,Friendly Rod,Love Crystal,Love Crystal,Love Crystal,,15,564
+Staff,Staff,Magic Crystal,Sticks and Stems,,,,16,565
+Staff,Emerald Rod,Emerald,Sticks and Stems,,,,18,566
+Staff,Silver Staff,Silver,Sticks and Stems,,,,21,567
+Staff,Flare Staff,Fire Crystal,Sticks and Stems,,,,22,568
+Staff,Ruby Rod,Ruby,Sticks and Stems,,,,23,569
+Staff,Sapphire Rod,Sapphire,Sticks and Stems,,,,26,570
+Staff,Earth Staff,Earth Crystal,Sticks and Stems,,,,28,571
+Staff,Lightning Wand,Wind Crystal,Sticks and Stems,,,,30,572
+Staff,Ice Staff,Water Crystal,Sticks and Stems,,,,31,573
+Staff,Diamond Rod,Diamond,Sticks and Stems,,,,33,574
+Staff,Wizard's Staff,Magic,Sticks and Stems,,,,35,575
+Staff,Mage's Staff,Platinum,Sticks and Stems,,,,40,576
+Staff,Shooting Star Staff,Fairy Elixir,Golem Stone,Sticks and Stems,,,43,577
+Staff,Hell Branch,Skull,Warrior's Proof,Proof of Rank,Devil Horn,,49,578
+Staff,Crimson Staff,Red Core,Fire Dragon Ash,Devil Horn,,,50,579
+Staff,Bubble Staff,Blue Core,Water Dragon Ash,Orichalcum,Sticks and Stems,,53,580
+Staff,Gaia Rod,Yellow Core,Earth Dragon Ash,Yellow Feather,Sticks and Stems,,56,581
+Staff,Cyclone Rod,Green Core,Grimoire Scale,Turnip's Miracle,Sticks and Stems,,60,582
+Staff,Storm Wand,Mealy Apple,Electro Crystal,Orichalcum,Sticks and Stems,,65,583
+Staff,Rune Staff,Rune Crystal,Rune Crystal,Crimson Scale,Sticks and Stems,,70,584
+Staff,Mage's Staff+,Dragonic Stone,Orichalcum,Love Scale,Love Crystal,Sticks and Stems,76,585
+Staff,Magic Broom,Ancient Orc Cloth,Moving Branch,Rune Crystal,Big Crystal,Strings,82,586
+Staff,Magic Shot,Earthwyrm Scale,Melody Bottle,Rune Crystal,Small Crystal,Sticks and Stems,85,587
+Staff,Hell Curse,Moving Branch,Dragon Fin,Cursed Doll,Crystal Skull,Small Crystal,87,588
+Staff,Algernon,Moving Branch,Ambrosia's Thorns,Wind Dragon Tooth,Charm Blue,Lamp Grass,91,589
+Staff,Sorcerer's Wand,Rune Sphere Shard,Dragon Fin,Rune Crystal,Small Crystal,Moving Branch,99,590
+Staff,Basket,Strings,Strings,Cloths and Skins,,,4,591
+Staff,Golden Turnip Staff,Golden Turnip,Sticks and Stems,,,,80,592
+Staff,Sweet Potato Staff,Sweet Potato,Sticks and Stems,,,,10,593
+Staff,Elvish Harp,Strings,Sticks and Stems,,,,24,594
+Staff,Syringe,Silver,Furs,Sticks and Stems,,,29,595
+Dual Blade,Short Dagger,Minerals,Minerals,,,,5,596
+Dual Blade,Steel Edge,Iron,Iron,Bronze,,,9,597
+Dual Blade,Frost Edge,Aquamarine,Aquamarine,Liquids,,,13,598
+Dual Blade,Iron Edge,Iron,Iron,Silver,,,21,600
+Dual Blade,Thief Knife,Silver,Silver,,,,23,601
+Dual Blade,Wind Edge,Emerald,Emerald,Palm Claw,,,25,602
+Dual Blade,Gorgeous Lx,Gorgeous Sword,Gorgeous Sword,,,,28,603
+Dual Blade,Steel Katana,Gold,Gold,Black Bird Feather,,,30,604
+Dual Blade,Twin Blade,Gold,Gold,Rigid Horn,Rigid Horn,Paralysis Poison,32,605
+Dual Blade,Rampage,Diamond,Diamond,Gold Wolf Fang,,,33,606
+Dual Blade,Salamander,Diamond,Diamond,Fire Crystal,Cheap Propeller,,35,607
+Dual Blade,Platinum Edge,Platinum,Platinum,Dragon Fang,Dragon Fang,,37,608
+Dual Blade,Sonic Dagger,Platinum,Platinum,Emerald,Emerald,Thunderbird Feather,39,609
+Dual Blade,Chaos Edge,Platinum,Platinum,Quality Propeller,Quality Propeller,Holy Spore,40,610
+Dual Blade,Desert Wind,Malm Claw,Wind Crystal,Earth Crystal,MTGU Plate,,44,611
+Dual Blade,Broken Wall,Left Rock Shard,Right Rock Shard,Earth Crystal,,,48,612
+Dual Blade,Force Divide,Orichalcum,Fire Crystal,Water Crystal,Red Core,Blue Core,51,613
+Dual Blade,Heart Fire,Fire Dragon Ash,Fire Dragon Ash,Yellow Feather,Fire Crystal,,54,614
+Dual Blade,Orcus Sword,Turnip's Miracle,Earth Dragon Ash,Earth Dragon Ash,Glitta Augite,Glitta Augite,57,615
+Dual Blade,Deep Blizzard,Icy Nose,Icy Nose,Water Crystal,Water Crystal,,63,616
+Dual Blade,Dark Invitation,Dangerous Scissors,Blue Lion Fur,Red Lion Fur,Legendary Scale,Dark Crystal,68,617
+Dual Blade,Priest Saber,Dangerous Scissors,MTGU Plate,MTGU Plate,Light Crystal,Light Crystal,72,618
+Dual Blade,Efreet,Red Core,Crimson Scale,Golem Spirit Stone,Fire Dragon Ash,Fire Dragon Ash,74,619
+Dual Blade,Dragoon Claw,Dragon Fang,Blue Scale,Glitter Scale,Grimoire Scale,Small Crystal,76,620
+Dual Blade,Emerald Edge,Dragonic Stone,Green Core,Green Core,,,79,621
+Dual Blade,Rune Edge,Dragonic Stone,Rune Crystal,Rune Crystal,,,87,622
+Dual Blade,Earnest Edge,Dragonic Stone,Earthwyrm Scale,Earthwyrm Scale,Glitta Augite,Glitta Augite,90,623
+Dual Blade,Twin Justice,Rune Sphere Shard,Firewyrm Scale,Dragon Fin,Fire Dragon Ash,Water Dragon Ash,99,624
+Dual Blade,Double Scratch,Back Scratcher,Back Scratcher,,,,12,625
+Dual Blade,Acutorimass,Silver,Silver,Iron,Iron,,23,626
+Dual Blade,Twin Leeks,Leek,Leek,,,,39,599
+Fist,Leather Gloves,Cloths and Skins,,,,,2,627
+Fist,Brass Knuckles,Bronze,Cloths and Skins,,,,10,628
+Fist,Kote,Iron,Palm Claw,Cloths and Skins,,,16,629
+Fist,Gloves,Quality Cloth,Fur (M),Strings,,,20,630
+Fist,Bear Claws,Gold,Cloths and Skins,,,,28,631
+Fist,Fists of the Earth,Gold,Rigid Horn,Earth Crystal,Cloths and Skins,,30,632
+Fist,Fists of Fire,Diamond,Fire Crystal,Cloths and Skins,,,33,633
+Fist,Fists of Water,Platinum,Water Crystal,Aquamarine,Cloths and Skins,,38,634
+Fist,Dragon Claws,Platinum,Dragon Fang,Scales,Cloths and Skins,,42,635
+Fist,Fists of Dark,Malm Claw,Dark Crystal,Cursed Doll,,,46,636
+Fist,Fists of Wind,Malm Claw,Wind Crystal,Chimera's Claw,,,50,637
+Fist,Fists of Light,Orichalcum,Light Crystal,Light Crystal,Big Crystal,,53,638
+Fist,Cat Punch,Orichalcum,Quality Worn Cloth,Yellow Feather,Big Bird's Comb,Chimera's Claw,57,639
+Fist,Animal Puppets,Turnip's Miracle,Rune Crystal,Puppetry Strings,Furs,Furs,60,640
+Fist,Ironleaf Fists,Orichalcum,Crimson Scale,MTGU Plate,Ironleaf,Ironleaf,64,641
+Fist,Caestus,Orichalcum,Dangerous Scissors,Red Lion Fur,Blue Lion Fur,,69,642
+Fist,Golem Punch,Orichalcum,Golem Spirit Stone,Golem Tablet,MTGU Plate,Shiny Screw,75,643
+Fist,Hand of God,Dragonic Stone,Chimera Tail,Ambrosia's Thorns,Small Crystal,Cloths and Skins,82,644
+Fist,Bazal Katar,Dragonic Stone,Earthwyrm Scale,Firewyrm Scale,Crystal Skull,Cloths and Skins,90,645
+Fist,Fenrir,Rune Sphere Shard,Rune Crystal,Red Lion Fur,Blue Lion Fur,Broken Ice Wall,99,646
+Hoe (Tool),Cheap Hoe,Minerals,,,,,5,279
+Hoe (Tool),Sturdy Hoe,Bronze,,,,,15,280
+Hoe (Tool),Seasoned Hoe,Silver,,,,,30,281
+Hoe (Tool),Shiny Hoe,Gold,,,,,45,282
+Hoe (Tool),Blessed Hoe,Platinum,,,,,80,283
+Waterpot (Tool),Cheap Waterpot,Minerals,Cloths and Skins,,,,5,284
+Waterpot (Tool),Tin Waterpot,Bronze,Cloths and Skins,,,,15,285
+Waterpot (Tool),Lion Waterpot,Silver,Cloths and Skins,,,,30,286
+Waterpot (Tool),Rainbow Waterpot,Gold,Cloths and Skins,,,,45,287
+Waterpot (Tool),Joy Waterpot,Platinum,Cloths and Skins,,,,80,288
+Sickle (Tool),Cheap Sickle,Minerals,Shards,,,,5,289
+Sickle (Tool),Iron Sickle,Bronze,Shards,,,,15,290
+Sickle (Tool),Quality Sickle,Silver,Shards,,,,30,291
+Sickle (Tool),Super Sickle,Gold,Shards,,,,45,292
+Sickle (Tool),Legendary Sickle,Platinum,Shards,,,,80,293
+Axe (Tool),Cheap Axe,Stones,Sticks and Stems,,,,5,299
+Axe (Tool),Chopping Axe,Bronze,Stones,Sticks and Stems,,,15,300
+Axe (Tool),Lumber Axe,Silver,Stones,Sticks and Stems,,,30,301
+Axe (Tool),Mountain Axe,Gold,Stones,Sticks and Stems,,,45,302
+Axe (Tool),Miracle Axe,Platinum,Stones,Sticks and Stems,,,80,303
+Hammer (Tool),Cheap Hammer,Minerals,Sticks and Stems,,,,5,294
+Hammer (Tool),Iron Hammer,Bronze,Sticks and Stems,,,,15,295
+Hammer (Tool),Silver Hammer,Silver,Sticks and Stems,,,,30,296
+Hammer (Tool),Golden Hammer,Gold,Sticks and Stems,,,,45,297
+Hammer (Tool),Platinum Hammer,Platinum,Sticks and Stems,,,,80,298
+Pole (Tool),Cheap Pole,Sticks and Stems,Strings,,,,5,304
+Pole (Tool),Beginner's Pole,Bronze,Sticks and Stems,Strings,,,15,305
+Pole (Tool),Skilled Pole,Silver,Sticks and Stems,Strings,,,30,306
+Pole (Tool),Famous Pole,Gold,Sticks and Stems,Strings,,,45,307
+Pole (Tool),Sacred Pole,Platinum,Sticks and Stems,Strings,,,80,308
