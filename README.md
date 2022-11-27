@@ -1,5 +1,11 @@
 # RF4-DCompendiumToRDF
 
+This repository contains the code to convert the modified Rune Factory 4 - DataminingCompendium to RDF, using a modified version of the [Rune Factory 4 - Datamining Compendium](https://www.reddit.com/r/runefactory/comments/he3uu4/rf4_datamining_compendium_values_for_everything/) by u/OmnigamerSDA on Reddit.
+
+## Used Software
+- Tarql (https://github.com/tarql/tarql/releases)
+- Apache Jena Fuseki (https://jena.apache.org/download/)
+
 ## Ejecucion de tarql
 
 En el caso de querer generar nuevamente los archivos de output, deben utilizar los mapppings creados en la carpeta mappings y los archivos de input en la carpeta input. Para esto, con una terminal posicionada en la carpeta mappings, deben tener en cuenta lo siguiente:
