@@ -2,8 +2,10 @@
 
 ## Ejecucion de tarql
 
+En el caso de querer generar nuevamente los archivos de output, 
+
 Para utilizar tarql con los csv, utilizar el siguiente comando \
-```..\tarql-1.2\bin\tarql.bat <mapping>.sparql <source>.csv > <output>.ttl```
+```<tarql.bat Route> <mapping>.sparql <source>.csv > <output>.ttl```
 
 Por ejemplo, para ejecutar el mapping de itemCategories \
 ```..\tarql-1.2\bin\tarql.bat itemCategories.sparql itemCategories.csv > itemCategories.ttl```
@@ -24,12 +26,14 @@ mas de 20k lineas y 100k no son problema para las memorias actuales :3 \
 Utilizamos apache jena :O \
 Para correr el servidor, deben posicionarse en la carpeta `apache-jena-fuseki-4.6.1` y ejecutar el siguiente comando: \
 ```.\fuseki-server --port <portNumber (por defecto 3030)>``` \
-Luego, en el navegador, ir a `http://localhost:<portNumber>/`
+Luego, en el navegador, ir a `http://localhost:<portNumber>/`, crear la database y cargar los archivos ttl.
 
 ## Hacer consultas
 
-Recuerden que utilizamos \
-```PREFIX ex: <http://ex.org/a#>``` \
+Utilizamos
+```PREFIX ex: <http://ex.org/a#>```
+para definir nuestras propiedades.
+
 Un ejemplo de consulta es:
 ```sparql
 PREFIX ex: <http://ex.org/a#>
