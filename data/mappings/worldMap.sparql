@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 CONSTRUCT {
 	?mapAreaURI a ex:MapLocation;
 		ex:mainArea ?Main_Area;
-		ex:mapURL ?Map_Link;
+		ex:mapURL ?MapLink;
 		ex:floor ?Floor;
 		ex:subArea ?Sub_Area;
 		ex:has ?NameURI;
@@ -29,6 +29,7 @@ WHERE {
 			(URI(CONCAT('http://ex.org/map/', REPLACE(LCASE(?Main_Area), ' ', '_'), '/', REPLACE(LCASE(?Floor), ' ', '_'), '/', REPLACE(LCASE(?Sub_Area), ' ', '_'))))
 		)
 	) AS ?mapAreaURI)
+	BIND(URI(?Map_Link) AS ?MapLink)
 
 	BIND(
 		IF(?Type_Found = "Monster", URI(CONCAT('http://ex.org/monster/', REPLACE(LCASE(?Name), ' ', '_'))),
