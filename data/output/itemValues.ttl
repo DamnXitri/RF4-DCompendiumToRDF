@@ -530,51 +530,11 @@
         ex:bonusType     "None" ;
         ex:shippingType  24 ;
         ex:obtainMethod  "Pick up" ;
-        rdf:type         ex:Item ;
-        rdfs:label       "Mushroom" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/48> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/0> ;
-        ex:buy           2000 ;
-        ex:sell          10 ;
-        ex:bonusType     "None" ;
         ex:shippingType  25 ;
-        ex:obtainMethod  "Pick up" ;
-        rdf:type         ex:Item ;
-        rdfs:label       "Mushroom" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/48> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/0> ;
-        ex:buy           2000 ;
-        ex:sell          10 ;
-        ex:bonusType     "None" ;
         ex:shippingType  26 ;
-        ex:obtainMethod  "Pick up" ;
-        rdf:type         ex:Item ;
-        rdfs:label       "Mushroom" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/48> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/0> ;
-        ex:buy           2000 ;
-        ex:sell          10 ;
-        ex:bonusType     "None" ;
         ex:shippingType  27 ;
-        ex:obtainMethod  "Pick up" ;
-        rdf:type         ex:Item ;
-        rdfs:label       "Mushroom" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/48> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/0> ;
-        ex:buy           2000 ;
-        ex:sell          10 ;
-        ex:bonusType     "None" ;
         ex:shippingType  28 ;
-        ex:obtainMethod  "Pick up" ;
-        rdf:type         ex:Item ;
-        rdfs:label       "Mushroom" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/48> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/0> ;
-        ex:buy           2000 ;
-        ex:sell          10 ;
-        ex:bonusType     "None" ;
-        ex:shippingType  29 ;
-        ex:obtainMethod  "Pick up" .
+        ex:shippingType  29 .
 
 <http://ex.org/items/monarch_mushroom>
         rdf:type         ex:Item ;
@@ -7144,13 +7104,10 @@
         ex:obtainMethod  "Crafted" .
 
 <http://ex.org/items/gloves>
-        rdf:type         ex:Item ;
-        rdfs:label       "Gloves" ;
         rdfs:subClassOf  <http://ex.org/itemTypes/651> ;
         rdfs:subClassOf  <http://ex.org/itemCategories/34> ;
         ex:buy           120000 ;
         ex:sell          170 ;
-        ex:bonusType     "Atk" ;
         ex:shippingType  252 ;
         ex:obtainMethod  "Crafted" .
 
@@ -7342,15 +7299,6 @@
         ex:obtainMethod  "Crafted" .
 
 <http://ex.org/items/venti's_charm>
-        rdf:type         ex:Item ;
-        rdfs:label       "Venti's Charm" ;
-        rdfs:subClassOf  <http://ex.org/itemTypes/669> ;
-        rdfs:subClassOf  <http://ex.org/itemCategories/34> ;
-        ex:buy           0 ;
-        ex:sell          0 ;
-        ex:bonusType     "None" ;
-        ex:shippingType  270 ;
-        ex:obtainMethod  "Crafted" ;
         rdf:type         ex:Item ;
         rdfs:label       "Venti's Charm" ;
         rdfs:subClassOf  <http://ex.org/itemTypes/669> ;

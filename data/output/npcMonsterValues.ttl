@@ -227,71 +227,19 @@
         owl:sameAs       <http://ex.org/npc/27> ;
         ex:Friendliness  0 ;
         ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/28> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/29> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/30> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/31> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/32> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/33> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/34> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/35> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/36> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/37> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/38> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
         owl:sameAs       <http://ex.org/npc/39> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Traveler" ;
-        owl:sameAs       <http://ex.org/npc/40> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" .
+        owl:sameAs       <http://ex.org/npc/40> .
 
 <http://ex.org/npc/soldier>
         rdf:type         ex:NPC ;
@@ -299,36 +247,12 @@
         owl:sameAs       <http://ex.org/npc/41> ;
         ex:Friendliness  0 ;
         ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/42> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/43> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/44> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/45> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/46> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" ;
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
-        owl:sameAs       <http://ex.org/npc/47> ;
-        ex:Friendliness  0 ;
-        ex:upgradable    "No" .
+        owl:sameAs       <http://ex.org/npc/47> .
 
 <http://ex.org/npc/orc>
         rdf:type         ex:NPC ;
@@ -1747,11 +1671,8 @@
         ex:upgradable    "No" .
 
 <http://ex.org/npc/soldier>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Soldier" ;
         owl:sameAs       <http://ex.org/npc/149> ;
-        ex:Friendliness  25 ;
-        ex:upgradable    "No" .
+        ex:Friendliness  25 .
 
 <http://ex.org/npc/onionger>
         rdf:type         ex:NPC ;
@@ -2021,29 +1942,18 @@
         ex:upgradable    "No" .
 
 <http://ex.org/npc/minotaur>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Minotaur" ;
         owl:sameAs       <http://ex.org/npc/173> ;
         ex:Friendliness  0 ;
         ex:drop1         <http://ex.org/items/recovery_potion> ;
         ex:drop2         <http://ex.org/items/recovery_potion> ;
-        ex:drop3         <http://ex.org/items/the_protein> ;
         ex:scarcity1     50 ;
-        ex:scarcity2     30 ;
-        ex:upgradable    "No" .
+        ex:scarcity2     30 .
 
 <http://ex.org/npc/onion_ghost>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Onion Ghost" ;
         owl:sameAs       <http://ex.org/npc/174> ;
         ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/onion_seeds> ;
-        ex:drop2         <http://ex.org/items/onion> ;
-        ex:drop3         <http://ex.org/items/ghost_hood> ;
         ex:scarcity1     125 ;
-        ex:scarcity2     3 ;
-        ex:scarcity3     100 ;
-        ex:upgradable    "No" .
+        ex:scarcity2     3 .
 
 <http://ex.org/npc/shmooly>
         rdf:type          ex:NPC ;
@@ -2794,19 +2704,15 @@
         ex:upgradable    "No" .
 
 <http://ex.org/npc/ventuswill>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Ventuswill" ;
-        owl:sameAs       <http://ex.org/npc/235> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/wind_dragon_tooth> ;
-        ex:drop2         <http://ex.org/items/wind_dragon_tooth> ;
-        ex:drop3         <http://ex.org/items/dragon_scale> ;
-        ex:drop4         <http://ex.org/items/heart_drink> ;
-        ex:scarcity1     400 ;
-        ex:scarcity2     100 ;
-        ex:scarcity3     200 ;
-        ex:scarcity4     100 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/235> ;
+        ex:drop1      <http://ex.org/items/wind_dragon_tooth> ;
+        ex:drop2      <http://ex.org/items/wind_dragon_tooth> ;
+        ex:drop3      <http://ex.org/items/dragon_scale> ;
+        ex:drop4      <http://ex.org/items/heart_drink> ;
+        ex:scarcity1  400 ;
+        ex:scarcity2  100 ;
+        ex:scarcity3  200 ;
+        ex:scarcity4  100 .
 
 <http://ex.org/npc/ethelwill>
         rdf:type         ex:NPC ;
@@ -3245,89 +3151,41 @@
         ex:upgradable    "No" .
 
 <http://ex.org/npc/void_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Void Gate" ;
-        owl:sameAs       <http://ex.org/npc/383> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/small_crystal> ;
-        ex:drop2         <http://ex.org/items/small_crystal> ;
-        ex:scarcity1     4 ;
-        ex:scarcity2     4 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/383> ;
+        ex:scarcity1  4 ;
+        ex:scarcity2  4 .
 
 <http://ex.org/npc/blaze_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Blaze Gate" ;
-        owl:sameAs       <http://ex.org/npc/384> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/fire_crystal> ;
-        ex:drop2         <http://ex.org/items/fire_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/384> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/frozen_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Frozen Gate" ;
-        owl:sameAs       <http://ex.org/npc/385> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/water_crystal> ;
-        ex:drop2         <http://ex.org/items/water_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/385> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/star_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Star Gate" ;
-        owl:sameAs       <http://ex.org/npc/386> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/earth_crystal> ;
-        ex:drop2         <http://ex.org/items/earth_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/386> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/tornado_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Tornado Gate" ;
-        owl:sameAs       <http://ex.org/npc/387> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/wind_crystal> ;
-        ex:drop2         <http://ex.org/items/wind_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/387> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/angel_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Angel Gate" ;
-        owl:sameAs       <http://ex.org/npc/388> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/light_crystal> ;
-        ex:drop2         <http://ex.org/items/light_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/388> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/abyss_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Abyss Gate" ;
-        owl:sameAs       <http://ex.org/npc/389> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/dark_crystal> ;
-        ex:drop2         <http://ex.org/items/dark_crystal> ;
-        ex:scarcity1     250 ;
-        ex:scarcity2     250 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/389> ;
+        ex:scarcity1  250 ;
+        ex:scarcity2  250 .
 
 <http://ex.org/npc/affection_gate>
-        rdf:type         ex:NPC ;
-        rdfs:label       "Affection Gate" ;
-        owl:sameAs       <http://ex.org/npc/390> ;
-        ex:Friendliness  0 ;
-        ex:drop1         <http://ex.org/items/love_crystal> ;
-        ex:drop2         <http://ex.org/items/love_crystal> ;
-        ex:scarcity1     15 ;
-        ex:scarcity2     15 ;
-        ex:upgradable    "No" .
+        owl:sameAs    <http://ex.org/npc/390> ;
+        ex:scarcity1  15 ;
+        ex:scarcity2  15 .

@@ -60,13 +60,8 @@
         ex:material1  <http://ex.org/items/turnip> ;
         ex:level      4 ;
         ex:priority   246 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Pickled Turnip" ;
-        ex:itemURI    <http://ex.org/items/pickled_turnip> ;
-        ex:type       <http://ex.org/itemCategories/no_tool> ;
         ex:material1  <http://ex.org/items/pink_turnip> ;
-        ex:level      12 ;
-        ex:priority   246 .
+        ex:level      12 .
 
 <http://ex.org/recipes/pickles>
         rdf:type      ex:Recipe ;
@@ -1753,13 +1748,8 @@
         ex:material2  <http://ex.org/items/green_grass> ;
         ex:level      3 ;
         ex:priority   275 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Recovery Potion" ;
-        ex:itemURI    <http://ex.org/items/recovery_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/blue_grass> ;
-        ex:level      15 ;
-        ex:priority   275 .
+        ex:level      15 .
 
 <http://ex.org/recipes/healing_potion>
         rdf:type      ex:Recipe ;
@@ -1770,13 +1760,8 @@
         ex:material2  <http://ex.org/items/red_grass> ;
         ex:level      20 ;
         ex:priority   276 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Healing Potion" ;
-        ex:itemURI    <http://ex.org/items/healing_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/pom-pom_grass> ;
-        ex:level      40 ;
-        ex:priority   276 .
+        ex:level      40 .
 
 <http://ex.org/recipes/mystery_potion>
         rdf:type      ex:Recipe ;
@@ -1787,13 +1772,8 @@
         ex:material2  <http://ex.org/items/white_grass> ;
         ex:level      33 ;
         ex:priority   277 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Mystery Potion" ;
-        ex:itemURI    <http://ex.org/items/mystery_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/autumn_grass> ;
-        ex:level      60 ;
-        ex:priority   277 .
+        ex:level      60 .
 
 <http://ex.org/recipes/magical_potion>
         rdf:type      ex:Recipe ;
@@ -1804,13 +1784,8 @@
         ex:material2  <http://ex.org/items/elli_leaves> ;
         ex:level      45 ;
         ex:priority   278 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Magical Potion" ;
-        ex:itemURI    <http://ex.org/items/magical_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/fireflower> ;
-        ex:level      70 ;
-        ex:priority   278 .
+        ex:level      70 .
 
 <http://ex.org/recipes/antidote_potion>
         rdf:type      ex:Recipe ;
@@ -1821,13 +1796,8 @@
         ex:material2  <http://ex.org/items/yellow_grass> ;
         ex:level      25 ;
         ex:priority   263 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Antidote Potion" ;
-        ex:itemURI    <http://ex.org/items/antidote_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/cherry_grass> ;
-        ex:level      38 ;
-        ex:priority   263 .
+        ex:level      38 .
 
 <http://ex.org/recipes/para-gone>
         rdf:type      ex:Recipe ;
@@ -1838,13 +1808,8 @@
         ex:material2  <http://ex.org/items/indigo_grass> ;
         ex:level      18 ;
         ex:priority   264 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Para-Gone" ;
-        ex:itemURI    <http://ex.org/items/para-gone> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/pink_cat> ;
-        ex:level      31 ;
-        ex:priority   264 .
+        ex:level      31 .
 
 <http://ex.org/recipes/roundoff>
         rdf:type      ex:Recipe ;
@@ -1855,13 +1820,8 @@
         ex:material2  <http://ex.org/items/black_grass> ;
         ex:level      13 ;
         ex:priority   265 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Roundoff" ;
-        ex:itemURI    <http://ex.org/items/roundoff> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/moondrop_flower> ;
-        ex:level      28 ;
-        ex:priority   265 .
+        ex:level      28 .
 
 <http://ex.org/recipes/cold_medicine>
         rdf:type      ex:Recipe ;
@@ -1872,13 +1832,8 @@
         ex:material2  <http://ex.org/items/toyherb> ;
         ex:level      22 ;
         ex:priority   266 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Cold Medicine" ;
-        ex:itemURI    <http://ex.org/items/cold_medicine> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/charm_blue> ;
-        ex:level      32 ;
-        ex:priority   266 .
+        ex:level      32 .
 
 <http://ex.org/recipes/heavy_spice>
         rdf:type      ex:Recipe ;
@@ -2033,13 +1988,8 @@
         ex:material5  <http://ex.org/items/powders_and_spores> ;
         ex:level      46 ;
         ex:priority   267 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Formuade" ;
-        ex:itemURI    <http://ex.org/items/formuade> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/hot-hot_fruit> ;
-        ex:level      65 ;
-        ex:priority   267 .
+        ex:level      65 .
 
 <http://ex.org/recipes/invinciroid>
         rdf:type      ex:Recipe ;
@@ -2053,14 +2003,8 @@
         ex:material5  <http://ex.org/items/emery_flower> ;
         ex:level      76 ;
         ex:priority   269 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Invinciroid" ;
-        ex:itemURI    <http://ex.org/items/invinciroid> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
-        ex:material1  <http://ex.org/items/formuade> ;
         ex:material2  <http://ex.org/items/giant_hot-hot_fruit> ;
-        ex:level      86 ;
-        ex:priority   269 .
+        ex:level      86 .
 
 <http://ex.org/recipes/the_protein>
         rdf:type      ex:Recipe ;
@@ -2074,13 +2018,8 @@
         ex:material5  <http://ex.org/items/liquids> ;
         ex:level      80 ;
         ex:priority   259 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "The Protein" ;
-        ex:itemURI    <http://ex.org/items/the_protein> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/big_red_crystal> ;
-        ex:level      90 ;
-        ex:priority   259 .
+        ex:level      90 .
 
 <http://ex.org/recipes/intelligencer>
         rdf:type      ex:Recipe ;
@@ -2094,13 +2033,8 @@
         ex:material5  <http://ex.org/items/liquids> ;
         ex:level      82 ;
         ex:priority   260 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Intelligencer" ;
-        ex:itemURI    <http://ex.org/items/intelligencer> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/big_white_crystal> ;
-        ex:level      92 ;
-        ex:priority   260 .
+        ex:level      92 .
 
 <http://ex.org/recipes/vital_gummi>
         rdf:type      ex:Recipe ;
@@ -2114,13 +2048,8 @@
         ex:material5  <http://ex.org/items/liquids> ;
         ex:level      83 ;
         ex:priority   261 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Vital Gummi" ;
-        ex:itemURI    <http://ex.org/items/vital_gummi> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/big_blue_crystal> ;
-        ex:level      93 ;
-        ex:priority   261 .
+        ex:level      93 .
 
 <http://ex.org/recipes/heart_drink>
         rdf:type      ex:Recipe ;
@@ -2134,13 +2063,8 @@
         ex:material5  <http://ex.org/items/liquids> ;
         ex:level      85 ;
         ex:priority   262 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Heart Drink" ;
-        ex:itemURI    <http://ex.org/items/heart_drink> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/big_green_crystal> ;
-        ex:level      95 ;
-        ex:priority   262 .
+        ex:level      95 .
 
 <http://ex.org/recipes/love_potion>
         rdf:type      ex:Recipe ;
@@ -2155,13 +2079,8 @@
         ex:material6  <http://ex.org/items/emery_flower> ;
         ex:level      87 ;
         ex:priority   268 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Love Potion" ;
-        ex:itemURI    <http://ex.org/items/love_potion> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/great_emery_flower> ;
-        ex:level      97 ;
-        ex:priority   268 .
+        ex:level      97 .
 
 <http://ex.org/recipes/leveliser>
         rdf:type      ex:Recipe ;
@@ -2176,11 +2095,6 @@
         ex:material6  <http://ex.org/items/hot-hot_fruit> ;
         ex:level      96 ;
         ex:priority   270 ;
-        rdf:type      ex:Recipe ;
-        ex:name       "Leveliser" ;
-        ex:itemURI    <http://ex.org/items/leveliser> ;
-        ex:type       <http://ex.org/itemCategories/chemistry> ;
         ex:material1  <http://ex.org/items/great_emery_flower> ;
         ex:material2  <http://ex.org/items/great_4-leaf_clover> ;
-        ex:level      99 ;
-        ex:priority   270 .
+        ex:level      99 .

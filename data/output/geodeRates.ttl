@@ -230,76 +230,55 @@
         ex:location   "RunePrana" .
 
 <http://ex.org/geodes/amethyst_mineral>
-        rdf:type      ex:Geode ;
         owl:sameAs    <http://ex.org/geodes/16> ;
-        ex:sprite     36 ;
         ex:hardness   240 ;
-        ex:drop1      <http://ex.org/items/amethyst> ;
-        ex:drop2      <http://ex.org/items/earth_crystal> ;
         ex:drop3      <http://ex.org/items/light_ore> ;
         ex:drop4      <http://ex.org/items/invisible_stone> ;
         ex:scarcity1  200 ;
         ex:scarcity2  50 ;
         ex:scarcity3  15 ;
-        ex:scarcity4  1 ;
-        ex:location   "YokmirForest,MayaRoad" .
+        ex:scarcity4  1 .
 
 <http://ex.org/geodes/aquamarine_mineral>
-        rdf:type      ex:Geode ;
         owl:sameAs    <http://ex.org/geodes/17> ;
-        ex:sprite     37 ;
         ex:hardness   240 ;
-        ex:drop1      <http://ex.org/items/aquamarine> ;
         ex:drop2      <http://ex.org/items/water_crystal> ;
         ex:drop3      <http://ex.org/items/light_ore> ;
         ex:drop4      <http://ex.org/items/invisible_stone> ;
         ex:scarcity1  200 ;
         ex:scarcity2  50 ;
         ex:scarcity3  15 ;
-        ex:scarcity4  1 ;
-        ex:location   "WaterRuins,MayaRoad" .
+        ex:scarcity4  1 .
 
 <http://ex.org/geodes/emerald_mineral>
-        rdf:type      ex:Geode ;
         owl:sameAs    <http://ex.org/geodes/18> ;
-        ex:sprite     34 ;
         ex:hardness   240 ;
-        ex:drop1      <http://ex.org/items/emerald> ;
         ex:drop2      <http://ex.org/items/wind_crystal> ;
         ex:drop3      <http://ex.org/items/light_ore> ;
         ex:drop4      <http://ex.org/items/invisible_stone> ;
         ex:scarcity1  200 ;
         ex:scarcity2  50 ;
         ex:scarcity3  15 ;
-        ex:scarcity4  1 ;
-        ex:location   "YokmirCave,MayaRoad" .
+        ex:scarcity4  1 .
 
 <http://ex.org/geodes/ruby_mineral>
-        rdf:type      ex:Geode ;
         owl:sameAs    <http://ex.org/geodes/19> ;
-        ex:sprite     33 ;
         ex:hardness   240 ;
-        ex:drop1      <http://ex.org/items/ruby> ;
         ex:drop2      <http://ex.org/items/fire_crystal> ;
         ex:drop3      <http://ex.org/items/light_ore> ;
         ex:drop4      <http://ex.org/items/invisible_stone> ;
         ex:scarcity1  200 ;
         ex:scarcity2  50 ;
         ex:scarcity3  15 ;
-        ex:scarcity4  1 ;
-        ex:location   "DeliriumLavaRuins,MayaRoad" .
+        ex:scarcity4  1 .
 
 <http://ex.org/geodes/sapphire_mineral>
-        rdf:type      ex:Geode ;
         owl:sameAs    <http://ex.org/geodes/20> ;
-        ex:sprite     35 ;
         ex:hardness   240 ;
-        ex:drop1      <http://ex.org/items/sapphire> ;
         ex:drop2      <http://ex.org/items/light_ore> ;
         ex:drop3      <http://ex.org/items/light_ore> ;
         ex:drop4      <http://ex.org/items/invisible_stone> ;
         ex:scarcity1  200 ;
         ex:scarcity2  64 ;
         ex:scarcity3  1 ;
-        ex:scarcity4  1 ;
-        ex:location   "IdraCave,MayaRoad" .
+        ex:scarcity4  1 .

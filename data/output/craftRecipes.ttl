@@ -723,11 +723,6 @@
         ex:type      <http://ex.org/itemCategories/accessory> ;
         ex:level     999 ;
         ex:priority  69 ;
-        rdf:type     ex:Recipe ;
-        ex:name      "Venti's Charm" ;
-        ex:itemURI   <http://ex.org/items/venti's_charm> ;
-        ex:type      <http://ex.org/itemCategories/accessory> ;
-        ex:level     999 ;
         ex:priority  70 .
 
 <http://ex.org/recipes/shirt>

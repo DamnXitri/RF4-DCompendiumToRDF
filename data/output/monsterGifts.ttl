@@ -509,11 +509,6 @@
         rdfs:label  "Wooly" ;
         owl:sameAs  <http://ex.org/npc/wooly> ;
         ex:like1    "Wooly Furball" ;
-        ex:like2    "Clippers" ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Wooly" ;
-        owl:sameAs  <http://ex.org/npc/wooly> ;
-        ex:like1    "Wooly Furball" ;
         ex:like2    "Clippers" .
 
 <http://ex.org/monster/little_golem>
@@ -871,9 +866,6 @@
 <http://ex.org/monster/gasham>
         rdf:type    ex:Monster ;
         rdfs:label  "Gasham" ;
-        owl:sameAs  <http://ex.org/npc/gasham> ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Gasham" ;
         owl:sameAs  <http://ex.org/npc/gasham> .
 
 <http://ex.org/monster/ruffled_vine>
@@ -919,21 +911,7 @@
         ex:like1    "Cake" ;
         ex:like2    "Chocolate Cake" .
 
-<http://ex.org/monster/minotaur>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Minotaur" ;
-        owl:sameAs  <http://ex.org/npc/minotaur> .
-
-<http://ex.org/monster/onion_ghost>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Onion Ghost" ;
-        owl:sameAs  <http://ex.org/npc/onion_ghost> .
-
 <http://ex.org/monster/shmooly>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Shmooly" ;
-        owl:sameAs  <http://ex.org/npc/shmooly> ;
-        ex:like1    "Clippers" ;
         rdf:type    ex:Monster ;
         rdfs:label  "Shmooly" ;
         owl:sameAs  <http://ex.org/npc/shmooly> ;
@@ -1199,12 +1177,6 @@
         owl:sameAs  <http://ex.org/npc/magnuto> ;
         ex:like1    "Udon" ;
         ex:like2    "Tempura Udon" ;
-        ex:like3    "Curry Udon" ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Magnuto" ;
-        owl:sameAs  <http://ex.org/npc/magnuto> ;
-        ex:like1    "Udon" ;
-        ex:like2    "Tempura Udon" ;
         ex:like3    "Curry Udon" .
 
 <http://ex.org/monster/ancient_bone>
@@ -1250,9 +1222,6 @@
         rdf:type    ex:Monster ;
         rdfs:label  "Ambrosia" ;
         owl:sameAs  <http://ex.org/npc/ambrosia> ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Ambrosia" ;
-        owl:sameAs  <http://ex.org/npc/ambrosia> ;
         ex:like1    "Ultra Toyherb" ;
         ex:like2    "Ultra Moondrop Flower" ;
         ex:like3    "King Pink Cat" ;
@@ -1295,9 +1264,6 @@
 <http://ex.org/monster/ethelwill>
         rdf:type    ex:Monster ;
         rdfs:label  "Ethelwill" ;
-        owl:sameAs  <http://ex.org/npc/ethelwill> ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Ethelwill" ;
         owl:sameAs  <http://ex.org/npc/ethelwill> .
 
 <http://ex.org/monster/ragnarok>
@@ -1330,23 +1296,7 @@
         rdfs:label  "Uno" ;
         owl:sameAs  <http://ex.org/npc/uno> .
 
-<http://ex.org/monster/sano>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Sano" ;
-        owl:sameAs  <http://ex.org/npc/sano> .
-
-<http://ex.org/monster/uno>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Uno" ;
-        owl:sameAs  <http://ex.org/npc/uno> .
-
 <http://ex.org/monster/heaven's_gate>
-        rdf:type    ex:Monster ;
-        rdfs:label  "Heaven's Gate" ;
-        owl:sameAs  <http://ex.org/npc/heaven's_gate> ;
-        rdf:type    ex:Monster ;
-        rdfs:label  "Heaven's Gate" ;
-        owl:sameAs  <http://ex.org/npc/heaven's_gate> ;
         rdf:type    ex:Monster ;
         rdfs:label  "Heaven's Gate" ;
         owl:sameAs  <http://ex.org/npc/heaven's_gate> .
