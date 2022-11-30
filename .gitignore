@@ -11,6 +11,9 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-/tarql*
+# tarql folder
+tarql*
+# sparql endpoint folder
 apache-jena-fuseki*
+# todo task txt file
 TODO.txt
