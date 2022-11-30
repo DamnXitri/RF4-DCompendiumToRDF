@@ -1,0 +1,54 @@
+
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+ex:has a owl:ObjectProperty ;
+    rdfs:label "has" ;
+    rdfs:comment "Property that links a location to something that is located there" ;
+    rdfs:domain ex:MapLocation ;
+    rdfs:range ex:NPC, ex:Item, ex:Monster, ex:Geode ;
+    owl:inverseOf ex:foundIn .
+
+ex:Item a owl:Class ;
+    rdfs:label "Item" ;
+    rdfs:comment "An item of the game." .
+
+ex:NPC a owl:Class ;
+    rdfs:label "NPC" ;
+    rdfs:comment "A non-player character that can be found in the game." .
+
+ex:Monster a owl:Class ;
+    rdfs:label "Monster" ;
+    rdfs:comment "A monster that can be found in the game." ;
+    rdfs:subClassOf ex:NPC .
+
+ex:Geode a owl:Class ;
+    rdfs:label "Geode" ;
+    rdfs:comment "A geode that can be obtained." .
+
+ex:MapLocation a owl:Class ;
+    rdfs:label "MapLocation" ;
+    rdfs:comment "A location on the map." .
+
+ex:Recipe a owl:Class ;
+    rdfs:label "Recipe" ;
+    rdfs:comment "A recipe for crafting." .
+
+ex:Crop a owl:Class ;
+    rdfs:label "Crop" ;
+    rdfs:comment "A crop that can be grown." .
+
+ex:Fish a owl:Class ;
+    rdfs:label "Fish" ;
+    rdfs:comment "A fish that can be caught." .
+
+ex:ItemCategory a owl:Class ;
+    rdfs:label "ItemCategory" ;
+    rdfs:comment "A category of items." .
+
+ex:ItemType a owl:Class ;
+    rdfs:label "ItemType" ;
+    rdfs:comment "A type of item." .
