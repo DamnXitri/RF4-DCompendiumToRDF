@@ -8,7 +8,7 @@ This repository contains the code to convert the [Rune Factory 4 - Datamining Co
 
 ## Ejecucion de tarql
 
-En el caso de querer generar nuevamente los archivos de output, deben utilizar los mapppings creados en la carpeta mappings y los archivos de input en la carpeta input. Para esto, con una terminal posicionada en la carpeta mappings, deben tener en cuenta lo siguiente:
+En el caso de querer generar nuevamente los archivos de output, deben utilizar los mapppings creados en la carpeta mappings y los archivos de input en la carpeta input. Para esto, **con una terminal posicionada en la carpeta mappings**, deben tener en cuenta lo siguiente:
 
 Para utilizar tarql con los csv, utilizar el siguiente comando \
 ```<tarql.bat Route> <mapping>.sparql <source>.csv > <output>.ttl```
