@@ -38,7 +38,7 @@ Luego, en el navegador, ir a `http://localhost:<portNumber>/`, crear la database
 
 Utilizamos
 ```PREFIX ex: <http://ex.org/a#>```
-para definir nuestras propiedades.
+para definir nuestras propiedades y clases.
 
 Un ejemplo de consulta es:
 ```sparql
